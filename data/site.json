@@ -1,0 +1,45 @@
+{
+  "siteName": "Le Nouvel Âge RP ARK",
+  "tagline": "Serveur roleplay ARK: Survival Ascended",
+  "description": "Un monde RP post-cataclysme heroic fantasy organisé autour de six royaumes, d'une économie de métiers et d'événements scénarisés.",
+  "realms": [
+    {
+      "name": "Asharun",
+      "color": "#4f7f42",
+      "summary": "Royaume du désert, des caravanes, de l'artisanat et des routes commerciales."
+    },
+    {
+      "name": "Falkheim",
+      "color": "#7653a6",
+      "summary": "Royaume nordique marqué par la rudesse, les clans et les traditions guerrières."
+    },
+    {
+      "name": "Vanloria",
+      "color": "#355fa8",
+      "summary": "Royaume chevaleresque structuré autour de l'ordre, de la noblesse et des cités fortifiées."
+    },
+    {
+      "name": "Erythros",
+      "color": "#6aa7c8",
+      "summary": "Royaume d'inspiration hellénique, tourné vers les cités, les échanges et la culture."
+    },
+    {
+      "name": "Nerethis",
+      "color": "#c89f2f",
+      "summary": "Royaume maritime et pirate, lié aux ports, au commerce et aux expéditions."
+    },
+    {
+      "name": "Shintai",
+      "color": "#b44343",
+      "summary": "Royaume d'inspiration shogunale, fondé sur la discipline, l'artisanat et les traditions orientales."
+    }
+  ],
+  "mainTrades": [
+    "Tavernier / Agriculteur",
+    "Forgeron / Armurier",
+    "Menuisier",
+    "Dompteur / Reproducteur",
+    "Alchimiste",
+    "Constructeur"
+  ]
+}
