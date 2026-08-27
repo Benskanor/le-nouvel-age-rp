@@ -148,8 +148,33 @@
         line-height: 1.65 !important;
       }
 
-      main p:not(.overline), main li { font-size: 16px !important; line-height: 1.72 !important; }
-      main small { font-size: 13px !important; line-height: 1.45 !important; }
+      main p:not(.overline), main li, main td, main th, main dd, main blockquote {
+        font-size: 16.5px !important;
+        line-height: 1.72 !important;
+      }
+      main small, main figcaption { font-size: 13.5px !important; line-height: 1.5 !important; }
+
+      /* Lisibilité minimale sur toutes les pages, y compris les sommaires locaux */
+      main aside, main nav, main [class*="sidebar"], main [class*="toc"], main [class*="sommaire"], main [class*="index"] {
+        font-size: 15px !important;
+        line-height: 1.5 !important;
+      }
+      main aside a, main nav a, main [class*="sidebar"] a, main [class*="toc"] a, main [class*="sommaire"] a, main [class*="index"] a {
+        font-size: 15px !important;
+        line-height: 1.5 !important;
+      }
+      main aside small, main nav small, main [class*="sidebar"] small, main [class*="toc"] small, main [class*="sommaire"] small, main [class*="index"] small {
+        font-size: 13px !important;
+        line-height: 1.45 !important;
+      }
+      main summary, main summary strong, main summary em {
+        font-size: max(15px, 1em) !important;
+        line-height: 1.5 !important;
+      }
+      main [class*="card"] p, main [class*="panel"] p, main [class*="section"] p {
+        font-size: 16px !important;
+        line-height: 1.7 !important;
+      }
       main h1 { font-size: clamp(44px, 6vw, 82px) !important; line-height: .98 !important; }
       main h2 { font-size: clamp(32px, 4vw, 56px) !important; line-height: 1.08 !important; }
       main h3 { font-size: clamp(21px, 2.4vw, 30px) !important; line-height: 1.18 !important; }
