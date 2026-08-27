@@ -1,34 +1,38 @@
-# Le Nouvel Âge RP ARK — Site
+# Le Nouvel Âge RP — migration fidèle du site ChatGPT
 
-Version GitHub Pages du site communautaire.
+Cette version a été reconstruite depuis les sauvegardes SingleFile du site original.
 
-## Structure
+## Objectif
+- conserver le rendu visuel original ;
+- conserver les textes, images et sections ;
+- rendre tous les liens internes compatibles avec GitHub Pages dans un sous-dossier ;
+- ne plus dépendre de l’URL `chatgpt.site`.
 
-- `index.html` : accueil
-- `pages/` : pages principales
-- `data/site.json` : nom du site, royaumes, résumés et métiers
-- `assets/css/styles.css` : design
-- `assets/js/site.js` : chargement des données
+## Routes migrées
+- `/`
+- `/activites`
+- `/bestiaire`
+- `/creer-son-personnage`
+- `/demi-dieux`
+- `/factions`
+- `/histoire`
+- `/metiers`
+- `/mods`
+- `/mods/le-nouvel-age`
+- `/origines`
+- `/reglement`
+- `/religions`
+- `/royaumes`
+- `/royaumes/asharun`
+- `/royaumes/erythros`
+- `/royaumes/falkheim`
+- `/royaumes/nerethis`
+- `/royaumes/shintai`
+- `/royaumes/vanloria`
+- `/territoire`
 
-## Modifier rapidement un texte
+## Publication
+Copier tout le contenu de ce dossier à la racine du dépôt `Benskanor/le-nouvel-age-rp`, commit puis Push origin. GitHub Pages est déjà configuré sur `main / (root)`.
 
-Les données générales faciles à modifier sont dans `data/site.json`.
-
-Pour les pages détaillées, ouvrir le fichier HTML correspondant dans `pages/`.
-
-## Publication GitHub Pages
-
-1. Créer un dépôt GitHub public, par exemple `le-nouvel-age-rp`.
-2. Importer le contenu de ce dossier à la racine du dépôt.
-3. Ouvrir `Settings` > `Pages`.
-4. Choisir le déploiement depuis la branche `main` et le dossier `/ (root)`.
-5. Enregistrer.
-
-## Domaine personnalisé
-
-Une fois le domaine acheté, le configurer dans `Settings` > `Pages` > `Custom domain`.
-Ne pas ajouter de fichier `CNAME` tant que le domaine définitif n'est pas choisi.
-
-## Migration
-
-Cette base reprend l'architecture connue du site. Les textes détaillés et les images de la version ChatGPT Sites devront être recopiés lorsque leurs sources seront récupérées.
+## Important
+Cette première migration privilégie la fidélité visuelle : les images et polices sont encore intégrées directement dans les HTML, comme dans les sauvegardes SingleFile. Une seconde passe pourra ensuite factoriser les assets pour rendre le site plus léger et plus facile à éditer sans changer son apparence.

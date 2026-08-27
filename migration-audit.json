@@ -1,0 +1,27 @@
+{
+  "routes": [
+    "/",
+    "/activites",
+    "/bestiaire",
+    "/creer-son-personnage",
+    "/demi-dieux",
+    "/factions",
+    "/histoire",
+    "/metiers",
+    "/mods",
+    "/mods/le-nouvel-age",
+    "/origines",
+    "/reglement",
+    "/religions",
+    "/royaumes",
+    "/royaumes/asharun",
+    "/royaumes/erythros",
+    "/royaumes/falkheim",
+    "/royaumes/nerethis",
+    "/royaumes/shintai",
+    "/royaumes/vanloria",
+    "/territoire"
+  ],
+  "legacy_host_files": [],
+  "potential_broken_internal_links": []
+}
