@@ -1,0 +1,940 @@
+{
+  "site": {
+    "name": "Le Nouvel Âge",
+    "fullName": "Le Nouvel Âge RP ARK",
+    "logo": "LNA"
+  },
+  "pages": {
+    "/activites/": {
+      "header": {
+        "class": "activities-header",
+        "brand_html": "<a aria-label=\"Retour au portail\" class=\"brand\" href=\"../\"><span class=\"brand-seal\">LNA</span><span><strong>Le Nouvel Âge</strong><small>Guide des activités</small></span></a>",
+        "nav_aria": "Navigation des activités",
+        "nav_class": "",
+        "nav_items": [
+          {
+            "text": "Quêtes",
+            "href": "#quetes",
+            "class": ""
+          },
+          {
+            "text": "Primes",
+            "href": "#chasse-prime",
+            "class": ""
+          },
+          {
+            "text": "Donjon",
+            "href": "#donjon",
+            "class": ""
+          },
+          {
+            "text": "Boss",
+            "href": "#boss",
+            "class": ""
+          },
+          {
+            "text": "Territoire",
+            "href": "../territoire/",
+            "class": ""
+          },
+          {
+            "text": "Retour au portail",
+            "href": "../",
+            "class": "activities-back"
+          }
+        ],
+        "mobile_link_html": "<a class=\"activities-mobile-back sf-hidden\" href=\"../\">← Portail</a>",
+        "mobile_menu_html": ""
+      },
+      "footer": {
+        "class": "activities-footer",
+        "html": "<footer class=\"activities-footer\"><div><span class=\"brand-seal\">LNA</span><p><strong>Le Nouvel Âge RP ARK</strong><small>Guide officiel des activités</small></p></div><a href=\"#haut\">Retour en haut ↑</a></footer>"
+      }
+    },
+    "/bestiaire/": {
+      "header": {
+        "class": "bestiary-header",
+        "brand_html": "<a aria-label=\"Retour au portail\" class=\"brand\" href=\"../\"><span class=\"brand-seal\">LNA</span><span><strong>Le Nouvel Âge</strong><small>Bestiaire des royaumes</small></span></a>",
+        "nav_aria": "Navigation du bestiaire",
+        "nav_class": "",
+        "nav_items": [
+          {
+            "text": "Les 6 tiers",
+            "href": "#tiers",
+            "class": ""
+          },
+          {
+            "text": "Catalogue",
+            "href": "#catalogue",
+            "class": ""
+          },
+          {
+            "text": "Règles des créatures",
+            "href": "../territoire/#creatures",
+            "class": ""
+          },
+          {
+            "text": "Royaumes",
+            "href": "../royaumes/",
+            "class": ""
+          },
+          {
+            "text": "Retour au portail",
+            "href": "../",
+            "class": "bestiary-back"
+          }
+        ],
+        "mobile_link_html": "<a class=\"bestiary-mobile-back sf-hidden\" href=\"../\">← Portail</a>",
+        "mobile_menu_html": ""
+      },
+      "footer": {
+        "class": "bestiary-footer",
+        "html": "<footer class=\"bestiary-footer\"><div><span class=\"brand-seal\">LNA</span><p><strong>Le Nouvel Âge RP ARK</strong><small>Bestiaire officiel des royaumes</small></p></div><a href=\"#haut\">Retour en haut ↑</a></footer>"
+      }
+    },
+    "/creer-son-personnage/": {
+      "header": {
+        "class": "character-header",
+        "brand_html": "<a class=\"character-brand\" href=\"../\"><span>LNA</span><strong>Le Nouvel Âge</strong></a>",
+        "nav_aria": "Navigation",
+        "nav_class": "",
+        "nav_items": [
+          {
+            "text": "Royaumes",
+            "href": "../royaumes/",
+            "class": ""
+          },
+          {
+            "text": "Métiers",
+            "href": "../metiers/",
+            "class": ""
+          },
+          {
+            "text": "Religions",
+            "href": "../religions/",
+            "class": ""
+          },
+          {
+            "text": "Règlement",
+            "href": "../reglement/",
+            "class": ""
+          },
+          {
+            "text": "Mods",
+            "href": "../mods/",
+            "class": ""
+          }
+        ],
+        "mobile_link_html": "<a class=\"character-back\" href=\"../\">← Portail</a>",
+        "mobile_menu_html": ""
+      },
+      "footer": {
+        "class": "character-footer",
+        "html": "<footer class=\"character-footer\"><span>LNA</span><p><strong>Le Nouvel Âge RP ARK</strong><small>Chaque survivant porte un monde disparu.</small></p><a href=\"../\">Retour au portail ↑</a></footer>"
+      }
+    },
+    "/demi-dieux/": {
+      "header": {
+        "class": "demigods-header",
+        "brand_html": "<a class=\"demigods-brand\" href=\"../\"><span>LNA</span><span><strong>Le Nouvel Âge</strong><small>Bestiaire des boss</small></span></a>",
+        "nav_aria": "Navigation des demi-dieux",
+        "nav_class": "",
+        "nav_items": [
+          {
+            "text": "Les huit légendes",
+            "href": "#legendes",
+            "class": ""
+          },
+          {
+            "text": "Forces du monde",
+            "href": "#forces",
+            "class": ""
+          },
+          {
+            "text": "Fléaux démoniaques",
+            "href": "#fleaux",
+            "class": ""
+          },
+          {
+            "text": "Origines et Histoire",
+            "href": "../origines/",
+            "class": ""
+          },
+          {
+            "text": "Royaumes",
+            "href": "../royaumes/",
+            "class": ""
+          },
+          {
+            "text": "Retour au portail",
+            "href": "../",
+            "class": "return-link"
+          }
+        ],
+        "mobile_link_html": "<a class=\"mobile-return sf-hidden\" href=\"../\">← Portail</a>",
+        "mobile_menu_html": ""
+      },
+      "footer": {
+        "class": "demigods-footer",
+        "html": "<footer class=\"demigods-footer\"><div><span>LNA</span><p><strong>Le Nouvel Âge RP ARK</strong><small>Un monde vivant façonné par ses joueurs.</small></p></div><a href=\"#demigods-top\">Retour en haut ↑</a></footer>"
+      }
+    },
+    "/factions/": {
+      "header": {
+        "class": "factions-header",
+        "brand_html": "<a class=\"factions-brand\" href=\"../\"><span>LNA</span><span><strong>Le Nouvel Âge</strong><small>Archives des factions</small></span></a>",
+        "nav_aria": "Navigation des factions",
+        "nav_class": "",
+        "nav_items": [
+          {
+            "text": "Répertoire",
+            "href": "#repertoire",
+            "class": ""
+          },
+          {
+            "text": "Gardiens",
+            "href": "#guardians",
+            "class": ""
+          },
+          {
+            "text": "Héritages",
+            "href": "#heritages",
+            "class": ""
+          },
+          {
+            "text": "Forces",
+            "href": "#powers",
+            "class": ""
+          },
+          {
+            "text": "Menaces",
+            "href": "#threats",
+            "class": ""
+          },
+          {
+            "text": "Origines et Histoire",
+            "href": "../origines/",
+            "class": ""
+          },
+          {
+            "text": "Royaumes",
+            "href": "../royaumes/",
+            "class": ""
+          },
+          {
+            "text": "Retour au portail",
+            "href": "../",
+            "class": "return-link"
+          }
+        ],
+        "mobile_link_html": "<a class=\"mobile-return sf-hidden\" href=\"../\">← Portail</a>",
+        "mobile_menu_html": ""
+      },
+      "footer": {
+        "class": "factions-footer",
+        "html": "<footer class=\"factions-footer\"><div><span>LNA</span><p><strong>Le Nouvel Âge RP ARK</strong><small>Un monde vivant façonné par ses joueurs.</small></p></div><a href=\"#factions-top\">Retour en haut ↑</a></footer>"
+      }
+    },
+    "/histoire/": {
+      "header": {
+        "class": "story-header",
+        "brand_html": "<a aria-label=\"Retour au portail\" class=\"brand\" href=\"../\"><span class=\"brand-seal\">LNA</span><span><strong>Le Nouvel Âge</strong><small>Histoire du monde</small></span></a>",
+        "nav_aria": "Navigation de l’histoire",
+        "nav_class": "",
+        "nav_items": [
+          {
+            "text": "Chronologie",
+            "href": "#chronologie",
+            "class": ""
+          },
+          {
+            "text": "La faune",
+            "href": "#une-faune-inconnue",
+            "class": ""
+          },
+          {
+            "text": "Le présent",
+            "href": "#un-nouveau-depart",
+            "class": ""
+          },
+          {
+            "text": "Origines et Histoire",
+            "href": "../origines/",
+            "class": ""
+          },
+          {
+            "text": "Royaumes",
+            "href": "../royaumes/",
+            "class": ""
+          },
+          {
+            "text": "Retour au portail",
+            "href": "../",
+            "class": "story-back"
+          }
+        ],
+        "mobile_link_html": "<a class=\"story-mobile-back sf-hidden\" href=\"../\">← Portail</a>",
+        "mobile_menu_html": ""
+      },
+      "footer": {
+        "class": "story-footer",
+        "html": "<footer class=\"story-footer\"><div><span class=\"brand-seal\">LNA</span><p><strong>Le Nouvel Âge RP ARK</strong><small>Histoire officielle du monde</small></p></div><a href=\"#haut\">Retour en haut ↑</a></footer>"
+      }
+    },
+    "/": {
+      "header": {
+        "class": "site-header",
+        "brand_html": "<a aria-label=\"Retour en haut de page\" class=\"brand\" href=\"#accueil\"><span class=\"brand-seal\">LNA</span><span><strong>Le Nouvel Âge</strong><small>RP ARK · Ragnarok</small></span></a>",
+        "nav_aria": "Navigation principale",
+        "nav_class": "top-nav",
+        "nav_items": [
+          {
+            "text": "Royaumes",
+            "href": "royaumes/",
+            "class": ""
+          },
+          {
+            "text": "Territoire",
+            "href": "territoire/",
+            "class": ""
+          },
+          {
+            "text": "Bestiaire",
+            "href": "bestiaire/",
+            "class": ""
+          },
+          {
+            "text": "Activités",
+            "href": "activites/",
+            "class": ""
+          },
+          {
+            "text": "Métiers",
+            "href": "metiers/",
+            "class": ""
+          },
+          {
+            "text": "Règlement",
+            "href": "reglement/",
+            "class": ""
+          },
+          {
+            "text": "Rejoindre",
+            "href": "#rejoindre",
+            "class": "header-cta"
+          }
+        ],
+        "mobile_link_html": "",
+        "mobile_menu_html": "<details class=\"mobile-menu\"><summary>Explorer</summary><nav><a href=\"#depart\">Bien débuter</a><a href=\"royaumes/\">Royaumes</a><a href=\"territoire/\">Territoire</a><a href=\"bestiaire/\">Bestiaire</a><a href=\"activites/\">Activités</a><a href=\"creer-son-personnage/\">Personnage</a><a href=\"metiers/\">Métiers</a><a href=\"origines/\">Origines et Histoire</a><a href=\"mods/\">Mods serveur</a><a href=\"reglement/\">Règlement</a><a href=\"#rejoindre\">Nous rejoindre</a></nav></details>"
+      },
+      "footer": {
+        "class": "",
+        "html": "<footer><div><span class=\"brand-seal\">LNA</span><p><strong>Le Nouvel Âge RP ARK</strong><small>Serveur communautaire non affilié à Studio Wildcard.</small></p></div><a href=\"#accueil\">Retour en haut ↑</a></footer>"
+      }
+    },
+    "/metiers/": {
+      "header": {
+        "class": "jobs-header",
+        "brand_html": "<a aria-label=\"Retour au portail\" class=\"brand\" href=\"../\"><span class=\"brand-seal\">LNA</span><span><strong>Le Nouvel Âge</strong><small>Guide des métiers</small></span></a>",
+        "nav_aria": "Navigation des métiers",
+        "nav_class": "",
+        "nav_items": [
+          {
+            "text": "Principaux",
+            "href": "#principaux",
+            "class": ""
+          },
+          {
+            "text": "Secondaires",
+            "href": "#secondaires",
+            "class": ""
+          },
+          {
+            "text": "Règlement",
+            "href": "../reglement/",
+            "class": ""
+          },
+          {
+            "text": "Retour au portail",
+            "href": "../",
+            "class": "jobs-back"
+          }
+        ],
+        "mobile_link_html": "<a class=\"jobs-mobile-back sf-hidden\" href=\"../\">← Portail</a>",
+        "mobile_menu_html": ""
+      },
+      "footer": {
+        "class": "jobs-footer",
+        "html": "<footer class=\"jobs-footer\"><div><span class=\"brand-seal\">LNA</span><p><strong>Le Nouvel Âge RP ARK</strong><small>Guide officiel des métiers</small></p></div><a href=\"#haut\">Retour en haut ↑</a></footer>"
+      }
+    },
+    "/mods/": {
+      "header": {
+        "class": "mods-header",
+        "brand_html": "<a class=\"mods-brand\" href=\"../\"><span>LNA</span><strong>Le Nouvel Âge</strong></a>",
+        "nav_aria": "Navigation",
+        "nav_class": "",
+        "nav_items": [
+          {
+            "text": "Royaumes",
+            "href": "../royaumes/",
+            "class": ""
+          },
+          {
+            "text": "Créer son personnage",
+            "href": "../creer-son-personnage/",
+            "class": ""
+          },
+          {
+            "text": "Règlement",
+            "href": "../reglement/",
+            "class": ""
+          },
+          {
+            "text": "Bibliothèque",
+            "href": "#bibliotheque",
+            "class": ""
+          },
+          {
+            "text": "Retour au portail",
+            "href": "../",
+            "class": "mods-return"
+          }
+        ],
+        "mobile_link_html": "<a class=\"mods-mobile-return sf-hidden\" href=\"../\">← Portail</a>",
+        "mobile_menu_html": ""
+      },
+      "footer": {
+        "class": "mods-footer",
+        "html": "<footer class=\"mods-footer\"><span>LNA</span><p><strong>Le Nouvel Âge RP ARK</strong><small>Un monde façonné pour le rôleplay.</small></p><a href=\"#mods-top\">Retour en haut ↑</a></footer>"
+      }
+    },
+    "/mods/le-nouvel-age/": {
+      "header": {
+        "class": "mods-header official-header",
+        "brand_html": "<a class=\"mods-brand\" href=\"../../\"><span>LNA</span><strong>Le Nouvel Âge</strong></a>",
+        "nav_aria": "Navigation",
+        "nav_class": "",
+        "nav_items": [
+          {
+            "text": "Tous les mods",
+            "href": "../",
+            "class": ""
+          },
+          {
+            "text": "Contenu",
+            "href": "#contenu",
+            "class": ""
+          },
+          {
+            "text": "Vision",
+            "href": "#vision",
+            "class": ""
+          },
+          {
+            "text": "Royaumes",
+            "href": "../../royaumes/",
+            "class": ""
+          },
+          {
+            "text": "Retour au portail",
+            "href": "../../",
+            "class": "mods-return"
+          }
+        ],
+        "mobile_link_html": "<a class=\"mods-mobile-return sf-hidden\" href=\"../\">← Mods</a>",
+        "mobile_menu_html": ""
+      },
+      "footer": {
+        "class": "mods-footer",
+        "html": "<footer class=\"mods-footer\"><span>LNA</span><p><strong>Le Nouvel Âge · Mod officiel</strong><small>Le lore devient matière.</small></p><a href=\"#official-top\">Retour en haut ↑</a></footer>"
+      }
+    },
+    "/origines/": {
+      "header": {
+        "class": "origins-header",
+        "brand_html": "<a class=\"origins-brand\" href=\"../\"><span>LNA</span><span><strong>Le Nouvel Âge</strong><small>Origines et Histoire</small></span></a>",
+        "nav_aria": "Navigation des origines",
+        "nav_class": "",
+        "nav_items": [
+          {
+            "text": "Les archives",
+            "href": "#archives",
+            "class": ""
+          },
+          {
+            "text": "Royaumes",
+            "href": "../royaumes/",
+            "class": ""
+          },
+          {
+            "text": "Métiers",
+            "href": "../metiers/",
+            "class": ""
+          },
+          {
+            "text": "Règlement",
+            "href": "../reglement/",
+            "class": ""
+          },
+          {
+            "text": "Retour au portail",
+            "href": "../",
+            "class": "origins-return"
+          }
+        ],
+        "mobile_link_html": "<a class=\"origins-mobile-return sf-hidden\" href=\"../\">← Portail</a>",
+        "mobile_menu_html": ""
+      },
+      "footer": {
+        "class": "origins-footer",
+        "html": "<footer class=\"origins-footer\"><div><span>LNA</span><p><strong>Le Nouvel Âge RP ARK</strong><small>Archives officielles du monde</small></p></div><a href=\"#origins-top\">Retour en haut ↑</a></footer>"
+      }
+    },
+    "/reglement/": {
+      "header": {
+        "class": "rules-header",
+        "brand_html": "<a aria-label=\"Retour au portail\" class=\"brand\" href=\"../\"><span class=\"brand-seal\">LNA</span><span><strong>Le Nouvel Âge</strong><small>Règlement officiel</small></span></a>",
+        "nav_aria": "Navigation du règlement",
+        "nav_class": "",
+        "nav_items": [
+          {
+            "text": "Sommaire",
+            "href": "#sommaire",
+            "class": ""
+          },
+          {
+            "text": "Personnages",
+            "href": "#personnages",
+            "class": ""
+          },
+          {
+            "text": "Activités",
+            "href": "#activites",
+            "class": ""
+          },
+          {
+            "text": "Retour au portail",
+            "href": "../",
+            "class": "back-link"
+          }
+        ],
+        "mobile_link_html": "<a class=\"mobile-back sf-hidden\" href=\"../\">← Portail</a>",
+        "mobile_menu_html": ""
+      },
+      "footer": {
+        "class": "rules-footer",
+        "html": "<footer class=\"rules-footer\"><div><span class=\"brand-seal\">LNA</span><p><strong>Le Nouvel Âge RP ARK</strong><small>Règlement officiel du serveur</small></p></div><a href=\"#haut\">Retour en haut ↑</a></footer>"
+      }
+    },
+    "/religions/": {
+      "header": {
+        "class": "religions-header",
+        "brand_html": "<a class=\"religions-brand\" href=\"../\"><span>LNA</span><span><strong>Le Nouvel Âge</strong><small>Religions du monde</small></span></a>",
+        "nav_aria": "Navigation des religions",
+        "nav_class": "",
+        "nav_items": [
+          {
+            "text": "Les six cultes",
+            "href": "#cultes",
+            "class": ""
+          },
+          {
+            "text": "Fêtes",
+            "href": "#calendrier",
+            "class": ""
+          },
+          {
+            "text": "Origines et Histoire",
+            "href": "../origines/",
+            "class": ""
+          },
+          {
+            "text": "Royaumes",
+            "href": "../royaumes/",
+            "class": ""
+          },
+          {
+            "text": "Règlement",
+            "href": "../reglement/",
+            "class": ""
+          },
+          {
+            "text": "Retour au portail",
+            "href": "../",
+            "class": "return-link"
+          }
+        ],
+        "mobile_link_html": "<a class=\"mobile-return sf-hidden\" href=\"../\">← Portail</a>",
+        "mobile_menu_html": ""
+      },
+      "footer": {
+        "class": "religions-footer",
+        "html": "<footer class=\"religions-footer\"><div><span>LNA</span><p><strong>Le Nouvel Âge RP ARK</strong><small>Un monde vivant façonné par ses joueurs.</small></p></div><a href=\"#religions-top\">Retour en haut ↑</a></footer>"
+      }
+    },
+    "/royaumes/asharun/": {
+      "header": {
+        "class": "vanloria-header",
+        "brand_html": "<a class=\"vanloria-brand\" href=\"../../\"><span>A</span><span><strong>Asharun</strong><small>Chroniques de la Souveraineté</small></span></a>",
+        "nav_aria": "Navigation d’Asharun",
+        "nav_class": "",
+        "nav_items": [
+          {
+            "text": "Présentation",
+            "href": "#presentation",
+            "class": ""
+          },
+          {
+            "text": "Organisation",
+            "href": "#institutions",
+            "class": ""
+          },
+          {
+            "text": "Chroniques",
+            "href": "#chroniques",
+            "class": ""
+          },
+          {
+            "text": "Foi de Zahyir",
+            "href": "../../religions/#esprit-des-dunes",
+            "class": ""
+          },
+          {
+            "text": "Royaumes",
+            "href": "../",
+            "class": ""
+          },
+          {
+            "text": "Retour au portail",
+            "href": "../../",
+            "class": "vanloria-return"
+          }
+        ],
+        "mobile_link_html": "<a class=\"vanloria-mobile-return sf-hidden\" href=\"../\">← Royaumes</a>",
+        "mobile_menu_html": ""
+      },
+      "footer": {
+        "class": "vanloria-footer",
+        "html": "<footer class=\"vanloria-footer\"><div><span>A</span><p><strong>Souveraineté d’Asharun</strong><small>Sagesse · Hospitalité · Persévérance</small></p></div><a href=\"#asharun-top\">Retour en haut ↑</a></footer>"
+      }
+    },
+    "/royaumes/erythros/": {
+      "header": {
+        "class": "vanloria-header",
+        "brand_html": "<a class=\"vanloria-brand\" href=\"../../\"><span>E</span><span><strong>Erythros</strong><small>Chroniques de la République</small></span></a>",
+        "nav_aria": "Navigation d’Erythros",
+        "nav_class": "",
+        "nav_items": [
+          {
+            "text": "Présentation",
+            "href": "#presentation",
+            "class": ""
+          },
+          {
+            "text": "Organisation",
+            "href": "#institutions",
+            "class": ""
+          },
+          {
+            "text": "Chroniques",
+            "href": "#chroniques",
+            "class": ""
+          },
+          {
+            "text": "Royaumes",
+            "href": "../",
+            "class": ""
+          },
+          {
+            "text": "Origines et Histoire",
+            "href": "../../origines/",
+            "class": ""
+          },
+          {
+            "text": "Retour au portail",
+            "href": "../../",
+            "class": "vanloria-return"
+          }
+        ],
+        "mobile_link_html": "<a class=\"vanloria-mobile-return sf-hidden\" href=\"../\">← Royaumes</a>",
+        "mobile_menu_html": ""
+      },
+      "footer": {
+        "class": "vanloria-footer",
+        "html": "<footer class=\"vanloria-footer\"><div><span>E</span><p><strong>République d’Erythros</strong><small>Devoir · Justice · Discipline</small></p></div><a href=\"#erythros-top\">Retour en haut ↑</a></footer>"
+      }
+    },
+    "/royaumes/falkheim/": {
+      "header": {
+        "class": "vanloria-header",
+        "brand_html": "<a class=\"vanloria-brand\" href=\"../../\"><span>F</span><span><strong>Horde de Falkheim</strong><small>Chroniques de la Horde</small></span></a>",
+        "nav_aria": "Navigation de Horde de Falkheim",
+        "nav_class": "",
+        "nav_items": [
+          {
+            "text": "Présentation",
+            "href": "#presentation",
+            "class": ""
+          },
+          {
+            "text": "Organisation",
+            "href": "#institutions",
+            "class": ""
+          },
+          {
+            "text": "Chroniques",
+            "href": "#chroniques",
+            "class": ""
+          },
+          {
+            "text": "Royaumes",
+            "href": "../",
+            "class": ""
+          },
+          {
+            "text": "Origines et Histoire",
+            "href": "../../origines/",
+            "class": ""
+          },
+          {
+            "text": "Retour au portail",
+            "href": "../../",
+            "class": "vanloria-return"
+          }
+        ],
+        "mobile_link_html": "<a class=\"vanloria-mobile-return sf-hidden\" href=\"../\">← Royaumes</a>",
+        "mobile_menu_html": ""
+      },
+      "footer": {
+        "class": "vanloria-footer",
+        "html": "<footer class=\"vanloria-footer\"><div><span>F</span><p><strong>Horde de Falkheim</strong><small>Force · Gloire · Résilience</small></p></div><a href=\"#falkheim-top\">Retour en haut ↑</a></footer>"
+      }
+    },
+    "/royaumes/": {
+      "header": {
+        "class": "realms-header",
+        "brand_html": "<a class=\"realms-brand\" href=\"../\"><span>LNA</span><span><strong>Le Nouvel Âge</strong><small>Royaumes</small></span></a>",
+        "nav_aria": "Navigation des royaumes",
+        "nav_class": "",
+        "nav_items": [
+          {
+            "text": "Les six royaumes",
+            "href": "#repertoire",
+            "class": ""
+          },
+          {
+            "text": "Créer son personnage",
+            "href": "../creer-son-personnage/",
+            "class": ""
+          },
+          {
+            "text": "Mods serveur",
+            "href": "../mods/",
+            "class": ""
+          },
+          {
+            "text": "Origines et Histoire",
+            "href": "../origines/",
+            "class": ""
+          },
+          {
+            "text": "Retour au portail",
+            "href": "../",
+            "class": "realms-return"
+          }
+        ],
+        "mobile_link_html": "<a class=\"realms-mobile-return sf-hidden\" href=\"../\">← Portail</a>",
+        "mobile_menu_html": ""
+      },
+      "footer": {
+        "class": "realms-footer",
+        "html": "<footer class=\"realms-footer\"><div><span>LNA</span><p><strong>Le Nouvel Âge RP ARK</strong><small>Les civilisations du Nouveau Monde</small></p></div><a href=\"#realms-top\">Retour en haut ↑</a></footer>"
+      }
+    },
+    "/royaumes/nerethis/": {
+      "header": {
+        "class": "vanloria-header",
+        "brand_html": "<a class=\"vanloria-brand\" href=\"../../\"><span>N</span><span><strong>Enclave de Nerethis</strong><small>Chroniques de l’Enclave</small></span></a>",
+        "nav_aria": "Navigation de Enclave de Nerethis",
+        "nav_class": "",
+        "nav_items": [
+          {
+            "text": "Présentation",
+            "href": "#presentation",
+            "class": ""
+          },
+          {
+            "text": "Organisation",
+            "href": "#institutions",
+            "class": ""
+          },
+          {
+            "text": "Chroniques",
+            "href": "#chroniques",
+            "class": ""
+          },
+          {
+            "text": "Royaumes",
+            "href": "../",
+            "class": ""
+          },
+          {
+            "text": "Origines et Histoire",
+            "href": "../../origines/",
+            "class": ""
+          },
+          {
+            "text": "Retour au portail",
+            "href": "../../",
+            "class": "vanloria-return"
+          }
+        ],
+        "mobile_link_html": "<a class=\"vanloria-mobile-return sf-hidden\" href=\"../\">← Royaumes</a>",
+        "mobile_menu_html": ""
+      },
+      "footer": {
+        "class": "vanloria-footer",
+        "html": "<footer class=\"vanloria-footer\"><div><span>N</span><p><strong>Enclave de Nerethis</strong><small>Liberté · Fraternité · Ruse</small></p></div><a href=\"#nerethis-top\">Retour en haut ↑</a></footer>"
+      }
+    },
+    "/royaumes/shintai/": {
+      "header": {
+        "class": "vanloria-header",
+        "brand_html": "<a class=\"vanloria-brand\" href=\"../../\"><span>S</span><span><strong>Dynastie Shintai</strong><small>Chroniques de la Dynastie</small></span></a>",
+        "nav_aria": "Navigation de Dynastie Shintai",
+        "nav_class": "",
+        "nav_items": [
+          {
+            "text": "Présentation",
+            "href": "#presentation",
+            "class": ""
+          },
+          {
+            "text": "Organisation",
+            "href": "#institutions",
+            "class": ""
+          },
+          {
+            "text": "Chroniques",
+            "href": "#chroniques",
+            "class": ""
+          },
+          {
+            "text": "Royaumes",
+            "href": "../",
+            "class": ""
+          },
+          {
+            "text": "Origines et Histoire",
+            "href": "../../origines/",
+            "class": ""
+          },
+          {
+            "text": "Retour au portail",
+            "href": "../../",
+            "class": "vanloria-return"
+          }
+        ],
+        "mobile_link_html": "<a class=\"vanloria-mobile-return sf-hidden\" href=\"../\">← Royaumes</a>",
+        "mobile_menu_html": ""
+      },
+      "footer": {
+        "class": "vanloria-footer",
+        "html": "<footer class=\"vanloria-footer\"><div><span>S</span><p><strong>Dynastie Shintai</strong><small>Respect · Harmonie · Bravoure</small></p></div><a href=\"#shintai-top\">Retour en haut ↑</a></footer>"
+      }
+    },
+    "/royaumes/vanloria/": {
+      "header": {
+        "class": "vanloria-header",
+        "brand_html": "<a class=\"vanloria-brand\" href=\"../../\"><span>V</span><span><strong>Vanloria</strong><small>Chroniques de la Couronne</small></span></a>",
+        "nav_aria": "Navigation de Vanloria",
+        "nav_class": "",
+        "nav_items": [
+          {
+            "text": "Présentation",
+            "href": "#presentation",
+            "class": ""
+          },
+          {
+            "text": "Organisation",
+            "href": "#institutions",
+            "class": ""
+          },
+          {
+            "text": "Chroniques",
+            "href": "#chroniques",
+            "class": ""
+          },
+          {
+            "text": "Foi d’Aldor",
+            "href": "../../religions/#pere-de-lumiere",
+            "class": ""
+          },
+          {
+            "text": "Royaumes",
+            "href": "../",
+            "class": ""
+          },
+          {
+            "text": "Retour au portail",
+            "href": "../../",
+            "class": "vanloria-return"
+          }
+        ],
+        "mobile_link_html": "<a class=\"vanloria-mobile-return sf-hidden\" href=\"../\">← Royaumes</a>",
+        "mobile_menu_html": ""
+      },
+      "footer": {
+        "class": "vanloria-footer",
+        "html": "<footer class=\"vanloria-footer\"><div><span>V</span><p><strong>Royaume de Vanloria</strong><small>Honneur · Loyauté · Sacrifice</small></p></div><a href=\"#vanloria-top\">Retour en haut ↑</a></footer>"
+      }
+    },
+    "/territoire/": {
+      "header": {
+        "class": "territory-header",
+        "brand_html": "<a aria-label=\"Retour au portail\" class=\"brand\" href=\"../\"><span class=\"brand-seal\">LNA</span><span><strong>Le Nouvel Âge</strong><small>Guide des territoires</small></span></a>",
+        "nav_aria": "Navigation des territoires",
+        "nav_class": "",
+        "nav_items": [
+          {
+            "text": "Carte",
+            "href": "#carte",
+            "class": ""
+          },
+          {
+            "text": "Ressources",
+            "href": "#ressources",
+            "class": ""
+          },
+          {
+            "text": "Créatures",
+            "href": "#creatures",
+            "class": ""
+          },
+          {
+            "text": "Bestiaire",
+            "href": "../bestiaire/",
+            "class": ""
+          },
+          {
+            "text": "Royaumes",
+            "href": "../royaumes/",
+            "class": ""
+          },
+          {
+            "text": "Retour au portail",
+            "href": "../",
+            "class": "territory-back"
+          }
+        ],
+        "mobile_link_html": "<a class=\"territory-mobile-back sf-hidden\" href=\"../\">← Portail</a>",
+        "mobile_menu_html": ""
+      },
+      "footer": {
+        "class": "territory-footer",
+        "html": "<footer class=\"territory-footer\"><div><span class=\"brand-seal\">LNA</span><p><strong>Le Nouvel Âge RP ARK</strong><small>Carte, ressources et créatures</small></p></div><a href=\"#haut\">Retour en haut ↑</a></footer>"
+      }
+    }
+  }
+}

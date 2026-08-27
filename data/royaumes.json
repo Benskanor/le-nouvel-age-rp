@@ -1,0 +1,433 @@
+{
+  "_guide": {
+    "purpose": "Contenu principal éditable des Royaumes.",
+    "newlineHint": "Dans les champs title/motto, \\n crée un retour à la ligne.",
+    "imageHint": "Les chemins d'images partent de la racine du site."
+  },
+  "directory": {
+    "hero": {
+      "eyebrow": "Six civilisations jouables",
+      "title": "Les\nRoyaumes",
+      "description": "Choisir une allégeance, c’est choisir une culture, des devoirs et une histoire à poursuivre.",
+      "button": "Comparer les royaumes ↓",
+      "image": "assets/images/royaumes/royaumes-hero.png",
+      "imageAlt": "Les peuples des six royaumes réunis dans le Nouveau Monde"
+    },
+    "intro": {
+      "eyebrow": "Ragnarok après la chute",
+      "title": "Six héritages à rebâtir.",
+      "description": "Chaque peuple est arrivé avec ses traditions, ses conflits et sa vision du monde. Les six archives sont désormais ouvertes : institutions, sociétés, guerres, alliances, chute et réveil dans le Nouveau Monde y forment une mémoire commune."
+    },
+    "callout": {
+      "eyebrow": "Six chroniques disponibles",
+      "title": "Des serments d’Aureval aux dernières lueurs de Konungard.",
+      "description": "Parcourez les mémoires de Vanloria, Asharun, Erythros, Nerethis, Shintai et Falkheim, puis choisissez l’héritage que votre personnage portera dans le Nouveau Monde."
+    },
+    "cards": [
+      {
+        "key": "asharun",
+        "orderLabel": "01 · Empire ottoman et terres arabiques",
+        "name": "Asharun",
+        "summary": "Un royaume façonné par le désert, les routes marchandes et l'Esprit des Dunes.",
+        "values": [
+          "Sagesse",
+          "Hospitalité",
+          "Persévérance"
+        ],
+        "button": "Ouvrir les chroniques →",
+        "href": "asharun/",
+        "image": "assets/images/royaumes/asharun-hero.png"
+      },
+      {
+        "key": "falkheim",
+        "orderLabel": "02 · Peuples vikings du Nord",
+        "name": "Falkheim",
+        "summary": "Des communautés nordiques bâties pour résister, explorer et célébrer autour du feu.",
+        "values": [
+          "Force",
+          "Gloire",
+          "Résilience"
+        ],
+        "button": "Ouvrir les chroniques →",
+        "href": "falkheim/",
+        "image": "assets/images/royaumes/falkheim-hero.png"
+      },
+      {
+        "key": "shintai",
+        "orderLabel": "03 · Japon féodal",
+        "name": "Shintai",
+        "summary": "Un royaume de rizières, de savoir-faire précis et de traditions martiales.",
+        "values": [
+          "Respect",
+          "Harmonie",
+          "Bravoure"
+        ],
+        "button": "Ouvrir les chroniques →",
+        "href": "shintai/",
+        "image": "assets/images/royaumes/shintai-hero.png"
+      },
+      {
+        "key": "vanloria",
+        "orderLabel": "04 · Chevalerie, forteresses et serments",
+        "name": "Vanloria",
+        "summary": "L'ordre, la défense et l'artisanat soutiennent les bastions du royaume.",
+        "values": [
+          "Honneur",
+          "Loyauté",
+          "Sacrifice"
+        ],
+        "button": "Ouvrir les chroniques →",
+        "href": "vanloria/",
+        "image": "assets/images/royaumes/vanloria-hero.png"
+      },
+      {
+        "key": "nerethis",
+        "orderLabel": "05 · Pirates, marées et trésors",
+        "name": "Nerethis",
+        "summary": "Après la Dernière Nuit et la perte de leur terre, les survivants cherchent un nouveau rivage.",
+        "values": [
+          "Liberté",
+          "Fraternité",
+          "Ruse"
+        ],
+        "button": "Ouvrir les chroniques →",
+        "href": "nerethis/",
+        "image": "assets/images/royaumes/nerethis-hero.png"
+      },
+      {
+        "key": "erythros",
+        "orderLabel": "06 · Peuple grec d'inspiration romaine",
+        "name": "Erythros",
+        "summary": "Des cités antiques où philosophie, agriculture et commerce se rencontrent.",
+        "values": [
+          "Devoir",
+          "Justice",
+          "Discipline"
+        ],
+        "button": "Ouvrir les chroniques →",
+        "href": "erythros/",
+        "image": "assets/images/royaumes/erythros-hero.png"
+      }
+    ]
+  },
+  "realms": {
+    "asharun": {
+      "name": "Asharun",
+      "route": "royaumes/asharun/",
+      "identity": "Souveraineté d’Asharun · Asharien(ne)",
+      "motto": "Là où le désert\nse souvient.",
+      "intro": "Un royaume d’oasis et de caravanes, où la sagesse gouverne, où l’hospitalité protège et où chaque route porte la mémoire des tribus.",
+      "heroImage": "assets/images/royaumes/asharun-hero.png",
+      "heroAlt": "Nurazan, capitale fortifiée de la Souveraineté d’Asharun",
+      "buttons": {
+        "discover": "Découvrir Asharun",
+        "chronicles": "Ouvrir les chroniques"
+      },
+      "stats": [
+        {
+          "value": "Nurazan",
+          "label": "capitale"
+        },
+        {
+          "value": "Zahyir",
+          "label": "foi dominante"
+        },
+        {
+          "value": "34",
+          "label": "événements"
+        },
+        {
+          "value": "3",
+          "label": "valeurs"
+        }
+      ],
+      "values": [
+        {
+          "number": "",
+          "name": "Sagesse",
+          "description": "Écouter avant de décider, préserver les savoirs et laisser l’expérience guider le pouvoir."
+        },
+        {
+          "number": "",
+          "name": "Hospitalité",
+          "description": "Offrir l’eau, le toit et la protection au voyageur, car nul ne traverse seul la Mer de Silence."
+        },
+        {
+          "number": "",
+          "name": "Persévérance",
+          "description": "Endurer la chaleur, la perte et l’incertitude sans abandonner la route ni ses serments."
+        }
+      ],
+      "ending": {
+        "eyebrow": "",
+        "title": "Asharun a perdu ses dunes.\nPas sa mémoire.",
+        "description": "Le début d’un nouvel âge Asharun a perdu ses dunes. Pas sa mémoire. Sur une plage inconnue, les survivants ont trouvé une mer calme, des forêts et des montagnes absentes de leurs cartes. Derrière eux demeure le souvenir d’une civilisation disparue. Devant eux s’ouvre une terre où la Souveraineté devra apprendre à renaître autrement. Explorer les autres royaumes Revenir aux Origines"
+      }
+    },
+    "falkheim": {
+      "name": "Falkheim",
+      "route": "royaumes/falkheim/",
+      "identity": "Horde de Falkheim · Falkhemien(ne)",
+      "motto": "Unis par le sang et le serment.",
+      "intro": "Des clans forgés par le froid, la mer et la guerre, capables de s’affronter pour l’honneur puis de former un seul mur lorsque le Lord appelle la Horde.",
+      "heroImage": "assets/images/royaumes/falkheim-hero.png",
+      "heroAlt": "Konungard, capitale de Horde de Falkheim",
+      "buttons": {
+        "discover": "Découvrir Horde de Falkheim",
+        "chronicles": "Ouvrir les chroniques"
+      },
+      "stats": [
+        {
+          "value": "Konungard",
+          "label": "capitale"
+        },
+        {
+          "value": "Confédération de clans",
+          "label": "régime"
+        },
+        {
+          "value": "35",
+          "label": "événements"
+        },
+        {
+          "value": "3",
+          "label": "valeurs"
+        }
+      ],
+      "values": [
+        {
+          "number": "",
+          "name": "Force",
+          "description": "Supporter le froid, la faim et le combat afin de protéger son clan et tenir son serment."
+        },
+        {
+          "number": "",
+          "name": "Gloire",
+          "description": "Gagner par ses actes une place dans les sagas et laisser aux générations futures un nom digne d’être chanté."
+        },
+        {
+          "number": "",
+          "name": "Résilience",
+          "description": "Se relever de l’hiver, de la défaite et de la perte sans renoncer à l’unité de la Horde."
+        }
+      ],
+      "ending": {
+        "eyebrow": "",
+        "title": "Les fjords ont disparu. Le serment demeure.",
+        "description": "Le début d’un nouvel âge Les fjords ont disparu. Le serment demeure. Le Nouveau Monde n’avait ni Konungard, ni drakkar, ni tertre ancestral. Mais les survivants pouvaient encore former un cercle, transmettre une saga et lever ensemble le même bouclier. Tant que la Horde se souvenait d’elle-même, Falkheim n’était pas morte. Explorer les autres royaumes Créer son personnage"
+      }
+    },
+    "shintai": {
+      "name": "Shintai",
+      "route": "royaumes/shintai/",
+      "identity": "Dynastie Shintai · Shintanien(ne)",
+      "motto": "L’esprit, la tradition et la lame.",
+      "intro": "Un royaume où l’honneur ordonne la force, où les kami habitent le monde et où chaque geste cherche l’équilibre entre devoir et sérénité.",
+      "heroImage": "assets/images/royaumes/shintai-hero.png",
+      "heroAlt": "Yamashiro, capitale de Dynastie Shintai",
+      "buttons": {
+        "discover": "Découvrir Dynastie Shintai",
+        "chronicles": "Ouvrir les chroniques"
+      },
+      "stats": [
+        {
+          "value": "Yamashiro",
+          "label": "capitale"
+        },
+        {
+          "value": "Dynastie impériale",
+          "label": "régime"
+        },
+        {
+          "value": "35",
+          "label": "événements"
+        },
+        {
+          "value": "3",
+          "label": "valeurs"
+        }
+      ],
+      "values": [
+        {
+          "number": "",
+          "name": "Respect",
+          "description": "Honorer les ancêtres, les maîtres, les kami et les responsabilités attachées à chaque rang."
+        },
+        {
+          "number": "",
+          "name": "Harmonie",
+          "description": "Chercher l’équilibre entre l’individu, la communauté, la nature et l’autorité impériale."
+        },
+        {
+          "number": "",
+          "name": "Bravoure",
+          "description": "Agir avec maîtrise face à la peur et préférer le devoir à la préservation de soi."
+        }
+      ],
+      "ending": {
+        "eyebrow": "",
+        "title": "Akashima a disparu. La voie demeure.",
+        "description": "Le début d’un nouvel âge Akashima a disparu. La voie demeure. Sur un rivage sans sanctuaire ni carte, les survivants portaient encore le respect, l’harmonie et la bravoure. Leur ancien monde avait cessé d’exister ; leur devoir était désormais de donner un sens au suivant. Explorer les autres royaumes Créer son personnage"
+      }
+    },
+    "vanloria": {
+      "name": "Vanloria",
+      "route": "royaumes/vanloria/",
+      "identity": "Royaume de Vanloria · Vanlorien(ne)",
+      "motto": "La Couronne\nqui ne plie pas.",
+      "intro": "Un royaume de chevalerie où l’épée protège, où le pouvoir oblige et où chaque serment engage l’avenir du peuple.",
+      "heroImage": "assets/images/royaumes/vanloria-hero.png",
+      "heroAlt": "Aureval, la Cité Blanche et capitale de Vanloria",
+      "buttons": {
+        "discover": "Découvrir Vanloria",
+        "chronicles": "Ouvrir les chroniques"
+      },
+      "stats": [
+        {
+          "value": "Aureval",
+          "label": "capitale"
+        },
+        {
+          "value": "Aldor",
+          "label": "foi officielle"
+        },
+        {
+          "value": "35",
+          "label": "événements"
+        },
+        {
+          "value": "3",
+          "label": "vertus"
+        }
+      ],
+      "values": [
+        {
+          "number": "",
+          "name": "Honneur",
+          "description": "Agir avec droiture, tenir sa parole et faire de l’épée un instrument de protection plutôt que de domination."
+        },
+        {
+          "number": "",
+          "name": "Loyauté",
+          "description": "Servir la Couronne, le royaume et ses compagnons avec constance, même lorsque le devoir impose des choix difficiles."
+        },
+        {
+          "number": "",
+          "name": "Sacrifice",
+          "description": "Placer la sécurité du peuple et l’avenir de Vanloria au-dessus de son intérêt personnel."
+        }
+      ],
+      "ending": {
+        "eyebrow": "",
+        "title": "Vanloria a perdu ses terres.\nPas son héritage.",
+        "description": "Le début d’un nouvel âge Vanloria a perdu ses terres. Pas son héritage. Sur une plage inconnue, les survivants ont retrouvé une mer calme et un horizon absent de toutes leurs cartes. À eux désormais de décider si la Couronne renaîtra à l’identique ou si l’honneur, la loyauté et le sacrifice prendront une forme nouvelle. Explorer les autres royaumes Revenir aux Origines"
+      }
+    },
+    "nerethis": {
+      "name": "Nerethis",
+      "route": "royaumes/nerethis/",
+      "identity": "Enclave de Nerethis · Nerethien(ne)",
+      "motto": "Libres jusqu’au dernier rivage.",
+      "intro": "Un royaume pirate forgé par les bannis, gouverné par les capitaines et tenu par des serments que seule la mer pouvait briser.",
+      "heroImage": "assets/images/royaumes/nerethis-hero.png",
+      "heroAlt": "Port-Cendre, capitale de Enclave de Nerethis",
+      "buttons": {
+        "discover": "Découvrir Enclave de Nerethis",
+        "chronicles": "Ouvrir les chroniques"
+      },
+      "stats": [
+        {
+          "value": "Port-Cendre",
+          "label": "capitale"
+        },
+        {
+          "value": "Stratocratie pirate",
+          "label": "régime"
+        },
+        {
+          "value": "32",
+          "label": "événements"
+        },
+        {
+          "value": "3",
+          "label": "valeurs"
+        }
+      ],
+      "values": [
+        {
+          "number": "",
+          "name": "Liberté",
+          "description": "Rester maître de son destin et refuser toute couronne capable d’enchaîner l’Enclave."
+        },
+        {
+          "number": "",
+          "name": "Fraternité",
+          "description": "Protéger son équipage, partager le risque et tenir les serments qui garantissent la survie en mer."
+        },
+        {
+          "number": "",
+          "name": "Ruse",
+          "description": "Vaincre par l’audace, la vitesse et l’intelligence lorsque la force brute ne suffit pas."
+        }
+      ],
+      "ending": {
+        "eyebrow": "",
+        "title": "Nerethis a perdu ses îles. Pas sa liberté.",
+        "description": "Le début d’un nouvel âge Nerethis a perdu ses îles. Pas sa liberté. Sur des plages inconnues, les survivants n’avaient plus de flotte, plus de Conseil et plus de trésor. Il leur restait pourtant l’essentiel : la fraternité, la ruse et la conviction qu’aucune mer ne demeure sans route pour ceux qui osent la prendre. Explorer les autres royaumes Créer son personnage"
+      }
+    },
+    "erythros": {
+      "name": "Erythros",
+      "route": "royaumes/erythros/",
+      "identity": "République d’Erythros · Erythroyen(ne)",
+      "motto": "La cité appartient\nà ceux qui la servent.",
+      "intro": "Une République de marbre et d’écume où la raison guide le pouvoir, où la parole devient action et où chaque citoyen porte une part de l’avenir commun.",
+      "heroImage": "assets/images/royaumes/erythros-hero.png",
+      "heroAlt": "Myrinthia, capitale maritime de la République d’Erythros",
+      "buttons": {
+        "discover": "Découvrir Erythros",
+        "chronicles": "Ouvrir les chroniques"
+      },
+      "stats": [
+        {
+          "value": "Myrinthia",
+          "label": "capitale"
+        },
+        {
+          "value": "République",
+          "label": "régime"
+        },
+        {
+          "value": "35",
+          "label": "événements"
+        },
+        {
+          "value": "3",
+          "label": "valeurs"
+        }
+      ],
+      "values": [
+        {
+          "number": "",
+          "name": "Devoir",
+          "description": "Servir la cité avant soi-même et répondre de ses actes devant les citoyens comme devant la loi."
+        },
+        {
+          "number": "",
+          "name": "Justice",
+          "description": "Protéger l’équilibre de la République par des règles communes, des magistrats responsables et des jugements publics."
+        },
+        {
+          "number": "",
+          "name": "Discipline",
+          "description": "Faire de la rigueur civique et militaire le rempart qui unit des cités libres aux intérêts parfois contraires."
+        }
+      ],
+      "ending": {
+        "eyebrow": "",
+        "title": "Erythros a perdu ses cités.\nPas son idéal.",
+        "description": "Le début d’un nouvel âge Erythros a perdu ses cités. Pas son idéal. Sur une plage inconnue, les survivants ont retrouvé une mer paisible et un horizon sans carte. Les temples de marbre ont disparu, mais le devoir, la justice et la discipline demeurent. La République ne renaîtra pas par ses monuments : elle renaîtra par ceux qui choisiront encore de servir le bien commun. Explorer les autres royaumes Revenir aux Origines"
+      }
+    }
+  }
+}

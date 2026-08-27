@@ -1,0 +1,22 @@
+{
+  "editable_realms": [
+    "asharun",
+    "falkheim",
+    "shintai",
+    "vanloria",
+    "nerethis",
+    "erythros"
+  ],
+  "data_file": "data/royaumes.json",
+  "runtime": "assets/js/royaumes.js",
+  "named_hero_images": [
+    "asharun-hero.png",
+    "erythros-hero.png",
+    "falkheim-hero.png",
+    "nerethis-hero.png",
+    "royaumes-hero.png",
+    "shintai-hero.png",
+    "vanloria-hero.png"
+  ],
+  "old_chatgpt_domain_references": 0
+}

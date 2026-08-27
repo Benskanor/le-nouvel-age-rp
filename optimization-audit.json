@@ -1,0 +1,11 @@
+{
+  "html_pages": 22,
+  "unique_extracted_media": 189,
+  "media_references_rewritten": 558,
+  "unique_css_files": 30,
+  "style_blocks_rewritten": 48,
+  "remaining_base64_references": 0,
+  "old_chatgpt_domain_references": 0,
+  "size_before_mb": 183.45,
+  "size_after_mb": 80.19
+}

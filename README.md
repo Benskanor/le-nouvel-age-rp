@@ -1,38 +1,22 @@
-# Le Nouvel Âge RP — migration fidèle du site ChatGPT
+# Le Nouvel Âge RP — version GitHub optimisée
 
-Cette version a été reconstruite depuis les sauvegardes SingleFile du site original.
+Cette version conserve le rendu de la migration fidèle validée, mais les ressources
+SingleFile ont été extraites et dédupliquées.
 
-## Objectif
-- conserver le rendu visuel original ;
-- conserver les textes, images et sections ;
-- rendre tous les liens internes compatibles avec GitHub Pages dans un sous-dossier ;
-- ne plus dépendre de l’URL `chatgpt.site`.
+## Structure
 
-## Routes migrées
-- `/`
-- `/activites`
-- `/bestiaire`
-- `/creer-son-personnage`
-- `/demi-dieux`
-- `/factions`
-- `/histoire`
-- `/metiers`
-- `/mods`
-- `/mods/le-nouvel-age`
-- `/origines`
-- `/reglement`
-- `/religions`
-- `/royaumes`
-- `/royaumes/asharun`
-- `/royaumes/erythros`
-- `/royaumes/falkheim`
-- `/royaumes/nerethis`
-- `/royaumes/shintai`
-- `/royaumes/vanloria`
-- `/territoire`
+- `index.html` : accueil
+- chaque route possède son propre `index.html`
+- `assets/media/` : images et polices partagées
+- `assets/css/` : feuilles de style dédupliquées
+- `.nojekyll` : publication GitHub Pages sans traitement Jekyll
+
+## Modifier le site
+
+Les textes restent actuellement dans les fichiers HTML des pages.
+Cette version est volontairement une étape intermédiaire : fidélité visuelle d'abord,
+puis simplification éditoriale dans une étape suivante.
 
 ## Publication
-Copier tout le contenu de ce dossier à la racine du dépôt `Benskanor/le-nouvel-age-rp`, commit puis Push origin. GitHub Pages est déjà configuré sur `main / (root)`.
 
-## Important
-Cette première migration privilégie la fidélité visuelle : les images et polices sont encore intégrées directement dans les HTML, comme dans les sauvegardes SingleFile. Une seconde passe pourra ensuite factoriser les assets pour rendre le site plus léger et plus facile à éditer sans changer son apparence.
+Copier tout le contenu à la racine du dépôt GitHub Pages et pousser sur `main`.
