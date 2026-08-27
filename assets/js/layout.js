@@ -388,12 +388,20 @@
     const professionCtaText = document.querySelector(".profession-cta p");
     if (professionCtaText) professionCtaText.textContent = "Chaque personnage choisit un métier principal et un métier secondaire : assez de liberté pour se distinguer, sans pouvoir tout faire seul.";
 
+    const RELIGION_HEARTS = {
+      vanloria: "💙",
+      erythros: "🩵",
+      asharun: "💚",
+      nerethis: "💛",
+      shintai: "❤️",
+      falkheim: "💜"
+    };
+
     document.querySelectorAll(".religion-preview-card").forEach(card => {
       const key = Object.keys(REALMS).find(k => card.classList.contains(k) || (k === "falkheim" && card.classList.contains("falkeim")));
       const marker = card.querySelector(":scope > span");
-      if (!key || !marker || marker.querySelector("img")) return;
-      marker.textContent = "";
-      marker.appendChild(logoFor(key));
+      if (!key || !marker) return;
+      marker.textContent = RELIGION_HEARTS[key] || "";
     });
 
     const join = document.querySelector("#rejoindre");
