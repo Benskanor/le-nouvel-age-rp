@@ -1,0 +1,470 @@
+{
+  "meta": {
+    "title": "Wiki officiel — Le Nouvel Âge RP",
+    "updated": "2026-09-04",
+    "description": "Documentation du mod Le Nouvel Âge RP pour ARK: Survival Ascended.",
+    "notice": "Les champs techniques non vérifiés restent volontairement indiqués comme « À documenter »."
+  },
+  "versions": [
+    {
+      "id": "v5",
+      "name": "V5",
+      "status": "En développement",
+      "summary": "Prochaine grande évolution du mod, centrée sur de nouveaux systèmes RP, des cosmétiques et l’exploration.",
+      "features": [
+        {
+          "name": "Système de crochetage",
+          "type": "Gameplay",
+          "status": "En développement",
+          "description": "Mini-jeu permettant de tenter l’ouverture de structures verrouillées à l’aide d’un crochet."
+        },
+        {
+          "name": "Gobelin jouable",
+          "type": "Personnage",
+          "status": "Prévu",
+          "description": "Personnage gobelin destiné notamment aux usages RP et administratifs."
+        },
+        {
+          "name": "Bannière dorsale peignable",
+          "type": "Cosmétique",
+          "status": "Prévu",
+          "description": "Bannière portée dans le dos et personnalisable pour représenter royaumes et groupes."
+        },
+        {
+          "name": "Laisse de dino médiévale",
+          "type": "Gameplay",
+          "status": "Prévu",
+          "description": "Nouvelle présentation médiévale du système de laisse pour créatures."
+        },
+        {
+          "name": "Chapeau Valebois",
+          "type": "Cosmétique",
+          "status": "Prévu",
+          "description": "Cosmétique vestimentaire supplémentaire."
+        },
+        {
+          "name": "Casque d’os",
+          "type": "Cosmétique",
+          "status": "Prévu",
+          "description": "Cosmétique inspiré des os et trophées."
+        },
+        {
+          "name": "Arbalète d’os",
+          "type": "Cosmétique",
+          "status": "Prévu",
+          "description": "Variante cosmétique d’arbalète à l’identité plus primitive."
+        },
+        {
+          "name": "Refonte des cartes aux trésors",
+          "type": "Exploration",
+          "status": "Prioritaire",
+          "description": "Refonte du fonctionnement et de la présentation des cartes aux trésors."
+        }
+      ]
+    },
+    {
+      "id": "v4",
+      "name": "V4",
+      "status": "Disponible",
+      "summary": "Mise à jour économique et artisanale : ressources, agriculture, pêche, recettes, consommables et stations LNA.",
+      "features": [
+        {
+          "name": "Ressources de pêche",
+          "type": "Ressources",
+          "status": "Disponible",
+          "description": "Nouvelles ressources obtenues par la pêche et intégrées aux transformations du serveur."
+        },
+        {
+          "name": "Agriculture par royaume",
+          "type": "Agriculture",
+          "status": "Disponible",
+          "description": "Cultures propres à plusieurs royaumes afin de renforcer les échanges et les identités économiques."
+        },
+        {
+          "name": "Viandes et poissons retravaillés",
+          "type": "Cuisine",
+          "status": "Disponible",
+          "description": "Nouvelles transformations pour alimenter l’économie des taverniers et des artisans."
+        },
+        {
+          "name": "Consommables des six royaumes",
+          "type": "Cuisine",
+          "status": "Disponible",
+          "description": "Recettes régionales possédant leur propre identité et des dépendances commerciales."
+        },
+        {
+          "name": "Stations LNA",
+          "type": "Artisanat",
+          "status": "Disponible",
+          "description": "Atelier, tonneau, mortier, feu de camp et marmites dédiées aux royaumes."
+        },
+        {
+          "name": "Rééquilibrage des consommables vanilla",
+          "type": "Équilibrage",
+          "status": "Disponible",
+          "description": "Adaptation de plusieurs recettes vanilla à l’économie et à la progression du serveur."
+        }
+      ]
+    }
+  ],
+  "categories": [
+    {
+      "name": "Pêche",
+      "icon": "🎣",
+      "description": "Ressources obtenues grâce au système de pêche."
+    },
+    {
+      "name": "Agriculture",
+      "icon": "🌾",
+      "description": "Cultures propres aux royaumes."
+    },
+    {
+      "name": "Récolte",
+      "icon": "🌿",
+      "description": "Ressources récupérées directement dans le monde."
+    },
+    {
+      "name": "Transformation",
+      "icon": "⚗️",
+      "description": "Produits intermédiaires issus des ressources brutes."
+    }
+  ],
+  "resources": [
+    {
+      "slug": "aretes-de-poisson",
+      "name": "Arêtes de poisson",
+      "icon": "🦴",
+      "category": "Pêche",
+      "realm": "Commun",
+      "version": "V4",
+      "status": "Disponible",
+      "description": "Sous-produit issu de la pêche du Nouvel Âge. Cette ressource sert de matière première à certaines transformations artisanales liées aux produits de la mer.",
+      "obtention": "Obtenue par le système de pêche du serveur.",
+      "uses": [
+        "Transformations de produits de la mer",
+        "Gélatine de poisson"
+      ],
+      "technical": {}
+    },
+    {
+      "slug": "chair-abyssale",
+      "name": "Chair abyssale",
+      "icon": "🐟",
+      "category": "Pêche",
+      "realm": "Commun",
+      "version": "V4",
+      "status": "Disponible",
+      "description": "Chair rare remontée des profondeurs. Elle appartient aux ressources spéciales ajoutées au système de pêche LNA et peut entrer dans des préparations avancées.",
+      "obtention": "Récompense rare du système de pêche.",
+      "uses": [
+        "Cuisine avancée",
+        "Recettes liées aux produits abyssaux"
+      ],
+      "technical": {}
+    },
+    {
+      "slug": "ecailles-nacrees",
+      "name": "Écailles nacrées",
+      "icon": "🫧",
+      "category": "Pêche",
+      "realm": "Commun",
+      "version": "V4",
+      "status": "Disponible",
+      "description": "Écailles aux reflets nacrés récupérées grâce à la pêche. Elles constituent une ressource spéciale du Nouvel Âge destinée aux échanges et aux fabrications dédiées.",
+      "obtention": "Obtenues via le système de pêche.",
+      "uses": [
+        "Artisanat LNA",
+        "Échanges entre joueurs"
+      ],
+      "technical": {}
+    },
+    {
+      "slug": "filet-de-poisson-blanc",
+      "name": "Filet de poisson blanc",
+      "icon": "🐠",
+      "category": "Pêche",
+      "realm": "Commun",
+      "version": "V4",
+      "status": "Disponible",
+      "description": "Poisson préparé sous forme de filet afin d'être utilisé dans les recettes culinaires du serveur.",
+      "obtention": "Obtenu dans le système de pêche et de transformation des produits de la mer.",
+      "uses": [
+        "Cuisine",
+        "Consommables des royaumes"
+      ],
+      "technical": {}
+    },
+    {
+      "slug": "perle-organique",
+      "name": "Perle organique",
+      "icon": "⚪",
+      "category": "Pêche",
+      "realm": "Commun",
+      "version": "V4",
+      "status": "Disponible",
+      "description": "Ressource organique rare pouvant être découverte au cours des sessions de pêche.",
+      "obtention": "Récompense rare du système de pêche.",
+      "uses": [
+        "Artisanat LNA",
+        "Échanges"
+      ],
+      "technical": {}
+    },
+    {
+      "slug": "huile-de-poisson",
+      "name": "Huile de poisson",
+      "icon": "🫙",
+      "category": "Transformation",
+      "realm": "Commun",
+      "version": "V4",
+      "status": "Disponible",
+      "description": "Produit transformé issu des ressources marines. L'huile de poisson est destinée à l'artisanat et aux préparations du Nouvel Âge.",
+      "obtention": "Produite par transformation de ressources issues de la pêche.",
+      "uses": [
+        "Cuisine",
+        "Transformations LNA"
+      ],
+      "technical": {}
+    },
+    {
+      "slug": "gelatine-de-poisson",
+      "name": "Gélatine de poisson",
+      "icon": "🧫",
+      "category": "Transformation",
+      "realm": "Commun",
+      "version": "V4",
+      "status": "Disponible",
+      "description": "Produit transformé à partir de matières issues de la pêche, utilisé comme ingrédient intermédiaire dans l'économie du mod.",
+      "obtention": "Fabriquée à partir de ressources marines, notamment les arêtes de poisson.",
+      "uses": [
+        "Recettes transformées",
+        "Cuisine LNA"
+      ],
+      "technical": {}
+    },
+    {
+      "slug": "sel-marin",
+      "name": "Sel marin",
+      "icon": "🧂",
+      "category": "Transformation",
+      "realm": "Commun",
+      "version": "V4",
+      "status": "Disponible",
+      "description": "Ingrédient de conservation et de cuisine utilisé dans plusieurs transformations du Nouvel Âge.",
+      "obtention": "Ressource transformée liée aux activités maritimes et culinaires.",
+      "uses": [
+        "Conservation",
+        "Cuisine",
+        "Viandes et poissons transformés"
+      ],
+      "technical": {}
+    },
+    {
+      "slug": "orge",
+      "name": "Orge",
+      "icon": "🌾",
+      "category": "Agriculture",
+      "realm": "Falkheim",
+      "version": "V4",
+      "status": "Disponible",
+      "description": "Culture associée à Falkheim et à son économie agricole. Elle sert de base à plusieurs transformations et boissons du royaume.",
+      "obtention": "Cultivée dans le système agricole du royaume de Falkheim.",
+      "uses": [
+        "Farine d’orge",
+        "Boissons et recettes de Falkheim"
+      ],
+      "technical": {}
+    },
+    {
+      "slug": "houblon",
+      "name": "Houblon",
+      "icon": "🌿",
+      "category": "Agriculture",
+      "realm": "Falkheim",
+      "version": "V4",
+      "status": "Disponible",
+      "description": "Culture de Falkheim destinée notamment à la production de boissons et aux recettes régionales.",
+      "obtention": "Cultivé dans les parcelles agricoles de Falkheim.",
+      "uses": [
+        "Boissons de Falkheim",
+        "Transformations de taverne"
+      ],
+      "technical": {}
+    },
+    {
+      "slug": "plaquebiere",
+      "name": "Plaquebière",
+      "icon": "🍃",
+      "category": "Agriculture",
+      "realm": "Falkheim",
+      "version": "V4",
+      "status": "Disponible",
+      "description": "Ressource végétale propre à l'agriculture de Falkheim, intégrée aux productions régionales du royaume.",
+      "obtention": "Cultivée à Falkheim.",
+      "uses": [
+        "Recettes de Falkheim",
+        "Transformations agricoles"
+      ],
+      "technical": {}
+    },
+    {
+      "slug": "farine-d-orge",
+      "name": "Farine d’orge",
+      "icon": "🥣",
+      "category": "Transformation",
+      "realm": "Falkheim",
+      "version": "V4",
+      "status": "Disponible",
+      "description": "Produit obtenu après transformation de l'orge. Il sert d'ingrédient intermédiaire aux recettes du royaume.",
+      "obtention": "Fabriquée à partir d’orge.",
+      "uses": [
+        "Cuisine de Falkheim",
+        "Produits de boulangerie"
+      ],
+      "technical": {}
+    },
+    {
+      "slug": "riz",
+      "name": "Riz",
+      "icon": "🍚",
+      "category": "Agriculture",
+      "realm": "Shintai",
+      "version": "V4",
+      "status": "Disponible",
+      "description": "Culture emblématique de Shintai, utilisée dans plusieurs plats et préparations propres au royaume.",
+      "obtention": "Cultivé dans le système agricole de Shintai.",
+      "uses": [
+        "Cuisine de Shintai",
+        "Bol de riz au poisson",
+        "Nigiri abyssal"
+      ],
+      "technical": {}
+    },
+    {
+      "slug": "shiso",
+      "name": "Shiso",
+      "icon": "🍃",
+      "category": "Agriculture",
+      "realm": "Shintai",
+      "version": "V4",
+      "status": "Disponible",
+      "description": "Herbe aromatique de Shintai employée dans ses boissons et recettes régionales.",
+      "obtention": "Cultivé à Shintai.",
+      "uses": [
+        "Thé Shiso Menthe",
+        "Cuisine de Shintai"
+      ],
+      "technical": {}
+    },
+    {
+      "slug": "soja",
+      "name": "Soja",
+      "icon": "🫘",
+      "category": "Agriculture",
+      "realm": "Shintai",
+      "version": "V4",
+      "status": "Disponible",
+      "description": "Culture de Shintai servant de base à plusieurs préparations culinaires du royaume.",
+      "obtention": "Cultivé à Shintai.",
+      "uses": [
+        "Bouillon de soja",
+        "Cuisine de Shintai"
+      ],
+      "technical": {}
+    },
+    {
+      "slug": "epice-sauvage",
+      "name": "Épice sauvage",
+      "icon": "🌱",
+      "category": "Récolte",
+      "realm": "Asharun",
+      "version": "V4",
+      "status": "Disponible",
+      "description": "Ressource aromatique propre aux terres d'Asharun. Sa récolte participe à l'identité économique du royaume.",
+      "obtention": "Récoltée sur le territoire d’Asharun avec l’outil prévu pour cette activité.",
+      "uses": [
+        "Cuisine d’Asharun",
+        "Transformations régionales"
+      ],
+      "technical": {}
+    },
+    {
+      "slug": "farine-d-asharun",
+      "name": "Farine d’Asharun",
+      "icon": "🏺",
+      "category": "Transformation",
+      "realm": "Asharun",
+      "version": "V4",
+      "status": "Disponible",
+      "description": "Farine régionale utilisée dans les recettes traditionnelles d'Asharun.",
+      "obtention": "Produite par transformation d’ingrédients agricoles d’Asharun.",
+      "uses": [
+        "Naan",
+        "Cuisine d’Asharun"
+      ],
+      "technical": {}
+    },
+    {
+      "slug": "menthe",
+      "name": "Menthe",
+      "icon": "🌿",
+      "category": "Agriculture",
+      "realm": "Asharun",
+      "version": "V4",
+      "status": "Disponible",
+      "description": "Plante aromatique cultivée à Asharun et employée dans différentes infusions du serveur.",
+      "obtention": "Cultivée à Asharun.",
+      "uses": [
+        "Infusions",
+        "Thé Shiso Menthe"
+      ],
+      "technical": {}
+    },
+    {
+      "slug": "melon",
+      "name": "Melon",
+      "icon": "🍈",
+      "category": "Agriculture",
+      "realm": "Asharun",
+      "version": "V4",
+      "status": "Disponible",
+      "description": "Fruit cultivé dans les zones fertiles d'Asharun et intégré à son économie alimentaire.",
+      "obtention": "Cultivé à Asharun.",
+      "uses": [
+        "Cuisine d’Asharun"
+      ],
+      "technical": {}
+    },
+    {
+      "slug": "pasteque",
+      "name": "Pastèque",
+      "icon": "🍉",
+      "category": "Agriculture",
+      "realm": "Asharun",
+      "version": "V4",
+      "status": "Disponible",
+      "description": "Fruit d'Asharun destiné à l'alimentation et aux recettes régionales.",
+      "obtention": "Cultivée à Asharun.",
+      "uses": [
+        "Cuisine d’Asharun"
+      ],
+      "technical": {}
+    },
+    {
+      "slug": "grenade",
+      "name": "Grenade",
+      "icon": "🔴",
+      "category": "Agriculture",
+      "realm": "Asharun",
+      "version": "V4",
+      "status": "Disponible",
+      "description": "Fruit régional d'Asharun, utilisé dans les préparations et remèdes propres au royaume.",
+      "obtention": "Ressource agricole obtenue dans le système d’Asharun.",
+      "uses": [
+        "Baume à la grenade",
+        "Cuisine d’Asharun"
+      ],
+      "technical": {}
+    }
+  ]
+}

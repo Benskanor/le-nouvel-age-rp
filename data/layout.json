@@ -319,6 +319,11 @@
             "class": ""
           },
           {
+            "text": "Wiki",
+            "href": "wiki/",
+            "class": ""
+          },
+          {
             "text": "Règlement",
             "href": "reglement/",
             "class": ""
@@ -330,7 +335,7 @@
           }
         ],
         "mobile_link_html": "",
-        "mobile_menu_html": "<details class=\"mobile-menu\"><summary>Explorer</summary><nav><a href=\"#depart\">Bien débuter</a><a href=\"royaumes/\">Royaumes</a><a href=\"territoire/\">Territoire</a><a href=\"bestiaire/\">Bestiaire</a><a href=\"activites/\">Activités</a><a href=\"creer-son-personnage/\">Créer son personnage</a><a href=\"personnages/\">Personnages du monde</a><a href=\"metiers/\">Métiers</a><a href=\"origines/\">Origines et Histoire</a><a href=\"mods/\">Mods serveur</a><a href=\"reglement/\">Règlement</a><a href=\"#rejoindre\">Nous rejoindre</a></nav></details>"
+        "mobile_menu_html": "<details class=\"mobile-menu\"><summary>Explorer</summary><nav><a href=\"#depart\">Bien débuter</a><a href=\"royaumes/\">Royaumes</a><a href=\"territoire/\">Territoire</a><a href=\"bestiaire/\">Bestiaire</a><a href=\"activites/\">Activités</a><a href=\"creer-son-personnage/\">Créer son personnage</a><a href=\"personnages/\">Personnages du monde</a><a href=\"metiers/\">Métiers</a><a href=\"origines/\">Origines et Histoire</a><a href=\"mods/\">Mods serveur</a><a href=\"wiki/\">Wiki du mod</a><a href=\"reglement/\">Règlement</a><a href=\"#rejoindre\">Nous rejoindre</a></nav></details>"
       },
       "footer": {
         "class": "",

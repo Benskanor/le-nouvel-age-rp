@@ -1,0 +1,58 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Wiki officiel | Le Nouvel Âge RP</title>
+<meta name="description" content="Wiki officiel du mod Le Nouvel Âge RP : nouveautés, ressources, agriculture et systèmes de gameplay.">
+<link rel="stylesheet" href="../assets/css/wiki.css">
+</head>
+<body data-wiki-page="home">
+<div id="wiki-site-header"></div>
+<main>
+<section class="wiki-hero">
+  <div class="wiki-hero-inner">
+    <p class="overline">Documentation officielle du mod</p>
+    <h1>Le Wiki du<br>Nouvel Âge.</h1>
+    <p class="lead">Retrouvez les nouveautés du mod, les nouvelles ressources, leur origine, leurs utilisations et progressivement toute la documentation utile au serveur.</p>
+    <div class="wiki-actions">
+      <a class="button primary" href="ressources/">Explorer les ressources</a>
+      <a class="button ghost" href="nouveautes/">Voir les nouveautés</a>
+    </div>
+    <div class="wiki-stats">
+      <div><strong data-count="resources">—</strong><span>ressources</span></div>
+      <div><strong data-count="categories">—</strong><span>catégories</span></div>
+      <div><strong data-count="versions">—</strong><span>versions suivies</span></div>
+    </div>
+    <div class="wiki-search-wrap">
+      <input id="wikiSearch" class="wiki-search" type="search" placeholder="Rechercher une ressource : orge, chair abyssale, shiso…">
+      <div id="searchResults" class="wiki-search-results" hidden></div>
+    </div>
+  </div>
+</section>
+
+<div class="wiki-shell">
+  <section class="wiki-section">
+    <div class="section-head"><div><p class="overline">Répertoire</p><h2>Catégories</h2></div><p>Le Wiki est organisé par activité afin de retrouver rapidement l'origine d'une ressource et son rôle dans l'économie du mod.</p></div>
+    <div id="wikiCategories" class="category-grid wiki-loading">Chargement…</div>
+  </section>
+
+  <section class="wiki-section">
+    <div class="section-head"><div><p class="overline">Mise à jour actuelle</p><h2>Nouveautés du mod</h2></div><p>Les éléments en développement sont clairement séparés de ce qui est déjà disponible.</p></div>
+    <div id="latestFeatures" class="feature-grid wiki-loading">Chargement…</div>
+    <div class="wiki-actions"><a class="button ghost" href="nouveautes/">Consulter toutes les versions →</a></div>
+  </section>
+
+  <section class="wiki-section">
+    <div class="section-head"><div><p class="overline">Fiches à découvrir</p><h2>Nouvelles ressources</h2></div><p>Chaque ressource possède une fiche inspirée des Wikis ARK : description, obtention, usages et informations techniques lorsqu'elles sont vérifiées.</p></div>
+    <div id="featuredResources" class="resource-grid wiki-loading">Chargement…</div>
+    <div class="wiki-actions"><a class="button primary" href="ressources/">Voir toutes les ressources</a></div>
+  </section>
+
+  <section class="wiki-section">
+    <div class="wiki-note"><strong>Wiki en construction :</strong> les statistiques techniques comme le poids, la taille de pile, le Blueprint exact ou la commande GFI ne sont pas inventées. Elles apparaîtront comme « À documenter » jusqu'à ce qu'elles soient vérifiées dans le DevKit.</div>
+  </section>
+</div>
+</main>
+<div id="wiki-site-footer"></div>
+<script src="../assets/js/wiki-shell.js" defer></script><script src="../assets/js/wiki.js" defer></script>
+</body></html>
