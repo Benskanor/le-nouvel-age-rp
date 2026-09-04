@@ -1,0 +1,53 @@
+
+/* Global readability and consistency overrides */
+:root{
+  --lna-border: rgba(214,176,94,.22);
+  --lna-border-strong: rgba(214,176,94,.34);
+  --lna-panel: linear-gradient(180deg, rgba(18,18,16,.96), rgba(10,10,9,.98));
+  --lna-panel-soft: linear-gradient(180deg, rgba(23,18,13,.82), rgba(11,11,10,.94));
+  --lna-shadow: 0 18px 40px rgba(0,0,0,.24);
+}
+html{font-size:17px}
+body{line-height:1.72;-webkit-font-smoothing:antialiased;text-rendering:optimizeLegibility}
+p,li,dd{font-size:1em;line-height:inherit}
+small,.overline,.section-number,.breadcrumbs,.resource-version,.wiki-infobox dt,.site-footer small,#lna-site-footer small{letter-spacing:.08em}
+#lna-site-header .brand strong,#wiki-site-header .brand strong,.activities-header .brand strong,.bestiary-header .brand strong,.character-header .brand strong,.demigods-header .brand strong,.factions-header .brand strong,.jobs-header .brand strong,.mods-header .brand strong,.origins-header .brand strong,.rules-header .brand strong,.territory-header .brand strong,.realms-header .brand strong{font-size:1.08rem!important}
+#lna-site-header .brand small,#wiki-site-header .brand small,.activities-header .brand small,.bestiary-header .brand small,.character-header .brand small,.demigods-header .brand small,.factions-header .brand small,.jobs-header .brand small,.mods-header .brand small,.origins-header .brand small,.rules-header .brand small,.territory-header .brand small,.realms-header .brand small{font-size:.65rem!important}
+.top-nav a,.activities-header nav a,.bestiary-header nav a,.character-header nav a,.demigods-header nav a,.factions-header nav a,.jobs-header nav a,.mods-header nav a,.origins-header nav a,.rules-header nav a,.territory-header nav a,.realms-header nav a{font-size:.82rem!important;line-height:1.35!important}
+.mobile-menu nav a,.mobile-menu summary{font-size:.82rem!important}
+.section-title>p,.section-head>p,.section-head p,.realms-intro>p,.realms-callout p,.wiki-note,.resource-copy em,.wiki-hero .lead,.resource-main .resource-lead,.article-section p,.article-section li,.realm-economy-block>p,.feature-card p{font-size:1rem!important;line-height:1.8!important}
+.section-title h2,.section-head h2,.article-section h2,.realm-economy-head h3{line-height:1.08}
+.button,.header-cta{font-size:.84rem!important}
+.side-nav,.side-nav a,.side-nav p{font-size:.92rem!important}
+.quick-grid a p,.profession-grid article p,.player-tools-grid a p,.wiki-home-grid a p,.kingdom-hub-link p,.principle p,.religion-preview-cta p,.demigod-preview-cta p,.faction-preview-cta p,.player-tools-grid a p{font-size:1rem!important;line-height:1.8!important}
+.quick-grid a h3,.player-tools-grid a h3,.wiki-home-grid a h3,.religion-preview-card h3,.demigod-preview-card h3,.faction-preview-card h3{font-size:1.7rem!important;line-height:1.12}
+.quick-grid a small,.player-tools-grid a small,.wiki-home-grid a small,.profession-grid article small,.religion-preview-card small,.demigod-preview-card small,.faction-preview-card small,.realm-card small,.realms-callout small{font-size:.72rem!important}
+/* Harmonized panels and cards */
+.wiki-section,.wiki-resource-card,.wiki-category-card,.feature-card,.resource-main,.wiki-infobox,.consumable-chip,.related-grid a,.realm-economy-block,.wiki-note,.quick-grid a,.player-tools-grid a,.wiki-home-grid a,.profession-grid article,.principle,.kingdom-hub-link,.religion-preview-card,.religion-preview-cta,.demigod-preview-card,.demigod-preview-cta,.faction-preview-card,.faction-preview-cta,.character-tool,.mods-tool,.official-tool,.activities-tool,.character-registry-tool{
+  border-color:var(--lna-border)!important;
+  box-shadow:var(--lna-shadow)!important;
+}
+.wiki-section,.resource-main,.wiki-infobox,.consumable-chip,.realm-economy-block,.wiki-note,.quick-grid a,.player-tools-grid a,.wiki-home-grid a,.profession-grid article,.principle,.kingdom-hub-link,.religion-preview-cta,.demigod-preview-cta,.faction-preview-cta{background:var(--lna-panel)!important}
+.wiki-resource-card,.wiki-category-card,.feature-card,.related-grid a,.religion-preview-card,.demigod-preview-card,.faction-preview-card{background:var(--lna-panel-soft)!important}
+.wiki-resource-card,.wiki-category-card,.feature-card,.resource-main,.wiki-infobox,.consumable-chip,.related-grid a,.realm-economy-block,.wiki-note,.quick-grid a,.player-tools-grid a,.wiki-home-grid a,.profession-grid article,.principle,.kingdom-hub-link,.religion-preview-card,.religion-preview-cta,.demigod-preview-card,.demigod-preview-cta,.faction-preview-card,.faction-preview-cta{border-width:1px!important;border-style:solid!important}
+.resource-grid,.feature-grid,.category-grid,.related-grid,.player-tools-grid,.quick-grid,.wiki-home-grid{gap:14px!important}
+.wiki-resource-card,.wiki-category-card,.feature-card,.consumable-chip,.related-grid a,.player-tools-grid a,.wiki-home-grid a,.quick-grid a{padding:18px!important}
+.resource-icon,.mini-item,.consumable-image{background:radial-gradient(circle at 50% 38%, rgba(214,176,94,.10), rgba(0,0,0,0) 70%)!important;border:1px solid var(--lna-border)!important}
+.resource-icon{width:78px!important;height:78px!important;padding:8px!important}
+.resource-icon.has-image img,.mini-item.has-image img,.consumable-image.has-image img,.related-grid a>img,.infobox-icon.has-image img{display:block;max-width:100%!important;max-height:100%!important;width:auto!important;height:auto!important;object-fit:contain!important;object-position:center center!important;margin:auto}
+.infobox-title{font-size:1.55rem!important}
+.infobox-icon{height:260px!important;padding:18px!important;background:linear-gradient(180deg, rgba(22,16,12,.5), rgba(7,7,6,.1))}
+.wiki-infobox dl div{grid-template-columns:132px 1fr!important;gap:12px!important}
+.wiki-infobox dd{font-size:.96rem!important;line-height:1.58!important}
+.wiki-infobox dt{font-size:.7rem!important}
+.article-section h3,.wiki-category-card strong,.feature-card h3,.resource-copy strong,.related-grid strong{font-size:1.45rem!important;line-height:1.14!important}
+.resource-copy em,.feature-card p,.wiki-category-card p,.related-grid p,.consumable-chip p{font-size:1rem!important}
+/* homepage specific */
+.player-tools-grid{grid-template-columns:repeat(auto-fit,minmax(240px,1fr))!important}
+.character-registry-tool{position:relative;overflow:hidden}
+.character-registry-tool::after{content:"📜";position:absolute;right:18px;top:18px;font-size:1.1rem;opacity:.8}
+/* kingdoms footer links */
+.realms-callout>div a{font-size:.86rem!important;min-width:160px!important;justify-content:center}
+.realms-callout>div a:nth-child(2){background:var(--asharun)!important;border-color:color-mix(in srgb,var(--asharun) 80%,white)!important}
+/* responsive */
+@media (max-width: 900px){html{font-size:16px}.top-nav a{font-size:.78rem!important}.quick-grid a h3,.player-tools-grid a h3,.wiki-home-grid a h3,.religion-preview-card h3,.demigod-preview-card h3,.faction-preview-card h3{font-size:1.45rem!important}.infobox-icon{height:220px!important}}
