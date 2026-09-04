@@ -35,8 +35,7 @@
             <a href="${new URL("royaumes/", root)}">Royaumes</a>
             <a href="${new URL("personnages/", root)}">Personnages</a>
             <a href="${new URL("wiki/", root)}">Wiki du mod</a>
-            <a href="${new URL("wiki/nouveautes/", root)}">Nouveautés</a>
-            <a href="${new URL("wiki/ressources/", root)}">Ressources</a>
+            <a href="${new URL("wiki/economie/", root)}">Économie V4</a><a href="${new URL("wiki/ressources/", root)}">Ressources</a><a href="${new URL("wiki/consommables/", root)}">Consommables</a><a href="${new URL("wiki/nouveautes/", root)}">Nouveautés</a>
             <a href="${new URL("reglement/", root)}">Règlement</a>
           </nav>
         </details>

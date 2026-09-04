@@ -2,261 +2,764 @@
   "meta": {
     "title": "Wiki officiel — Le Nouvel Âge RP",
     "updated": "2026-09-04",
-    "description": "Documentation du mod Le Nouvel Âge RP pour ARK: Survival Ascended.",
-    "notice": "Les champs techniques non vérifiés restent volontairement indiqués comme « À documenter »."
+    "economySource": "GUIDE_MAITRE_ECONOMIE_LNA_V4_01-09-2026.md",
+    "economySourceDate": "01/09/2026",
+    "description": "Documentation synchronisée sur le dernier Guide maître d’économie V4.",
+    "notice": "Les données économiques de cette version remplacent les valeurs approximatives de la première V1 du Wiki."
   },
-  "versions": [
-    {
-      "id": "v5",
-      "name": "V5",
-      "status": "En développement",
-      "summary": "Prochaine grande évolution du mod, centrée sur de nouveaux systèmes RP, des cosmétiques et l’exploration.",
-      "features": [
-        {
-          "name": "Système de crochetage",
-          "type": "Gameplay",
-          "status": "En développement",
-          "description": "Mini-jeu permettant de tenter l’ouverture de structures verrouillées à l’aide d’un crochet."
-        },
-        {
-          "name": "Gobelin jouable",
-          "type": "Personnage",
-          "status": "Prévu",
-          "description": "Personnage gobelin destiné notamment aux usages RP et administratifs."
-        },
-        {
-          "name": "Bannière dorsale peignable",
-          "type": "Cosmétique",
-          "status": "Prévu",
-          "description": "Bannière portée dans le dos et personnalisable pour représenter royaumes et groupes."
-        },
-        {
-          "name": "Laisse de dino médiévale",
-          "type": "Gameplay",
-          "status": "Prévu",
-          "description": "Nouvelle présentation médiévale du système de laisse pour créatures."
-        },
-        {
-          "name": "Chapeau Valebois",
-          "type": "Cosmétique",
-          "status": "Prévu",
-          "description": "Cosmétique vestimentaire supplémentaire."
-        },
-        {
-          "name": "Casque d’os",
-          "type": "Cosmétique",
-          "status": "Prévu",
-          "description": "Cosmétique inspiré des os et trophées."
-        },
-        {
-          "name": "Arbalète d’os",
-          "type": "Cosmétique",
-          "status": "Prévu",
-          "description": "Variante cosmétique d’arbalète à l’identité plus primitive."
-        },
-        {
-          "name": "Refonte des cartes aux trésors",
-          "type": "Exploration",
-          "status": "Prioritaire",
-          "description": "Refonte du fonctionnement et de la présentation des cartes aux trésors."
-        }
+  "economy": {
+    "kingdomProducts": 53,
+    "transformedProducts": 24,
+    "kingdomConsumables": 29,
+    "craftStructures": 10,
+    "commonStations": [
+      {
+        "name": "Atelier LNA",
+        "base": "Smithy",
+        "role": "Forgeron, Menuisier, textile et composants artisanaux"
+      },
+      {
+        "name": "Mortier et Pilon LNA",
+        "base": "Mortar and Pestle",
+        "role": "Farines, poudres, épices, huiles simples, sel et alchimie"
+      },
+      {
+        "name": "Tonneau LNA",
+        "base": "Beer Barrel",
+        "role": "Fermentation, macération, sauce soja, malt, levure, moût et vinaigre"
+      },
+      {
+        "name": "Feu de camp LNA",
+        "base": "Campfire",
+        "role": "Cuisson des viandes, graisse animale et gélatine de poisson"
+      }
+    ],
+    "marmites": [
+      "Asharun",
+      "Falkheim",
+      "Shintai",
+      "Vanloria",
+      "Nerethis",
+      "Erythros"
+    ],
+    "rules": [
+      "Aucun royaume ne doit mourir de faim sans commerce.",
+      "Un seul consommable culinaire de base par royaume peut rester entièrement local ; les autres doivent créer une dépendance économique.",
+      "Aucun trophée de boss ni de Wyverne dans l’économie V4.",
+      "Narcotique et Stimulant restent des sinks majeurs ; les nouvelles bases alchimiques ne les remplacent pas.",
+      "Il n’existe plus de Table de boucher, Table du poisson, Moulin, Pressoir, Fumoir, Séchoir ou Table de tissage en V4.",
+      "Les recettes de station sont fournies principalement par les PrimalInventoryBP, sans EngramEntry individuel pour les 29 consommables de royaume."
+    ],
+    "crops": {
+      "Asharun": [
+        "Melon",
+        "Pastèque",
+        "Menthe",
+        "Grenade",
+        "Longrass",
+        "Épice sauvage"
+      ],
+      "Falkheim": [
+        "Orge",
+        "Houblon",
+        "Plaquebière",
+        "Savoroot"
+      ],
+      "Shintai": [
+        "Riz",
+        "Shiso",
+        "Soja"
+      ],
+      "Vanloria": [
+        "Lin",
+        "Avoine",
+        "Lavande",
+        "Rockarrot"
+      ],
+      "Nerethis": [
+        "Canne à sucre",
+        "Gingembre",
+        "Vanille",
+        "Citronal"
+      ],
+      "Erythros": [
+        "Raisin",
+        "Olive",
+        "Figue"
       ]
     },
-    {
-      "id": "v4",
-      "name": "V4",
-      "status": "Disponible",
-      "summary": "Mise à jour économique et artisanale : ressources, agriculture, pêche, recettes, consommables et stations LNA.",
-      "features": [
-        {
-          "name": "Ressources de pêche",
-          "type": "Ressources",
-          "status": "Disponible",
-          "description": "Nouvelles ressources obtenues par la pêche et intégrées aux transformations du serveur."
-        },
-        {
-          "name": "Agriculture par royaume",
-          "type": "Agriculture",
-          "status": "Disponible",
-          "description": "Cultures propres à plusieurs royaumes afin de renforcer les échanges et les identités économiques."
-        },
-        {
-          "name": "Viandes et poissons retravaillés",
-          "type": "Cuisine",
-          "status": "Disponible",
-          "description": "Nouvelles transformations pour alimenter l’économie des taverniers et des artisans."
-        },
-        {
-          "name": "Consommables des six royaumes",
-          "type": "Cuisine",
-          "status": "Disponible",
-          "description": "Recettes régionales possédant leur propre identité et des dépendances commerciales."
-        },
-        {
-          "name": "Stations LNA",
-          "type": "Artisanat",
-          "status": "Disponible",
-          "description": "Atelier, tonneau, mortier, feu de camp et marmites dédiées aux royaumes."
-        },
-        {
-          "name": "Rééquilibrage des consommables vanilla",
-          "type": "Équilibrage",
-          "status": "Disponible",
-          "description": "Adaptation de plusieurs recettes vanilla à l’économie et à la progression du serveur."
-        }
-      ]
-    }
-  ],
+    "transformations": [
+      {
+        "realm": "Asharun",
+        "name": "Farine d’Asharun",
+        "station": "Mortier LNA",
+        "recipe": "10× Longrass",
+        "yield": 5
+      },
+      {
+        "realm": "Asharun",
+        "name": "Épice raffinée",
+        "station": "Mortier LNA",
+        "recipe": "5× Épice sauvage + 1× Sel marin",
+        "yield": 2
+      },
+      {
+        "realm": "Asharun",
+        "name": "Menthe séchée",
+        "station": "Mortier LNA",
+        "recipe": "5× Menthe",
+        "yield": 3
+      },
+      {
+        "realm": "Asharun",
+        "name": "Sirop de grenade",
+        "station": "Marmite Asharun",
+        "recipe": "5× Grenade + 1× Citronal + 1× Eau",
+        "yield": 2
+      },
+      {
+        "realm": "Falkheim",
+        "name": "Farine d’orge",
+        "station": "Mortier LNA",
+        "recipe": "10× Orge",
+        "yield": 5
+      },
+      {
+        "realm": "Falkheim",
+        "name": "Malt d’orge",
+        "station": "Tonneau LNA",
+        "recipe": "6× Orge + 2× Savoroot + 1× Eau",
+        "yield": 3
+      },
+      {
+        "realm": "Falkheim",
+        "name": "Houblon séché",
+        "station": "Mortier LNA",
+        "recipe": "5× Houblon",
+        "yield": 3
+      },
+      {
+        "realm": "Falkheim",
+        "name": "Levure de Plaquebière",
+        "station": "Tonneau LNA",
+        "recipe": "3× Plaquebière + 1× Mélasse + 1× Eau",
+        "yield": 2
+      },
+      {
+        "realm": "Shintai",
+        "name": "Farine de riz",
+        "station": "Mortier LNA",
+        "recipe": "10× Riz",
+        "yield": 5
+      },
+      {
+        "realm": "Shintai",
+        "name": "Sauce soja",
+        "station": "Tonneau LNA",
+        "recipe": "6× Soja + 1× Sel marin + 1× Citronal + 1× Eau",
+        "yield": 3
+      },
+      {
+        "realm": "Shintai",
+        "name": "Shiso séché",
+        "station": "Mortier LNA",
+        "recipe": "5× Shiso",
+        "yield": 3
+      },
+      {
+        "realm": "Shintai",
+        "name": "Pâte de soja",
+        "station": "Mortier LNA",
+        "recipe": "6× Soja + 1× Rockarrot + 1× Eau",
+        "yield": 3
+      },
+      {
+        "realm": "Vanloria",
+        "name": "Fil de lin",
+        "station": "Atelier LNA",
+        "recipe": "5× Lin",
+        "yield": 3
+      },
+      {
+        "realm": "Vanloria",
+        "name": "Toile de lin",
+        "station": "Atelier LNA",
+        "recipe": "4× Fil de lin",
+        "yield": 1
+      },
+      {
+        "realm": "Vanloria",
+        "name": "Flocons d’avoine",
+        "station": "Mortier LNA",
+        "recipe": "10× Avoine",
+        "yield": 5
+      },
+      {
+        "realm": "Vanloria",
+        "name": "Essence de lavande",
+        "station": "Mortier LNA",
+        "recipe": "6× Lavande + 1× Citronal + 1× Eau",
+        "yield": 2
+      },
+      {
+        "realm": "Nerethis",
+        "name": "Sucre brut",
+        "station": "Mortier LNA",
+        "recipe": "10× Canne à sucre",
+        "yield": 5
+      },
+      {
+        "realm": "Nerethis",
+        "name": "Mélasse",
+        "station": "Marmite Nerethis",
+        "recipe": "5× Sucre brut + 1× Citronal + 1× Eau",
+        "yield": 3
+      },
+      {
+        "realm": "Nerethis",
+        "name": "Gingembre séché",
+        "station": "Mortier LNA",
+        "recipe": "5× Gingembre",
+        "yield": 3
+      },
+      {
+        "realm": "Nerethis",
+        "name": "Extrait de vanille",
+        "station": "Tonneau LNA",
+        "recipe": "5× Vanille + 1× Sucre brut + 1× Eau",
+        "yield": 2
+      },
+      {
+        "realm": "Erythros",
+        "name": "Huile d’olive",
+        "station": "Mortier LNA",
+        "recipe": "10× Olive",
+        "yield": 5
+      },
+      {
+        "realm": "Erythros",
+        "name": "Moût de raisin",
+        "station": "Tonneau LNA",
+        "recipe": "10× Raisin",
+        "yield": 5
+      },
+      {
+        "realm": "Erythros",
+        "name": "Figues séchées",
+        "station": "Mortier LNA",
+        "recipe": "5× Figue",
+        "yield": 3
+      },
+      {
+        "realm": "Erythros",
+        "name": "Vinaigre de raisin",
+        "station": "Tonneau LNA",
+        "recipe": "4× Moût de raisin + 1× Citronal + 1× Eau",
+        "yield": 2
+      }
+    ],
+    "consumables": [
+      {
+        "name": "Naan d’Asharun",
+        "realm": "Asharun",
+        "version": "V4",
+        "station": "Marmite Asharun",
+        "trade": "Base locale autorisée",
+        "description": "Consommable final de Asharun dans le catalogue V4."
+      },
+      {
+        "name": "Brochettes épicées",
+        "realm": "Asharun",
+        "version": "V4",
+        "station": "Marmite Asharun",
+        "trade": "Dépendance extérieure / composant commun requise",
+        "description": "Consommable final de Asharun dans le catalogue V4."
+      },
+      {
+        "name": "Melon épicé",
+        "realm": "Asharun",
+        "version": "V4",
+        "station": "Marmite Asharun",
+        "trade": "Dépendance extérieure / composant commun requise",
+        "description": "Consommable final de Asharun dans le catalogue V4."
+      },
+      {
+        "name": "Ration du caravanier",
+        "realm": "Asharun",
+        "version": "V4",
+        "station": "Marmite Asharun",
+        "trade": "Dépendance extérieure / composant commun requise",
+        "description": "Consommable final de Asharun dans le catalogue V4."
+      },
+      {
+        "name": "Kebab au naan",
+        "realm": "Asharun",
+        "version": "V4",
+        "station": "Marmite Asharun",
+        "trade": "Dépendance extérieure / composant commun requise",
+        "description": "Consommable final de Asharun dans le catalogue V4."
+      },
+      {
+        "name": "Soupe des dunes",
+        "realm": "Asharun",
+        "version": "V4",
+        "station": "Marmite Asharun",
+        "trade": "Dépendance extérieure / composant commun requise",
+        "description": "Consommable final de Asharun dans le catalogue V4."
+      },
+      {
+        "name": "Infusion du veilleur",
+        "realm": "Asharun",
+        "version": "V4",
+        "station": "Marmite Asharun",
+        "trade": "Dépendance extérieure / composant commun requise",
+        "description": "Consommable final de Asharun dans le catalogue V4."
+      },
+      {
+        "name": "Baume de grenade",
+        "realm": "Asharun",
+        "version": "V4",
+        "station": "Marmite Asharun",
+        "trade": "Dépendance extérieure / composant commun requise",
+        "description": "Consommable final de Asharun dans le catalogue V4."
+      },
+      {
+        "name": "Tonique écarlate",
+        "realm": "Asharun",
+        "version": "V4",
+        "station": "Marmite Asharun",
+        "trade": "Dépendance extérieure / composant commun requise",
+        "description": "Consommable final de Asharun dans le catalogue V4."
+      },
+      {
+        "name": "Gruau du Jarl",
+        "realm": "Falkheim",
+        "version": "V4",
+        "station": "Marmite Falkheim",
+        "trade": "Base locale autorisée",
+        "description": "Consommable final de Falkheim dans le catalogue V4."
+      },
+      {
+        "name": "Poisson fumé des Fjords",
+        "realm": "Falkheim",
+        "version": "V4",
+        "station": "Marmite Falkheim",
+        "trade": "Dépendance extérieure / composant commun requise",
+        "description": "Consommable final de Falkheim dans le catalogue V4."
+      },
+      {
+        "name": "Ragoût des Fjords",
+        "realm": "Falkheim",
+        "version": "V4",
+        "station": "Marmite Falkheim",
+        "trade": "Dépendance extérieure / composant commun requise",
+        "description": "Consommable final de Falkheim dans le catalogue V4."
+      },
+      {
+        "name": "Plaquebière du Skald",
+        "realm": "Falkheim",
+        "version": "V4",
+        "station": "Marmite Falkheim",
+        "trade": "Dépendance extérieure / composant commun requise",
+        "description": "Consommable final de Falkheim dans le catalogue V4."
+      },
+      {
+        "name": "Bol de riz au poisson",
+        "realm": "Shintai",
+        "version": "V4",
+        "station": "Marmite Shintai",
+        "trade": "Base locale autorisée",
+        "description": "Consommable final de Shintai dans le catalogue V4."
+      },
+      {
+        "name": "Bouillon de soja",
+        "realm": "Shintai",
+        "version": "V4",
+        "station": "Marmite Shintai",
+        "trade": "Dépendance extérieure / composant commun requise",
+        "description": "Consommable final de Shintai dans le catalogue V4."
+      },
+      {
+        "name": "Thé shiso-menthe",
+        "realm": "Shintai",
+        "version": "V4",
+        "station": "Marmite Shintai",
+        "trade": "Dépendance extérieure / composant commun requise",
+        "description": "Consommable final de Shintai dans le catalogue V4."
+      },
+      {
+        "name": "Nigiri abyssal",
+        "realm": "Shintai",
+        "version": "V4",
+        "station": "Marmite Shintai",
+        "trade": "Dépendance extérieure / composant commun requise",
+        "description": "Consommable final de Shintai dans le catalogue V4."
+      },
+      {
+        "name": "Biscuit de marche",
+        "realm": "Vanloria",
+        "version": "V4",
+        "station": "Marmite Vanloria",
+        "trade": "Base locale autorisée",
+        "description": "Consommable final de Vanloria dans le catalogue V4."
+      },
+      {
+        "name": "Lait d’avoine miellé",
+        "realm": "Vanloria",
+        "version": "V4",
+        "station": "Marmite Vanloria",
+        "trade": "Dépendance extérieure / composant commun requise",
+        "description": "Consommable final de Vanloria dans le catalogue V4."
+      },
+      {
+        "name": "Tourte du Bastion",
+        "realm": "Vanloria",
+        "version": "V4",
+        "station": "Marmite Vanloria",
+        "trade": "Dépendance extérieure / composant commun requise",
+        "description": "Consommable final de Vanloria dans le catalogue V4."
+      },
+      {
+        "name": "Infusion du Lys bleu",
+        "realm": "Vanloria",
+        "version": "V4",
+        "station": "Marmite Vanloria",
+        "trade": "Dépendance extérieure / composant commun requise",
+        "description": "Consommable final de Vanloria dans le catalogue V4."
+      },
+      {
+        "name": "Brochettes du Boucanier",
+        "realm": "Nerethis",
+        "version": "V4",
+        "station": "Marmite Nerethis",
+        "trade": "Base locale autorisée",
+        "description": "Consommable final de Nerethis dans le catalogue V4."
+      },
+      {
+        "name": "Poisson laqué du Corsaire",
+        "realm": "Nerethis",
+        "version": "V4",
+        "station": "Marmite Nerethis",
+        "trade": "Dépendance extérieure / composant commun requise",
+        "description": "Consommable final de Nerethis dans le catalogue V4."
+      },
+      {
+        "name": "Crème brûlée du Cap",
+        "realm": "Nerethis",
+        "version": "V4",
+        "station": "Marmite Nerethis",
+        "trade": "Dépendance extérieure / composant commun requise",
+        "description": "Consommable final de Nerethis dans le catalogue V4."
+      },
+      {
+        "name": "Rhum des Mers",
+        "realm": "Nerethis",
+        "version": "V4",
+        "station": "Marmite Nerethis",
+        "trade": "Dépendance extérieure / composant commun requise",
+        "description": "Consommable final de Nerethis dans le catalogue V4."
+      },
+      {
+        "name": "Agneau aux figues d’Erythros",
+        "realm": "Erythros",
+        "version": "V4",
+        "station": "Marmite Erythros",
+        "trade": "Base locale autorisée",
+        "description": "Consommable final de Erythros dans le catalogue V4."
+      },
+      {
+        "name": "Poisson des Cyclades",
+        "realm": "Erythros",
+        "version": "V4",
+        "station": "Marmite Erythros",
+        "trade": "Dépendance extérieure / composant commun requise",
+        "description": "Consommable final de Erythros dans le catalogue V4."
+      },
+      {
+        "name": "Pain aux figues de l’Agora",
+        "realm": "Erythros",
+        "version": "V4",
+        "station": "Marmite Erythros",
+        "trade": "Dépendance extérieure / composant commun requise",
+        "description": "Consommable final de Erythros dans le catalogue V4."
+      },
+      {
+        "name": "Vin épicé du Symposium",
+        "realm": "Erythros",
+        "version": "V4",
+        "station": "Marmite Erythros",
+        "trade": "Dépendance extérieure / composant commun requise",
+        "description": "Consommable final de Erythros dans le catalogue V4."
+      }
+    ],
+    "vanillaReworked": [
+      {
+        "source": "Calien Soup",
+        "name": "Soupe du Désert"
+      },
+      {
+        "source": "Fria Curry",
+        "name": "Curry des Neiges"
+      },
+      {
+        "source": "Lazarus Chowder",
+        "name": "Bouillon du Plongeur"
+      },
+      {
+        "source": "Enduro Stew",
+        "name": "Ragoût d’Endurance"
+      },
+      {
+        "source": "Focal Chili",
+        "name": "Chili du Stratège"
+      },
+      {
+        "source": "Cactus Broth",
+        "name": "Bouillon du Mirage"
+      },
+      {
+        "source": "Battle Tartare",
+        "name": "Tartare de Guerre"
+      },
+      {
+        "source": "Shadow Steak Saute",
+        "name": "Steak des Ombres"
+      },
+      {
+        "source": "Sweet Vegetable Cake",
+        "name": "Gâteau du Jardin"
+      },
+      {
+        "source": "Broth of Enlightenment",
+        "name": "Bouillon de Sagesse"
+      },
+      {
+        "source": "Algae Sushi",
+        "name": "Sushi aux algues"
+      },
+      {
+        "source": "Little Ratfish Treats",
+        "name": "Friandise d’Hélicoprion"
+      },
+      {
+        "source": "Medical Brew",
+        "name": "Élixir médicinal"
+      },
+      {
+        "source": "Energy Brew",
+        "name": "Élixir d’endurance"
+      },
+      {
+        "source": "Lesser Antidote",
+        "name": "Antidote mineur"
+      },
+      {
+        "source": "Mushroom Brew",
+        "name": "Décoction fongique"
+      },
+      {
+        "source": "Mindwipe Tonic",
+        "name": "Tonique d’Oubli"
+      },
+      {
+        "source": "Beer Liquid",
+        "name": "Bière brassée"
+      },
+      {
+        "source": "Oil",
+        "name": "Huile raffinée"
+      },
+      {
+        "source": "Basic Kibble",
+        "name": "Croquette basique"
+      },
+      {
+        "source": "Simple Kibble",
+        "name": "Croquette simple"
+      },
+      {
+        "source": "Regular Kibble",
+        "name": "Croquette standard"
+      },
+      {
+        "source": "Superior Kibble",
+        "name": "Croquette supérieure"
+      },
+      {
+        "source": "Exceptional Kibble",
+        "name": "Croquette exceptionnelle"
+      },
+      {
+        "source": "Extraordinary Kibble",
+        "name": "Croquette extraordinaire"
+      }
+    ],
+    "fishingLootWeights": [
+      {
+        "name": "Filet de poisson blanc",
+        "weight": 1.0
+      },
+      {
+        "name": "Filet de poisson gras",
+        "weight": 0.4
+      },
+      {
+        "name": "Œufs de poisson",
+        "weight": 0.12
+      },
+      {
+        "name": "Chair abyssale",
+        "weight": 0.035
+      },
+      {
+        "name": "Arêtes de poisson",
+        "weight": 0.75
+      },
+      {
+        "name": "Écailles nacrées",
+        "weight": 0.18
+      },
+      {
+        "name": "Poche d’encre",
+        "weight": 0.06
+      },
+      {
+        "name": "Glande saline",
+        "weight": 0.25
+      },
+      {
+        "name": "Perle organique",
+        "weight": 0.01
+      }
+    ]
+  },
   "categories": [
-    {
-      "name": "Pêche",
-      "icon": "🎣",
-      "description": "Ressources obtenues grâce au système de pêche."
-    },
     {
       "name": "Agriculture",
       "icon": "🌾",
-      "description": "Cultures propres aux royaumes."
+      "description": "Cultures territorialisées des six royaumes."
     },
     {
       "name": "Récolte",
       "icon": "🌿",
-      "description": "Ressources récupérées directement dans le monde."
+      "description": "Ressources obtenues directement dans le monde."
     },
     {
       "name": "Transformation",
       "icon": "⚗️",
-      "description": "Produits intermédiaires issus des ressources brutes."
+      "description": "Les 24 produits transformés officiels des royaumes."
+    },
+    {
+      "name": "Viande",
+      "icon": "🥩",
+      "description": "Les 12 composants de la filière viande LNA."
+    },
+    {
+      "name": "Pêche",
+      "icon": "🎣",
+      "description": "9 loots directs et 3 transformations de pêche."
+    },
+    {
+      "name": "Alchimie",
+      "icon": "🧪",
+      "description": "Bases alchimiques et Catalyseur des Six Royaumes."
     }
   ],
   "resources": [
     {
-      "slug": "aretes-de-poisson",
-      "name": "Arêtes de poisson",
-      "icon": "🦴",
-      "category": "Pêche",
-      "realm": "Commun",
+      "slug": "melon",
+      "name": "Melon",
+      "icon": "🌾",
+      "category": "Agriculture",
+      "realm": "Asharun",
       "version": "V4",
-      "status": "Disponible",
-      "description": "Sous-produit issu de la pêche du Nouvel Âge. Cette ressource sert de matière première à certaines transformations artisanales liées aux produits de la mer.",
-      "obtention": "Obtenue par le système de pêche du serveur.",
-      "uses": [
-        "Transformations de produits de la mer",
-        "Gélatine de poisson"
-      ],
+      "status": "Référence V4",
+      "description": "Ressource territoriale attribuée à Asharun dans l’économie V4.",
+      "obtention": "Culture ou ressource territorialisée de Asharun.",
+      "uses": [],
+      "station": "—",
+      "recipe": "—",
+      "yield": "—",
       "technical": {}
     },
     {
-      "slug": "chair-abyssale",
-      "name": "Chair abyssale",
-      "icon": "🐟",
-      "category": "Pêche",
-      "realm": "Commun",
+      "slug": "pasteque",
+      "name": "Pastèque",
+      "icon": "🌾",
+      "category": "Agriculture",
+      "realm": "Asharun",
       "version": "V4",
-      "status": "Disponible",
-      "description": "Chair rare remontée des profondeurs. Elle appartient aux ressources spéciales ajoutées au système de pêche LNA et peut entrer dans des préparations avancées.",
-      "obtention": "Récompense rare du système de pêche.",
-      "uses": [
-        "Cuisine avancée",
-        "Recettes liées aux produits abyssaux"
-      ],
+      "status": "Référence V4",
+      "description": "Ressource territoriale attribuée à Asharun dans l’économie V4.",
+      "obtention": "Culture ou ressource territorialisée de Asharun.",
+      "uses": [],
+      "station": "—",
+      "recipe": "—",
+      "yield": "—",
       "technical": {}
     },
     {
-      "slug": "ecailles-nacrees",
-      "name": "Écailles nacrées",
-      "icon": "🫧",
-      "category": "Pêche",
-      "realm": "Commun",
+      "slug": "menthe",
+      "name": "Menthe",
+      "icon": "🌾",
+      "category": "Agriculture",
+      "realm": "Asharun",
       "version": "V4",
-      "status": "Disponible",
-      "description": "Écailles aux reflets nacrés récupérées grâce à la pêche. Elles constituent une ressource spéciale du Nouvel Âge destinée aux échanges et aux fabrications dédiées.",
-      "obtention": "Obtenues via le système de pêche.",
-      "uses": [
-        "Artisanat LNA",
-        "Échanges entre joueurs"
-      ],
+      "status": "Référence V4",
+      "description": "Ressource territoriale attribuée à Asharun dans l’économie V4.",
+      "obtention": "Culture ou ressource territorialisée de Asharun.",
+      "uses": [],
+      "station": "—",
+      "recipe": "—",
+      "yield": "—",
       "technical": {}
     },
     {
-      "slug": "filet-de-poisson-blanc",
-      "name": "Filet de poisson blanc",
-      "icon": "🐠",
-      "category": "Pêche",
-      "realm": "Commun",
+      "slug": "grenade",
+      "name": "Grenade",
+      "icon": "🌾",
+      "category": "Agriculture",
+      "realm": "Asharun",
       "version": "V4",
-      "status": "Disponible",
-      "description": "Poisson préparé sous forme de filet afin d'être utilisé dans les recettes culinaires du serveur.",
-      "obtention": "Obtenu dans le système de pêche et de transformation des produits de la mer.",
-      "uses": [
-        "Cuisine",
-        "Consommables des royaumes"
-      ],
+      "status": "Référence V4",
+      "description": "Ressource territoriale attribuée à Asharun dans l’économie V4.",
+      "obtention": "Culture ou ressource territorialisée de Asharun.",
+      "uses": [],
+      "station": "—",
+      "recipe": "—",
+      "yield": "—",
       "technical": {}
     },
     {
-      "slug": "perle-organique",
-      "name": "Perle organique",
-      "icon": "⚪",
-      "category": "Pêche",
-      "realm": "Commun",
+      "slug": "longrass",
+      "name": "Longrass",
+      "icon": "🌾",
+      "category": "Agriculture",
+      "realm": "Asharun",
       "version": "V4",
-      "status": "Disponible",
-      "description": "Ressource organique rare pouvant être découverte au cours des sessions de pêche.",
-      "obtention": "Récompense rare du système de pêche.",
-      "uses": [
-        "Artisanat LNA",
-        "Échanges"
-      ],
+      "status": "Référence V4",
+      "description": "Ressource territoriale attribuée à Asharun dans l’économie V4. Cette culture vanilla reste volontairement importante et conserve plusieurs débouchés directs.",
+      "obtention": "Culture ou ressource territorialisée de Asharun.",
+      "uses": [],
+      "station": "—",
+      "recipe": "—",
+      "yield": "—",
       "technical": {}
     },
     {
-      "slug": "huile-de-poisson",
-      "name": "Huile de poisson",
-      "icon": "🫙",
-      "category": "Transformation",
-      "realm": "Commun",
+      "slug": "epice-sauvage",
+      "name": "Épice sauvage",
+      "icon": "🌿",
+      "category": "Récolte",
+      "realm": "Asharun",
       "version": "V4",
-      "status": "Disponible",
-      "description": "Produit transformé issu des ressources marines. L'huile de poisson est destinée à l'artisanat et aux préparations du Nouvel Âge.",
-      "obtention": "Produite par transformation de ressources issues de la pêche.",
-      "uses": [
-        "Cuisine",
-        "Transformations LNA"
-      ],
-      "technical": {}
-    },
-    {
-      "slug": "gelatine-de-poisson",
-      "name": "Gélatine de poisson",
-      "icon": "🧫",
-      "category": "Transformation",
-      "realm": "Commun",
-      "version": "V4",
-      "status": "Disponible",
-      "description": "Produit transformé à partir de matières issues de la pêche, utilisé comme ingrédient intermédiaire dans l'économie du mod.",
-      "obtention": "Fabriquée à partir de ressources marines, notamment les arêtes de poisson.",
-      "uses": [
-        "Recettes transformées",
-        "Cuisine LNA"
-      ],
-      "technical": {}
-    },
-    {
-      "slug": "sel-marin",
-      "name": "Sel marin",
-      "icon": "🧂",
-      "category": "Transformation",
-      "realm": "Commun",
-      "version": "V4",
-      "status": "Disponible",
-      "description": "Ingrédient de conservation et de cuisine utilisé dans plusieurs transformations du Nouvel Âge.",
-      "obtention": "Ressource transformée liée aux activités maritimes et culinaires.",
-      "uses": [
-        "Conservation",
-        "Cuisine",
-        "Viandes et poissons transformés"
-      ],
+      "status": "Référence V4",
+      "description": "Ressource territoriale attribuée à Asharun dans l’économie V4.",
+      "obtention": "Culture ou ressource territorialisée de Asharun.",
+      "uses": [],
+      "station": "—",
+      "recipe": "—",
+      "yield": "—",
       "technical": {}
     },
     {
@@ -266,205 +769,1473 @@
       "category": "Agriculture",
       "realm": "Falkheim",
       "version": "V4",
-      "status": "Disponible",
-      "description": "Culture associée à Falkheim et à son économie agricole. Elle sert de base à plusieurs transformations et boissons du royaume.",
-      "obtention": "Cultivée dans le système agricole du royaume de Falkheim.",
-      "uses": [
-        "Farine d’orge",
-        "Boissons et recettes de Falkheim"
-      ],
+      "status": "Référence V4",
+      "description": "Ressource territoriale attribuée à Falkheim dans l’économie V4.",
+      "obtention": "Culture ou ressource territorialisée de Falkheim.",
+      "uses": [],
+      "station": "—",
+      "recipe": "—",
+      "yield": "—",
       "technical": {}
     },
     {
       "slug": "houblon",
       "name": "Houblon",
-      "icon": "🌿",
+      "icon": "🌾",
       "category": "Agriculture",
       "realm": "Falkheim",
       "version": "V4",
-      "status": "Disponible",
-      "description": "Culture de Falkheim destinée notamment à la production de boissons et aux recettes régionales.",
-      "obtention": "Cultivé dans les parcelles agricoles de Falkheim.",
-      "uses": [
-        "Boissons de Falkheim",
-        "Transformations de taverne"
-      ],
+      "status": "Référence V4",
+      "description": "Ressource territoriale attribuée à Falkheim dans l’économie V4.",
+      "obtention": "Culture ou ressource territorialisée de Falkheim.",
+      "uses": [],
+      "station": "—",
+      "recipe": "—",
+      "yield": "—",
       "technical": {}
     },
     {
       "slug": "plaquebiere",
       "name": "Plaquebière",
-      "icon": "🍃",
+      "icon": "🌾",
       "category": "Agriculture",
       "realm": "Falkheim",
       "version": "V4",
-      "status": "Disponible",
-      "description": "Ressource végétale propre à l'agriculture de Falkheim, intégrée aux productions régionales du royaume.",
-      "obtention": "Cultivée à Falkheim.",
-      "uses": [
-        "Recettes de Falkheim",
-        "Transformations agricoles"
-      ],
+      "status": "Référence V4",
+      "description": "Ressource territoriale attribuée à Falkheim dans l’économie V4.",
+      "obtention": "Culture ou ressource territorialisée de Falkheim.",
+      "uses": [],
+      "station": "—",
+      "recipe": "—",
+      "yield": "—",
       "technical": {}
     },
     {
-      "slug": "farine-d-orge",
-      "name": "Farine d’orge",
-      "icon": "🥣",
-      "category": "Transformation",
+      "slug": "savoroot",
+      "name": "Savoroot",
+      "icon": "🌾",
+      "category": "Agriculture",
       "realm": "Falkheim",
       "version": "V4",
-      "status": "Disponible",
-      "description": "Produit obtenu après transformation de l'orge. Il sert d'ingrédient intermédiaire aux recettes du royaume.",
-      "obtention": "Fabriquée à partir d’orge.",
-      "uses": [
-        "Cuisine de Falkheim",
-        "Produits de boulangerie"
-      ],
+      "status": "Référence V4",
+      "description": "Ressource territoriale attribuée à Falkheim dans l’économie V4. Cette culture vanilla reste volontairement importante et conserve plusieurs débouchés directs.",
+      "obtention": "Culture ou ressource territorialisée de Falkheim.",
+      "uses": [],
+      "station": "—",
+      "recipe": "—",
+      "yield": "—",
       "technical": {}
     },
     {
       "slug": "riz",
       "name": "Riz",
-      "icon": "🍚",
+      "icon": "🌾",
       "category": "Agriculture",
       "realm": "Shintai",
       "version": "V4",
-      "status": "Disponible",
-      "description": "Culture emblématique de Shintai, utilisée dans plusieurs plats et préparations propres au royaume.",
-      "obtention": "Cultivé dans le système agricole de Shintai.",
-      "uses": [
-        "Cuisine de Shintai",
-        "Bol de riz au poisson",
-        "Nigiri abyssal"
-      ],
+      "status": "Référence V4",
+      "description": "Ressource territoriale attribuée à Shintai dans l’économie V4.",
+      "obtention": "Culture ou ressource territorialisée de Shintai.",
+      "uses": [],
+      "station": "—",
+      "recipe": "—",
+      "yield": "—",
       "technical": {}
     },
     {
       "slug": "shiso",
       "name": "Shiso",
-      "icon": "🍃",
+      "icon": "🌾",
       "category": "Agriculture",
       "realm": "Shintai",
       "version": "V4",
-      "status": "Disponible",
-      "description": "Herbe aromatique de Shintai employée dans ses boissons et recettes régionales.",
-      "obtention": "Cultivé à Shintai.",
-      "uses": [
-        "Thé Shiso Menthe",
-        "Cuisine de Shintai"
-      ],
+      "status": "Référence V4",
+      "description": "Ressource territoriale attribuée à Shintai dans l’économie V4.",
+      "obtention": "Culture ou ressource territorialisée de Shintai.",
+      "uses": [],
+      "station": "—",
+      "recipe": "—",
+      "yield": "—",
       "technical": {}
     },
     {
       "slug": "soja",
       "name": "Soja",
-      "icon": "🫘",
+      "icon": "🌾",
       "category": "Agriculture",
       "realm": "Shintai",
       "version": "V4",
-      "status": "Disponible",
-      "description": "Culture de Shintai servant de base à plusieurs préparations culinaires du royaume.",
-      "obtention": "Cultivé à Shintai.",
-      "uses": [
-        "Bouillon de soja",
-        "Cuisine de Shintai"
-      ],
+      "status": "Référence V4",
+      "description": "Ressource territoriale attribuée à Shintai dans l’économie V4.",
+      "obtention": "Culture ou ressource territorialisée de Shintai.",
+      "uses": [],
+      "station": "—",
+      "recipe": "—",
+      "yield": "—",
       "technical": {}
     },
     {
-      "slug": "epice-sauvage",
-      "name": "Épice sauvage",
-      "icon": "🌱",
-      "category": "Récolte",
-      "realm": "Asharun",
+      "slug": "lin",
+      "name": "Lin",
+      "icon": "🌾",
+      "category": "Agriculture",
+      "realm": "Vanloria",
       "version": "V4",
-      "status": "Disponible",
-      "description": "Ressource aromatique propre aux terres d'Asharun. Sa récolte participe à l'identité économique du royaume.",
-      "obtention": "Récoltée sur le territoire d’Asharun avec l’outil prévu pour cette activité.",
-      "uses": [
-        "Cuisine d’Asharun",
-        "Transformations régionales"
-      ],
+      "status": "Référence V4",
+      "description": "Ressource territoriale attribuée à Vanloria dans l’économie V4.",
+      "obtention": "Culture ou ressource territorialisée de Vanloria.",
+      "uses": [],
+      "station": "—",
+      "recipe": "—",
+      "yield": "—",
       "technical": {}
     },
     {
-      "slug": "farine-d-asharun",
+      "slug": "avoine",
+      "name": "Avoine",
+      "icon": "🌾",
+      "category": "Agriculture",
+      "realm": "Vanloria",
+      "version": "V4",
+      "status": "Référence V4",
+      "description": "Ressource territoriale attribuée à Vanloria dans l’économie V4.",
+      "obtention": "Culture ou ressource territorialisée de Vanloria.",
+      "uses": [],
+      "station": "—",
+      "recipe": "—",
+      "yield": "—",
+      "technical": {}
+    },
+    {
+      "slug": "lavande",
+      "name": "Lavande",
+      "icon": "🌾",
+      "category": "Agriculture",
+      "realm": "Vanloria",
+      "version": "V4",
+      "status": "Référence V4",
+      "description": "Ressource territoriale attribuée à Vanloria dans l’économie V4.",
+      "obtention": "Culture ou ressource territorialisée de Vanloria.",
+      "uses": [],
+      "station": "—",
+      "recipe": "—",
+      "yield": "—",
+      "technical": {}
+    },
+    {
+      "slug": "rockarrot",
+      "name": "Rockarrot",
+      "icon": "🌾",
+      "category": "Agriculture",
+      "realm": "Vanloria",
+      "version": "V4",
+      "status": "Référence V4",
+      "description": "Ressource territoriale attribuée à Vanloria dans l’économie V4. Cette culture vanilla reste volontairement importante et conserve plusieurs débouchés directs.",
+      "obtention": "Culture ou ressource territorialisée de Vanloria.",
+      "uses": [],
+      "station": "—",
+      "recipe": "—",
+      "yield": "—",
+      "technical": {}
+    },
+    {
+      "slug": "canne-a-sucre",
+      "name": "Canne à sucre",
+      "icon": "🌾",
+      "category": "Agriculture",
+      "realm": "Nerethis",
+      "version": "V4",
+      "status": "Référence V4",
+      "description": "Ressource territoriale attribuée à Nerethis dans l’économie V4.",
+      "obtention": "Culture ou ressource territorialisée de Nerethis.",
+      "uses": [],
+      "station": "—",
+      "recipe": "—",
+      "yield": "—",
+      "technical": {}
+    },
+    {
+      "slug": "gingembre",
+      "name": "Gingembre",
+      "icon": "🌾",
+      "category": "Agriculture",
+      "realm": "Nerethis",
+      "version": "V4",
+      "status": "Référence V4",
+      "description": "Ressource territoriale attribuée à Nerethis dans l’économie V4.",
+      "obtention": "Culture ou ressource territorialisée de Nerethis.",
+      "uses": [],
+      "station": "—",
+      "recipe": "—",
+      "yield": "—",
+      "technical": {}
+    },
+    {
+      "slug": "vanille",
+      "name": "Vanille",
+      "icon": "🌾",
+      "category": "Agriculture",
+      "realm": "Nerethis",
+      "version": "V4",
+      "status": "Référence V4",
+      "description": "Ressource territoriale attribuée à Nerethis dans l’économie V4.",
+      "obtention": "Culture ou ressource territorialisée de Nerethis.",
+      "uses": [],
+      "station": "—",
+      "recipe": "—",
+      "yield": "—",
+      "technical": {}
+    },
+    {
+      "slug": "citronal",
+      "name": "Citronal",
+      "icon": "🌾",
+      "category": "Agriculture",
+      "realm": "Nerethis",
+      "version": "V4",
+      "status": "Référence V4",
+      "description": "Ressource territoriale attribuée à Nerethis dans l’économie V4. Cette culture vanilla reste volontairement importante et conserve plusieurs débouchés directs.",
+      "obtention": "Culture ou ressource territorialisée de Nerethis.",
+      "uses": [],
+      "station": "—",
+      "recipe": "—",
+      "yield": "—",
+      "technical": {}
+    },
+    {
+      "slug": "raisin",
+      "name": "Raisin",
+      "icon": "🌾",
+      "category": "Agriculture",
+      "realm": "Erythros",
+      "version": "V4",
+      "status": "Référence V4",
+      "description": "Ressource territoriale attribuée à Erythros dans l’économie V4.",
+      "obtention": "Culture ou ressource territorialisée de Erythros.",
+      "uses": [],
+      "station": "—",
+      "recipe": "—",
+      "yield": "—",
+      "technical": {}
+    },
+    {
+      "slug": "olive",
+      "name": "Olive",
+      "icon": "🌾",
+      "category": "Agriculture",
+      "realm": "Erythros",
+      "version": "V4",
+      "status": "Référence V4",
+      "description": "Ressource territoriale attribuée à Erythros dans l’économie V4.",
+      "obtention": "Culture ou ressource territorialisée de Erythros.",
+      "uses": [],
+      "station": "—",
+      "recipe": "—",
+      "yield": "—",
+      "technical": {}
+    },
+    {
+      "slug": "figue",
+      "name": "Figue",
+      "icon": "🌾",
+      "category": "Agriculture",
+      "realm": "Erythros",
+      "version": "V4",
+      "status": "Référence V4",
+      "description": "Ressource territoriale attribuée à Erythros dans l’économie V4.",
+      "obtention": "Culture ou ressource territorialisée de Erythros.",
+      "uses": [],
+      "station": "—",
+      "recipe": "—",
+      "yield": "—",
+      "technical": {}
+    },
+    {
+      "slug": "farine-dasharun",
       "name": "Farine d’Asharun",
-      "icon": "🏺",
+      "icon": "⚗️",
       "category": "Transformation",
       "realm": "Asharun",
       "version": "V4",
-      "status": "Disponible",
-      "description": "Farine régionale utilisée dans les recettes traditionnelles d'Asharun.",
-      "obtention": "Produite par transformation d’ingrédients agricoles d’Asharun.",
+      "status": "Référence V4",
+      "description": "Produit transformé officiel de Asharun dans le catalogue économique V4.",
+      "obtention": "Fabriqué dans Mortier LNA.",
       "uses": [
-        "Naan",
-        "Cuisine d’Asharun"
+        "Cuisine de royaume",
+        "Commerce inter-royaumes"
       ],
+      "station": "Mortier LNA",
+      "recipe": "10× Longrass",
+      "yield": "5",
       "technical": {}
     },
     {
-      "slug": "menthe",
-      "name": "Menthe",
-      "icon": "🌿",
-      "category": "Agriculture",
+      "slug": "epice-raffinee",
+      "name": "Épice raffinée",
+      "icon": "⚗️",
+      "category": "Transformation",
       "realm": "Asharun",
       "version": "V4",
-      "status": "Disponible",
-      "description": "Plante aromatique cultivée à Asharun et employée dans différentes infusions du serveur.",
-      "obtention": "Cultivée à Asharun.",
+      "status": "Référence V4",
+      "description": "Produit transformé officiel de Asharun dans le catalogue économique V4.",
+      "obtention": "Fabriqué dans Mortier LNA.",
       "uses": [
-        "Infusions",
-        "Thé Shiso Menthe"
+        "Cuisine de royaume",
+        "Commerce inter-royaumes"
       ],
+      "station": "Mortier LNA",
+      "recipe": "5× Épice sauvage + 1× Sel marin",
+      "yield": "2",
       "technical": {}
     },
     {
-      "slug": "melon",
-      "name": "Melon",
-      "icon": "🍈",
-      "category": "Agriculture",
+      "slug": "menthe-sechee",
+      "name": "Menthe séchée",
+      "icon": "⚗️",
+      "category": "Transformation",
       "realm": "Asharun",
       "version": "V4",
-      "status": "Disponible",
-      "description": "Fruit cultivé dans les zones fertiles d'Asharun et intégré à son économie alimentaire.",
-      "obtention": "Cultivé à Asharun.",
+      "status": "Référence V4",
+      "description": "Produit transformé officiel de Asharun dans le catalogue économique V4.",
+      "obtention": "Fabriqué dans Mortier LNA.",
       "uses": [
-        "Cuisine d’Asharun"
+        "Cuisine de royaume",
+        "Commerce inter-royaumes"
       ],
+      "station": "Mortier LNA",
+      "recipe": "5× Menthe",
+      "yield": "3",
       "technical": {}
     },
     {
-      "slug": "pasteque",
-      "name": "Pastèque",
-      "icon": "🍉",
-      "category": "Agriculture",
+      "slug": "sirop-de-grenade",
+      "name": "Sirop de grenade",
+      "icon": "⚗️",
+      "category": "Transformation",
       "realm": "Asharun",
       "version": "V4",
-      "status": "Disponible",
-      "description": "Fruit d'Asharun destiné à l'alimentation et aux recettes régionales.",
-      "obtention": "Cultivée à Asharun.",
+      "status": "Référence V4",
+      "description": "Produit transformé officiel de Asharun dans le catalogue économique V4.",
+      "obtention": "Fabriqué dans Marmite Asharun.",
       "uses": [
-        "Cuisine d’Asharun"
+        "Cuisine de royaume",
+        "Commerce inter-royaumes"
       ],
+      "station": "Marmite Asharun",
+      "recipe": "5× Grenade + 1× Citronal + 1× Eau",
+      "yield": "2",
       "technical": {}
     },
     {
-      "slug": "grenade",
-      "name": "Grenade",
-      "icon": "🔴",
-      "category": "Agriculture",
-      "realm": "Asharun",
+      "slug": "farine-dorge",
+      "name": "Farine d’orge",
+      "icon": "⚗️",
+      "category": "Transformation",
+      "realm": "Falkheim",
       "version": "V4",
-      "status": "Disponible",
-      "description": "Fruit régional d'Asharun, utilisé dans les préparations et remèdes propres au royaume.",
-      "obtention": "Ressource agricole obtenue dans le système d’Asharun.",
+      "status": "Référence V4",
+      "description": "Produit transformé officiel de Falkheim dans le catalogue économique V4.",
+      "obtention": "Fabriqué dans Mortier LNA.",
       "uses": [
-        "Baume à la grenade",
-        "Cuisine d’Asharun"
+        "Cuisine de royaume",
+        "Commerce inter-royaumes"
       ],
+      "station": "Mortier LNA",
+      "recipe": "10× Orge",
+      "yield": "5",
       "technical": {}
+    },
+    {
+      "slug": "malt-dorge",
+      "name": "Malt d’orge",
+      "icon": "⚗️",
+      "category": "Transformation",
+      "realm": "Falkheim",
+      "version": "V4",
+      "status": "Référence V4",
+      "description": "Produit transformé officiel de Falkheim dans le catalogue économique V4.",
+      "obtention": "Fabriqué dans Tonneau LNA.",
+      "uses": [
+        "Cuisine de royaume",
+        "Commerce inter-royaumes"
+      ],
+      "station": "Tonneau LNA",
+      "recipe": "6× Orge + 2× Savoroot + 1× Eau",
+      "yield": "3",
+      "technical": {}
+    },
+    {
+      "slug": "houblon-seche",
+      "name": "Houblon séché",
+      "icon": "⚗️",
+      "category": "Transformation",
+      "realm": "Falkheim",
+      "version": "V4",
+      "status": "Référence V4",
+      "description": "Produit transformé officiel de Falkheim dans le catalogue économique V4.",
+      "obtention": "Fabriqué dans Mortier LNA.",
+      "uses": [
+        "Cuisine de royaume",
+        "Commerce inter-royaumes"
+      ],
+      "station": "Mortier LNA",
+      "recipe": "5× Houblon",
+      "yield": "3",
+      "technical": {}
+    },
+    {
+      "slug": "levure-de-plaquebiere",
+      "name": "Levure de Plaquebière",
+      "icon": "⚗️",
+      "category": "Transformation",
+      "realm": "Falkheim",
+      "version": "V4",
+      "status": "Référence V4",
+      "description": "Produit transformé officiel de Falkheim dans le catalogue économique V4.",
+      "obtention": "Fabriqué dans Tonneau LNA.",
+      "uses": [
+        "Cuisine de royaume",
+        "Commerce inter-royaumes"
+      ],
+      "station": "Tonneau LNA",
+      "recipe": "3× Plaquebière + 1× Mélasse + 1× Eau",
+      "yield": "2",
+      "technical": {}
+    },
+    {
+      "slug": "farine-de-riz",
+      "name": "Farine de riz",
+      "icon": "⚗️",
+      "category": "Transformation",
+      "realm": "Shintai",
+      "version": "V4",
+      "status": "Référence V4",
+      "description": "Produit transformé officiel de Shintai dans le catalogue économique V4.",
+      "obtention": "Fabriqué dans Mortier LNA.",
+      "uses": [
+        "Cuisine de royaume",
+        "Commerce inter-royaumes"
+      ],
+      "station": "Mortier LNA",
+      "recipe": "10× Riz",
+      "yield": "5",
+      "technical": {}
+    },
+    {
+      "slug": "sauce-soja",
+      "name": "Sauce soja",
+      "icon": "⚗️",
+      "category": "Transformation",
+      "realm": "Shintai",
+      "version": "V4",
+      "status": "Référence V4",
+      "description": "Produit transformé officiel de Shintai dans le catalogue économique V4.",
+      "obtention": "Fabriqué dans Tonneau LNA.",
+      "uses": [
+        "Cuisine de royaume",
+        "Commerce inter-royaumes"
+      ],
+      "station": "Tonneau LNA",
+      "recipe": "6× Soja + 1× Sel marin + 1× Citronal + 1× Eau",
+      "yield": "3",
+      "technical": {}
+    },
+    {
+      "slug": "shiso-seche",
+      "name": "Shiso séché",
+      "icon": "⚗️",
+      "category": "Transformation",
+      "realm": "Shintai",
+      "version": "V4",
+      "status": "Référence V4",
+      "description": "Produit transformé officiel de Shintai dans le catalogue économique V4.",
+      "obtention": "Fabriqué dans Mortier LNA.",
+      "uses": [
+        "Cuisine de royaume",
+        "Commerce inter-royaumes"
+      ],
+      "station": "Mortier LNA",
+      "recipe": "5× Shiso",
+      "yield": "3",
+      "technical": {}
+    },
+    {
+      "slug": "pate-de-soja",
+      "name": "Pâte de soja",
+      "icon": "⚗️",
+      "category": "Transformation",
+      "realm": "Shintai",
+      "version": "V4",
+      "status": "Référence V4",
+      "description": "Produit transformé officiel de Shintai dans le catalogue économique V4.",
+      "obtention": "Fabriqué dans Mortier LNA.",
+      "uses": [
+        "Cuisine de royaume",
+        "Commerce inter-royaumes"
+      ],
+      "station": "Mortier LNA",
+      "recipe": "6× Soja + 1× Rockarrot + 1× Eau",
+      "yield": "3",
+      "technical": {}
+    },
+    {
+      "slug": "fil-de-lin",
+      "name": "Fil de lin",
+      "icon": "⚗️",
+      "category": "Transformation",
+      "realm": "Vanloria",
+      "version": "V4",
+      "status": "Référence V4",
+      "description": "Produit transformé officiel de Vanloria dans le catalogue économique V4.",
+      "obtention": "Fabriqué dans Atelier LNA.",
+      "uses": [
+        "Cuisine de royaume",
+        "Commerce inter-royaumes"
+      ],
+      "station": "Atelier LNA",
+      "recipe": "5× Lin",
+      "yield": "3",
+      "technical": {}
+    },
+    {
+      "slug": "toile-de-lin",
+      "name": "Toile de lin",
+      "icon": "⚗️",
+      "category": "Transformation",
+      "realm": "Vanloria",
+      "version": "V4",
+      "status": "Référence V4",
+      "description": "Produit transformé officiel de Vanloria dans le catalogue économique V4.",
+      "obtention": "Fabriqué dans Atelier LNA.",
+      "uses": [
+        "Cuisine de royaume",
+        "Commerce inter-royaumes"
+      ],
+      "station": "Atelier LNA",
+      "recipe": "4× Fil de lin",
+      "yield": "1",
+      "technical": {}
+    },
+    {
+      "slug": "flocons-davoine",
+      "name": "Flocons d’avoine",
+      "icon": "⚗️",
+      "category": "Transformation",
+      "realm": "Vanloria",
+      "version": "V4",
+      "status": "Référence V4",
+      "description": "Produit transformé officiel de Vanloria dans le catalogue économique V4.",
+      "obtention": "Fabriqué dans Mortier LNA.",
+      "uses": [
+        "Cuisine de royaume",
+        "Commerce inter-royaumes"
+      ],
+      "station": "Mortier LNA",
+      "recipe": "10× Avoine",
+      "yield": "5",
+      "technical": {}
+    },
+    {
+      "slug": "essence-de-lavande",
+      "name": "Essence de lavande",
+      "icon": "⚗️",
+      "category": "Transformation",
+      "realm": "Vanloria",
+      "version": "V4",
+      "status": "Référence V4",
+      "description": "Produit transformé officiel de Vanloria dans le catalogue économique V4.",
+      "obtention": "Fabriqué dans Mortier LNA.",
+      "uses": [
+        "Cuisine de royaume",
+        "Commerce inter-royaumes"
+      ],
+      "station": "Mortier LNA",
+      "recipe": "6× Lavande + 1× Citronal + 1× Eau",
+      "yield": "2",
+      "technical": {}
+    },
+    {
+      "slug": "sucre-brut",
+      "name": "Sucre brut",
+      "icon": "⚗️",
+      "category": "Transformation",
+      "realm": "Nerethis",
+      "version": "V4",
+      "status": "Référence V4",
+      "description": "Produit transformé officiel de Nerethis dans le catalogue économique V4.",
+      "obtention": "Fabriqué dans Mortier LNA.",
+      "uses": [
+        "Cuisine de royaume",
+        "Commerce inter-royaumes"
+      ],
+      "station": "Mortier LNA",
+      "recipe": "10× Canne à sucre",
+      "yield": "5",
+      "technical": {}
+    },
+    {
+      "slug": "melasse",
+      "name": "Mélasse",
+      "icon": "⚗️",
+      "category": "Transformation",
+      "realm": "Nerethis",
+      "version": "V4",
+      "status": "Référence V4",
+      "description": "Produit transformé officiel de Nerethis dans le catalogue économique V4.",
+      "obtention": "Fabriqué dans Marmite Nerethis.",
+      "uses": [
+        "Cuisine de royaume",
+        "Commerce inter-royaumes"
+      ],
+      "station": "Marmite Nerethis",
+      "recipe": "5× Sucre brut + 1× Citronal + 1× Eau",
+      "yield": "3",
+      "technical": {}
+    },
+    {
+      "slug": "gingembre-seche",
+      "name": "Gingembre séché",
+      "icon": "⚗️",
+      "category": "Transformation",
+      "realm": "Nerethis",
+      "version": "V4",
+      "status": "Référence V4",
+      "description": "Produit transformé officiel de Nerethis dans le catalogue économique V4.",
+      "obtention": "Fabriqué dans Mortier LNA.",
+      "uses": [
+        "Cuisine de royaume",
+        "Commerce inter-royaumes"
+      ],
+      "station": "Mortier LNA",
+      "recipe": "5× Gingembre",
+      "yield": "3",
+      "technical": {}
+    },
+    {
+      "slug": "extrait-de-vanille",
+      "name": "Extrait de vanille",
+      "icon": "⚗️",
+      "category": "Transformation",
+      "realm": "Nerethis",
+      "version": "V4",
+      "status": "Référence V4",
+      "description": "Produit transformé officiel de Nerethis dans le catalogue économique V4.",
+      "obtention": "Fabriqué dans Tonneau LNA.",
+      "uses": [
+        "Cuisine de royaume",
+        "Commerce inter-royaumes"
+      ],
+      "station": "Tonneau LNA",
+      "recipe": "5× Vanille + 1× Sucre brut + 1× Eau",
+      "yield": "2",
+      "technical": {}
+    },
+    {
+      "slug": "huile-dolive",
+      "name": "Huile d’olive",
+      "icon": "⚗️",
+      "category": "Transformation",
+      "realm": "Erythros",
+      "version": "V4",
+      "status": "Référence V4",
+      "description": "Produit transformé officiel de Erythros dans le catalogue économique V4.",
+      "obtention": "Fabriqué dans Mortier LNA.",
+      "uses": [
+        "Cuisine de royaume",
+        "Commerce inter-royaumes"
+      ],
+      "station": "Mortier LNA",
+      "recipe": "10× Olive",
+      "yield": "5",
+      "technical": {}
+    },
+    {
+      "slug": "mout-de-raisin",
+      "name": "Moût de raisin",
+      "icon": "⚗️",
+      "category": "Transformation",
+      "realm": "Erythros",
+      "version": "V4",
+      "status": "Référence V4",
+      "description": "Produit transformé officiel de Erythros dans le catalogue économique V4.",
+      "obtention": "Fabriqué dans Tonneau LNA.",
+      "uses": [
+        "Cuisine de royaume",
+        "Commerce inter-royaumes"
+      ],
+      "station": "Tonneau LNA",
+      "recipe": "10× Raisin",
+      "yield": "5",
+      "technical": {}
+    },
+    {
+      "slug": "figues-sechees",
+      "name": "Figues séchées",
+      "icon": "⚗️",
+      "category": "Transformation",
+      "realm": "Erythros",
+      "version": "V4",
+      "status": "Référence V4",
+      "description": "Produit transformé officiel de Erythros dans le catalogue économique V4.",
+      "obtention": "Fabriqué dans Mortier LNA.",
+      "uses": [
+        "Cuisine de royaume",
+        "Commerce inter-royaumes"
+      ],
+      "station": "Mortier LNA",
+      "recipe": "5× Figue",
+      "yield": "3",
+      "technical": {}
+    },
+    {
+      "slug": "vinaigre-de-raisin",
+      "name": "Vinaigre de raisin",
+      "icon": "⚗️",
+      "category": "Transformation",
+      "realm": "Erythros",
+      "version": "V4",
+      "status": "Référence V4",
+      "description": "Produit transformé officiel de Erythros dans le catalogue économique V4.",
+      "obtention": "Fabriqué dans Tonneau LNA.",
+      "uses": [
+        "Cuisine de royaume",
+        "Commerce inter-royaumes"
+      ],
+      "station": "Tonneau LNA",
+      "recipe": "4× Moût de raisin + 1× Citronal + 1× Eau",
+      "yield": "2",
+      "technical": {}
+    },
+    {
+      "slug": "viande-retravaillee",
+      "name": "Viande retravaillée",
+      "icon": "🥩",
+      "category": "Viande",
+      "realm": "Commun",
+      "version": "V4",
+      "status": "Référence V4",
+      "description": "Composant de la filière viande LNA, utilisé dans les recettes de royaume et plusieurs consommables vanilla retravaillés.",
+      "obtention": "Transformation dans Mortier et Pilon LNA.",
+      "uses": [
+        "Cuisine",
+        "Consommables V4"
+      ],
+      "station": "Mortier et Pilon LNA",
+      "recipe": "5 viandes crues",
+      "yield": "4",
+      "craftTime": "5 s",
+      "technical": {}
+    },
+    {
+      "slug": "viande-retravaillee-cuite",
+      "name": "Viande retravaillée cuite",
+      "icon": "🥩",
+      "category": "Viande",
+      "realm": "Commun",
+      "version": "V4",
+      "status": "Référence V4",
+      "description": "Composant de la filière viande LNA, utilisé dans les recettes de royaume et plusieurs consommables vanilla retravaillés.",
+      "obtention": "Transformation dans Feu de camp LNA.",
+      "uses": [
+        "Cuisine",
+        "Consommables V4"
+      ],
+      "station": "Feu de camp LNA",
+      "recipe": "1 viande retravaillée",
+      "yield": "1",
+      "craftTime": "20 s",
+      "technical": {}
+    },
+    {
+      "slug": "viande-superieure-retravaillee",
+      "name": "Viande supérieure retravaillée",
+      "icon": "🥩",
+      "category": "Viande",
+      "realm": "Commun",
+      "version": "V4",
+      "status": "Référence V4",
+      "description": "Composant de la filière viande LNA, utilisé dans les recettes de royaume et plusieurs consommables vanilla retravaillés.",
+      "obtention": "Transformation dans Mortier et Pilon LNA.",
+      "uses": [
+        "Cuisine",
+        "Consommables V4"
+      ],
+      "station": "Mortier et Pilon LNA",
+      "recipe": "3 viandes supérieures crues",
+      "yield": "2",
+      "craftTime": "6 s",
+      "technical": {}
+    },
+    {
+      "slug": "viande-superieure-retravaillee-cuite",
+      "name": "Viande supérieure retravaillée cuite",
+      "icon": "🥩",
+      "category": "Viande",
+      "realm": "Commun",
+      "version": "V4",
+      "status": "Référence V4",
+      "description": "Composant de la filière viande LNA, utilisé dans les recettes de royaume et plusieurs consommables vanilla retravaillés.",
+      "obtention": "Transformation dans Feu de camp LNA.",
+      "uses": [
+        "Cuisine",
+        "Consommables V4"
+      ],
+      "station": "Feu de camp LNA",
+      "recipe": "1 viande supérieure retravaillée",
+      "yield": "1",
+      "craftTime": "25 s",
+      "technical": {}
+    },
+    {
+      "slug": "mouton-retravaille",
+      "name": "Mouton retravaillé",
+      "icon": "🥩",
+      "category": "Viande",
+      "realm": "Commun",
+      "version": "V4",
+      "status": "Référence V4",
+      "description": "Composant de la filière viande LNA, utilisé dans les recettes de royaume et plusieurs consommables vanilla retravaillés.",
+      "obtention": "Transformation dans Mortier et Pilon LNA.",
+      "uses": [
+        "Cuisine",
+        "Consommables V4"
+      ],
+      "station": "Mortier et Pilon LNA",
+      "recipe": "3 moutons crus",
+      "yield": "2",
+      "craftTime": "6 s",
+      "technical": {}
+    },
+    {
+      "slug": "mouton-retravaille-cuit",
+      "name": "Mouton retravaillé cuit",
+      "icon": "🥩",
+      "category": "Viande",
+      "realm": "Commun",
+      "version": "V4",
+      "status": "Référence V4",
+      "description": "Composant de la filière viande LNA, utilisé dans les recettes de royaume et plusieurs consommables vanilla retravaillés.",
+      "obtention": "Transformation dans Feu de camp LNA.",
+      "uses": [
+        "Cuisine",
+        "Consommables V4"
+      ],
+      "station": "Feu de camp LNA",
+      "recipe": "1 mouton retravaillé",
+      "yield": "1",
+      "craftTime": "25 s",
+      "technical": {}
+    },
+    {
+      "slug": "viande-hachee",
+      "name": "Viande hachée",
+      "icon": "🥩",
+      "category": "Viande",
+      "realm": "Commun",
+      "version": "V4",
+      "status": "Référence V4",
+      "description": "Composant de la filière viande LNA, utilisé dans les recettes de royaume et plusieurs consommables vanilla retravaillés.",
+      "obtention": "Transformation dans Mortier et Pilon LNA.",
+      "uses": [
+        "Cuisine",
+        "Consommables V4"
+      ],
+      "station": "Mortier et Pilon LNA",
+      "recipe": "3 viandes retravaillées",
+      "yield": "3",
+      "craftTime": "5 s",
+      "technical": {}
+    },
+    {
+      "slug": "graisse-animale",
+      "name": "Graisse animale",
+      "icon": "🥩",
+      "category": "Viande",
+      "realm": "Commun",
+      "version": "V4",
+      "status": "Référence V4",
+      "description": "Composant de la filière viande LNA, utilisé dans les recettes de royaume et plusieurs consommables vanilla retravaillés.",
+      "obtention": "Transformation dans Feu de camp LNA.",
+      "uses": [
+        "Cuisine",
+        "Consommables V4"
+      ],
+      "station": "Feu de camp LNA",
+      "recipe": "6 viandes crues",
+      "yield": "2",
+      "craftTime": "8 s",
+      "technical": {}
+    },
+    {
+      "slug": "moelle-animale",
+      "name": "Moelle animale",
+      "icon": "🥩",
+      "category": "Viande",
+      "realm": "Commun",
+      "version": "V4",
+      "status": "Référence V4",
+      "description": "Composant de la filière viande LNA, utilisé dans les recettes de royaume et plusieurs consommables vanilla retravaillés.",
+      "obtention": "Transformation dans Mortier et Pilon LNA.",
+      "uses": [
+        "Cuisine",
+        "Consommables V4"
+      ],
+      "station": "Mortier et Pilon LNA",
+      "recipe": "2 viandes supérieures + 4 kératines",
+      "yield": "2",
+      "craftTime": "10 s",
+      "technical": {}
+    },
+    {
+      "slug": "viande-salee",
+      "name": "Viande salée",
+      "icon": "🥩",
+      "category": "Viande",
+      "realm": "Commun",
+      "version": "V4",
+      "status": "Référence V4",
+      "description": "Composant de la filière viande LNA, utilisé dans les recettes de royaume et plusieurs consommables vanilla retravaillés.",
+      "obtention": "Transformation dans Tonneau LNA.",
+      "uses": [
+        "Cuisine",
+        "Consommables V4"
+      ],
+      "station": "Tonneau LNA",
+      "recipe": "3 viandes retravaillées + 1 sel marin",
+      "yield": "3",
+      "craftTime": "15 s",
+      "technical": {}
+    },
+    {
+      "slug": "poudre-de-coquille",
+      "name": "Poudre de coquille",
+      "icon": "🥩",
+      "category": "Viande",
+      "realm": "Commun",
+      "version": "V4",
+      "status": "Référence V4",
+      "description": "Composant de la filière viande LNA, utilisé dans les recettes de royaume et plusieurs consommables vanilla retravaillés.",
+      "obtention": "Transformation dans Mortier et Pilon LNA.",
+      "uses": [
+        "Cuisine",
+        "Consommables V4"
+      ],
+      "station": "Mortier et Pilon LNA",
+      "recipe": "1 œuf non fécondé",
+      "yield": "3",
+      "craftTime": "5 s",
+      "technical": {}
+    },
+    {
+      "slug": "poudre-dos",
+      "name": "Poudre d’os",
+      "icon": "🥩",
+      "category": "Viande",
+      "realm": "Commun",
+      "version": "V4",
+      "status": "Référence V4",
+      "description": "Composant de la filière viande LNA, utilisé dans les recettes de royaume et plusieurs consommables vanilla retravaillés.",
+      "obtention": "Transformation dans Mortier et Pilon LNA.",
+      "uses": [
+        "Cuisine",
+        "Consommables V4"
+      ],
+      "station": "Mortier et Pilon LNA",
+      "recipe": "10 chitines ou kératines",
+      "yield": "5",
+      "craftTime": "8 s",
+      "technical": {}
+    },
+    {
+      "slug": "filet-de-poisson-blanc",
+      "name": "Filet de poisson blanc",
+      "icon": "🎣",
+      "category": "Pêche",
+      "realm": "Commun",
+      "version": "V4",
+      "status": "Loot pêche",
+      "description": "Loot direct de la nouvelle boucle économique de pêche V4.",
+      "obtention": "Obtenu directement dans la table de loot de pêche LNA. Aucun EngramEntry.",
+      "uses": [
+        "Cuisine",
+        "Transformations de pêche"
+      ],
+      "station": "Pêche",
+      "recipe": "Loot direct",
+      "yield": "1",
+      "stack": 100,
+      "weight": 0.1,
+      "spoil": "30 min",
+      "lootWeight": 1.0,
+      "technical": {
+        "blueprint": "PrimalItemConsumable_LNA_FiletPoissonBlanc_01"
+      }
+    },
+    {
+      "slug": "filet-de-poisson-gras",
+      "name": "Filet de poisson gras",
+      "icon": "🎣",
+      "category": "Pêche",
+      "realm": "Commun",
+      "version": "V4",
+      "status": "Loot pêche",
+      "description": "Loot direct de la nouvelle boucle économique de pêche V4.",
+      "obtention": "Obtenu directement dans la table de loot de pêche LNA. Aucun EngramEntry.",
+      "uses": [
+        "Cuisine",
+        "Transformations de pêche"
+      ],
+      "station": "Pêche",
+      "recipe": "Loot direct",
+      "yield": "1",
+      "stack": 100,
+      "weight": 0.12,
+      "spoil": "25 min",
+      "lootWeight": 0.4,
+      "technical": {
+        "blueprint": "PrimalItemConsumable_LNA_FiletPoissonGras_01"
+      }
+    },
+    {
+      "slug": "ufs-de-poisson",
+      "name": "Œufs de poisson",
+      "icon": "🎣",
+      "category": "Pêche",
+      "realm": "Commun",
+      "version": "V4",
+      "status": "Loot pêche",
+      "description": "Loot direct de la nouvelle boucle économique de pêche V4.",
+      "obtention": "Obtenu directement dans la table de loot de pêche LNA. Aucun EngramEntry.",
+      "uses": [
+        "Cuisine",
+        "Transformations de pêche"
+      ],
+      "station": "Pêche",
+      "recipe": "Loot direct",
+      "yield": "1",
+      "stack": 50,
+      "weight": 0.05,
+      "spoil": "20 min",
+      "lootWeight": 0.12,
+      "technical": {
+        "blueprint": "PrimalItemConsumable_LNA_OeufsPoisson_01"
+      }
+    },
+    {
+      "slug": "chair-abyssale",
+      "name": "Chair abyssale",
+      "icon": "🎣",
+      "category": "Pêche",
+      "realm": "Commun",
+      "version": "V4",
+      "status": "Loot pêche",
+      "description": "Loot direct de la nouvelle boucle économique de pêche V4.",
+      "obtention": "Obtenu directement dans la table de loot de pêche LNA. Aucun EngramEntry.",
+      "uses": [
+        "Cuisine",
+        "Transformations de pêche"
+      ],
+      "station": "Pêche",
+      "recipe": "Loot direct",
+      "yield": "1",
+      "stack": 50,
+      "weight": 0.15,
+      "spoil": "30 min",
+      "lootWeight": 0.035,
+      "technical": {
+        "blueprint": "PrimalItemConsumable_LNA_ChairAbyssale_01"
+      }
+    },
+    {
+      "slug": "aretes-de-poisson",
+      "name": "Arêtes de poisson",
+      "icon": "🎣",
+      "category": "Pêche",
+      "realm": "Commun",
+      "version": "V4",
+      "status": "Loot pêche",
+      "description": "Loot direct de la nouvelle boucle économique de pêche V4.",
+      "obtention": "Obtenu directement dans la table de loot de pêche LNA. Aucun EngramEntry.",
+      "uses": [
+        "Cuisine",
+        "Transformations de pêche"
+      ],
+      "station": "Pêche",
+      "recipe": "Loot direct",
+      "yield": "1",
+      "stack": 500,
+      "weight": 0.02,
+      "spoil": "Aucune",
+      "lootWeight": 0.75,
+      "technical": {
+        "blueprint": "PrimalItemResource_LNA_AretesPoisson_01"
+      }
+    },
+    {
+      "slug": "ecailles-nacrees",
+      "name": "Écailles nacrées",
+      "icon": "🎣",
+      "category": "Pêche",
+      "realm": "Commun",
+      "version": "V4",
+      "status": "Loot pêche",
+      "description": "Loot direct de la nouvelle boucle économique de pêche V4.",
+      "obtention": "Obtenu directement dans la table de loot de pêche LNA. Aucun EngramEntry.",
+      "uses": [
+        "Cuisine",
+        "Transformations de pêche"
+      ],
+      "station": "Pêche",
+      "recipe": "Loot direct",
+      "yield": "1",
+      "stack": 200,
+      "weight": 0.04,
+      "spoil": "Aucune",
+      "lootWeight": 0.18,
+      "technical": {
+        "blueprint": "PrimalItemResource_LNA_EcaillesNacrees_01"
+      }
+    },
+    {
+      "slug": "poche-dencre",
+      "name": "Poche d’encre",
+      "icon": "🎣",
+      "category": "Pêche",
+      "realm": "Commun",
+      "version": "V4",
+      "status": "Loot pêche",
+      "description": "Loot direct de la nouvelle boucle économique de pêche V4.",
+      "obtention": "Obtenu directement dans la table de loot de pêche LNA. Aucun EngramEntry.",
+      "uses": [
+        "Cuisine",
+        "Transformations de pêche"
+      ],
+      "station": "Pêche",
+      "recipe": "Loot direct",
+      "yield": "1",
+      "stack": 100,
+      "weight": 0.08,
+      "spoil": "Aucune",
+      "lootWeight": 0.06,
+      "technical": {
+        "blueprint": "PrimalItemResource_LNA_PocheEncre_01"
+      }
+    },
+    {
+      "slug": "glande-saline",
+      "name": "Glande saline",
+      "icon": "🎣",
+      "category": "Pêche",
+      "realm": "Commun",
+      "version": "V4",
+      "status": "Loot pêche",
+      "description": "Loot direct de la nouvelle boucle économique de pêche V4.",
+      "obtention": "Obtenu directement dans la table de loot de pêche LNA. Aucun EngramEntry.",
+      "uses": [
+        "Cuisine",
+        "Transformations de pêche"
+      ],
+      "station": "Pêche",
+      "recipe": "Loot direct",
+      "yield": "1",
+      "stack": 100,
+      "weight": 0.06,
+      "spoil": "Aucune",
+      "lootWeight": 0.25,
+      "technical": {
+        "blueprint": "PrimalItemResource_LNA_GlandeSaline_01"
+      }
+    },
+    {
+      "slug": "perle-organique",
+      "name": "Perle organique",
+      "icon": "🎣",
+      "category": "Pêche",
+      "realm": "Commun",
+      "version": "V4",
+      "status": "Loot pêche",
+      "description": "Loot direct de la nouvelle boucle économique de pêche V4.",
+      "obtention": "Obtenu directement dans la table de loot de pêche LNA. Aucun EngramEntry.",
+      "uses": [
+        "Cuisine",
+        "Transformations de pêche"
+      ],
+      "station": "Pêche",
+      "recipe": "Loot direct",
+      "yield": "1",
+      "stack": 20,
+      "weight": 0.1,
+      "spoil": "Aucune",
+      "lootWeight": 0.01,
+      "technical": {
+        "blueprint": "PrimalItemResource_LNA_PerleOrganique_01"
+      }
+    },
+    {
+      "slug": "huile-de-poisson",
+      "name": "Huile de poisson",
+      "icon": "🐟",
+      "category": "Pêche",
+      "realm": "Commun",
+      "version": "V4",
+      "status": "Transformation V4",
+      "description": "Transformation officielle de la filière pêche V4.",
+      "obtention": "Fabriqué dans Mortier et Pilon LNA.",
+      "uses": [
+        "Cuisine",
+        "Alchimie",
+        "Commerce"
+      ],
+      "station": "Mortier et Pilon LNA",
+      "recipe": "5 filets gras + 2 glandes salines + 1 flacon",
+      "yield": "2",
+      "craftTime": "15 s",
+      "technical": {
+        "blueprint": "PrimalItemResource_LNA_HuilePoisson_01"
+      }
+    },
+    {
+      "slug": "gelatine-de-poisson",
+      "name": "Gélatine de poisson",
+      "icon": "🐟",
+      "category": "Pêche",
+      "realm": "Commun",
+      "version": "V4",
+      "status": "Transformation V4",
+      "description": "Transformation officielle de la filière pêche V4.",
+      "obtention": "Fabriqué dans Feu de camp LNA.",
+      "uses": [
+        "Cuisine",
+        "Alchimie",
+        "Commerce"
+      ],
+      "station": "Feu de camp LNA",
+      "recipe": "10 arêtes + 5 filets blancs + eau",
+      "yield": "3",
+      "craftTime": "20 s",
+      "technical": {
+        "blueprint": "PrimalItemResource_LNA_GelatinePoisson_01"
+      }
+    },
+    {
+      "slug": "sel-marin",
+      "name": "Sel marin",
+      "icon": "🐟",
+      "category": "Pêche",
+      "realm": "Commun",
+      "version": "V4",
+      "status": "Transformation V4",
+      "description": "Transformation officielle de la filière pêche V4.",
+      "obtention": "Fabriqué dans Mortier et Pilon LNA.",
+      "uses": [
+        "Cuisine",
+        "Alchimie",
+        "Commerce"
+      ],
+      "station": "Mortier et Pilon LNA",
+      "recipe": "5 glandes salines",
+      "yield": "5",
+      "craftTime": "10 s",
+      "technical": {
+        "blueprint": "PrimalItemResource_LNA_SelMarin_01"
+      }
+    },
+    {
+      "slug": "extrait-medicinal",
+      "name": "Extrait médicinal",
+      "icon": "🧪",
+      "category": "Alchimie",
+      "realm": "Commun",
+      "version": "V4",
+      "status": "Référence V4",
+      "description": "Base de soins ; maintient la demande en Narcotique.",
+      "obtention": "Fabriqué dans le Mortier et Pilon LNA.",
+      "uses": [
+        "Alchimie V4",
+        "Remèdes et préparations avancées"
+      ],
+      "station": "Mortier et Pilon LNA",
+      "recipe": "4× Narcotique + 2× Menthe séchée + 1× Sirop de grenade + 1× Citronal",
+      "yield": "1",
+      "technical": {}
+    },
+    {
+      "slug": "extrait-stimulant",
+      "name": "Extrait stimulant",
+      "icon": "🧪",
+      "category": "Alchimie",
+      "realm": "Commun",
+      "version": "V4",
+      "status": "Référence V4",
+      "description": "Base d’endurance ; maintient la demande en Stimulant.",
+      "obtention": "Fabriqué dans le Mortier et Pilon LNA.",
+      "uses": [
+        "Alchimie V4",
+        "Remèdes et préparations avancées"
+      ],
+      "station": "Mortier et Pilon LNA",
+      "recipe": "4× Stimulant + 2× Gingembre séché + 1× Menthe séchée + 1× Citronal",
+      "yield": "1",
+      "technical": {}
+    },
+    {
+      "slug": "base-antiseptique",
+      "name": "Base antiseptique",
+      "icon": "🧪",
+      "category": "Alchimie",
+      "realm": "Commun",
+      "version": "V4",
+      "status": "Référence V4",
+      "description": "Base pour soins, antidotes et baumes.",
+      "obtention": "Fabriqué dans le Mortier et Pilon LNA.",
+      "uses": [
+        "Alchimie V4",
+        "Remèdes et préparations avancées"
+      ],
+      "station": "Mortier et Pilon LNA",
+      "recipe": "4× Narcotique + 1× Essence de lavande + 1× Sel marin + 1× Citronal",
+      "yield": "1",
+      "technical": {}
+    },
+    {
+      "slug": "concentre-narcotique",
+      "name": "Concentré narcotique",
+      "icon": "🧪",
+      "category": "Alchimie",
+      "realm": "Commun",
+      "version": "V4",
+      "status": "Référence V4",
+      "description": "Préparation avancée réservée aux recettes lourdes.",
+      "obtention": "Fabriqué dans le Mortier et Pilon LNA.",
+      "uses": [
+        "Alchimie V4",
+        "Remèdes et préparations avancées"
+      ],
+      "station": "Mortier et Pilon LNA",
+      "recipe": "15× Narcotique + 1× Pâte de soja + 1× Gélatine de poisson + 1× Menthe séchée",
+      "yield": "1",
+      "technical": {}
+    },
+    {
+      "slug": "catalyseur-des-six-royaumes",
+      "name": "Catalyseur des Six Royaumes",
+      "icon": "🧪",
+      "category": "Alchimie",
+      "realm": "Commun",
+      "version": "V4",
+      "status": "Référence V4",
+      "description": "Réactif avancé qui concentre le commerce des six royaumes.",
+      "obtention": "Fabriqué dans le Mortier et Pilon LNA.",
+      "uses": [
+        "Alchimie V4",
+        "Remèdes et préparations avancées"
+      ],
+      "station": "Mortier et Pilon LNA",
+      "recipe": "1× Menthe séchée + 1× Malt d’orge + 1× Pâte de soja + 1× Essence de lavande + 1× Mélasse + 1× Huile d’olive + 1× Huile de poisson + 5× Flacons renforcés",
+      "yield": "5",
+      "technical": {}
+    }
+  ],
+  "versions": [
+    {
+      "id": "v5",
+      "name": "V5",
+      "status": "En développement",
+      "summary": "Systèmes et contenus prévus après l’économie V4.",
+      "features": [
+        {
+          "name": "Système de crochetage",
+          "type": "Gameplay",
+          "status": "En développement",
+          "description": "Mini-jeu d’ouverture de structures verrouillées."
+        },
+        {
+          "name": "Gobelin jouable",
+          "type": "Personnage",
+          "status": "Prévu",
+          "description": "Personnage gobelin destiné aux usages RP/admin."
+        },
+        {
+          "name": "Bannière dorsale peignable",
+          "type": "Cosmétique",
+          "status": "Prévu",
+          "description": "Bannière portée dans le dos et personnalisable."
+        },
+        {
+          "name": "Laisse de dino médiévale",
+          "type": "Gameplay",
+          "status": "Prévu",
+          "description": "Présentation médiévale de la laisse pour créatures."
+        },
+        {
+          "name": "Chapeau Valebois",
+          "type": "Cosmétique",
+          "status": "Prévu",
+          "description": "Cosmétique vestimentaire."
+        },
+        {
+          "name": "Casque d’os",
+          "type": "Cosmétique",
+          "status": "Prévu",
+          "description": "Cosmétique inspiré des os."
+        },
+        {
+          "name": "Arbalète d’os",
+          "type": "Cosmétique",
+          "status": "Prévu",
+          "description": "Variante cosmétique d’arbalète."
+        },
+        {
+          "name": "Refonte des cartes aux trésors",
+          "type": "Exploration",
+          "status": "Prioritaire",
+          "description": "Refonte du système de cartes aux trésors."
+        }
+      ]
+    },
+    {
+      "id": "v4",
+      "name": "V4 — Économie",
+      "status": "Guide maître synchronisé",
+      "summary": "53 produits de royaume : 24 transformations + 29 consommables, agriculture territorialisée, filières viande/pêche, alchimie et 10 structures de craft.",
+      "features": [
+        {
+          "name": "24 transformations de royaume",
+          "type": "Économie",
+          "status": "Référence V4",
+          "description": "Quatre transformations par royaume, affectées aux stations finales."
+        },
+        {
+          "name": "29 consommables de royaume",
+          "type": "Cuisine",
+          "status": "Référence V4",
+          "description": "Neuf pour Asharun et quatre pour chacun des cinq autres royaumes."
+        },
+        {
+          "name": "Agriculture territorialisée",
+          "type": "Agriculture",
+          "status": "Référence V4",
+          "description": "Cultures exclusives et quatre légumes vanilla attribués à un royaume."
+        },
+        {
+          "name": "Filière viande",
+          "type": "Transformation",
+          "status": "Référence V4",
+          "description": "Douze composants de viande répartis entre Mortier, Tonneau et Feu de camp LNA."
+        },
+        {
+          "name": "Filière pêche",
+          "type": "Pêche",
+          "status": "Référence V4",
+          "description": "Neuf loots directs et trois transformations."
+        },
+        {
+          "name": "Alchimie rééquilibrée",
+          "type": "Alchimie",
+          "status": "Référence V4",
+          "description": "Narcotique/Stimulant restent centraux, avec bases et Catalyseur des Six Royaumes."
+        }
+      ]
     }
   ]
 }
