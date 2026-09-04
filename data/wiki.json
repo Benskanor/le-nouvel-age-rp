@@ -56,14 +56,12 @@
         "Pastèque",
         "Menthe",
         "Grenade",
-        "Longrass",
         "Épice sauvage"
       ],
       "Falkheim": [
         "Orge",
         "Houblon",
-        "Plaquebière",
-        "Savoroot"
+        "Plaquebière"
       ],
       "Shintai": [
         "Riz",
@@ -73,14 +71,12 @@
       "Vanloria": [
         "Lin",
         "Avoine",
-        "Lavande",
-        "Rockarrot"
+        "Lavande"
       ],
       "Nerethis": [
         "Canne à sucre",
         "Gingembre",
-        "Vanille",
-        "Citronal"
+        "Vanille"
       ],
       "Erythros": [
         "Raisin",
@@ -764,24 +760,6 @@
       "image": "assets/images/wiki/icon_ash_grenade_01_transparent.webp"
     },
     {
-      "slug": "longrass",
-      "name": "Longrass",
-      "icon": "🌾",
-      "category": "Agriculture",
-      "realm": "Asharun",
-      "version": "V4",
-      "status": "Référence V4",
-      "description": "Ressource territoriale attribuée à Asharun dans l’économie V4. Cette culture vanilla reste volontairement importante et conserve plusieurs débouchés directs.",
-      "obtention": "Culture ou ressource territorialisée de Asharun.",
-      "uses": [],
-      "station": "—",
-      "recipe": "—",
-      "yield": "—",
-      "technical": {},
-      "image": "assets/images/royaumes/drapeaux/asharun.webp",
-      "imageFallback": "realm-flag"
-    },
-    {
       "slug": "epice-sauvage",
       "name": "Épice sauvage",
       "category": "Récolte",
@@ -847,24 +825,6 @@
       "yield": "—",
       "technical": {},
       "image": "assets/images/wiki/icon_fal_plaquebiere_01.webp"
-    },
-    {
-      "slug": "savoroot",
-      "name": "Savoroot",
-      "icon": "🌾",
-      "category": "Agriculture",
-      "realm": "Falkheim",
-      "version": "V4",
-      "status": "Référence V4",
-      "description": "Ressource territoriale attribuée à Falkheim dans l’économie V4. Cette culture vanilla reste volontairement importante et conserve plusieurs débouchés directs.",
-      "obtention": "Culture ou ressource territorialisée de Falkheim.",
-      "uses": [],
-      "station": "—",
-      "recipe": "—",
-      "yield": "—",
-      "technical": {},
-      "image": "assets/images/royaumes/drapeaux/falkheim.webp",
-      "imageFallback": "realm-flag"
     },
     {
       "slug": "riz",
@@ -963,24 +923,6 @@
       "image": "assets/images/wiki/icon_van_lavande_01.webp"
     },
     {
-      "slug": "rockarrot",
-      "name": "Rockarrot",
-      "icon": "🌾",
-      "category": "Agriculture",
-      "realm": "Vanloria",
-      "version": "V4",
-      "status": "Référence V4",
-      "description": "Ressource territoriale attribuée à Vanloria dans l’économie V4. Cette culture vanilla reste volontairement importante et conserve plusieurs débouchés directs.",
-      "obtention": "Culture ou ressource territorialisée de Vanloria.",
-      "uses": [],
-      "station": "—",
-      "recipe": "—",
-      "yield": "—",
-      "technical": {},
-      "image": "assets/images/royaumes/drapeaux/vanloria.webp",
-      "imageFallback": "realm-flag"
-    },
-    {
       "slug": "canne-a-sucre",
       "name": "Canne à sucre",
       "category": "Agriculture",
@@ -1029,24 +971,6 @@
       "image": "assets/images/wiki/icon_ner_vanille_01.webp"
     },
     {
-      "slug": "citronal",
-      "name": "Citronal",
-      "icon": "🌾",
-      "category": "Agriculture",
-      "realm": "Nerethis",
-      "version": "V4",
-      "status": "Référence V4",
-      "description": "Ressource territoriale attribuée à Nerethis dans l’économie V4. Cette culture vanilla reste volontairement importante et conserve plusieurs débouchés directs.",
-      "obtention": "Culture ou ressource territorialisée de Nerethis.",
-      "uses": [],
-      "station": "—",
-      "recipe": "—",
-      "yield": "—",
-      "technical": {},
-      "image": "assets/images/royaumes/drapeaux/nerethis.webp",
-      "imageFallback": "realm-flag"
-    },
-    {
       "slug": "raisin",
       "name": "Raisin",
       "icon": "🌾",
@@ -1054,14 +978,18 @@
       "realm": "Erythros",
       "version": "V4",
       "status": "Référence V4",
-      "description": "Ressource territoriale attribuée à Erythros dans l’économie V4.",
-      "obtention": "Culture ou ressource territorialisée de Erythros.",
-      "uses": [],
+      "description": "Fruit emblématique d’Erythros, servant de base au moût, au vinaigre et à plusieurs préparations culinaires.",
+      "obtention": "Récolte agricole sur les vignes attribuées à Erythros.",
+      "uses": [
+        "Transformation en moût de raisin.",
+        "Transformation en vinaigre de raisin.",
+        "Base de certaines recettes d’Erythros."
+      ],
       "station": "—",
       "recipe": "—",
       "yield": "—",
       "technical": {},
-      "image": "assets/images/royaumes/drapeaux/erythros.webp",
+      "image": "assets/images/wiki/icon_ery_raisin_01.webp",
       "imageFallback": "realm-flag"
     },
     {
@@ -1072,14 +1000,17 @@
       "realm": "Erythros",
       "version": "V4",
       "status": "Référence V4",
-      "description": "Ressource territoriale attribuée à Erythros dans l’économie V4.",
-      "obtention": "Culture ou ressource territorialisée de Erythros.",
-      "uses": [],
+      "description": "Fruit cultivé par Erythros, utilisé notamment dans la préparation de l’huile d’olive et de certaines recettes du royaume.",
+      "obtention": "Récolte agricole sur les cultures d’olive attribuées à Erythros.",
+      "uses": [
+        "Transformation en huile d’olive.",
+        "Ingrédient pour des recettes d’Erythros."
+      ],
       "station": "—",
       "recipe": "—",
       "yield": "—",
       "technical": {},
-      "image": "assets/images/royaumes/drapeaux/erythros.webp",
+      "image": "assets/images/wiki/icon_ery_olive_01.webp",
       "imageFallback": "realm-flag"
     },
     {
@@ -1090,14 +1021,17 @@
       "realm": "Erythros",
       "version": "V4",
       "status": "Référence V4",
-      "description": "Ressource territoriale attribuée à Erythros dans l’économie V4.",
-      "obtention": "Culture ou ressource territorialisée de Erythros.",
-      "uses": [],
+      "description": "Fruit territorial d’Erythros utilisé en cuisine et dans plusieurs spécialités à base de pain ou d’agneau.",
+      "obtention": "Récolte agricole sur les figuiers attribués à Erythros.",
+      "uses": [
+        "Ingrédient de spécialités d’Erythros.",
+        "Transformation en figues séchées."
+      ],
       "station": "—",
       "recipe": "—",
       "yield": "—",
       "technical": {},
-      "image": "assets/images/royaumes/drapeaux/erythros.webp",
+      "image": "assets/images/wiki/icon_ery_figue_01.webp",
       "imageFallback": "realm-flag"
     },
     {
@@ -1511,17 +1445,16 @@
       "realm": "Erythros",
       "version": "V4",
       "status": "Référence V4",
-      "description": "Produit transformé officiel de Erythros dans le catalogue économique V4.",
-      "obtention": "Fabriqué dans Tonneau LNA.",
+      "description": "Transformation issue du raisin, utilisée comme base intermédiaire dans la filière viticole d’Erythros.",
+      "obtention": "Fabriqué à partir de raisin dans la chaîne de transformation d’Erythros.",
       "uses": [
-        "Cuisine de royaume",
-        "Commerce inter-royaumes"
+        "Base pour d’autres préparations liées au raisin."
       ],
       "station": "Tonneau LNA",
       "recipe": "10× Raisin",
       "yield": "5",
       "technical": {},
-      "image": "assets/images/royaumes/drapeaux/erythros.webp",
+      "image": "assets/images/wiki/icon_ery_moutderaisin_01.webp",
       "imageFallback": "realm-flag"
     },
     {
@@ -1532,17 +1465,16 @@
       "realm": "Erythros",
       "version": "V4",
       "status": "Référence V4",
-      "description": "Produit transformé officiel de Erythros dans le catalogue économique V4.",
-      "obtention": "Fabriqué dans Mortier LNA.",
+      "description": "Transformation de figue utilisée pour enrichir les recettes et préparations culinaires d’Erythros.",
+      "obtention": "Séchage / transformation des figues dans la chaîne économique d’Erythros.",
       "uses": [
-        "Cuisine de royaume",
-        "Commerce inter-royaumes"
+        "Ingrédient pour des recettes d’Erythros."
       ],
       "station": "Mortier LNA",
       "recipe": "5× Figue",
       "yield": "3",
       "technical": {},
-      "image": "assets/images/royaumes/drapeaux/erythros.webp",
+      "image": "assets/images/wiki/icon_ery_figuessechees_01.webp",
       "imageFallback": "realm-flag"
     },
     {
@@ -1553,17 +1485,16 @@
       "realm": "Erythros",
       "version": "V4",
       "status": "Référence V4",
-      "description": "Produit transformé officiel de Erythros dans le catalogue économique V4.",
-      "obtention": "Fabriqué dans Tonneau LNA.",
+      "description": "Condiment transformé dérivé du raisin, intégré à la filière culinaire d’Erythros.",
+      "obtention": "Fabriqué à partir de raisin dans la chaîne de transformation d’Erythros.",
       "uses": [
-        "Cuisine de royaume",
-        "Commerce inter-royaumes"
+        "Ingrédient pour des préparations culinaires."
       ],
       "station": "Tonneau LNA",
       "recipe": "4× Moût de raisin + 1× Citronal + 1× Eau",
       "yield": "2",
       "technical": {},
-      "image": "assets/images/royaumes/drapeaux/erythros.webp",
+      "image": "assets/images/wiki/icon_ery_vinaigrederaisin_01.webp",
       "imageFallback": "realm-flag"
     },
     {
