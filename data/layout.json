@@ -944,15 +944,10 @@
     "/personnages/": {
       "header": {
         "class": "site-header",
-        "brand_html": "<a aria-label=\"Retour au portail\" class=\"brand\" href=\"../\"><span class=\"brand-seal\">LNA</span><span><strong>Le Nouvel Âge</strong><small>Chroniques des personnages</small></span></a>",
+        "brand_html": "<a aria-label=\"Retour au portail\" class=\"brand\" href=\"../\"><span class=\"brand-seal\">LNA</span><span><strong>Le Nouvel Âge</strong><small>RP ARK · Ragnarok</small></span></a>",
         "nav_aria": "Navigation des personnages",
         "nav_class": "top-nav",
         "nav_items": [
-          {
-            "text": "Dirigeants",
-            "href": "#dirigeants",
-            "class": ""
-          },
           {
             "text": "Registre",
             "href": "#registre",
@@ -980,11 +975,11 @@
           }
         ],
         "mobile_link_html": "",
-        "mobile_menu_html": "<details class=\"mobile-menu\"><summary>Explorer</summary><nav><a href=\"#dirigeants\">Dirigeants</a><a href=\"#registre\">Registre</a><a href=\"../royaumes/\">Royaumes</a><a href=\"../creer-son-personnage/\">Créer son personnage</a><a href=\"../reglement/\">Règlement</a><a href=\"../\">Retour au portail</a></nav></details>"
+        "mobile_menu_html": "<details class=\"mobile-menu\"><summary>Explorer</summary><nav><a href=\"#registre\">Registre</a><a href=\"../royaumes/\">Royaumes</a><a href=\"../creer-son-personnage/\">Créer son personnage</a><a href=\"../reglement/\">Règlement</a><a href=\"../\">Retour au portail</a></nav></details>"
       },
       "footer": {
         "class": "",
-        "html": "<footer><div><span class=\"brand-seal\">LNA</span><p><strong>Le Nouvel Âge RP ARK</strong><small>Chroniques vivantes des personnages du Nouveau Monde.</small></p></div><a href=\"#haut\">Retour en haut ↑</a></footer>"
+        "html": "<footer><div><span class=\"brand-seal\">LNA</span><p><strong>Le Nouvel Âge RP ARK</strong><small>Serveur communautaire non affilié à Studio Wildcard.</small></p></div><a href=\"#haut\">Retour en haut ↑</a></footer>"
       }
     }
   }

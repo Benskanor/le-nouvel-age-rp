@@ -1,15 +1,56 @@
-<!DOCTYPE html>
-<html lang="fr"><head><meta charset="utf-8"/><meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>Personnages du monde | Le Nouvel Âge RP ARK</title>
-<meta name="description" content="Registre RP des personnages joueurs du Nouvel Âge : dirigeants, survivants, disparus et relations publiques, classés par royaume."/>
-<link href="../assets/css/b334e6a6829c6f217a038ed1.css" rel="stylesheet"/>
-<link href="../assets/css/personnages.css" rel="stylesheet"/>
-<meta content="default-src 'none'; font-src 'self' data:; img-src 'self' data:; style-src 'self' 'unsafe-inline'; script-src 'self'; connect-src 'self'; object-src 'none';" http-equiv="content-security-policy"/>
-</head><body><main class="people-page" id="haut"><div id="lna-site-header"></div>
-<section class="people-hero"><div class="people-hero-inner"><p class="overline">Chroniques vivantes du Nouveau Monde</p><h1>Les personnages<br/>qui façonnent l’Histoire.</h1><p class="people-lead">Dirigeants, artisans, soldats, marchands, aventuriers et disparus : retrouvez les figures connues des six royaumes et les liens publics qui les unissent.</p><div class="people-stats"><span><strong id="total">—</strong> personnages</span><span><strong id="aliveCount">—</strong> vivants</span><span><strong id="missingCount">—</strong> portés disparus</span></div><a class="button primary" href="#dirigeants">Voir les figures de pouvoir</a></div></section>
-<section class="leaders-section" id="dirigeants"><div class="section-title"><div><span class="section-number">01</span><p class="overline">Pouvoirs en place<h2>Dirigeants et autorités majeures</h2></p></div><p>Les personnages qui portent actuellement — ou ont récemment porté — la responsabilité d’un royaume.</p></div><div class="leader-grid" id="leaderGrid"></div></section>
-<section class="registry-section" id="registre"><div class="section-title"><div><span class="section-number">02</span><p class="overline">Registre des survivants<h2>Les six royaumes</h2></p></div><p>Utilisez les filtres pour retrouver un personnage, son métier, son rôle ou son statut.</p></div><div class="people-toolbar"><label class="search-wrap"><span>Recherche</span><input id="search" type="search" placeholder="Nom, métier, rôle, religion…"/></label><label><span>Statut</span><select id="status"><option value="all">Tous les statuts</option><option value="vivant">Vivants</option><option value="disparu">Portés disparus</option><option value="mort">Morts</option></select></label><div class="realm-tabs" id="realmTabs"></div></div><div class="directory" id="directory"></div></section>
-<section class="people-note"><strong>Connaissance RP</strong><p>Ce registre présente uniquement les éléments publics ou utiles à la lecture du monde. Les secrets personnels et les relations confidentielles ne sont pas révélés afin d’éviter le métagaming.</p></section>
-<div id="lna-site-footer"></div></main>
-<dialog id="characterModal"><button class="modal-close" id="closeModal" aria-label="Fermer">×</button><div id="modalBody"></div></dialog>
-<script defer src="../assets/js/layout.js"></script><script defer src="../assets/js/personnages.js"></script></body></html>
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Personnages · Le Nouvel Âge RP ARK</title>
+<meta name="description" content="Registre RP des personnages du Nouveau Monde, classés par royaume avec statut, histoire et liens publics.">
+<link rel="stylesheet" href="../assets/css/b334e6a6829c6f217a038ed1.css">
+<link rel="stylesheet" href="../assets/css/personnages.css">
+</head>
+<body id="haut" class="people-page">
+<div id="lna-site-header"></div>
+<main>
+  <section class="people-hero">
+    <div class="people-hero-inner">
+      <p class="people-overline">Chroniques du Nouveau Monde</p>
+      <h1>Les visages du<br><em>Nouvel Âge.</em></h1>
+      <p class="people-intro">Dirigeants, artisans, soldats, voyageurs et disparus : le registre rassemble les personnages joueurs qui façonnent l’histoire des six royaumes.</p>
+      <div class="people-stats" aria-label="État du registre">
+        <span><strong id="total">—</strong> personnages</span>
+        <span><strong id="aliveCount">—</strong> vivants</span>
+        <span><strong id="missingCount">—</strong> portés disparus</span>
+      </div>
+    </div>
+  </section>
+
+  <section class="people-shell" id="registre">
+    <div class="people-heading">
+      <div>
+        <span class="section-number">01</span>
+        <p class="people-overline">Registre des royaumes</p>
+        <h2>Personnages connus</h2>
+      </div>
+      <p>Les dirigeants restent dans leur royaume, mais leur encadré est marqué d’une couronne et d’un cadre doré. Les statuts sont affichés de manière identique sur toutes les fiches.</p>
+    </div>
+
+    <div class="people-toolbar">
+      <label class="search-box"><span>Rechercher</span><input id="search" type="search" placeholder="Nom, métier, religion, rôle…"></label>
+      <label class="status-filter"><span>Statut</span><select id="status"><option value="all">Tous les statuts</option><option value="vivant">🟢 Vivants</option><option value="disparu">🔍 Portés disparus</option><option value="mort">💀 Morts</option></select></label>
+      <div class="realm-tabs" id="realmTabs" aria-label="Filtrer par royaume"></div>
+    </div>
+
+    <div id="directory" class="people-directory"></div>
+    <div class="rp-note"><strong>Connaissance RP :</strong> les histoires affichées reprennent les fiches RP transmises par les joueurs. Les relations explicitement secrètes ne sont pas publiées afin d’éviter le métagaming.</div>
+  </section>
+</main>
+
+<dialog id="characterModal" class="character-modal">
+  <button class="modal-close" id="closeModal" type="button" aria-label="Fermer">×</button>
+  <div id="modalBody"></div>
+</dialog>
+<div id="lna-site-footer"></div>
+<script src="../assets/js/layout.js" defer></script>
+<script src="../assets/js/personnages.js" defer></script>
+</body>
+</html>
