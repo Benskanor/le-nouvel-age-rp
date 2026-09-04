@@ -1,0 +1,905 @@
+{
+  "updated": "2026-09-04",
+  "statusLegend": {
+    "vivant": "Vivant",
+    "mort": "Mort",
+    "disparu": "Disparu",
+    "a_confirmer": "À confirmer"
+  },
+  "characters": [
+    {
+      "id": "zarade-olle",
+      "name": "Zarade Olle",
+      "age": "",
+      "realm": "Falkheim",
+      "religion": "Le Culte du Gèle",
+      "job": "Dompteur / Reproducteur · Mercenaire / Explorateur",
+      "status": "a_confirmer",
+      "traits": "Gentil et courageux , têtu et trop confiant •",
+      "hobby": "j aime comprendre les créatures •",
+      "summary": "Zarade Olle est né dans un petit village. Dès son plus jeune âge, il apprit les secrets des dompteur auprès de son père. Jour après jour, il appris les façon de dompter les différentes créatures À sa majorité, il choisit de suivre une double voie : celle de dompteur et celle de reproducteur. J'ai survécu au Cataclysme et je me suis réveillé sur les plages d'un monde inconnu.",
+      "history": "Zarade Olle est né dans un petit village. Dès son plus jeune âge, il apprit les secrets des dompteur auprès de son père. Jour après jour, il appris les façon de dompter les différentes créatures À sa majorité, il choisit de suivre une double voie : celle de dompteur et celle de reproducteur. J'ai survécu au Cataclysme et je me suis réveillé sur les plages d'un monde inconnu.",
+      "relations": [],
+      "sheetDate": "23/06/2026"
+    },
+    {
+      "id": "antares-verso",
+      "name": "Antares Verso",
+      "age": "26",
+      "realm": "Nerethis",
+      "religion": "Le Domaine des Flots",
+      "job": "Alchimiste · Soldat",
+      "status": "a_confirmer",
+      "traits": "Intellectuel, Serviable, Pragmatique/Borné, Lunatique",
+      "hobby": "Sciences/",
+      "summary": "et Mythologie/Littérature/Naviguer en Mer Histoire: Antares Verso est issu d'une riche famille des contrées d'Erythros. Il fut placé dans une des plus prestigieuses écoles de la République où il reçu l'accès à de nombreux savoirs qui l'animaient au quotidien tels que les mathématiques, la philosophie, l'histoire ou encore la littérature. Cependant, sa vie quelque peu monotone demeurait pour lui un point noir qu'il souhaitait amélioré.",
+      "history": "et Mythologie/Littérature/Naviguer en Mer Histoire: Antares Verso est issu d'une riche famille des contrées d'Erythros. Il fut placé dans une des plus prestigieuses écoles de la République où il reçu l'accès à de nombreux savoirs qui l'animaient au quotidien tels que les mathématiques, la philosophie, l'histoire ou encore la littérature. Cependant, sa vie quelque peu monotone demeurait pour lui un point noir qu'il souhaitait amélioré. En effet, il s'était passionné par les grands récits d'aventure qui se trouvaient à la bibliothèque de son école. C'est alors qu'un triste soir, un incendie se produit dans sa maison, qui le laissa pour dernier membre de la dynastie Verso. Antares devait donc trouver une nouvelle famille, qui l'espérait il serait reconnaissante de ses talents de savant. C'est alors qu'il fit la rencontre du capitaine Vhaal Mortag ; Le bâtard de Valemort, qui l'accueilla dans son équipage. C'est ainsi l'occasion pour Antares Verso d'écrire sa légende à l'encre du sang de ses ennemis. A la suite du Cataclysme, Antares se considérait comme un miraculé, et cela le convaincu encore davantage de son choix de rejoindre Nerethis, certain que sa survit était un cadeau de la déesse Typhar, un cadeau dont il se sentait pleinement redevable...",
+      "relations": [
+        {
+          "target": "vhaal-mortag",
+          "label": "A rejoint son équipage",
+          "certainty": "confirme"
+        }
+      ],
+      "sheetDate": "28/06/2026"
+    },
+    {
+      "id": "vhaal-mortag",
+      "name": "Vhaal Mortag",
+      "age": "31",
+      "realm": "Nerethis",
+      "religion": "Le Domaine des Flots",
+      "job": "Constructeur · Soldat",
+      "status": "a_confirmer",
+      "traits": "Obsessionnelle / Conquérant / Altruiste / Borné / Lunatique (humeur changeante)",
+      "hobby": "Naviguer / Boire / Manger / Explorer / Bâtir / La guerre / La psychologie",
+      "summary": "\" Vhaal Mortag ; Le bâtard de Valemort \" Naquis en des temps troublés.. Victime de son berceau; dans une cahutte en ruine encerclée par une bande de ravisseur. Sa défunte mère offris ça vie pour en concevoir une autre. Les bras et les jambes écartées, l'abdomen écartelé abreuvant les draps d'une marée rouge.. Son père lui même, de ses propres mains, pris de ténacité, à l'aide de son skeggox\\² écorchée; se chargea d'extraire le nourrisson à la demande de son épouse.",
+      "history": "\" Vhaal Mortag ; Le bâtard de Valemort \" Naquis en des temps troublés.. Victime de son berceau; dans une cahutte en ruine encerclée par une bande de ravisseur. Sa défunte mère offris ça vie pour en concevoir une autre. Les bras et les jambes écartées, l'abdomen écartelé abreuvant les draps d'une marée rouge.. Son père lui même, de ses propres mains, pris de ténacité, à l'aide de son skeggox\\² écorchée; se chargea d'extraire le nourrisson à la demande de son épouse. Son époux n'était point du genre serviable mais il avait du courage et un certain honneur.. A ça façon.. Il coupa le cordon beylical, Fît un nœud avant d'envelopper le nouveau née dans un tissu délabré, puis le prît sous son aile en se dirigeant vers la sortie, sa hache à la main. \\² Skeggox = Hache barbue D'un pas lourd et tenace, il prit la direction d'un banc de sable qui se situe non loin; Visible entre les branches d'une lisière de chêne centenaire. Mais à peine eu t'il le temps de s'avancer que des flèches sifflèrent à toute vitesse proche de son oreille finissant leurs route sur la vieille bâtisse ! La rage d'un homme peut s'avérer aussi dévastateur pour ceux qui l'entour que destructeur pour celui qui la porte.. Déposant son fils au sol, se relevant la tête haute, le visage disloqué par un mélange de haine, de deuil et d'amour; il scanda ! \"Que les dieux vous maudissent ! Pour votre lâcheté ! VOTRE DESOHNNEUR ! Venez m'affrontez de face ! Que je puissent envoyer vos âmes déchu Moisir dans le Hall de Nyrvald... \" Un silence d'une durée insoutenable pour son père, tenant fermement le manche de sa hache. Puis vinrent les branches et les feuilles qui craquèrent; tombèrent sous le poids des bottes de l'ennemie et de leurs coups de coutelas tranchant. Leurs armure à la couleur de l'or, reconnaissable entre milles; le soleil qui se reflètent sur l'ensemble de l'escadron dessinant petit à petit l'encerclement du terrain. Tous étais passifs, concentrés scrutant la folie d'un homme désespéré prêt à tout jusqu'à son dernier souffle. Un capitaine fît son apparition d'une marche calme puis répond.. \" Je me présente, Capitaine Cohrak, Valemort. Digne héritier du Duc Edric Valemort.. J'admire l'audace à laqu",
+      "relations": [
+        {
+          "target": "antares-verso",
+          "label": "Membre de son équipage",
+          "certainty": "confirme"
+        }
+      ],
+      "sheetDate": "11/07/2026"
+    },
+    {
+      "id": "asakura-tsubaki",
+      "name": "Asakura Tsubaki",
+      "age": "23",
+      "realm": "Shintai",
+      "religion": "Voix du Lotus",
+      "job": "Dompteur · Soldat",
+      "status": "a_confirmer",
+      "traits": "Sociable , Calme , calculatrice , patriotique au possible , adore l'argent",
+      "hobby": "passion pour les dragons qui va du domptage , Adore le chants et la lecture , les animaux",
+      "summary": "Dans les couloirs feutrés et rigides du Shogunat de la dynastie Shintai, la naissance d'une fille est souvent célébrée par des vœux de grâce, de diplomatie et d'alliances matrimoniales. Mais chez les Asakura, une lignée de fiers commandants militaires et de conseillers de l'ombre du Shogun, le destin en décida autrement. Tsubaki naquit sous un ciel d'orage. Unique enfant du seigneur Asakura Yoshinobu, son avenir fut scellé le jour où les médecins annoncèrent que sa mère ne pourrait plus concevoir.",
+      "history": "Dans les couloirs feutrés et rigides du Shogunat de la dynastie Shintai, la naissance d'une fille est souvent célébrée par des vœux de grâce, de diplomatie et d'alliances matrimoniales. Mais chez les Asakura, une lignée de fiers commandants militaires et de conseillers de l'ombre du Shogun, le destin en décida autrement. Tsubaki naquit sous un ciel d'orage. Unique enfant du seigneur Asakura Yoshinobu, son avenir fut scellé le jour où les médecins annoncèrent que sa mère ne pourrait plus concevoir. Sans héritier mâle, la prestigieuse maison Asakura risquait de s'éteindre, et son siège au conseil du Shogunat d'être confisqué par des rivaux ambitieux. Yoshinobu prit alors une décision qui frôlait la trahison envers les coutumes de l'époque : sa fille serait son successeur. Avant même d'apprendre à calligraphier son propre nom, à lire les classiques de la poésie ou à maîtriser l'art de la cérémonie du thé, Tsubaki apprit à tenir un bokken (sabre de bois). À cinq ans, alors que les filles de la noblesse apprenaient la révérence parfaite, Tsubaki apprenait l'équilibre, les pieds ancrés dans la terre battue du dojo familial, endurant le froid de l'hiver et la chaleur étouffante de l'été. À dix ans, ses mains étaient déjà couvertes de cornes et de cicatrices. Son père fut un maître impitoyable. Il ne lui fit aucune faveur, sachant que le Shogunat ne lui en ferait aucune. Elle dut apprendre à frapper plus vite, à feinter plus intelligemment et à lire les intentions de ses adversaires pour compenser la différence de force physique. À quinze ans, elle maniait le katana avec une fluidité mortelle. C'est seulement à cet âge, une fois son art martial jugé irréprochable par son père, qu'elle fut autorisée à étudier le reste : la politique du Shogunat, la stratégie militaire, la poésie et l'étiquette de la cour. Pour Tsubaki, la diplomatie n'était qu'une autre forme de combat, où les mots remplaçaient les lames. \"La soie s'effiloche, l'or se fond, mais l'acier d'une âme pure ne rompt jamais.\" Maxime gravée sur le garde (tsuba) du sabre de Tsubaki. Pour le monde extérieur et la cour de la dynastie Shintai, Asakura Tsubaki restait une jeune fille discrète, souvent vêtue de kimono",
+      "relations": [],
+      "sheetDate": "11/07/2026"
+    },
+    {
+      "id": "kaelor-damaris",
+      "name": "Kaelor Damaris",
+      "age": "35",
+      "realm": "Erythros",
+      "religion": "Le Panthéon d’Azur",
+      "job": "Forgeron / Armurier · Soldat",
+      "status": "a_confirmer",
+      "traits": "Honorable Courageux Discipliné Ingénieux Loyal envers sa parole Défauts : Orgueilleux Têtu Accorde trop vite sa confiance.",
+      "hobby": "⚔️🛡️ Forger des armes d'exception Explorer des ruines anciennes Étudier les armes et armures des civilisations disparues Entretenir son équipement Observer les étoiles en priant Nyxara avant chaque expédition.",
+      "summary": "📜 Kaelor Damaris naquit dans les quartiers des artisans de Myrinthia, au cœur de la République d'Erythros. Fils d'un maître forgeron, il grandit au rythme des marteaux frappant l'enclume et de la chaleur des fourneaux consacrés à Draxion, le Maître des Forgerons. Très jeune, il apprit que chaque arme possédait une âme façonnée autant par le métal que par la volonté de celui qui la forgeait.",
+      "history": "📜 Kaelor Damaris naquit dans les quartiers des artisans de Myrinthia, au cœur de la République d'Erythros. Fils d'un maître forgeron, il grandit au rythme des marteaux frappant l'enclume et de la chaleur des fourneaux consacrés à Draxion, le Maître des Forgerons. Très jeune, il apprit que chaque arme possédait une âme façonnée autant par le métal que par la volonté de celui qui la forgeait. Durant des années, il perfectionna son art en raffinant les minerais, en fabriquant des épées, des armures et des équipements destinés aux soldats de la République. Son talent finit par lui permettre de réaliser des armes complexes, assemblées pièce par pièce avec une précision remarquable, ainsi que des pièces pour les machines de guerre utilisées par les armées d'Erythros. Mais Kaelor ne souhaitait pas passer toute sa vie derrière une enclume. Fasciné par les récits des héros et des explorateurs, il décida de parcourir le monde. Il devint mercenaire, mettant son épée au service de ceux qui recherchaient un combattant fiable. Escortes de caravanes, chasse aux monstres, exploration de ruines oubliées, protection de villages isolés ou traque de bandits : aucun contrat ne lui faisait peur. Au fil de ses voyages, il découvrit des schémas anciens, des minerais rares et des secrets oubliés qu'il rapportait fidèlement aux autorités d'Erythros, convaincu que le savoir devait servir la prospérité de son peuple. Ses gains lui permettaient d'améliorer sans cesse son atelier, ensuite plein d'expériences il deviens soldat. Profondément croyant, Kaelor adressait ses prières à Draxion avant chaque forge, à Kalyndor avant chaque bataille et à Velyra lorsqu'il devait prendre une décision qui pouvait changer une destinée. Il incarnait les trois valeurs enseignées depuis l'enfance à tous les citoyens d'Erythros : le Devoir, la Justice et la Discipline. Lorsque les premières créatures marines surgirent des profondeurs, Kaelor fut engagé pour protéger plusieurs convois marchands. Il combattit sur les côtes aux côtés des soldats de la République et participa à la défense de nombreux villages. Lorsque les monstres se retirèrent, il espéra que le danger était passé. Il se trompait. Lorsque le Catac",
+      "relations": [],
+      "sheetDate": "12/07/2026"
+    },
+    {
+      "id": "rosbin-vernex",
+      "name": "Rosbin Vernex",
+      "age": "28",
+      "realm": "Erythros",
+      "religion": "Le Panthéon d’Azur",
+      "job": "Dompteur / Reproducteur",
+      "status": "a_confirmer",
+      "traits": "Discipliné Loyal Méthodique Courageux Altruiste Défauts Perfectionniste Trop prudent Peu bavard Se montre parfois inflexible A tendance à faire passer son devoir avant lui-même",
+      "hobby": "Rechercher de nouvelles plantes médicinales. Expérimenter des mélanges alchimiques. Étudier les anciens traités d'Ormédon. Entretenir son équipement militaire. Observer les étoiles en rendant hommage à Nyxara.",
+      "summary": "Rosbin Vernex naquit dans la grande cité de Myrinthia, au sein d'une famille d'herboristes réputée pour fournir remèdes et potions aux habitants de la République d'Erythros. Très tôt, il développa une fascination pour les réactions des plantes, des minéraux et des essences rares. Convaincu que la connaissance pouvait sauver davantage de vies que la force seule, il consacra sa jeunesse à l'étude de l'alchimie sous la protection d'Ormédon, dieu du savoir. Au fil des années, Rosbin devint un alchimiste reconnu.",
+      "history": "Rosbin Vernex naquit dans la grande cité de Myrinthia, au sein d'une famille d'herboristes réputée pour fournir remèdes et potions aux habitants de la République d'Erythros. Très tôt, il développa une fascination pour les réactions des plantes, des minéraux et des essences rares. Convaincu que la connaissance pouvait sauver davantage de vies que la force seule, il consacra sa jeunesse à l'étude de l'alchimie sous la protection d'Ormédon, dieu du savoir. Au fil des années, Rosbin devint un alchimiste reconnu. Il fabriquait des potions curatives pour les voyageurs, des antidotes contre les maladies, des colorants destinés aux artisans ainsi que de la poudre à canon et d'autres substances indispensables aux forgerons et aux ingénieurs militaires. Son laboratoire était un lieu où se mêlaient l'odeur des plantes séchées, des minéraux broyés et des préparations les plus complexes. Mais vivre à Erythros signifiait également servir son royaume. Comme de nombreux citoyens, Rosbin suivit une formation militaire et rejoignit les rangs de l'armée républicaine en tant que soldat. Son rôle était double : défendre les frontières lorsque le devoir l'exigeait et soutenir ses compagnons grâce à ses connaissances en médecine et en alchimie. Plus d'une fois, ses remèdes sauvèrent des soldats blessés sur les champs de bataille. Lorsque d'étranges créatures émergèrent des profondeurs marines pour attaquer les côtes d'Erythros, Rosbin fut envoyé avec une garnison afin de protéger les villages et les ports. Il participa à la fabrication de munitions, de potions et d'antidotes destinés aux défenseurs, tout en combattant sur les remparts lorsque les monstres approchaient. Après plusieurs mois de lutte, les créatures disparurent, laissant croire que la paix était revenue. Cependant, les oracles continuaient d'annoncer une catastrophe imminente. Rosbin prêta foi à leurs paroles. Il constitua discrètement des réserves de potions, d'eau et de vivres, persuadé que le royaume traverserait bientôt une terrible épreuve. Le Cataclysme éclata quelques jours plus tard. Alors qu'il servait dans un poste militaire proche des collines dominant Myrinthia, la terre se mit à trembler avec une violence in",
+      "relations": [],
+      "sheetDate": "12/07/2026"
+    },
+    {
+      "id": "harald",
+      "name": "Harald",
+      "age": "28",
+      "realm": "Falkheim",
+      "religion": "Culte du Gèle",
+      "job": "Dompteur · Mercenaire",
+      "status": "a_confirmer",
+      "traits": "courageux,loyale,gentil / nerveux alcoolique",
+      "hobby": "pêche,chasse,cuisine et combat",
+      "summary": "Harald venait d’une terre très lointaine. Avec son équipage et son frère , il naviguait sur leur drakkar lorsqu’une terrible tempête éclata. Les voiles furent déchirées, le gouvernail brisé et le navire ne pouvait plus être dirigé. Pendant de nombreux jours, ils dérivèrent en pleine mer, guidés seulement par les courants marins et le vent. Alors que tout espoir semblait perdu, une île mystérieuse apparut à l’horizon. Leur drakkar s’échoua sur une plage d’une terre inconnue.",
+      "history": "Harald venait d’une terre très lointaine. Avec son équipage et son frère , il naviguait sur leur drakkar lorsqu’une terrible tempête éclata. Les voiles furent déchirées, le gouvernail brisé et le navire ne pouvait plus être dirigé. Pendant de nombreux jours, ils dérivèrent en pleine mer, guidés seulement par les courants marins et le vent. Alors que tout espoir semblait perdu, une île mystérieuse apparut à l’horizon. Leur drakkar s’échoua sur une plage d’une terre inconnue. Harald comprit aussitôt que ce n’était pas un hasard. Les dieux les avaient guidés jusqu’ici. Cette île cachait de nombreux mystères et, peut-être, le destin exceptionnel qui les attendait.",
+      "relations": [
+        {
+          "target": "halfdan",
+          "label": "Lien fraternel probable dans les fiches",
+          "certainty": "a_confirmer"
+        },
+        {
+          "target": "maximus-hafnar",
+          "label": "Lien fraternel probable dans les fiches",
+          "certainty": "a_confirmer"
+        }
+      ],
+      "sheetDate": "16/07/2026"
+    },
+    {
+      "id": "halfdan",
+      "name": "Halfdan",
+      "age": "28",
+      "realm": "Falkheim",
+      "religion": "Culte du Gèle",
+      "job": "Forgeron · Mercenaire",
+      "status": "a_confirmer",
+      "traits": "courageux,loyale,gentil / alcoolique,roublard",
+      "hobby": "pêche,chasse,cuisine et combat",
+      "summary": "Halfdan venait d’une terre très lointaine. Avec son équipage et son frère , il naviguait sur leur drakkar lorsqu’une terrible tempête éclata. Les voiles furent déchirées, le gouvernail brisé et le navire ne pouvait plus être dirigé. Pendant de nombreux jours, ils dérivèrent en pleine mer, guidés seulement par les courants marins et le vent. Alors que tout espoir semblait perdu, une île mystérieuse apparut à l’horizon. Leur drakkar s’échoua sur une plage d’une terre inconnue.",
+      "history": "Halfdan venait d’une terre très lointaine. Avec son équipage et son frère , il naviguait sur leur drakkar lorsqu’une terrible tempête éclata. Les voiles furent déchirées, le gouvernail brisé et le navire ne pouvait plus être dirigé. Pendant de nombreux jours, ils dérivèrent en pleine mer, guidés seulement par les courants marins et le vent. Alors que tout espoir semblait perdu, une île mystérieuse apparut à l’horizon. Leur drakkar s’échoua sur une plage d’une terre inconnue. Halfdan comprit aussitôt que ce n’était pas un hasard. Les dieux les avaient guidés jusqu’ici. Cette île cachait de nombreux mystères et, peut-être, le destin exceptionnel qui les attendait.",
+      "relations": [
+        {
+          "target": "harald",
+          "label": "Lien fraternel probable dans les fiches",
+          "certainty": "a_confirmer"
+        },
+        {
+          "target": "maximus-hafnar",
+          "label": "Lien fraternel probable dans les fiches",
+          "certainty": "a_confirmer"
+        }
+      ],
+      "sheetDate": "16/07/2026"
+    },
+    {
+      "id": "maximus-hafnar",
+      "name": "Maximus Hafnar",
+      "age": "35",
+      "realm": "Falkheim",
+      "religion": "Culte du Gèle",
+      "job": "Menuisier / Ingénieur · Mercenaire / Explorateur",
+      "status": "a_confirmer",
+      "traits": "courageux,loyale,gentil / tres maladroit 🙃",
+      "hobby": "exploration et les créatures",
+      "summary": "Maximus est nés sur une terre tres lointaine avec cest deux frere , où la mer sont le plus déchainer au monde , il grandit avec c deux frere a apprendre l art de la hache avant de savoir lire les runes, respecter tout homme sage , et a défier la mort . Très récemment, les trois frères embarquèrent sur un drakkar afin de partir en quête d’une nouvelle terre où bâtir leur propre destinée. Mais les dieux en décidèrent autrement.",
+      "history": "Maximus est nés sur une terre tres lointaine avec cest deux frere , où la mer sont le plus déchainer au monde , il grandit avec c deux frere a apprendre l art de la hache avant de savoir lire les runes, respecter tout homme sage , et a défier la mort . Très récemment, les trois frères embarquèrent sur un drakkar afin de partir en quête d’une nouvelle terre où bâtir leur propre destinée. Mais les dieux en décidèrent autrement. Une tempête d’une violence inouïe s’abattit sur leur navire, brisant les voiles et fracassant la coque contre les récifs. losrque Maximus se reveillre un drakkar en mile morceau et une immense terre inconnue : Falkheim…..",
+      "relations": [
+        {
+          "target": "harald",
+          "label": "Lien fraternel probable dans les fiches",
+          "certainty": "a_confirmer"
+        },
+        {
+          "target": "halfdan",
+          "label": "Lien fraternel probable dans les fiches",
+          "certainty": "a_confirmer"
+        }
+      ],
+      "sheetDate": "16/07/2026"
+    },
+    {
+      "id": "khoros-dorkemi",
+      "name": "Khoros Dorkemi",
+      "age": "38",
+      "realm": "Erythros",
+      "religion": "Le Panthéon d’Azur",
+      "job": "Alchimiste · Soldat",
+      "status": "a_confirmer",
+      "traits": "Intelligent Discipliné Courageux Patient Méthodique Défauts Perfectionniste Méfiant Peu bavard Obstiné Se montre parfois trop froid dans ses décisions",
+      "hobby": "Lorsque ses devoirs lui en laissent le temps, Khoros parcourt les montagnes et les forêts d'Erythros afin de récolter des plantes rares, des champignons et des minéraux nécessaires à ses recherches. Il tient également un journal où il consigne chacune de ses découvertes alchimiques dans l'espoir de transmettre un jour son savoir aux générations futures.",
+      "summary": "Né dans un quartier d'artisans de la grande cité de Myrinthia, Khoros Dorkemi grandit dans le respect des trois piliers enseignés à tous les citoyens d'Erythros : le Devoir, la Justice et la Discipline. Très tôt, il développa une fascination pour les sciences et les mystères de l'alchimie. Là où d'autres voyaient de simples plantes ou des pierres sans valeur, lui y voyait les ingrédients de remèdes capables de sauver des vies ou de créations pouvant renforcer tout un royaume.",
+      "history": "Né dans un quartier d'artisans de la grande cité de Myrinthia, Khoros Dorkemi grandit dans le respect des trois piliers enseignés à tous les citoyens d'Erythros : le Devoir, la Justice et la Discipline. Très tôt, il développa une fascination pour les sciences et les mystères de l'alchimie. Là où d'autres voyaient de simples plantes ou des pierres sans valeur, lui y voyait les ingrédients de remèdes capables de sauver des vies ou de créations pouvant renforcer tout un royaume. Après plusieurs années d'études auprès des maîtres alchimistes des temples d'Ormédon, il devint l'un des artisans les plus prometteurs de sa génération. Il fabriquait des potions de soins, des antidotes, des poudres d'étincelles pour la conservation des vivres, des colorants destinés aux artisans ainsi que de la poudre à canon utilisée par les armées républicaines. Son atelier accueillait aussi bien des soldats blessés que des explorateurs ou de simples citoyens venus chercher un remède. Mais à Erythros, chaque citoyen devait être prêt à défendre sa patrie. Fidèle aux enseignements de Kalyndor, dieu de la guerre héroïque, Khoros rejoignit également les rangs de l'armée républicaine. Sans être un guerrier renommé, il servait avec honneur, protégeant les convois, les routes commerciales et les laboratoires où étaient fabriquées les précieuses ressources nécessaires à l'effort de guerre. Sur le champ de bataille, il soutenait ses frères d'armes autant par son épée que par les potions et préparations qu'il transportait avec lui. Profondément croyant, Khoros priait régulièrement Ormédon pour la sagesse, Kalyndor pour le courage et Velyra afin que son destin demeure digne de ses ancêtres. Il était convaincu que le savoir n'avait de valeur que s'il servait le peuple et la République. Lorsque d'étranges créatures commencèrent à émerger des profondeurs marines et que les oracles annoncèrent une catastrophe imminente, Khoros fut chargé de préparer des réserves d'antidotes, de remèdes et de substances alchimiques pour les soldats envoyés défendre les côtes. Comme beaucoup, il espérait encore que la République surmonterait cette nouvelle épreuve. Puis vint le Cataclysme. En une seule journée et une seu",
+      "relations": [],
+      "sheetDate": "18/07/2026"
+    },
+    {
+      "id": "orion-corvax",
+      "name": "Orion Corvax",
+      "age": "24",
+      "realm": "Erythros",
+      "religion": "Le Panthéon d’Azur",
+      "job": "Constructeur · Soldat",
+      "status": "a_confirmer",
+      "traits": "Loyal et courageux, méticuleux, sociable, bienveillant / Têtu, intransigeant, violent,",
+      "hobby": "Construire des lieu de vie accueillantes pour son peuple ainsi que d’ériger les défenses des citées. Formeur de la garde, soldat aguerri disposant de qualités de combat s’est tourné vers les arènes gladiatrices.",
+      "summary": "Seul survivant du village il jura de survivre en honorant les morts. Il partit à l’aventure à la recherche d’autres rescapés afin de commencer une nouvelle vie avec ses talents acquis au durs labeurs dans sa jeunesse..",
+      "history": "Seul survivant du village il jura de survivre en honorant les morts. Il partit à l’aventure à la recherche d’autres rescapés afin de commencer une nouvelle vie avec ses talents acquis au durs labeurs dans sa jeunesse..",
+      "relations": [],
+      "sheetDate": "19/07/2026"
+    },
+    {
+      "id": "buniar-maren",
+      "name": "Buniar Maren",
+      "age": "37",
+      "realm": "Nerethis",
+      "religion": "Culte de Thyphar",
+      "job": "Tavernier / Aubergiste / Agriculteur · Soldat",
+      "status": "a_confirmer",
+      "traits": "Buniar est sociable, accueillant, travailleur et généreux. Il aime discuter avec les voyageurs, écouter leurs",
+      "hobby": "Buniar apprécie discuter avec les clients de son auberge, écouter les récits des marins et recueillir les nouvelles et les rumeurs rapportées des différents territoires. Il aime également voyager en caravane, découvrir de nouvelles boissons et rechercher des produits intéressants à proposer dans son établissement. Lorsqu’il dispose d’un peu de temps libre, il préfère s’installer près d’un feu avec une chope et une bo",
+      "summary": "s et rendre service à ceux qui en ont besoin. Malgré ses plaintes régulières, il reste loyal envers les personnes qui gagnent sa confiance et prend très au sérieux la sécurité de ses clients. Défauts : Buniar est particulièrement bavard. Il bougonne souvent à propos de la météo, de l’état des routes, du prix des marchandises ou du comportement des voyageurs. Il peut également se montrer méfiant envers les inconnus, têtu et parfois trop curieux au sujet des affaires des autres.",
+      "history": "s et rendre service à ceux qui en ont besoin. Malgré ses plaintes régulières, il reste loyal envers les personnes qui gagnent sa confiance et prend très au sérieux la sécurité de ses clients. Défauts : Buniar est particulièrement bavard. Il bougonne souvent à propos de la météo, de l’état des routes, du prix des marchandises ou du comportement des voyageurs. Il peut également se montrer méfiant envers les inconnus, têtu et parfois trop curieux au sujet des affaires des autres. Loisirs : Buniar apprécie discuter avec les clients de son auberge, écouter les récits des marins et recueillir les nouvelles et les rumeurs rapportées des différents territoires. Il aime également voyager en caravane, découvrir de nouvelles boissons et rechercher des produits intéressants à proposer dans son établissement. Lorsqu’il dispose d’un peu de temps libre, il préfère s’installer près d’un feu avec une chope et une bonne histoire à raconter. . Histoire : Buniar Maren est né dans un petit village de pêcheurs de Nerethis. Il grandit parmi les marins, les marchands et leurs récits de voyage, développant très tôt un goût pour les discussions et les nouvelles venues d’ailleurs. Devenu caravanier, il parcourut les routes et les ports du royaume pour transporter des marchandises. Habitué aux dangers du voyage, il reste prudent, débrouillard et ne manque jamais une occasion de bougonner contre la météo, les routes ou le prix des provisions. Après plusieurs années sur les routes, Buniar décida de restaurer une ancienne auberge afin d’en faire un lieu accueillant pour les habitants et les voyageurs. Il continue aujourd’hui ses activités de caravanier pour ravitailler son établissement et rapporter les dernières nouvelles du royaume.",
+      "relations": [],
+      "sheetDate": "20/07/2026"
+    },
+    {
+      "id": "logan-varkhen",
+      "name": "Logan Varkhen",
+      "age": "28",
+      "realm": "Vanloria",
+      "religion": "Le Père de Lumière",
+      "job": "Constructeur · Mercenaire",
+      "status": "a_confirmer",
+      "traits": "Gentill Drôle parfois Méfiant Default: Trop sur de lui Personnalité: Honorable et loyal. Calme et réfléchi. Protecteur envers les innocents. Observateur et stratégique. Sens aigu du devoir et de la justice. Impitoyable envers ses ennemis et les traîtres. Perfectionniste, aussi bien au combat que dans son travail.",
+      "hobby": "",
+      "summary": "Élevé dans un ordre de chevalerie réputé, il apprit très tôt que la force seule ne suffisait pas à protéger un royaume. Aux côtés de ses maîtres, il reçut une formation aussi exigeante dans l'art du combat que dans celui de la construction. Les chevaliers de son ordre étaient chargés de défendre les forteresses, mais aussi de les concevoir et de les reconstruire après les guerres. Devenu adulte, il choisit de parcourir les royaumes comme chevalier errant.",
+      "history": "Élevé dans un ordre de chevalerie réputé, il apprit très tôt que la force seule ne suffisait pas à protéger un royaume. Aux côtés de ses maîtres, il reçut une formation aussi exigeante dans l'art du combat que dans celui de la construction. Les chevaliers de son ordre étaient chargés de défendre les forteresses, mais aussi de les concevoir et de les reconstruire après les guerres. Devenu adulte, il choisit de parcourir les royaumes comme chevalier errant. Lorsque les conflits éclatent, il combat en tant que mercenaire pour ceux dont il juge la cause juste. Une fois les batailles terminées, il met son savoir-faire de bâtisseur au service des villes et des villages afin de reconstruire leurs murailles, leurs ponts et leurs fortifications. Aujourd'hui, il est reconnu autant pour sa valeur sur le champ de bataille que pour les ouvrages solides qu'il laisse derrière lui. Là où d'autres détruisent, lui s'efforce toujours de reconstruire.",
+      "relations": [
+        {
+          "target": "eorl-drakenval",
+          "label": "Compagnon de route",
+          "certainty": "rapporte"
+        }
+      ],
+      "sheetDate": "20/07/2026"
+    },
+    {
+      "id": "archibald-lebeau",
+      "name": "Archibald LeBeau",
+      "age": "27",
+      "realm": "Vanloria",
+      "religion": "Le Père de Lumière",
+      "job": "Forgeron · Soldat",
+      "status": "a_confirmer",
+      "traits": "Qualités : Loyal, courageux, discipliné, protecteur, persévérant. Défauts : Têtu, méfiant envers les inconnus, parfois impulsif, porte difficilement ses émotions.",
+      "hobby": "Forger des armes et armures d'exception. Entretenir son équipement militaire. S'entraîner quotidiennement au maniement de l'épée. Partir en chasse et camper en pleine nature.",
+      "summary": "Né au cœur de Vanloria dans une famille de forgerons, Archibald LeBeau a grandi au rythme des marteaux frappant l'enclume. Très jeune, son père lui transmit l'amour du métal et le respect du travail bien fait, tandis que sa mère lui inculqua les valeurs du Père de Lumière : l'honneur, la justice et le sacrifice. À seize ans, alors que les tensions aux frontières s'intensifiaient, Archibald choisit de rejoindre les rangs de l'armée afin de protéger son royaume.",
+      "history": "Né au cœur de Vanloria dans une famille de forgerons, Archibald LeBeau a grandi au rythme des marteaux frappant l'enclume. Très jeune, son père lui transmit l'amour du métal et le respect du travail bien fait, tandis que sa mère lui inculqua les valeurs du Père de Lumière : l'honneur, la justice et le sacrifice. À seize ans, alors que les tensions aux frontières s'intensifiaient, Archibald choisit de rejoindre les rangs de l'armée afin de protéger son royaume. Son talent de forgeron fit rapidement de lui un artisan apprécié, capable de fabriquer et réparer les armes de ses compagnons tout en combattant à leurs côtés lorsque la bataille l'exigeait. Après plusieurs campagnes militaires, il revint dans son village avec une solide réputation. Désormais, il partage son temps entre sa forge et son devoir de soldat, convaincu que les plus grandes armes ne valent rien sans un homme prêt à les brandir pour défendre les innocents. Sous son apparence austère se cache un homme profondément fidèle à ses convictions, prêt à tout sacrifier pour Vanloria et pour la lumière qu'il s'est juré de servir.",
+      "relations": [
+        {
+          "target": "kaylia-lebeau",
+          "label": "Frère et sœur",
+          "certainty": "confirme"
+        }
+      ],
+      "sheetDate": "20/07/2026"
+    },
+    {
+      "id": "rhaegar-szmaragd",
+      "name": "Rhaegar Szmaragd",
+      "age": "29",
+      "realm": "Vanloria",
+      "religion": "Le Père de Lumière",
+      "job": "Dompteur · Mercenaire",
+      "status": "a_confirmer",
+      "traits": "Rationnel et diplomate / Orgueilleux et respecte sa parole",
+      "hobby": "Entrainement au combat, observation des créatures, se prêter a la politique local",
+      "summary": "Né cadet d'une famille secondaire de la noblesse de Vanloria, Rhaegar Szmaragd grandit dans l'ombre de ses frères, nourri par les récits des Trois Flammes Sacrées d'Aldor. Honneur, Loyauté, Sacrifice et par la légende de Varkhor, le dernier Grand Dragon, abattu des siècles plus tôt. Plutôt que d'y voir une fin, il y vit un vide : et si Aldor n'avait pas voulu effacer les dragons du monde, mais simplement attendre celui qui serait digne d'en porter à nouveau le pouvoir ",
+      "history": "Né cadet d'une famille secondaire de la noblesse de Vanloria, Rhaegar Szmaragd grandit dans l'ombre de ses frères, nourri par les récits des Trois Flammes Sacrées d'Aldor. Honneur, Loyauté, Sacrifice et par la légende de Varkhor, le dernier Grand Dragon, abattu des siècles plus tôt. Plutôt que d'y voir une fin, il y vit un vide : et si Aldor n'avait pas voulu effacer les dragons du monde, mais simplement attendre celui qui serait digne d'en porter à nouveau le pouvoir ? Cette idée devint une obsession, le poussant à délaisser les voies classiques du chevalier pour étudier tout ce qui touchait aux créatures oubliées. Quand le Cataclysme frappa et détruisit l'ancien monde, il n'y vit pas une tragédie, mais un signe : sur ces terres nouvelles où les créatures légendaires réapparaissaient, Aldor lui offrait enfin l'occasion qu'aucun Vanlorien n'avait eue depuis des générations. Rhaegar se pretera a l'étude des créatures, leurs comportement et comment les dompter, tout en s'entrainant au combat pour se preparer a la lutte au pouvoir. Aujourd'hui, il se réveille sans rien, a la recherche des siens pour re batir un royaume et réaliser ses plus profondes envies.",
+      "relations": [],
+      "sheetDate": "21/07/2026"
+    },
+    {
+      "id": "podrick-ashford",
+      "name": "Podrick Ashford",
+      "age": "30",
+      "realm": "Vanloria",
+      "religion": "Le Père de Lumière",
+      "job": "Menuisier · Récolteur",
+      "status": "a_confirmer",
+      "traits": "attentionné et à l’écoute / a tendance à trop se méfier des apparences",
+      "hobby": "la pêche et l’exploration",
+      "summary": "Né comme le plus jeune fils de la noble Maison Ashford, dans les fertiles terres de Vanloria, Podrick grandit à l'ombre de ses frères aînés, destinés à hériter des terres et des titres familiaux. Sans espoir d'obtenir un domaine ou un nom glorieux, il rêvait pourtant d'une seule chose : devenir chevalier et gagner son honneur par ses propres exploits.",
+      "history": "Né comme le plus jeune fils de la noble Maison Ashford, dans les fertiles terres de Vanloria, Podrick grandit à l'ombre de ses frères aînés, destinés à hériter des terres et des titres familiaux. Sans espoir d'obtenir un domaine ou un nom glorieux, il rêvait pourtant d'une seule chose : devenir chevalier et gagner son honneur par ses propres exploits. À seize ans, refusant de vivre dans l'ombre de sa famille, il quitta le château ancestral avec une simple épée, un vieux cheval et la bénédiction discrète de sa mère. Pour survivre, il rejoignit une compagnie de mercenaires où il apprit la dure réalité de la guerre. Il combattit des brigands, escorta des caravanes et défendit des villages contre des pillards. Chaque bataille forgeait son caractère, mais il refusait de devenir un homme sans principes. Mais cette vie de mercenaire est derrière lui… Contrairement à beaucoup de ses compagnons, Podrick ne levait jamais son épée contre les innocents. Sa loyauté, son courage et son sens de l'honneur lui valurent le respect des soldats comme des seigneurs qu'il servait. Aujourd'hui encore, Podrick parcourt les routes de Vanloria, portant les couleurs effacées de la Maison Ashford sur son manteau. Bien qu'il ne soit encore qu'un simple mercenaire, il nourrit toujours le même rêve : qu'un jour, un roi ou un grand seigneur reconnaisse sa valeur et pose une épée sur son épaule en prononçant les mots qu'il attend depuis l'enfance : « Relève-toi, Ser Podrick Ashford, chevalier de Vanloria. » Il n’a pas connu directement le cataclysme, il en a vu les vestiges et les cicatrices qu’il a laissé, son honneur lui dicte de ne pas laisser les erreurs du passé se reproduire.",
+      "relations": [],
+      "sheetDate": "21/07/2026"
+    },
+    {
+      "id": "eorl-drakenval",
+      "name": "Eorl Drakenval",
+      "age": "36",
+      "realm": "Vanloria",
+      "religion": "Le Père de Lumière",
+      "job": "Constructeur · Soldat",
+      "status": "a_confirmer",
+      "traits": "loyal a logan varkhen/trop curieux",
+      "hobby": "aime se s'entrainer sans relâche",
+      "summary": "Eorl Drakenval née le premier de la fratrie de 5 enfant grand frère de Rolland Drakenval leurs parents étais tavernier aubergiste dans un village de taille moyen il est issue d'une famille respecter le jeune homme rêvais d'aventure une nuit il quitta l'établissement de sais parents et il partie pendant son périple il rencontra sa femme Aela Drakenval tout deux voyagea dans des contrée prenant des contrats de mercenaire lors d'un contrat Eorl rencontra un agriculteur du nom de Irvin Shraft qui lui apprirent la patie…",
+      "history": "Eorl Drakenval née le premier de la fratrie de 5 enfant grand frère de Rolland Drakenval leurs parents étais tavernier aubergiste dans un village de taille moyen il est issue d'une famille respecter le jeune homme rêvais d'aventure une nuit il quitta l'établissement de sais parents et il partie pendant son périple il rencontra sa femme Aela Drakenval tout deux voyagea dans des contrée prenant des contrats de mercenaire lors d'un contrat Eorl rencontra un agriculteur du nom de Irvin Shraft qui lui apprirent la patientes des pousse des plantes et toutes l'art des culture lors d'un autre contrat de mercenaire le couple rencontra Logan Varkhen c'est ainsi que leur veritable aventure commença",
+      "relations": [
+        {
+          "target": "aela-drakenval",
+          "label": "Époux",
+          "certainty": "confirme"
+        },
+        {
+          "target": "logan-varkhen",
+          "label": "Compagnon de route / fidélité déclarée",
+          "certainty": "confirme"
+        }
+      ],
+      "sheetDate": "23/07/2026"
+    },
+    {
+      "id": "kaylia-lebeau",
+      "name": "Kaylia LeBeau",
+      "age": "24",
+      "realm": "Vanloria",
+      "religion": "Le Père de Lumière",
+      "job": "Alchimiste / Médecin · Mercenaire / Exploreuse",
+      "status": "a_confirmer",
+      "traits": "Juste, perseverente, trop honnete",
+      "hobby": "Rechercher de nouvelle chose dans l'alchimie et passer du temps avec Archibald",
+      "summary": "Kaylia, petite soeur de Archibald a grandit dans une famille de forgeron mais n'a jamais ete interesser par cela. elle apprit l'alchimie et est passioner par les nouvelle choses tant excitante malgrer ses echec partielle. plus tard, elle recu une lettre de son frere lui invitan a rejoindre les rangs en tant qu'alchimiste car ils avait besoin de cela. elle parti donc rejoindre son frere pour vivre de nouvelle avanture.",
+      "history": "Kaylia, petite soeur de Archibald a grandit dans une famille de forgeron mais n'a jamais ete interesser par cela. elle apprit l'alchimie et est passioner par les nouvelle choses tant excitante malgrer ses echec partielle. plus tard, elle recu une lettre de son frere lui invitan a rejoindre les rangs en tant qu'alchimiste car ils avait besoin de cela. elle parti donc rejoindre son frere pour vivre de nouvelle avanture.",
+      "relations": [
+        {
+          "target": "archibald-lebeau",
+          "label": "Frère et sœur",
+          "certainty": "confirme"
+        }
+      ],
+      "sheetDate": "23/07/2026"
+    },
+    {
+      "id": "elora-valebois",
+      "name": "Elora Valebois",
+      "age": "25",
+      "realm": "Vanloria",
+      "religion": "Aucune — respect de la nature",
+      "job": "Dompteuse / Reproductrice",
+      "status": "a_confirmer",
+      "traits": "Patiente, observatrice, débrouillarde, loyale. Défauts : Elle a tendance à laisser sa curiosité passé en premier avant la raison et têtue. Elle se sent plus à l'aise avec les animaux qu'avec les humains.",
+      "hobby": "",
+      "summary": "Née à Vanloria, Elora n'a jamais vraiment pu compter sur sa famille. Sans être maltraitée, elle grandit dans l'indifférence et apprit très tôt à se débrouiller seule. Elle passait le plus clair de son temps dans les bois, où les animaux lui semblaient bien plus sincères que les hommes. Au fil des années, elle apprit à observer leur comportement, à gagner leur confiance et à les apprivoiser avec patience. Devenue adulte, elle quitta définitivement son foyer pour construire une petite cabane au cœur de la forêt.",
+      "history": "Née à Vanloria, Elora n'a jamais vraiment pu compter sur sa famille. Sans être maltraitée, elle grandit dans l'indifférence et apprit très tôt à se débrouiller seule. Elle passait le plus clair de son temps dans les bois, où les animaux lui semblaient bien plus sincères que les hommes. Au fil des années, elle apprit à observer leur comportement, à gagner leur confiance et à les apprivoiser avec patience. Devenue adulte, elle quitta définitivement son foyer pour construire une petite cabane au cœur de la forêt. Elle vivait de l'élevage, de la cueillette et de ce que la nature voulait bien lui offrir, évitant autant que possible les villages et les grandes foules. Lorsque le Cataclysme frappa, Elora fit tout son possible pour sauver les créatures qui vivaient près de chez elle. Après avoir survécu à cette journée et cette nuit de chaos, elle découvrit un monde transformé. Sa forêt n'était plus la même, mais elle refusa de l'abandonner. Désormais, elle parcourt les terres de Vanloria afin d'aider les créatures blessées, d'en apprivoiser de nouvelles et de reconstruire une vie, sans jamais oublier que les animaux ont toujours été la seule famille sur laquelle elle pouvait réellement compter.",
+      "relations": [],
+      "sheetDate": "25/07/2026"
+    },
+    {
+      "id": "sharabutdin-molong",
+      "name": "Sharabutdin Molong",
+      "age": "19",
+      "realm": "Shintai",
+      "religion": "Ordre du Lotus",
+      "job": "Forgeron · Soldat",
+      "status": "a_confirmer",
+      "traits": "Calme, loyal, rusé/fourbe, sournois, impatient",
+      "hobby": "forger, se battre",
+      "summary": "Né dans le royaume de Shintai, Sharabutdin Molong a grandi dans une famille ordinaire et s'est rapidement passionné pour la forge. Avec le temps, il développa un véritable talent dans cet art, apprenant à comprendre comment façonner les plus beaux outils. À l'adolescence, il choisit de devenir forgeron, fasciné par le travail du métal et la fabrication d'armes et d'armures.",
+      "history": "Né dans le royaume de Shintai, Sharabutdin Molong a grandi dans une famille ordinaire et s'est rapidement passionné pour la forge. Avec le temps, il développa un véritable talent dans cet art, apprenant à comprendre comment façonner les plus beaux outils. À l'adolescence, il choisit de devenir forgeron, fasciné par le travail du métal et la fabrication d'armes et d'armures. Grâce à son calme et à sa patience, il perfectionna rapidement son savoir-faire, forgeant des équipements solides et fiables tout en continuant à entraîner les créatures qu'il apprivoisait. Derrière cette attitude posée se cache cependant un homme particulièrement fourbe. Sharabutdin privilégie la ruse aux affrontements directs, manipulant ses adversaires et tendant des pièges pour obtenir l'avantage. À seulement 19 ans, il poursuit sa vie de forgeron et de soldat, guidé par son sang-froid, son intelligence et son efficacité.",
+      "relations": [],
+      "sheetDate": "26/07/2026"
+    },
+    {
+      "id": "ryusei-amatsu",
+      "name": "Ryūsei Amatsu",
+      "age": "30",
+      "realm": "Shintai",
+      "religion": "Kaoryn",
+      "job": "Dompteur / Reproducteur",
+      "status": "a_confirmer",
+      "traits": "Loyal / impitoyable",
+      "hobby": "L'apprivoisement, les promenades et la méditation",
+      "summary": "La blessure sur le torse de Ryūsei était guérie depuis longtemps mais la terreur, elle, refusait de quitter ses chairs. Ryūsei en avait encore la force : son bras était toujours aussi rapide, sa poigne aussi ferme. Pourtant, chaque fois que sa main frôlait la garde d'un sabre, la mémoire de cette pointe d'acier fendant ses os lui coupait le souffle. Il avait entrevu l'abîme, senti la froideur absolue de la mort, et il avait eu peur.",
+      "history": "La blessure sur le torse de Ryūsei était guérie depuis longtemps mais la terreur, elle, refusait de quitter ses chairs. Ryūsei en avait encore la force : son bras était toujours aussi rapide, sa poigne aussi ferme. Pourtant, chaque fois que sa main frôlait la garde d'un sabre, la mémoire de cette pointe d'acier fendant ses os lui coupait le souffle. Il avait entrevu l'abîme, senti la froideur absolue de la mort, et il avait eu peur. Aujourd'hui, dompteur de profession, il renforce la puissance du royaume de shintai à sa manière.. Il trouva un second métier, une seconde passion, la reproduction. Il espère que la tranquillité durera dans le temps et qu'il n'aura plus à combattre. Malgré ses pensées, il se prépare mentalement à la guerre...",
+      "relations": [],
+      "sheetDate": "27/07/2026"
+    },
+    {
+      "id": "suhaib-amir",
+      "name": "Suhaib Amir",
+      "age": "21",
+      "realm": "Asharun",
+      "religion": "L’Esprit des Dunes",
+      "job": "Forgeron · Récolteur",
+      "status": "a_confirmer",
+      "traits": "Méthodique / Déloyal",
+      "hobby": "Nage, Apprentissage de son métier en profondeur",
+      "summary": "Suhaib Amir Un homme de 1,81m et de couleur métisse, est né il y a 21 ans dans le royaume d’Asharun, au sein d’une famille modeste vivant principalement de la récolte, de la chasse et du commerce de ressources. Depuis son enfance, Suhaib s’est montré particulièrement observateur et méthodique. Il pouvait passer des heures à regarder les artisans travailler, cherchant à comprendre chaque geste et chaque détail de leur métier.",
+      "history": "Suhaib Amir Un homme de 1,81m et de couleur métisse, est né il y a 21 ans dans le royaume d’Asharun, au sein d’une famille modeste vivant principalement de la récolte, de la chasse et du commerce de ressources. Depuis son enfance, Suhaib s’est montré particulièrement observateur et méthodique. Il pouvait passer des heures à regarder les artisans travailler, cherchant à comprendre chaque geste et chaque détail de leur métier. Contrairement à ceux qui apprenaient simplement en reproduisant les gestes des autres, Suhaib voulait comprendre pourquoi les choses fonctionnaient. Cependant, derrière son calme et sa méthode se cache un défaut bien plus dangereux : la déloyauté. Suhaib accorde difficilement sa confiance aux autres. Il peut se montrer serviable, respectueux et même amical, mais il ne considère presque jamais une relation comme définitivement acquise. Pour lui, la loyauté doit être méritée et entretenue. Si quelqu’un devient un obstacle à ses objectifs, Suhaib n’hésitera pas à se retourner contre lui. Il ne trahit pas forcément par plaisir. Il le fait lorsqu’il estime que cela est nécessaire à sa survie, à son avenir ou à ses intérêts. Cette façon de penser lui a permis d’éviter certaines situations dangereuses, mais lui a également créé des ennemis. En dehors de son travail, Suhaib apprécie particulièrement la nage. Il aime parcourir les rivières et les côtes d’Asharun, parfois simplement pour s’éloigner des autres et réfléchir. L’eau représente pour lui un endroit où il peut être seul et observer le monde sans avoir à se mêler aux conflits. Aujourd’hui, Suhaib cherche avant tout de construire son avenir en dehors des ailes de ces parents, il prit son envole vers le centre d’Asharun pour avoir une chance. Il aidera ceux qui peuvent lui être utiles, travaillera avec ceux qui respectent sa valeur et s’alliera avec ceux qui partagent ses intérêts. Mais si un jour il doit choisir entre sa loyauté et sa survie, Suhaib Amir choisira toujours la survie. Il n’est pas devenu forgeron pour fabriquer les armes des autres. Il veut être capable de fabriquer la sienne.",
+      "relations": [],
+      "sheetDate": "27/07/2026"
+    },
+    {
+      "id": "benar-sahir",
+      "name": "Benar Sahir",
+      "age": "30",
+      "realm": "Asharun",
+      "religion": "L’Esprit des Dunes",
+      "job": "Bâtisseur · Soldat",
+      "status": "a_confirmer",
+      "traits": "Patient et loyal Méfiant et obstiné ##",
+      "hobby": "L’exploration des terres sauvages L’entraînement au combat L’étude des anciennes constructions et fortifications Le dressage des créatures du désert ##",
+      "summary": "Benar Sahir naquit au sein d’une tribu nomade installée non loin d’une importante route caravanière d’Asharun. Son père servait dans les forces du royaume, chargé de protéger les voyageurs et les convois traversant les étendues désertiques. Sa mère, quant à elle, élevait et entretenait les montures utilisées lors des longues traversées. Benar grandit ainsi entre campements, caravanes et fortifications de fortune. Très jeune, il apprit que dans le désert, un mur bien placé pouvait sauver autant de vies qu’une épée.",
+      "history": "Benar Sahir naquit au sein d’une tribu nomade installée non loin d’une importante route caravanière d’Asharun. Son père servait dans les forces du royaume, chargé de protéger les voyageurs et les convois traversant les étendues désertiques. Sa mère, quant à elle, élevait et entretenait les montures utilisées lors des longues traversées. Benar grandit ainsi entre campements, caravanes et fortifications de fortune. Très jeune, il apprit que dans le désert, un mur bien placé pouvait sauver autant de vies qu’une épée. Il participa rapidement à l’entretien des campements, à la construction de palissades, d’abris et de postes permettant aux voyageurs de se protéger des tempêtes et des créatures sauvages. Il développa également une grande facilité avec les animaux. Benar préférait les observer et comprendre leur comportement plutôt que de les contraindre. Cependant, ce fut dans la construction qu’il trouva progressivement sa véritable vocation. Pour lui, bâtir ne signifiait pas simplement dresser des murs. C’était créer un lieu capable de survivre au désert. À l’âge adulte, Benar rejoignit les forces d’Asharun. Il participa à de nombreuses patrouilles, escorta des caravanes et défendit plusieurs oasis contre les pillards et les créatures sauvages. Son expérience du terrain fit également de lui un homme précieux lorsqu’il fallait établir un campement, renforcer une position ou préparer des défenses avant une attaque. ## Histoire (2/2) : Lorsque les premiers signes du Cataclysme apparurent, quelque chose changea dans le désert. Les créatures quittèrent leurs territoires. Les caravanes rapportèrent d’étranges phénomènes. Une lumière violette apparut à plusieurs reprises à l’horizon. Benar tenta d’avertir ceux qui l’entouraient, mais ses inquiétudes furent peu entendues. Puis vint le Cataclysme. La terre se déchira sous les routes caravanières. Des bâtiments s’effondrèrent, des campements disparurent et des créatures inconnues surgirent des failles. Benar passa cette journée à aider les survivants, renforçant les refuges encore debout et guidant ceux qui le pouvaient vers des zones plus sûres. Épuisé et blessé, il finit par perdre connaissance après une nouvelle secousse. ",
+      "relations": [],
+      "sheetDate": "28/07/2026"
+    },
+    {
+      "id": "vinolt-l-ami-des-betes",
+      "name": "Vinolt l'ami des bêtes",
+      "age": "22",
+      "realm": "Falkheim",
+      "religion": "Le Culte du Gèle",
+      "job": "Alchimiste · Caravanier",
+      "status": "a_confirmer",
+      "traits": "Travailleur et courageux / Têtu",
+      "hobby": "Les ressources ya que ça de vrai, l'ami des bêtes",
+      "summary": "Vinolt l'ami de bêtes abandonné par ses parents des son plus jeune âge a grandis dans les montagnes enneigées de la contrée de falkheim, un savant fou la pris sous son aile et lui a appris l'apprivoisement et la récolte de bonne ressource pour survivre il en a fait son métier.",
+      "history": "Vinolt l'ami de bêtes abandonné par ses parents des son plus jeune âge a grandis dans les montagnes enneigées de la contrée de falkheim, un savant fou la pris sous son aile et lui a appris l'apprivoisement et la récolte de bonne ressource pour survivre il en a fait son métier. Il s'est installé dans un village de falkheim pour offrir ses compétences au bien de son peuple Le soir du cataclysme Vinolt était dans les montagnes a observer les loups dormir le bruit les a réveiller mais au lieu d'attaquer ils sont parti en meute de peur. Vinolt a couru vers la plage et ses endormie au bord de l'eau",
+      "relations": [],
+      "sheetDate": "31/07/2026"
+    },
+    {
+      "id": "deji-brautson",
+      "name": "Deji Brautson",
+      "age": "39",
+      "realm": "Falkheim",
+      "religion": "—",
+      "job": "Alchimiste · Soldat",
+      "status": "a_confirmer",
+      "traits": "Loyal / Taciturne",
+      "hobby": "Voir un nouveau jour se lever",
+      "summary": "Deji Brautson parcourt les terres de Falkheim, troquant armes, vivres, remèdes et curiosités venues d'horizons oubliés. Solitaire de nature, il ne cherche ni les honneurs ni la richesse, mais ceux qui ont gagné sa confiance savent qu'il tiendra sa parole jusqu'à son dernier souffle. Nul ne connaît réellement son histoire. Lorsqu'on l'interroge sur son passé, il répond par un silence ou un sourire fatigué. Une rumeur persiste plus que toutes les autres.",
+      "history": "Deji Brautson parcourt les terres de Falkheim, troquant armes, vivres, remèdes et curiosités venues d'horizons oubliés. Solitaire de nature, il ne cherche ni les honneurs ni la richesse, mais ceux qui ont gagné sa confiance savent qu'il tiendra sa parole jusqu'à son dernier souffle. Nul ne connaît réellement son histoire. Lorsqu'on l'interroge sur son passé, il répond par un silence ou un sourire fatigué. Une rumeur persiste plus que toutes les autres. On raconte que Deji avait une fille, disparue durant ce cataclysme. Depuis ce jour, chaque nuit semble raviver une même vision. Dans son sommeil, il prononce inlassablement un nom : Shinrei. Personne ne sait s'il s'agit d'une divinité oubliée, d'un démon, d'une créature ancestrale ou du véritable responsable de la disparition de son enfant. Ceux qui l'ont entendu dormir affirment que son visage se ferme de douleur, comme si ces rêves étaient des souvenirs plutôt que de simples cauchemars. Il voyage rarement seul. Autour de lui gravitent ceux qu'il présente uniquement comme ses frères. Personne ne connaît leur véritable identité, ni même s'ils partagent son sang. Guerriers, compagnons d'exil ou membres d'une ancienne confrérie... chacun avance sa théorie, mais Deji ne confirme jamais rien. Leur loyauté est absolue, leur présence aussi discrète qu'inquiétante. Malgré ses secrets, une chose ne fait aucun doute : Deji Brautson est profondément fidèle au royaume de Falkheim, qui lui offrit un refuge lorsque tout semblait perdu. Dans les tavernes, on dit souvent : \"Méfie-toi d'un homme qui ne parle jamais de son passé... mais remercie les dieux si cet homme s'appelle Deji Brautson et combat à tes côtés.\"",
+      "relations": [],
+      "sheetDate": "01/08/2026"
+    },
+    {
+      "id": "kornulf-brautson",
+      "name": "Kornulf Brautson",
+      "age": "29",
+      "realm": "Falkheim",
+      "religion": "—",
+      "job": "Agriculteur · Mercenaire",
+      "status": "a_confirmer",
+      "traits": "Loyal et resilent / taciturne et obstiné",
+      "hobby": "Découverte de son nouveau monde.",
+      "summary": "Runolf, le Loup des Moissons Autrefois, le nom de Runolf, le Loup des Moissons, faisait trembler les rivages du Nord. Guerrier d'une férocité légendaire, il mena d'innombrables batailles jusqu'au jour où les forces obscures déferlèrent sur le monde. Face à cette puissance impie, même les plus grands héros plièrent, et leur défaite précipita le Cataclysme qui ravagea les royaumes. Brisé, mais jamais vaincu dans son âme, Runolf abandonna la gloire des champs de bataille pour retourner à celle des champs de blé.",
+      "history": "Runolf, le Loup des Moissons Autrefois, le nom de Runolf, le Loup des Moissons, faisait trembler les rivages du Nord. Guerrier d'une férocité légendaire, il mena d'innombrables batailles jusqu'au jour où les forces obscures déferlèrent sur le monde. Face à cette puissance impie, même les plus grands héros plièrent, et leur défaite précipita le Cataclysme qui ravagea les royaumes. Brisé, mais jamais vaincu dans son âme, Runolf abandonna la gloire des champs de bataille pour retourner à celle des champs de blé. Il reprit le métier de ses ancêtres, cultivant une terre isolée où le sang céda sa place à la sueur, convaincu que nourrir un peuple était parfois plus noble que conquérir un royaume. Les loups ne l'ont pourtant jamais quitté. Ils rôdent autour de sa ferme sans jamais s'en prendre à ses récoltes ni à son bétail, comme s'ils reconnaissaient en lui l'un des leurs. Certains racontent qu'il peut traverser une forêt entière escorté par une meute silencieuse, tandis que d'autres jurent avoir vu les plus sauvages des prédateurs baisser la tête devant lui. Les anciens murmurent que ce lien surnaturel rappelle celui du légendaire lord Erold et de son terrible Fenral. Est-ce un simple hasard... ou Runolf partage-t-il un lien de sang avec Erold ? Nul ne peut l'affirmer, et le guerrier lui-même ne répond jamais à cette question. Sa solitude n'est qu'une illusion. Deux hommes l'accompagnent partout où le destin l'appelle. Ils se présentent uniquement sous le nom des frères Brautson, sans jamais révéler lequel est l'aîné, ni même s'ils sont réellement frères. Leur parenté demeure un mystère aussi épais que les brumes des fjords, mais leur loyauté envers Runolf est absolue. Là où marche le Loup des Moissons, les Brautson ne sont jamais bien loin. Depuis sa ferme oubliée, Runolf a prêté un serment que ni les dieux ni les hommes ne pourront briser. Il aidera son peuple à retrouver la grandeur perdue d'avant le Cataclysme. Quiconque viendra frapper à sa porte trouvera une réponse : homme d'État cherchant un champion, veuve réclamant justice ou orphelin implorant protection. Alors, Runolf reprendra sa hache, appellera les loups à ses côtés et combattra avec la même fureur qu'",
+      "relations": [],
+      "sheetDate": "01/08/2026"
+    },
+    {
+      "id": "galdrek-la-sauvage",
+      "name": "Galdrek la Sauvage",
+      "age": "27",
+      "realm": "Nerethis",
+      "religion": "La Déesse des Océans Infinis",
+      "job": "Dompteuse · Reproductrice",
+      "status": "a_confirmer",
+      "traits": "Vaillante, loyale, indépendante // méfiante, têtue et sans pitié pour les humains.",
+      "hobby": "les animaux, la nature, le travail manuel.",
+      "summary": "Orpheline depuis sa naissance, Galdrek a grandit dans la forêt au près des créatures. Méfiante et peu commode avec les humains, on lui vaut son surnom de Galdrek la sauvage. Peu de gens connaissent son histoire car elle n’est que peu bavarde. Une rumeur disait qu’elle serait protégée des dieux en lui laissant pour mission d’apporter paix et prospérité entre les créatures et les humains. Elle aurait survécue à la chute du monde grâce à l’aide des animaux marins qui l’auraient caché dans les tréfonds de l’océan.",
+      "history": "Orpheline depuis sa naissance, Galdrek a grandit dans la forêt au près des créatures. Méfiante et peu commode avec les humains, on lui vaut son surnom de Galdrek la sauvage. Peu de gens connaissent son histoire car elle n’est que peu bavarde. Une rumeur disait qu’elle serait protégée des dieux en lui laissant pour mission d’apporter paix et prospérité entre les créatures et les humains. Elle aurait survécue à la chute du monde grâce à l’aide des animaux marins qui l’auraient caché dans les tréfonds de l’océan. Nul ne sait comment elle aurait pu prédire ce fléau mais ce qui est sûre c’est que Galdrek La Sauvage est une dompteuse reconnue dans le royaume de Nerethis. Méfiez vous cependant, car si par malheur vous oseriez faire du mal à une de ses créatures, même après l’avoir acheté, elle sera sans pitié quand aux conséquences.",
+      "relations": [],
+      "sheetDate": "01/08/2026"
+    },
+    {
+      "id": "helrym-valombre",
+      "name": "Helrym Valombre",
+      "age": "30",
+      "realm": "Vanloria",
+      "religion": "Le Père de Lumière",
+      "job": "Menuisier / Forgeron · Mercenaire / Reproducteur",
+      "status": "a_confirmer",
+      "traits": "courageux, fidèle à sa parole, déterminé / obstiné, méfiant",
+      "hobby": "étudier les dragons et leurs légendes , forger et entretenir ses armes",
+      "summary": "Helrym, 30 ans, est un jeune homme devenu chevalier, qui rêve d’une seule chose, devenir dragonnier. Depuis toujours, il est fasciné par les dragons. Leur puissance, leur intelligence et la liberté qu’ils incarnent dans le ciel lui donnent envie de voler à leurs côtés. Pour lui, monter un dragon, ce n’est pas seulement gagner en puissance, c’est voir le monde autrement, admirer les royaumes depuis les cieux et mettre cette force au service du bien.",
+      "history": "Helrym, 30 ans, est un jeune homme devenu chevalier, qui rêve d’une seule chose, devenir dragonnier. Depuis toujours, il est fasciné par les dragons. Leur puissance, leur intelligence et la liberté qu’ils incarnent dans le ciel lui donnent envie de voler à leurs côtés. Pour lui, monter un dragon, ce n’est pas seulement gagner en puissance, c’est voir le monde autrement, admirer les royaumes depuis les cieux et mettre cette force au service du bien. Curieux et ambitieux, Helrym cherche sans cesse à apprendre et à se dépasser. Il reste fidèle à lui-même et aux personnes qu’il estime, convaincu que la loyauté vaut plus que n’importe quelle couronne. Son plus grand objectif n’est pas la gloire, mais de mériter la confiance d’un dragon et de prouver qu’un véritable dragonnier protège les innocents, défend son royaume et apporte l’espoir partout où il passe.",
+      "relations": [],
+      "sheetDate": "03/08/2026"
+    },
+    {
+      "id": "aela-drakenval",
+      "name": "Aela Drakenval",
+      "age": "34",
+      "realm": "Vanloria",
+      "religion": "Le Père de Lumière",
+      "job": "Tavernière / Agricultrice · Mercenaire / Exploratrice",
+      "status": "a_confirmer",
+      "traits": "Elle aime avoir les mains dans la terre pour produire de beaux fruit et légumes et écouter les gens de passage raconter leur",
+      "hobby": "Observer les dinosaures et étudier leur comportement, apprendre de nouvelle recettes et les faire découvrir à ceux qui l'entoure.",
+      "summary": ", mais quand elle ce perd dans ses pensées on peut toujours lui parler elle n'écoute rien. Hobby : Observer les dinosaures et étudier leur comportement, apprendre de nouvelle recettes et les faire découvrir à ceux qui l'entoure. Histoire : Aela menait une vie paisible avant que le cataclysme ne détruise son monde. Réveillée sur une terre inconnue, elle découvrit les dinosaures, des créatures qui allaient rapidement devenir sa passion.",
+      "history": ", mais quand elle ce perd dans ses pensées on peut toujours lui parler elle n'écoute rien. Hobby : Observer les dinosaures et étudier leur comportement, apprendre de nouvelle recettes et les faire découvrir à ceux qui l'entoure. Histoire : Aela menait une vie paisible avant que le cataclysme ne détruise son monde. Réveillée sur une terre inconnue, elle découvrit les dinosaures, des créatures qui allaient rapidement devenir sa passion. Là où beaucoup voyaient des monstres, elle choisit d'y voir des êtres vivants à comprendre. Aujourd'hui, elle consacre son temps à la taverne et au mercenariat, Discrète et réservée avec les inconnus, elle laisse souvent son mari, Eorl, prendre les devants. En revanche, lorsqu'il s'agit de dinosaures, sa timidité disparaît. Au moment du cataclysme aela découvrit pour la première fois ces créature magnifique et essaya d'aider un autochtone à protéger ses maigre ressources à avant de ce mettre à la recherche de son mari et de leur joyeuse troupe et de l'ai aider à reconstruire la grandeur des vanloria.",
+      "relations": [
+        {
+          "target": "eorl-drakenval",
+          "label": "Époux",
+          "certainty": "confirme"
+        }
+      ],
+      "sheetDate": "03/08/2026"
+    },
+    {
+      "id": "james-white",
+      "name": "James White",
+      "age": "32",
+      "realm": "Nerethis",
+      "religion": "Le Domaine des Flots",
+      "job": "Dompteur · Soldat",
+      "status": "a_confirmer",
+      "traits": "Charismatique Visionnaire Stratège naval Intrépide Protecteur envers son équipage Défauts : Téméraire Provocateur Obstiné Refuse l’autorité qu’il ne respecte pas Prêt à tout risquer pour sa liberté",
+      "hobby": "Explorer les mers inconnues, collectionner les cartes anciennes, raconter les légendes de Nerethis et découvrir les secrets oubliés du monde. ⸻",
+      "summary": "Bien avant le Cataclysme, lorsque les voiles noires de Nerethis dominaient encore la Mer des Cendres, un nom circulait dans toutes les tavernes de Port-Cendre. James white. Il n’était ni Amiral, ni membre du Conseil Noir. Il n’en avait jamais eu besoin. Là où certains recherchaient le pouvoir, lui poursuivait quelque chose de bien plus grand : la liberté absolue. Capitaine du légendaire navire L’Ouragan Noir, James white était connu pour traverser les tempêtes que les autres fuyaient.",
+      "history": "Bien avant le Cataclysme, lorsque les voiles noires de Nerethis dominaient encore la Mer des Cendres, un nom circulait dans toutes les tavernes de Port-Cendre. James white. Il n’était ni Amiral, ni membre du Conseil Noir. Il n’en avait jamais eu besoin. Là où certains recherchaient le pouvoir, lui poursuivait quelque chose de bien plus grand : la liberté absolue. Capitaine du légendaire navire L’Ouragan Noir, James white était connu pour traverser les tempêtes que les autres fuyaient. Il explora les Îles Fantômes, navigua au cœur de la Tempête des Mille Voiles et revint vivant de mers que beaucoup croyaient maudites. Son équipage ne le suivait ni par peur, ni par richesse. Ils le suivaient parce qu’il leur faisait croire qu’aucune mer n’était infranchissable Lorsque les tensions secouaient le Conseil Noir, James refusait de prendre parti. Pour lui, un véritable capitaine ne devait appartenir qu’à son équipage. Mais au fil de ses voyages, il remarqua des choses que personne ne voulait voir. Des courants changeaient sans raison. Les étoiles semblaient se déplacer. Les boussoles devenaient folles. Et sous les vagues… quelque chose observait. Lorsque la Dernière Nuit arriva, Rauger comprit immédiatement que ce n’était pas une guerre. C’était la fin d’un monde. Alors que Port-Cendre sombrait dans le chaos, il fit lever les voiles une dernière fois pour tenter de sauver le plus de survivants possible. Son navire affronta les vagues noires, les monstres des profondeurs et la tempête qui engloutissait Nerethis. Puis tout disparut. ⸻ James white se réveilla sur une plage inconnue. Le vent avait une odeur différente. Les constellations avaient changé. Son équipage avait disparu. Son royaume n’était plus qu’un souvenir. Face à cet horizon inconnu, il ramassa une poignée de sable, observa l’immensité devant lui et sourit. « Si les dieux ont détruit mon monde… alors je construirai le prochain. » Aujourd’hui, James n’a plus de flotte. Plus de royaume. Plus de richesse. Mais il possède encore ce qui a toujours fait sa véritable force : Sa volonté. Il parcourra ce nouveau monde, retrouvera les survivants de Nerethis, reconstruira un équipage digne des plus grandes légendes et i",
+      "relations": [
+        {
+          "target": "persephone-white",
+          "label": "Époux",
+          "certainty": "confirme"
+        }
+      ],
+      "sheetDate": "04/08/2026"
+    },
+    {
+      "id": "bully-a-la-dent-pourrie",
+      "name": "Bully à la Dent Pourrie",
+      "age": "38",
+      "realm": "Nerethis",
+      "religion": "Les Profondeurs",
+      "job": "Charpentier naval / Constructeur · Récolteur",
+      "status": "a_confirmer",
+      "traits": "Travailleur infatigable Débrouillard Loyal envers son capitaine Résistant Créatif dans la construction Défauts : Bourru Peu diplomate Cupide lorsqu’il s’agit de matériaux rares Très têtu Déteste recevoir des ordres d’inconnus",
+      "hobby": "Construire des fortifications, récolter les meilleurs matériaux, réparer des navires et fabriquer des avant-postes capables de résister aux pires tempêtes. ⸻",
+      "summary": "À Nerethis, rares étaient ceux qui connaissaient son véritable nom. Tout le monde l’appelait simplement… Bully à la Dent Pourrie. Cette dent noire et cassée, perdue lors d’une bagarre dans une taverne de Port-Cendre, lui valut un surnom qu’il porta avec fierté toute sa vie. Contrairement aux grands corsaires qui rêvaient de gloire, Bully rêvait de bâtir. Pendant que les capitaines cherchaient des trésors, lui observait les quais, les remparts et les chantiers navals.",
+      "history": "À Nerethis, rares étaient ceux qui connaissaient son véritable nom. Tout le monde l’appelait simplement… Bully à la Dent Pourrie. Cette dent noire et cassée, perdue lors d’une bagarre dans une taverne de Port-Cendre, lui valut un surnom qu’il porta avec fierté toute sa vie. Contrairement aux grands corsaires qui rêvaient de gloire, Bully rêvait de bâtir. Pendant que les capitaines cherchaient des trésors, lui observait les quais, les remparts et les chantiers navals. Très jeune, il rejoignit les ateliers de Port-Cendre où il apprit à travailler le bois, la pierre et le métal. Son talent devint rapidement légendaire. On disait qu’il pouvait reconstruire un quai en une nuit ou ériger une forteresse avant même que l’ennemi ne voie les premières fondations. Sa réputation finit par attirer l’attention d’un capitaine hors du commun… Gold Rauger Les deux hommes se rencontrèrent après qu’une tempête eut presque détruit le navire du capitaine. Là où d’autres voyaient une épave, Bully y voyait encore un chef-d’œuvre à sauver. En quelques jours seulement, il transforma le bâtiment en un navire encore plus robuste qu’avant. À partir de ce jour, il ne quitta plus jamais l’équipage de Gold Rauger Pendant des années, Bully construisit les camps, les docks, les tours de guet et les fortifications qui permirent à l’équipage de survivre dans les endroits les plus hostiles. Il connaissait les meilleures carrières de pierre, les forêts les plus riches et les gisements de métal oubliés. Il était toujours le premier à partir récolter… et le dernier à rentrer. Lorsque le Cataclysme engloutit Nerethis, Bully combattit aux côtés de son capitaine jusqu’aux derniers instants. Puis la mer les sépara. ⸻ À son réveil sur une plage inconnue, Bully n’avait plus son marteau. Plus d’atelier. Plus de chantier. Seulement une poignée de sable entre les doigts. Il regarda l’horizon, cracha dans l’eau et lança en riant : « Bon… va falloir tout reconstruire. » Depuis ce jour, Bully cherche à retrouver Gold Rauger Il est persuadé que son capitaine est vivant. Et tant que Roger respirera quelque part dans ce nouveau monde… Bully continuera de bâtir. ⸻ Mentalité Bully ne cherche ni les richesses ni les h",
+      "relations": [],
+      "sheetDate": "04/08/2026"
+    },
+    {
+      "id": "althea-gardienne-de-thyphar",
+      "name": "Althéa, Gardienne de Thyphar",
+      "age": "24",
+      "realm": "Nerethis",
+      "religion": "Le Domaine des Flots",
+      "job": "Alchimiste · Caravanière",
+      "status": "a_confirmer",
+      "traits": "Loyal, patiente / taciturne, caustique •",
+      "hobby": "découvrir le monde •",
+      "summary": "Althéa est née dans une famille pauvre des côtes du royaume de Nerethis. Ses parents étaient des gens instables et irresponsables. Ils paissaient leur temps à poursuivre leurs propres intérêts, ou la boisson, laissant Althéa dépendre d’elle même. Très jeune, elle dut apprendre à survire et se protéger dans ce monde compliqué, ce qui a fait d’elle quelqu’un d’autonome et d’habile. Elle grandit en nourrissant une profonde méfiance envers les adultes, les autorités et envers les dieux.",
+      "history": "Althéa est née dans une famille pauvre des côtes du royaume de Nerethis. Ses parents étaient des gens instables et irresponsables. Ils paissaient leur temps à poursuivre leurs propres intérêts, ou la boisson, laissant Althéa dépendre d’elle même. Très jeune, elle dut apprendre à survire et se protéger dans ce monde compliqué, ce qui a fait d’elle quelqu’un d’autonome et d’habile. Elle grandit en nourrissant une profonde méfiance envers les adultes, les autorités et envers les dieux. Les récits religieux n’étaient, selon elle, que des histoires destinées à donner de faux espoirs. Alors que vient le caclysme, Althéa courut vers la mer, persuadée qu’un bateau lui offrirait une chance de survivre. Sous ses yeux , le monde s’effondrait. Epuisée et seule, Althéa effondra à quelques mètres de l’eau. Alors qu’elle perdait connaissance et espoir, une immense vague s’éleva. Pourtant elle ne l’a submergea pas, au contraire, elle recouvra Althéa avec douceur et protection. Althéa sentis en elle une énergie nouvelle, inattendu. Quand elle se réveille, le monde autour d’elle est complétement différent. Aujourd’hui, convaincue que Thyphar l’a choisie pour une raison, Althéa veut consacrer désormais son existence à servir la déesse. Elle ne prêche pas qu’avec de grand discours, elle préfère aussi les actes aux paroles.",
+      "relations": [],
+      "sheetDate": "05/08/2026"
+    },
+    {
+      "id": "jean-tobias-de-montmirail",
+      "name": "Jean Tobias de Montmirail",
+      "age": "44",
+      "realm": "Nerethis",
+      "religion": "Les Profondeurs",
+      "job": "Maître forgeron / Armurier / Ferronnier",
+      "status": "a_confirmer",
+      "traits": "Méticuleux Patient Loyal Ingénieux Courageux Défauts : Orgueilleux de son savoir-faire Taciturne Exigeant Rancunier Obstiné",
+      "hobby": "Forger des armes d’exception, restaurer des reliques de Nerethis, expérimenter de nouveaux alliages et transmettre son savoir aux jeunes artisans. ⸻",
+      "summary": "Dans les profondeurs fumantes de Port-Cendre, là où les marteaux résonnaient jour et nuit et où les forges illuminaient les falaises noires, un nom était respecté par tous les marins de Nerethis. Jean Tobias de Montmirail. Maître forgeron de renom, il consacra sa vie à façonner les armes et les armures des plus grands capitaines de l’Enclave. Chaque lame sortie de sa forge portait son poinçon : un marteau entouré d’une ancre, symbole de robustesse et de fidélité. Jean ne croyait pas qu’une arme faisait un héros.",
+      "history": "Dans les profondeurs fumantes de Port-Cendre, là où les marteaux résonnaient jour et nuit et où les forges illuminaient les falaises noires, un nom était respecté par tous les marins de Nerethis. Jean Tobias de Montmirail. Maître forgeron de renom, il consacra sa vie à façonner les armes et les armures des plus grands capitaines de l’Enclave. Chaque lame sortie de sa forge portait son poinçon : un marteau entouré d’une ancre, symbole de robustesse et de fidélité. Jean ne croyait pas qu’une arme faisait un héros. Il croyait qu’une arme digne d’un héros pouvait changer le destin d’une bataille. Sa réputation attira rapidement les plus grands noms de Nerethis. Mais un capitaine retint particulièrement son attention : James White. Contrairement aux autres, James ne demanda ni l’arme la plus luxueuse ni la plus impressionnante. Il demanda simplement : « Forge-moi une lame qui ne me trahira jamais. » Cette phrase convainquit Jean de rejoindre son équipage. Dès lors, il devint le maître forgeron du navire, entretenant les sabres, réparant les armures, fabriquant les outils et améliorant chaque pièce d’équipement. Avant chaque expédition, c’était à sa forge que l’équipage venait chercher les armes qui les accompagneraient jusqu’au combat. Lorsque le Cataclysme frappa Nerethis, Jean continua de travailler jusqu’au dernier instant. Même alors que Port-Cendre s’effondrait, il refusait d’abandonner sa forge tant qu’il pouvait encore équiper un défenseur de plus. Au moment où la vague noire engloutit la cité, il saisit son marteau de forge… puis le monde disparut. ⸻ Jean Tobias ouvrit les yeux sur une plage inconnue. Autour de lui, il n’y avait plus de forge. Plus de Port-Cendre. Plus d’atelier. Seulement quelques pierres noircies et son vieux marteau, miraculeusement échoué à ses côtés. Il le ramassa, observa l’horizon et murmura : « Tant que le feu brûlera… Nerethis ne mourra jamais. » Depuis ce jour, Jean Tobias de Montmirail cherche à retrouver James White. Il est convaincu qu’un équipage ne renaît pas seulement grâce à un capitaine, mais aussi grâce aux armes, aux outils et aux hommes capables de bâtir son avenir. ⸻ Mentalité Jean Tobias est un homme calme, réfléchi et ",
+      "relations": [
+        {
+          "target": "james-white",
+          "label": "Membre de son équipage",
+          "certainty": "confirme"
+        }
+      ],
+      "sheetDate": "05/08/2026"
+    },
+    {
+      "id": "persephone-white",
+      "name": "Perséphone White",
+      "age": "",
+      "realm": "Nerethis",
+      "religion": "Nerethis / foi non précisée",
+      "job": "Menuisier / Ingénieur",
+      "status": "a_confirmer",
+      "traits": "Bienveillante Courageuse Organisée Patiente Persévérante Défauts : Très protectrice envers les siens Méfiante envers les étrangers Têtue Se sacrifie souvent pour les autres Refuse d’abandonner, même lorsque tout semble perdu 📖",
+      "hobby": "",
+      "summary": "Perséphone partageait déjà la vie de James White avant le Cataclysme. Mais contrairement à son mari, son talent ne réside pas dans le commandement ou le combat. Depuis toujours, Perséphone préfère construire ce dont les autres ont besoin. Elle maîtrise le travail du bois et la conception d’équipements : meubles, coffres, armoires, étagères, mâts, drapeaux, voiles et différents équipements destinés aux habitations et aux navires. À Nerethis, ses connaissances sont particulièrement précieuses.",
+      "history": "Perséphone partageait déjà la vie de James White avant le Cataclysme. Mais contrairement à son mari, son talent ne réside pas dans le commandement ou le combat. Depuis toujours, Perséphone préfère construire ce dont les autres ont besoin. Elle maîtrise le travail du bois et la conception d’équipements : meubles, coffres, armoires, étagères, mâts, drapeaux, voiles et différents équipements destinés aux habitations et aux navires. À Nerethis, ses connaissances sont particulièrement précieuses. Dans un royaume où les ports et les navires représentent le cœur de la puissance, savoir travailler le bois, concevoir des structures et réparer des équipements est indispensable. Mais Perséphone ne se limite pas à l’artisanat. Avec les années, elle s’est intéressée à l’ingénierie militaire, apprenant à concevoir des balistes, catapultes, trébuchets et béliers destinés à soutenir les forces de Nerethis lors des conflits. Pour leurs munitions, elle dépend cependant du savoir-faire des Forgerons / Armuriers, créant ainsi une collaboration indispensable entre les artisans du royaume. Depuis le Cataclysme, Perséphone met désormais ses compétences au service de la reconstruction de Nerethis. Pendant que James White veille sur son équipage et les intérêts du royaume, Perséphone participe à rebâtir ce qui a été perdu. Car pour elle, un royaume ne se construit pas uniquement avec des soldats et des capitaines. Il se construit avec du bois, des outils… et ceux capables de transformer une idée en réalité. Lorsque le Cataclysme frappa Nerethis, Perséphone refusa de fuir avant d’avoir aidé les derniers civils à embarquer. La vague noire emporta tout. Son foyer. Ses jardins. Son royaume. ⸻ À son réveil dans ce nouveau monde, Perséphone trouva une terre vierge, fertile et inconnue. Elle s’agenouilla, prit une poignée de terre entre ses mains et sourit. « Tant que cette terre peut nourrir un enfant… il y a encore de l’espoir. » Depuis ce jour, elle cherche James White, convaincue qu’il est vivant. Son rêve est de créer un domaine capable de nourrir les survivants de Nerethis et d’offrir enfin un foyer durable à ceux qui ont tout perdu. ⸻ Mentalité Perséphone croit qu’un royaume ne se recon",
+      "relations": [
+        {
+          "target": "james-white",
+          "label": "Époux",
+          "certainty": "confirme"
+        }
+      ],
+      "sheetDate": "05/08/2026"
+    },
+    {
+      "id": "bjorn-brautson",
+      "name": "Bjorn Brautson",
+      "age": "32",
+      "realm": "Falkheim",
+      "religion": "Le Culte du Gèle",
+      "job": "Dompteur · Mercenaire",
+      "status": "a_confirmer",
+      "traits": "Téméraire, Audacieux / Impulsif",
+      "hobby": "L'apprivoisement en tout genre ainsi que prêter main fortes contre rémunération",
+      "summary": "Bjorn Brautson est né dans les terres glacées de Falkheim, une région où les clans vivent au rythme des saisons, des expéditions et des bêtes sauvages. Cousin germain de Kornulf et Deji Brautson, il grandit à ses côtés, partageant les mêmes valeurs de courage, de loyauté et de force. Très jeune, Bjorn développa un don rare : là où les autres voyaient des créatures incontrôlables, lui voyait des compagnons.",
+      "history": "Bjorn Brautson est né dans les terres glacées de Falkheim, une région où les clans vivent au rythme des saisons, des expéditions et des bêtes sauvages. Cousin germain de Kornulf et Deji Brautson, il grandit à ses côtés, partageant les mêmes valeurs de courage, de loyauté et de force. Très jeune, Bjorn développa un don rare : là où les autres voyaient des créatures incontrôlables, lui voyait des compagnons. Guidé par les anciens de son clan, il apprit l'art du dressage et consacra sa jeunesse à apprivoiser les loups, les ours et les plus féroces bêtes des terres du Nord. Sa réputation de dompteur grandit rapidement, faisant de lui un homme respecté bien au-delà de son village. Mais le sang des Brautson ne pouvait rester loin des champs de bataille. Passionné par la vie de mercenaire, Bjorn rejoignit de nombreuses expéditions aux côtés de guerriers venus de différents clans. Il combattit pour ceux qui recherchaient un homme fiable, capable de survivre dans les situations les plus périlleuses. Accompagné de ses fidèles bêtes, il accomplissait les missions les plus dangereuses, gagnant autant de renommée que d'expérience. Au fil des années, Bjorn affronta des pillards, des créatures monstrueuses et des chefs de guerre avides de conquêtes. Son calme face au danger, son lien avec les animaux et sa maîtrise des armes lui valurent le respect de ses alliés comme de ses ennemis. Malgré sa vie de mercenaire, il resta toujours fidèle à son clan et à sa famille, prêt à répondre à l'appel de ses proches lorsque celui-ci avait besoin de lui.",
+      "relations": [
+        {
+          "target": "deji-brautson",
+          "label": "Cousins",
+          "certainty": "confirme"
+        },
+        {
+          "target": "kornulf-brautson",
+          "label": "Cousins",
+          "certainty": "confirme"
+        }
+      ],
+      "sheetDate": "07/08/2026"
+    },
+    {
+      "id": "ronin-brautson",
+      "name": "Ronin Brautson",
+      "age": "31",
+      "realm": "Falkheim",
+      "religion": "—",
+      "job": "Dompteur / Reproducteur · Soldat / Garde",
+      "status": "a_confirmer",
+      "traits": "Ambitieux, Déterminé / Obstiné",
+      "hobby": "Partir en expédition pour traquer les créatures les plus rares, tester ses compétences au combat et repousser les limites de ce que son clan est capable d'accomplir.",
+      "summary": "Ronin Brautson est né dans les terres glacées de Falkheim. Cousin de Deji, Bjorn et Kornulf, il grandit à leurs côtés, partageant les valeurs de loyauté, de force et de dévouement envers les siens. Très jeune, Ronin développa une fascination pour les créatures sauvages. Là où d'autres voyaient des monstres à abattre, il voyait une puissance à dompter.",
+      "history": "Ronin Brautson est né dans les terres glacées de Falkheim. Cousin de Deji, Bjorn et Kornulf, il grandit à leurs côtés, partageant les valeurs de loyauté, de force et de dévouement envers les siens. Très jeune, Ronin développa une fascination pour les créatures sauvages. Là où d'autres voyaient des monstres à abattre, il voyait une puissance à dompter. Aux côtés de Bjorn, il apprit le dressage, mais son ambition allait plus loin : découvrir les créatures les plus rares, sélectionner les plus puissantes et créer des lignées capables de renforcer le clan. Il comprit aussi qu'une telle puissance devait être protégée. Il rejoignit donc les forces de Falkheim et se forma au combat, à la discipline et à la défense du territoire. Puis vint le Cataclysme. Séparé des siens, Ronin dut survivre seul. Il apprit à chasser, récolter et apprivoiser pour subsister. Cette épreuve transforma son ambition en serment : plus jamais les Brautson ne connaîtraient la faiblesse. Pour y parvenir, il traquera les créatures les plus redoutables, développera leurs lignées et s'emparera des ressources les plus précieuses du nouveau monde. En tant que soldat, il protégera également Falkheim et les siens. Il ne cherche pas la guerre pour la guerre : il veut bâtir une puissance telle que nul clan n'osera défier les Brautson. Chaque bête apprivoisée sera une arme. Chaque ressource rare, une richesse. Chaque victoire, une pierre posée sur l'avenir du clan.",
+      "relations": [
+        {
+          "target": "deji-brautson",
+          "label": "Cousins",
+          "certainty": "confirme"
+        },
+        {
+          "target": "bjorn-brautson",
+          "label": "Cousins",
+          "certainty": "confirme"
+        },
+        {
+          "target": "kornulf-brautson",
+          "label": "Cousins",
+          "certainty": "confirme"
+        }
+      ],
+      "sheetDate": "09/08/2026"
+    },
+    {
+      "id": "atin-saka",
+      "name": "Atin Saka",
+      "age": "19",
+      "realm": "Asharun",
+      "religion": "Esprit des Dunes",
+      "job": "Éleveur / Reproducteur · Récolteur / Chasseur",
+      "status": "a_confirmer",
+      "traits": "+Patient +Observateur +Déterminé -Têtu -Méfiant -Impulsif",
+      "hobby": "Observer les étoiles, entraîner ses dino, explorer les dunes.",
+      "summary": "Atin grandit dans les terres d'Asharun au sein d'une famille modeste, attachée aux traditions du royaume et aux Esprits des Dunes. Depuis son enfance, il apprend à vivre avec la chaleur, les longues traversées des déserts et les dangers qui se cachent derrière chaque dune. À dix-neuf ans, Atin vit très simplement. Il travaille dans l’élevage familial de dinosaures, métier banal, mais il ne veut pas que cela limite sa vie entière.",
+      "history": "Atin grandit dans les terres d'Asharun au sein d'une famille modeste, attachée aux traditions du royaume et aux Esprits des Dunes. Depuis son enfance, il apprend à vivre avec la chaleur, les longues traversées des déserts et les dangers qui se cachent derrière chaque dune. À dix-neuf ans, Atin vit très simplement. Il travaille dans l’élevage familial de dinosaures, métier banal, mais il ne veut pas que cela limite sa vie entière. C'était un curieux qui aimait voyager, découvrir de nouveaux lieux etrencontrer des gens différents de ceux de son village. Atin est très croiyant et respecte les Esprits des Dunes. Il vit seul dans le désert, il regarde les étoiles et cherche à comprendre les signes que les esprits lui envoient. Il voit le désert comme un lieu vivant, qui sait donner et reprendre. Atin est jeune, mais très affirmée. Il est déterminé et observateur, mais son entêtement et sa méfiancepeuvent lui créer des problèmes. Il préfère se reposer sur lui-même que sur les autres, tout en demeurant fidèle à ceux qui ont su gagner sa confiance. On ignore ce que l’avenir lui réserve. Il désire seulement s’évader du cadre dans lequel il a grandi et voir ce que le monde d’Asharun peut lui apporter. Pour l'instant, il suit son chemin entre les dunes, les rencontres et les imprévus, sans se douter que certaines de ses décisions vont changer du tout au tout sa vie.",
+      "relations": [],
+      "sheetDate": "10/08/2026"
+    },
+    {
+      "id": "john-harper",
+      "name": "John Harper",
+      "age": "25",
+      "realm": "Nerethis",
+      "religion": "Les Profondeurs",
+      "job": "Menuisier · Politicien",
+      "status": "a_confirmer",
+      "traits": "Tenace, Joyeux / Alcoolique, Malhonnête, Avare",
+      "hobby": "Boire du Rhum, Jouer aux cartes, Racketter",
+      "summary": "John a grandi dans un quartier pauvre de Port-Cendre. Il perdit ses parents à l’âge de 14 ans, victimes du choléra. Errant dans les rues de la ville, il fut repéré par le capitaine Storm. Ce dernier vit en lui un potentiel et décida de le recruter. John grandit alors à bord du navire du capitaine, passant son temps à piller des navires marchands. Au fil des années, il apprit à manier les armes, à naviguer et à survivre en mer. Il se forgea également une solide réputation auprès de l’équipage.",
+      "history": "John a grandi dans un quartier pauvre de Port-Cendre. Il perdit ses parents à l’âge de 14 ans, victimes du choléra. Errant dans les rues de la ville, il fut repéré par le capitaine Storm. Ce dernier vit en lui un potentiel et décida de le recruter. John grandit alors à bord du navire du capitaine, passant son temps à piller des navires marchands. Au fil des années, il apprit à manier les armes, à naviguer et à survivre en mer. Il se forgea également une solide réputation auprès de l’équipage. À l’âge de 18 ans, John devint le quartier-maître du navire du capitaine Storm. Respecté par les membres de l’équipage, il devint rapidement leur principal représentant auprès du capitaine. Lorsque les marins avaient une revendication ou un désaccord avec Storm, c’était John qui portait leur voix. Malgré son jeune âge, il était devenu une figure importante à bord. Loyal envers son équipage, mais suffisamment ambitieux pour avoir ses propres convictions, John commençait peu à peu à se demander jusqu’où il serait prêt à suivre le capitaine Storm. Mais il n'eu pas le temps de se poser trop de questions, le cataclysme frappa, les flots grondèrent et le navire coula, emportant avec lui l'équipage et toutes les possessions qu'ils détenaient.",
+      "relations": [],
+      "sheetDate": "12/08/2026"
+    },
+    {
+      "id": "ivar-bjornsson",
+      "name": "Ivar Björnsson",
+      "age": "25",
+      "realm": "Falkheim",
+      "religion": "Culte du Gel",
+      "job": "Agriculteur · Mercenaire / Soldat",
+      "status": "a_confirmer",
+      "traits": "sang froid , stratège",
+      "hobby": "étudier et apprendre",
+      "summary": "Ivar Bjornsson est un guerrier aguerri originaire du Falkheim, forgé par les batailles et les traditions de son peuple. Cousin des quatre frères Halfnar, il a toujours considéré leur famille comme la sienne. Depuis son enfance, il a appris que l’honneur et la loyauté valaient plus que la richesse ou la gloire. Guerrier puissant, Ivar est également un stratège capable d’analyser ses ennemis avant de frapper. Lorsque les frères Halfnar prirent la mer, il décida sans hésiter de monter à bord de leur navire.",
+      "history": "Ivar Bjornsson est un guerrier aguerri originaire du Falkheim, forgé par les batailles et les traditions de son peuple. Cousin des quatre frères Halfnar, il a toujours considéré leur famille comme la sienne. Depuis son enfance, il a appris que l’honneur et la loyauté valaient plus que la richesse ou la gloire. Guerrier puissant, Ivar est également un stratège capable d’analyser ses ennemis avant de frapper. Lorsque les frères Halfnar prirent la mer, il décida sans hésiter de monter à bord de leur navire. Il leur jura de les suivre partout où leurs voyages les mèneraient. Au combat, Ivar se tient toujours aux côtés de ses cousins, prêt à protéger leurs arrières. Il ne cherche pas la gloire, mais souhaite voir les siens revenir vivants de chaque bataille. Pour lui, trahir un frère ou rompre un serment serait pire que de mourir au combat. Tant que les Halfnar vogueront vers l’inconnu, Ivar Bjornsson sera à leurs côtés, fidèle jusqu’à son dernier souffle.",
+      "relations": [
+        {
+          "target": "harald",
+          "label": "Cousin des frères Halfnar — identification à confirmer",
+          "certainty": "a_confirmer"
+        },
+        {
+          "target": "halfdan",
+          "label": "Cousin des frères Halfnar — identification à confirmer",
+          "certainty": "a_confirmer"
+        },
+        {
+          "target": "maximus-hafnar",
+          "label": "Cousin des frères Halfnar — identification à confirmer",
+          "certainty": "a_confirmer"
+        }
+      ],
+      "sheetDate": "14/08/2026"
+    },
+    {
+      "id": "freddo-brautson",
+      "name": "Freddo Brautson",
+      "age": "46",
+      "realm": "Falkheim",
+      "religion": "Le Culte du Gel",
+      "job": "Tavernier / Agriculteur · Récolteur / Chasseur",
+      "status": "a_confirmer",
+      "traits": "",
+      "hobby": "Les Dodos Religion : « Le Culte du Gel ».",
+      "summary": "Âgé de 46 ans, Freddo Brautson a quitté son royaume natal pour rejoindre les terres mystérieuses de Falkeim, avec un objectif simple : survivre, trouver un endroit où s’installer… et surtout trouver de la bière. Tavernier et agriculteur de métier, Freddo possède un talent rare : tirer une bière à la perfection. Mais à son arrivée dans ce nouveau monde, quelque chose va bouleverser sa vie.",
+      "history": "Âgé de 46 ans, Freddo Brautson a quitté son royaume natal pour rejoindre les terres mystérieuses de Falkeim, avec un objectif simple : survivre, trouver un endroit où s’installer… et surtout trouver de la bière. Tavernier et agriculteur de métier, Freddo possède un talent rare : tirer une bière à la perfection. Mais à son arrivée dans ce nouveau monde, quelque chose va bouleverser sa vie. Alors qu’il cherchait du bois, une bière à la main et totalement perdu, Freddo aperçut pour la première fois une étrange petite créature. Un Dodo. Il resta immobile plusieurs secondes. Le Dodo le regarda. Freddo le regarda. Puis Freddo murmura : « Mais… qu’est-ce que c’est que ce magnifique poulet ? » Ce fut le coup de foudre. Depuis ce jour, Freddo s’est découvert une véritable passion pour ces étranges oiseaux. Il veut tout apprendre sur eux : les nourrir, les protéger, les apprivoiser et, surtout, comprendre pourquoi ils ont l’air aussi idiots. Il leur parle régulièrement, leur donne des noms et commence déjà à envisager la création d’un véritable élevage de Dodos. Son rêve est désormais clair : construire une ferme, ouvrir une taverne et posséder suffisamment de Dodos pour que les clients soient obligés de pousser les portes entre deux oiseaux. Son principal défaut reste cependant inchangé : il boit autant de bière qu’il en tire. Freddo prétend que cela l’aide à réfléchir. Après trois bières, il travaille. Après cinq, il philosophe. Après huit, il prétend comprendre les Dodos. Et depuis qu’il a découvert ce nouveau monde, une nouvelle devise guide son existence : « Une bonne bière dans une main, un Dodo dans l’autre… et surtout, ne jamais laisser le tonneau vide. » 🍺🦤",
+      "relations": [],
+      "sheetDate": "14/08/2026"
+    },
+    {
+      "id": "bassime-ebenneisraque",
+      "name": "Bassime Ebenneisraque",
+      "age": "27",
+      "realm": "Asharun",
+      "religion": "L’Esprit des Dunes",
+      "job": "Dompteur · Politicien",
+      "status": "a_confirmer",
+      "traits": "indépendant et trop sociable",
+      "hobby": "aime les créatures",
+      "summary": ":Bassime Ebenneisraque mena une grande partie de sa vie au sein du royaume d’Asharun. Reconnu pour son éloquence et son sens de la justice, il gravit peu à peu les échelons jusqu’à devenir Majlis des Sables, un juge chargé de régler les conflits et de faire respecter les anciennes lois du royaume. Sa réputation finit par le conduire à Nurazan, la capitale, où il abandonna progressivement les affaires judiciaires pour entrer dans le jeu politique.",
+      "history": ":Bassime Ebenneisraque mena une grande partie de sa vie au sein du royaume d’Asharun. Reconnu pour son éloquence et son sens de la justice, il gravit peu à peu les échelons jusqu’à devenir Majlis des Sables, un juge chargé de régler les conflits et de faire respecter les anciennes lois du royaume. Sa réputation finit par le conduire à Nurazan, la capitale, où il abandonna progressivement les affaires judiciaires pour entrer dans le jeu politique. Entre alliances, rivalités et intrigues, Bassime se fit une place parmi les figures influentes de la cité. Mais son ascension fut brutalement interrompue par le Cataclysme. Le monde fut englouti et Nurazan disparut dans le chaos. Bassime ne se souvint que des cris, de l’eau et des ténèbres. Lorsqu’il rouvrit les yeux, il était étendu sur une plage inconnue. Seul, blessé et sans savoir ce qu’était devenu Asharun, il contempla cette terre étrangère. Le Majlis des Sables n’avait désormais plus de royaume, plus de fonction et plus de certitudes. Il ne lui restait qu’à découvrir dans quel monde le destin l’avait conduit.",
+      "relations": [],
+      "sheetDate": "19/08/2026"
+    },
+    {
+      "id": "madacrock-brun",
+      "name": "Madacrock Brun",
+      "age": "35",
+      "realm": "Nerethis",
+      "religion": "Nerethis / foi non précisée",
+      "job": "Alchimiste · Mercenaire",
+      "status": "a_confirmer",
+      "traits": "Loyal • Rusé • Courageux • Observateur Défauts : Secret • Méfiant • Imprévisible • Téméraire",
+      "hobby": "",
+      "summary": "Avant le Cataclysme, Madacrock Brun était un alchimiste réputé de Port-Cendre. Spécialiste des remèdes, poisons et mixtures, il travaillait également comme mercenaire lorsque la situation l’exigeait. Ami fidèle de James White, il accompagnait régulièrement son équipage lors de ses expéditions, utilisant ses connaissances pour soigner ses compagnons ou prendre l’avantage sur leurs ennemis. Madacrock cache cependant un secret : Klaus, membre de l’équipage de James, est son frère.",
+      "history": "Avant le Cataclysme, Madacrock Brun était un alchimiste réputé de Port-Cendre. Spécialiste des remèdes, poisons et mixtures, il travaillait également comme mercenaire lorsque la situation l’exigeait. Ami fidèle de James White, il accompagnait régulièrement son équipage lors de ses expéditions, utilisant ses connaissances pour soigner ses compagnons ou prendre l’avantage sur leurs ennemis. Madacrock cache cependant un secret : Klaus, membre de l’équipage de James, est son frère. Peu de personnes connaissent leur véritable lien. Après le Cataclysme, Madacrock se réveille seul dans le Nouveau Monde. Entouré de plantes et de créatures inconnues, il compte reprendre ses recherches, retrouver James White et découvrir ce qu’est devenu son frère. 🎯 Objectifs Retrouver l’équipage • Retrouver Klaus • Créer son laboratoire • Découvrir de nouvelles substances • Participer à la renaissance de Nerethis. « Certains combattent avec l’acier. Moi, je préfère savoir quelle goutte verser dans leur verre. »",
+      "relations": [
+        {
+          "target": "james-white",
+          "label": "Ami fidèle / compagnon d’expédition",
+          "certainty": "confirme"
+        }
+      ],
+      "sheetDate": "20/08/2026"
+    },
+    {
+      "id": "benji-biskuitopoulos",
+      "name": "Benji Biskuitopoulos",
+      "age": "25",
+      "realm": "Erythros",
+      "religion": "Panthéon d’Azur",
+      "job": "Agriculteur / Tavernier · Fonctionnaire / Politicien",
+      "status": "a_confirmer",
+      "traits": "Sérieux et dévoué / Maladroit et curieux",
+      "hobby": "Ecouter les ragots",
+      "summary": "Benji Biskuitopoulos a grandi dans une famille modeste d'Erythros, travaillant depuis toujours dans la taverne familiale avec ses parents. Cependant, en même temps de son travail à la taverne, il participe au développement de son petit village en aidant les villageois, si bien qu'à l'âge de ses 20 ans, il consacra une partie de son temps à la politique de son village, malgré un poste peu important.",
+      "history": "Benji Biskuitopoulos a grandi dans une famille modeste d'Erythros, travaillant depuis toujours dans la taverne familiale avec ses parents. Cependant, en même temps de son travail à la taverne, il participe au développement de son petit village en aidant les villageois, si bien qu'à l'âge de ses 20 ans, il consacra une partie de son temps à la politique de son village, malgré un poste peu important. Mais Benji était fier d'aider de tout son possible au village et y rencontra même sa futur femme, avec qui il eu une petite fille et des jours heureux. Durant le cataclysme, il perdu tout, la taverne familiale, ses parents, sa femme et même sa fille. Seul lui resta en vie par on ne sait quelle raison. Est-ce un châtiment des dieux ou une chance de répartir à zéro ? Nul ne le sait. Après le cataclysme, Benji se réveilla sur un plage, encore traumatisé des récents évènements, mais il se fit une promesse : Refaire une taverne mondialement connue en perpertuant l'héritage des Biskuitopoulos et s'impliquer dans la vie politique du village qui saura le recueillir.",
+      "relations": [],
+      "sheetDate": "23/08/2026"
+    },
+    {
+      "id": "remy-lebeau",
+      "name": "Rémy LeBeau",
+      "age": "24",
+      "realm": "Vanloria",
+      "religion": "Le Père de Lumière",
+      "job": "Menuisier · Fonctionnaire",
+      "status": "a_confirmer",
+      "traits": "Qualité : Rusé/discret/débrouillard Défaut : voleur/curieux/menteur",
+      "hobby": "Collectionner les pièces de monnaie anciennes et étrangères qu’il trouve ou récupère lors de ses petits vols",
+      "summary": "Rémy LeBeau appartient à l'une des nombreuses branches de la famille LeBeau. Contrairement à certaines familles LeBeau respectées et influentes, la sienne est considérée comme la moins honorable. Son père, Jean-Luc LeBeau, était autrefois le dirigeant de la Guilde des Voleurs de Vanloria, une organisation aujourd'hui disparue. Rémy a donc grandi dans le milieu du vol et de la criminalité, apprenant dès son enfance à crocheter des serrures, se déplacer discrètement et subtiliser ce qui ne lui appartenait pas.",
+      "history": "Rémy LeBeau appartient à l'une des nombreuses branches de la famille LeBeau. Contrairement à certaines familles LeBeau respectées et influentes, la sienne est considérée comme la moins honorable. Son père, Jean-Luc LeBeau, était autrefois le dirigeant de la Guilde des Voleurs de Vanloria, une organisation aujourd'hui disparue. Rémy a donc grandi dans le milieu du vol et de la criminalité, apprenant dès son enfance à crocheter des serrures, se déplacer discrètement et subtiliser ce qui ne lui appartenait pas. Après la disparition de la guilde, Rémy décida de mener une vie plus discrète. Il devint fonctionnaire de Vanloria, occupant un poste tout à fait respectable aux yeux du royaume. Pourtant, lorsque son travail ne suffit pas à remplir ses poches, il retourne aux anciennes habitudes de sa famille. Rémy n'est pas un grand criminel et ne cherche pas à reprendre la guilde de son père. Il préfère les petits vols, les combines et les occasions faciles. Il possède cependant une véritable obsession pour l'argent. Pour lui, quelques pièces de plus sont toujours bonnes à prendre, et il serait difficile de lui faire refuser une affaire suffisamment rentable. Malgré son nom, il n'a aucun lien avec Archibald LeBeau. Ils appartiennent simplement à deux branches différentes de la famille LeBeau.",
+      "relations": [
+        {
+          "target": "archibald-lebeau",
+          "label": "Même nom, branches distinctes — aucun lien familial direct",
+          "certainty": "confirme"
+        }
+      ],
+      "sheetDate": "23/08/2026"
+    },
+    {
+      "id": "iki-takeda",
+      "name": "Iki Takeda",
+      "age": "28",
+      "realm": "Shintai",
+      "religion": "—",
+      "job": "Charpentier · Marchand",
+      "status": "a_confirmer",
+      "traits": "> - Très fort physiquement > - Courageux > - Loyal envers ses proches Défauts : Gourmand Têtu Peut facilement s'énerver lorsqu'on se moque de son poids A tendance à sous-estimer les dangers 🍖",
+      "hobby": "> Manger : Iki adore découvrir de nouvelles recettes et goûter tout ce qu'il peut trouver. Il considère presque chaque repas comme une expérience importante. > Il apprécie particulièrement la viande et les plats très copieux. 📖",
+      "summary": "> Iki Takeda est né dans une petite communauté agricole du royaume de Shintai, au milieu des cultures. Dès son enfance, il se distingue par son imposante carrure et son appétit hors du commun. > Son père, paysan, lui apprend rapidement la valeur du travail, de la patience et de la discipline. Mais Iki découvre également une autre passion : le combat. > Alors que les autres enfants s'entraînent avec des armes, Iki préfère apprendre à utiliser son propre corps.",
+      "history": "> Iki Takeda est né dans une petite communauté agricole du royaume de Shintai, au milieu des cultures. Dès son enfance, il se distingue par son imposante carrure et son appétit hors du commun. > Son père, paysan, lui apprend rapidement la valeur du travail, de la patience et de la discipline. Mais Iki découvre également une autre passion : le combat. > Alors que les autres enfants s'entraînent avec des armes, Iki préfère apprendre à utiliser son propre corps. Il développe progressivement une technique basée sur sa force, son poids et son équilibre. > Avec les années, il devient un combattant de style sumo, capable de repousser des adversaires bien plus grands que lui grâce à sa puissance et à sa stabilité. > Mais Iki ne souhaite pas seulement devenir un grand combattant. Il as pour ambition d’être reconnue dans le monde du commerce 🎯 Motivation > Il rêve de devenir suffisamment puissant pour protéger son royaume et les personnes auxquelles il tient. > Et bien évidemment, il aimerait un jour trouver le plus grand repas jamais préparé.",
+      "relations": [],
+      "sheetDate": "24/08/2026"
+    },
+    {
+      "id": "josen-shirayuki",
+      "name": "Josen Shirayuki",
+      "age": "60",
+      "realm": "Shintai",
+      "religion": "Aucune",
+      "job": "Tavernier / Agriculteur · Récolteur / Chasseur",
+      "status": "a_confirmer",
+      "traits": "C'est quelqu'un de loyal et sympathique envers ceux qui le sont avec lui, étant également bon travailleur quand il s'agit de ses plantations. Ses défauts ? il s'énerve vite lorsque quelqu'un manque de respect a son travail, étant aussi un vieil homme qui peut vite partir en courant si il voit une créature bien plus grande que lui et hostile, vous laissant donc seul face à de dangereux prédateurs.",
+      "hobby": "Il aime s'occuper de son potager la plupart du temps, restant enfermer des heures dans sa serre pour s'occuper de ses plantations, Josen aime également aller ce promener afin de partir à la chasse ! si il lui faut préparer des repas il faut bien de la viande non ?",
+      "summary": "Josen était un fermier qui vivait dans un petit village isolé, gagnant sa vie grâce aux plats qui préparer ainsi qu'aux produits fris qu'il proposer au marché, vivant seul avec sa femme ainsi que leur fille. La vie était paisible jusqu'à ce qu'une chose imprévue n'arrive.. une grande catastrophe c'est abattu sur le monde entier.",
+      "history": "Josen était un fermier qui vivait dans un petit village isolé, gagnant sa vie grâce aux plats qui préparer ainsi qu'aux produits fris qu'il proposer au marché, vivant seul avec sa femme ainsi que leur fille. La vie était paisible jusqu'à ce qu'une chose imprévue n'arrive.. une grande catastrophe c'est abattu sur le monde entier. Le sol aura à peine commencer a trembler que la première chose qu'il fera c'est de ce rendre dans sa serre pour prendre plusieurs de ses légumes et ce mettre à courir le plus vite possible pour tenter de trouver un abris, suivant un grand nombre de villageois en voyant le sol ce fissurer a plusieurs endroits ainsi que d'immenses vagues provenant des côtes. Le vieil homme ne s'arrête pas de courir, ce retournant un instant et remarque que sa femme ainsi que sa fille ne sont pas bien loin, continuant de courir avant qu'une immense fissure dans le sol ne s'ouvre devant lui puis plus rien.. finissant par ouvrir les yeux lentement en ce retrouvant sur une plage des plus étrange et surtout.. inconnue.",
+      "relations": [],
+      "sheetDate": "24/08/2026"
+    },
+    {
+      "id": "margaux-pecheur",
+      "name": "Margaux Pêcheur",
+      "age": "26",
+      "realm": "Erythros",
+      "religion": "Le Panthéon d’Azur",
+      "job": "Alchimiste / Médecin · Garde",
+      "status": "a_confirmer",
+      "traits": "loyale, juste, serviable, efficace, voyageuse Défauts : grande gueule, capricieuse",
+      "hobby": "adore les petites bêtes et adore voyager, découvrir le monde",
+      "summary": "Le soir où le ciel au-dessus de son village s'est teinté d'un rouge sang profond, Margaux allait fêter ses seize ans. Ce n'était pas une guerre ordinaire, mais une traque méthodique conduite par ceux qu'on appelait simplement les Mécréants - des troupes en armure sombre qui ratissaient les vallées à la recherche d'Humains à découper.",
+      "history": "Le soir où le ciel au-dessus de son village s'est teinté d'un rouge sang profond, Margaux allait fêter ses seize ans. Ce n'était pas une guerre ordinaire, mais une traque méthodique conduite par ceux qu'on appelait simplement les Mécréants - des troupes en armure sombre qui ratissaient les vallées à la recherche d'Humains à découper. Ses parents ont pris la seule décision possible : ils l'ont poussée sous le plancher de la grange, dans une loge étroite camouflée par des tas de paille humide, avec pour seule consigne de ne pas émettre le moindre souffle. De là, elle a tout entendu : les sabots martelant la terre battue, le fracas des coffres fracturés, puis le silence lourd des maisons vidées de leurs habitants. Quand la fumée s'est enfin dissipée deux jours plus tard, elle est sortie pour ne trouver qu'un hameau fantôme. Fidèle aux dernières volontés écrites sur un chiffon que son père lui avait laissé, elle a pris la route du Sud. Une caravane de marchands de sel l'a recueillie, lui offrant l'anonymat d'une contrée lointaine où personne ne connaissait son nom. Au lieu de développer une terreur de la violence, cette nuit tragique a allumé chez elle une fascination presque obsessionnelle pour les arts de la guerre. Elle a passé sa jeunesse à observer les gardes des comptoirs commerciaux, apprenant à décoder leurs cartes, à deviner la trajectoire d'un bataillon à la simple poussière levée sur un chemin et à manier la dague. Les frontières sont devenues son terrain de jeu ; chaque voyage était un prétexte pour étudier les fortifications d'une cité, la dynamique des garnisons ou le tracé des anciennes routes militaires. Pendant neuf ans, elle a arpenté les garnisons frontalières, vivant de petits boulots de passeuse, de cartographe improvisée et parfois d'informatrice pour les compagnies mercenaires. C'est cette quête perpétuelle de mouvement et cette soif de stratégie qui l'ont finalement poussée à traverser les cols escarpés de la chaîne de montagnes. Alors qu'elle atteignait tout juste sa vingt-cinquième année, trempée par la pluie glacée et tirant sa mule par la bride, le brouillard s'est déchiré au détour d'un rocher. Devant elle s'étendaient les citadelles de ",
+      "relations": [],
+      "sheetDate": ""
+    },
+    {
+      "id": "ragnar-brautson",
+      "name": "Ragnar Brautson",
+      "age": "34",
+      "realm": "Falkheim",
+      "religion": "Culte du Gel",
+      "job": "Forgeron / Armurier · Soldat",
+      "status": "a_confirmer",
+      "traits": "Enjoué • Dévoué Défaut : Maladroit",
+      "hobby": "Les desserts du tavernier ❄️",
+      "summary": "Ragnar Brautson est un nouveau cousin de la vaste famille Brautson. Originaire d'une branche éloignée, il a longtemps vécu loin des terres de Falkheim, où il s'est consacré à l'apprentissage de la forge et de l'armurerie auprès de maîtres réputés. Lorsque les temps difficiles ont frappé Falkheim, Ragnar n'a pas hésité. Il a quitté ses terres afin de rejoindre les siens et mettre son savoir-faire au service de la Horde.",
+      "history": "Ragnar Brautson est un nouveau cousin de la vaste famille Brautson. Originaire d'une branche éloignée, il a longtemps vécu loin des terres de Falkheim, où il s'est consacré à l'apprentissage de la forge et de l'armurerie auprès de maîtres réputés. Lorsque les temps difficiles ont frappé Falkheim, Ragnar n'a pas hésité. Il a quitté ses terres afin de rejoindre les siens et mettre son savoir-faire au service de la Horde. Il ne vient ni chercher gloire ni richesse, mais simplement apporter son marteau, son bras et sa loyauté à sa famille. ⚒️ Compétences Forgeron et armurier d'exception, Ragnar possède une grande maîtrise du travail des métaux et de la fabrication d'armes et d'armures. Il accorde une importance particulière à la solidité, à la fiabilité et à l'efficacité de chacune de ses créations. Soldat aguerri, il sait également manier les armes qu'il forge. Habitué au combat rapproché, il est un combattant fiable qui ne recule pas lorsque la Horde est menacée. Enjoué et profondément dévoué, Ragnar aime partager sa bonne humeur avec les siens. Seule sa maladresse légendaire vient parfois troubler son sérieux, lui qui peut forger une lame parfaite avant de trébucher sur son propre marteau. Fidèle au Culte du Gel, il considère la résistance face aux épreuves comme un devoir. Et lorsqu'il n'est ni à la forge ni au combat, Ragnar poursuit une quête autrement plus importante : goûter tous les desserts du tavernier.",
+      "relations": [
+        {
+          "target": "bjorn-brautson",
+          "label": "Branche cousine des Brautson",
+          "certainty": "rapporte"
+        },
+        {
+          "target": "deji-brautson",
+          "label": "Branche cousine des Brautson",
+          "certainty": "rapporte"
+        },
+        {
+          "target": "kornulf-brautson",
+          "label": "Branche cousine des Brautson",
+          "certainty": "rapporte"
+        },
+        {
+          "target": "ronin-brautson",
+          "label": "Branche cousine des Brautson",
+          "certainty": "rapporte"
+        }
+      ],
+      "sheetDate": ""
+    }
+  ]
+}
