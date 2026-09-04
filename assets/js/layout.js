@@ -148,8 +148,33 @@
         line-height: 1.65 !important;
       }
 
-      main p:not(.overline), main li { font-size: 16px !important; line-height: 1.72 !important; }
-      main small { font-size: 13px !important; line-height: 1.45 !important; }
+      main p:not(.overline), main li, main td, main th, main dd, main blockquote {
+        font-size: 16.5px !important;
+        line-height: 1.72 !important;
+      }
+      main small, main figcaption { font-size: 13.5px !important; line-height: 1.5 !important; }
+
+      /* Lisibilité minimale sur toutes les pages, y compris les sommaires locaux */
+      main aside, main nav, main [class*="sidebar"], main [class*="toc"], main [class*="sommaire"], main [class*="index"] {
+        font-size: 15px !important;
+        line-height: 1.5 !important;
+      }
+      main aside a, main nav a, main [class*="sidebar"] a, main [class*="toc"] a, main [class*="sommaire"] a, main [class*="index"] a {
+        font-size: 15px !important;
+        line-height: 1.5 !important;
+      }
+      main aside small, main nav small, main [class*="sidebar"] small, main [class*="toc"] small, main [class*="sommaire"] small, main [class*="index"] small {
+        font-size: 13px !important;
+        line-height: 1.45 !important;
+      }
+      main summary, main summary strong, main summary em {
+        font-size: max(15px, 1em) !important;
+        line-height: 1.5 !important;
+      }
+      main [class*="card"] p, main [class*="panel"] p, main [class*="section"] p {
+        font-size: 16px !important;
+        line-height: 1.7 !important;
+      }
       main h1 { font-size: clamp(44px, 6vw, 82px) !important; line-height: .98 !important; }
       main h2 { font-size: clamp(32px, 4vw, 56px) !important; line-height: 1.08 !important; }
       main h3 { font-size: clamp(21px, 2.4vw, 30px) !important; line-height: 1.18 !important; }
@@ -300,6 +325,288 @@
         .quick-grid.lna-player-path { grid-template-columns: 1fr !important; }
         .hero-status span { min-width: 50% !important; }
         .discord-join-card strong { font-size: 23px; }
+      }
+
+
+      /* ==========================================================
+         LNA — RÈGLES GLOBALES V2
+         Lisibilité minimale + thème noir/anthracite fantasy & or
+         ========================================================== */
+      :root {
+        --night: #09090b !important;
+        --panel: #151419 !important;
+        --ink: #f5f0e7 !important;
+        --muted: #bbb2a5 !important;
+        --gold: #d2ad61 !important;
+        --gold-soft: #f0d28d !important;
+        --line: rgba(210, 173, 97, .24) !important;
+        --lna-bg: #09090b;
+        --lna-bg-soft: #0f0e12;
+        --lna-panel: #151419;
+        --lna-panel-2: #1b181d;
+        --lna-gold: #d2ad61;
+        --lna-gold-soft: #f0d28d;
+        --lna-text: #f5f0e7;
+        --lna-muted: #bbb2a5;
+        color-scheme: dark;
+      }
+
+      html { font-size: 18px !important; }
+      body {
+        background:
+          radial-gradient(circle at 18% -12%, rgba(113, 84, 38, .16), transparent 33%),
+          radial-gradient(circle at 82% 0%, rgba(89, 70, 42, .10), transparent 27%),
+          linear-gradient(180deg, #100f12 0%, #09090b 58%, #070709 100%) fixed !important;
+        color: var(--lna-text) !important;
+        font-size: 17px !important;
+      }
+
+      /* Règle de taille : contenu >=16 px, navigation/légendes >=14 px,
+         micro-labels décoratifs uniquement entre 12 et 13 px. */
+      main p:not(.overline),
+      main li,
+      main td,
+      main th,
+      main dd,
+      main dt,
+      main blockquote,
+      main summary > span:not(.profession-number):not(.section-number),
+      main [class*="description"],
+      main [class*="lead"] {
+        font-size: 16px !important;
+        line-height: 1.72 !important;
+      }
+
+      main small,
+      main figcaption,
+      main label,
+      main time,
+      main [class*="caption"],
+      main [class*="subtitle"] {
+        font-size: 14px !important;
+        line-height: 1.5 !important;
+      }
+
+      main aside,
+      main aside a,
+      main nav,
+      main nav a,
+      main [class*="sidebar"],
+      main [class*="sidebar"] a,
+      main [class*="toc"],
+      main [class*="toc"] a,
+      main [class*="sommaire"],
+      main [class*="sommaire"] a,
+      main [class*="index"] a,
+      .top-nav,
+      .top-nav a,
+      header nav a,
+      [class*="header"] nav a,
+      .mobile-menu nav a,
+      .button,
+      button,
+      [role="button"] {
+        font-size: 14px !important;
+        line-height: 1.5 !important;
+      }
+
+      main [class*="card"] p,
+      main [class*="panel"] p,
+      main [class*="section"] p,
+      main [class*="content"] p,
+      main .profession-grid strong,
+      main .kingdom-body p,
+      main .kingdom-body li {
+        font-size: 16px !important;
+      }
+
+      main summary em,
+      main .kingdom-heading em {
+        font-size: 14px !important;
+        line-height: 1.5 !important;
+      }
+
+      .overline,
+      [class*="overline"],
+      [class*="eyebrow"],
+      .section-number,
+      .profession-number,
+      [class*="badge"],
+      [class*="tag"],
+      [class*="kicker"],
+      .side-nav > p,
+      [class*="sidebar"] > p,
+      [class*="sidebar"] > div > p,
+      .side-nav > a > span {
+        font-size: 12.5px !important;
+        line-height: 1.45 !important;
+      }
+
+      .brand strong, [class*="brand"] strong { font-size: 18px !important; }
+      .brand small, [class*="brand"] small { font-size: 12px !important; }
+      .side-nav > a { font-size: 14px !important; padding-block: 14px !important; }
+
+      /* Base chromatique générale : anthracite chaud, noir et or. */
+      main,
+      [class$="-page"] {
+        color: var(--lna-text) !important;
+      }
+
+      .site-header,
+      [class$="-header"],
+      .mobile-menu nav {
+        background-color: rgba(10, 10, 12, .96) !important;
+        border-color: var(--line) !important;
+        box-shadow: 0 12px 36px rgba(0, 0, 0, .22) !important;
+      }
+
+      main aside,
+      main [class*="sidebar"],
+      main nav[class*="index"],
+      main [class*="toc"],
+      main [class*="sommaire"] {
+        background-color: rgba(12, 12, 15, .78) !important;
+        border-color: var(--line) !important;
+      }
+
+      main [class*="panel"],
+      main [class*="callout"],
+      main [class*="strip"],
+      main [class*="principle"],
+      main [class*="intro"] {
+        background-color: var(--lna-panel) !important;
+        border-color: var(--line) !important;
+      }
+
+      /* Les cartes restent sombres. Les cartes propres aux royaumes/religions
+         conservent leur accent culturel, mais sans fond vert global. */
+      main [class*="card"]:not(.kingdom-card):not(.religion-preview-card):not([class*="realm-card"]) {
+        background-color: #141317 !important;
+        border-color: var(--line) !important;
+      }
+
+      .quick-grid > a,
+      .profession-grid > article,
+      .principle,
+      .profession-cta,
+      .religion-preview-cta,
+      .demigod-preview-cta,
+      .faction-preview-cta,
+      .player-tools-grid > a,
+      .jobs-index > a,
+      .profession-card,
+      .activity-index-card,
+      .quest-guide,
+      .event-grid > article,
+      .reward-strip,
+      .coming-panel,
+      .bounty-layout,
+      .bounty-reward {
+        background: linear-gradient(145deg, #19171c 0%, #111014 72%, #0d0c0f 100%) !important;
+        border-color: var(--line) !important;
+      }
+
+      /* Neutralisation des grandes nappes vertes sans retirer les images. */
+      .jobs-page,
+      .activities-page,
+      .bestiary-page,
+      .religions-page,
+      .factions-page,
+      .history-page,
+      .territory-page,
+      .rules-page,
+      .character-page,
+      .mods-page,
+      .origins-page,
+      .realms-page {
+        background-color: var(--lna-bg) !important;
+      }
+
+      .jobs-hero,
+      .activities-hero,
+      .jobs-principle,
+      .activity-index,
+      .profession-group,
+      .content-section,
+      .join-section {
+        border-color: var(--line) !important;
+      }
+
+      .jobs-hero,
+      .jobs-principle {
+        background-color: #101014 !important;
+      }
+
+      /* Or = accent UI principal. */
+      .overline,
+      [class*="overline"],
+      [class*="eyebrow"],
+      [class*="badge"],
+      [class*="kicker"],
+      .section-number,
+      .profession-number {
+        color: var(--lna-gold) !important;
+      }
+
+      .button.primary,
+      a.button.primary {
+        background: var(--lna-gold) !important;
+        border-color: var(--lna-gold) !important;
+        color: #17130d !important;
+      }
+      .button.primary:hover,
+      a.button.primary:hover {
+        background: var(--lna-gold-soft) !important;
+        border-color: var(--lna-gold-soft) !important;
+      }
+      .button.ghost,
+      a.button.ghost {
+        background: rgba(10, 10, 12, .72) !important;
+        border-color: rgba(210, 173, 97, .38) !important;
+      }
+      .button.ghost:hover,
+      a.button.ghost:hover,
+      main nav a:hover,
+      main aside a:hover,
+      .top-nav a:hover {
+        color: var(--lna-gold-soft) !important;
+        border-color: var(--lna-gold) !important;
+      }
+
+      main hr,
+      main [class*="divider"] {
+        border-color: var(--line) !important;
+        background-color: var(--line) !important;
+      }
+
+      /* Les textes secondaires passent sur un beige/gris chaud et non verdâtre. */
+      main small,
+      main figcaption,
+      main [class*="muted"],
+      main [class*="meta"],
+      main [class*="subtitle"],
+      main [class*="description"] {
+        color: var(--lna-muted) !important;
+      }
+
+      /* L'accueil conserve son image mais perd la dominante verte. */
+      .portal-hero .hero-shade {
+        background:
+          linear-gradient(90deg, rgba(8, 8, 10, .98) 4%, rgba(13, 12, 15, .86) 43%, rgba(15, 13, 14, .30) 77%),
+          linear-gradient(180deg, rgba(0,0,0,.04) 35%, rgba(7,7,9,.96) 100%) !important;
+      }
+      .hero-status,
+      .live-chip {
+        background: rgba(11, 10, 13, .90) !important;
+        border-color: var(--line) !important;
+      }
+
+      @media (max-width: 720px) {
+        html { font-size: 17px !important; }
+        body { font-size: 16px !important; }
+        main p:not(.overline), main li, main td, main th, main dd { font-size: 16px !important; }
+        main small, main figcaption, main label { font-size: 14px !important; }
+        main aside a, main nav a, .button, button, [role="button"] { font-size: 14px !important; }
       }
     `;
     document.head.appendChild(style);
