@@ -87,7 +87,7 @@
       "age": "28",
       "religion": "Le Culte du Gel",
       "job": "Forgeron · Mercenaire",
-      "summary": "Dirigeant de Falkheim et figure majeure des sagas du Nord, Halfdan a mené des guerriers de plusieurs royaumes contre la Légion du Silence. Il est désormais porté disparu ; son absence a conduit Kornulf Brautson à assurer la direction du royaume par intérim.",
+      "summary": "Dirigeant de Falkheim et figure majeure des sagas du Nord, Halfdan a mené des guerriers de plusieurs royaumes contre la Légion du Silence. Il est désormais porté disparu ; son absence a conduit Deji Brautson à assurer la direction du royaume par intérim.",
       "notable": [
         "Dirigeant porté disparu",
         "Héros du Pont du Traître"
@@ -99,8 +99,8 @@
           "type": "family"
         },
         {
-          "target": "kornulf-brautson",
-          "label": "Kornulf assure la direction durant sa disparition",
+          "target": "deji-brautson",
+          "label": "Deji assure la direction durant sa disparition",
           "type": "political"
         }
       ],
@@ -114,22 +114,16 @@
       "name": "Kornulf Brautson",
       "realm": "Falkheim",
       "status": "vivant",
-      "role": "Dirigeant par intérim",
-      "leader": true,
+      "role": "",
+      "leader": false,
       "age": "29",
       "religion": "Aucune déclarée",
-      "job": "Agriculteur · Mercenaire",
-      "summary": "Agriculteur et combattant endurci, Kornulf Brautson assure actuellement la direction de Falkheim par intérim. Il tient le royaume durant la disparition de Halfdan, avec la même obstination que celle qui caractérise sa famille.",
+      "job": "Constructeur · Mercenaire",
+      "summary": "Constructeur et combattant de Falkheim, Kornulf Brautson met son savoir-faire au service du royaume et de sa famille. Membre des Brautson, il reste un homme résilient, taciturne et obstiné, prêt à reprendre les armes lorsque les siens en ont besoin.",
       "notable": [
-        "Dirige Falkheim par intérim",
         "Membre de la famille Brautson"
       ],
       "relations": [
-        {
-          "target": "halfdan",
-          "label": "Assure la direction de Falkheim pendant sa disparition",
-          "type": "political"
-        },
         {
           "target": "deji-brautson",
           "label": "Famille Brautson",
@@ -234,16 +228,22 @@
       "name": "Deji Brautson",
       "realm": "Falkheim",
       "status": "vivant",
-      "role": "",
-      "leader": false,
+      "role": "Dirigeant par intérim",
+      "leader": true,
       "age": "39",
       "religion": "Aucune déclarée",
       "job": "Alchimiste · Soldat",
-      "summary": "Taciturne et fidèle, Deji parcourt Falkheim avec l’allure d’un homme qui préfère les actes aux discours. Son passé demeure largement obscur, mais sa loyauté envers le royaume et envers les Brautson ne fait guère de doute.",
+      "summary": "Taciturne et fidèle, Deji Brautson parcourt Falkheim avec l’allure d’un homme qui préfère les actes aux discours. Depuis la disparition de Halfdan, il assure la direction de Falkheim par intérim, tout en conservant sa discrétion et sa loyauté envers le royaume.",
       "notable": [
+        "Dirige Falkheim par intérim",
         "Membre de la famille Brautson"
       ],
       "relations": [
+        {
+          "target": "halfdan",
+          "label": "Assure la direction de Falkheim pendant sa disparition",
+          "type": "political"
+        },
         {
           "target": "bjorn-brautson",
           "label": "Famille Brautson",
@@ -1137,5 +1137,6 @@
       "history": "*Le soir où le ciel au-dessus de son village s'est teinté d'un rouge sang profond, Margaux allait fêter ses seize ans. Ce n'était pas une guerre ordinaire, mais une traque méthodique conduite par ceux qu'on appelait simplement les Mécréants - des troupes en armure sombre qui ratissaient les vallées à la recherche d'Humains à découper. Ses parents ont pris la seule décision possible : ils l'ont poussée sous le plancher de la grange, dans une loge étroite camouflée par des tas de paille humide, avec pour seule consigne de ne pas émettre le moindre souffle. De là, elle a tout entendu : les sabots martelant la terre battue, le fracas des coffres fracturés, puis le silence lourd des maisons vidées de leurs habitants.*\n\n*Quand la fumée s'est enfin dissipée deux jours plus tard, elle est sortie pour ne trouver qu'un hameau fantôme. Fidèle aux dernières volontés écrites sur un chiffon que son père lui avait laissé, elle a pris la route du Sud. Une caravane de marchands de sel l'a recueillie, lui offrant l'anonymat d'une contrée lointaine où personne ne connaissait son nom.*  *Au lieu de développer une terreur de la violence, cette nuit tragique a allumé chez elle une fascination presque obsessionnelle pour les arts de la guerre. Elle a passé sa jeunesse à observer les gardes des comptoirs commerciaux, apprenant à décoder leurs cartes, à deviner la trajectoire d'un bataillon à la simple poussière levée sur un chemin et à manier la dague. Les frontières sont devenues son terrain de jeu ; chaque voyage était un prétexte pour étudier les fortifications d'une cité, la dynamique des garnisons ou le tracé des anciennes routes militaires.*  *Pendant neuf ans, elle a arpenté les garnisons frontalières, vivant de petits boulots de passeuse, de cartographe improvisée et parfois d'informatrice pour les compagnies mercenaires. C'est cette quête perpétuelle de mouvement et cette soif de stratégie qui l'ont finalement poussée à traverser les cols escarpés de la chaîne de montagnes.*  *Alors qu'elle atteignait tout juste sa vingt-cinquième année, trempée par la pluie glacée et tirant sa mule par la bride, le brouillard s'est déchiré au détour d'un rocher. Devant elle s'étendaient les citadelles de grès et les bannières écarlates du Royaume d'Erythros, la puissance militaire la plus redoutée du continent, où son véritable voyage allait enfin commencer...*  *À l’aube de ses vingt-six ans, le ciel et le sol du Royaume d'Erythros se sont fendus dans un rugissement assourdissant pour laisser place au Cataclysme.*  *Durant un jour et une nuit d'une violence inouïe, la terre a tremblé sous des bourrasques de feu et de cendre, déchirant le monde tel qu'elle le connaissait. Lorsque Margaux s'est enfin extirpée du coma qui l'avait frappée, le silence était revenu. Elle s'est réveillée étendue sur une plage déserte, le visage maculé de sel et de suie.*  *Les falaises de grès pourpre avaient disparu : le sable y était désormais d'un noir d'encre, bordé par une eau cristalline d'un calme presque irréel, sans le moindre vestige de la puissance militaire d'Erythros.*  *Elle se mit alors en tête de faire revivre cette puissance en se proposant comme Garde et Marchande, pour pouvoir espionner le monde alentour à la recherche de possibles traîtres...*",
       "sheetDate": ""
     }
-  ]
+  ],
+  "historyContext": "Les champs de situation affichés sur les cartes décrivent le Nouveau Monde. Le champ history conserve la fiche RP d'origine du joueur comme archive de son passé et de son point de départ, avant l'évolution du personnage dans le Nouveau Monde."
 }

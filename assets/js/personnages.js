@@ -28,12 +28,12 @@ function render(){
       card.innerHTML=`${c.leader?'<div class="leader-crown" title="Dirigeant">👑</div>':''}
         <div class="status-box status-${esc(c.status)}"><span class="status-emoji">${statusEmoji(c)}</span><span class="status-label">${esc(statusLabel(c))}</span></div>
         <div class="card-head"><div><h3>${esc(c.name)}</h3><div class="leader-role">${esc(c.role||'')}</div></div></div>
-        <div class="card-meta">${esc(c.age?c.age+' ans':'Âge non publié')} · ${esc(c.religion||'Religion non publiée')}</div>
+        <div class="current-era">Nouveau Monde · situation actuelle</div><div class="card-meta">${esc(c.age?c.age+' ans':'Âge non publié')} · ${esc(c.religion||'Religion non publiée')}</div>
         <div class="job-line">${esc(c.job||'Fonction non publiée')}</div>
         <p class="card-summary">${esc(c.summary||'Présentation à compléter.')}</p>
         ${notes?`<div class="public-notes">${notes}</div>`:''}
         ${relCount?`<div class="relation-count">${relCount} lien${relCount>1?'s':''} public${relCount>1?'s':''} recensé${relCount>1?'s':''}</div>`:''}
-        <div class="card-actions"><button class="details-btn" data-id="${esc(c.id)}" type="button">Lire la fiche RP</button></div>`;
+        <div class="card-actions"><button class="details-btn" data-id="${esc(c.id)}" type="button">Voir la fiche complète</button></div>`;
       grid.appendChild(card);
     }
     host.appendChild(sec);
@@ -45,13 +45,14 @@ function openCharacter(id){
   const c=byId(id);if(!c)return;
   const notes=(c.notable||[]).length?`<section class="modal-section"><h3>Repères RP actuels</h3><ul class="bullet-list">${c.notable.map(x=>`<li>${esc(x)}</li>`).join('')}</ul></section>`:'';
   const relations=(c.relations||[]).length?`<section class="modal-section"><h3>Liens publics connus</h3><div class="relation-list">${c.relations.map(r=>`<div class="relation-row ${esc(r.type||'')}">${esc(relationText(r))}</div>`).join('')}</div></section>`:`<section class="modal-section"><h3>Liens publics connus</h3><p>Aucun lien public suffisamment établi n’est actuellement recensé.</p></section>`;
-  const history=c.history?`<section class="modal-section"><h3>Histoire RP</h3>${c.sheetDate?`<span class="sheet-source">Fiche joueur · ${esc(c.sheetDate)}</span>`:''}<div class="history-original">${esc(c.history)}</div></section>`:`<section class="modal-section"><h3>Histoire RP</h3><p class="no-sheet">La fiche RP complète de ce personnage n’a pas encore été transmise aux archives du site.</p></section>`;
-  const recent=c.recentHistory?`<section class="modal-section"><h3>Chronique récente</h3><div class="chronicle-box">${esc(c.recentHistory)}</div></section>`:'';
+  const history=c.history?`<section class="modal-section history-archive"><h3>Fiche RP d’origine</h3><div class="archive-warning"><strong>Archive du personnage</strong><span>Cette fiche correspond au passé et au point de départ RP du personnage, avant son évolution dans le Nouveau Monde. Les métiers, fonctions, allégeances ou relations mentionnés dans ce texte peuvent ne plus correspondre à sa situation actuelle.</span></div>${c.sheetDate?`<span class="sheet-source">Fiche joueur d’origine · ${esc(c.sheetDate)}</span>`:''}<div class="history-original">${esc(c.history)}</div></section>`:`<section class="modal-section history-archive"><h3>Fiche RP d’origine</h3><p class="no-sheet">La fiche RP d’origine de ce personnage n’a pas encore été transmise aux archives du site.</p></section>`;
+  const recent=c.recentHistory?`<section class="modal-section"><h3>Chronique du Nouveau Monde</h3><div class="chronicle-box">${esc(c.recentHistory)}</div></section>`:'';
   document.querySelector('#modalBody').innerHTML=`<article class="modal-content">
     <div class="modal-kicker">${esc(c.realm)} · ${statusEmoji(c)} ${esc(statusLabel(c))}</div>
     <div class="modal-title-row"><div><h2>${esc(c.name)}</h2>${c.role?`<div class="modal-role">${esc(c.role)}${c.leader?' · 👑':''}</div>`:''}</div></div>
-    <div class="modal-grid"><div class="info"><span>Statut</span>${statusEmoji(c)} ${esc(statusLabel(c))}</div><div class="info"><span>Âge</span>${esc(c.age?c.age+' ans':'Non publié')}</div><div class="info"><span>Métier</span>${esc(c.job||'Non publié')}</div><div class="info"><span>Religion</span>${esc(c.religion||'Non publiée')}</div></div>
-    <section class="modal-section"><h3>Situation actuelle</h3><p>${esc(c.summary||'À compléter.')}</p></section>
+    <div class="modal-era-label">Nouveau Monde · situation actuelle</div>
+    <div class="modal-grid"><div class="info"><span>Statut actuel</span>${statusEmoji(c)} ${esc(statusLabel(c))}</div><div class="info"><span>Royaume actuel</span>${esc(c.realm)}</div><div class="info"><span>Âge</span>${esc(c.age?c.age+' ans':'Non publié')}</div><div class="info"><span>Métier actuel</span>${esc(c.job||'Non publié')}</div><div class="info"><span>Religion</span>${esc(c.religion||'Non publiée')}</div></div>
+    <section class="modal-section current-situation"><h3>Situation actuelle dans le Nouveau Monde</h3><p>${esc(c.summary||'À compléter.')}</p></section>
     ${notes}${relations}${history}${recent}
   </article>`;
   document.querySelector('#characterModal').showModal();

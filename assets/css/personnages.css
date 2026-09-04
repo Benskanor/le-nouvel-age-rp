@@ -56,3 +56,20 @@
 .no-sheet{border-left:2px solid var(--gold);padding-left:14px;color:#999e96!important;font-style:italic}
 @media (max-width:900px){.people-heading{align-items:flex-start;flex-direction:column}.people-toolbar{grid-template-columns:1fr;top:68px}.realm-tabs{grid-column:auto}.modal-grid{grid-template-columns:1fr 1fr}.people-hero{min-height:390px}}
 @media (max-width:620px){.people-hero-inner{padding-top:58px}.people-hero h1{font-size:clamp(2.8rem,15vw,4.5rem)}.cards{grid-template-columns:1fr}.modal-grid{grid-template-columns:1fr}.card-head{padding-right:75px}.status-box{width:68px;height:61px}.people-shell{padding-bottom:60px}.modal-content{padding-top:22px}.modal-title-row{padding-right:38px}}
+
+
+/* V3.2 — distinction Nouveau Monde / fiche RP d'origine */
+.era-notice{display:flex;gap:15px;align-items:flex-start;margin:26px 0 6px;padding:17px 19px;border:1px solid rgba(208,173,103,.30);background:linear-gradient(90deg,rgba(208,173,103,.075),rgba(208,173,103,.018));color:#b9b7aa}
+.era-icon{flex:0 0 38px;width:38px;height:38px;display:grid;place-items:center;border:1px solid rgba(208,173,103,.48);color:var(--gold-soft);font-size:18px;background:#0f140f}
+.era-notice strong{display:block;color:var(--gold-soft);font:600 1rem Georgia,serif;margin:1px 0 5px}
+.era-notice p{margin:0;font-size:12px;line-height:1.7;color:#a8aaa2}.era-notice b{color:#d6cab0;font-weight:600}
+.current-era{display:inline-block;margin-top:12px;color:#9b8559;font-size:8px;font-weight:700;letter-spacing:.14em;text-transform:uppercase}
+.modal-era-label{display:inline-block;margin-top:24px;border:1px solid rgba(208,173,103,.34);background:#15140f;padding:7px 10px;color:var(--gold-soft);font-size:9px;font-weight:700;letter-spacing:.13em;text-transform:uppercase}
+.modal-grid{grid-template-columns:repeat(auto-fit,minmax(145px,1fr))}
+.current-situation{border-top-color:rgba(208,173,103,.28)}
+.history-archive{margin-top:38px;border-top:1px solid rgba(208,173,103,.45)}
+.history-archive>h3:after{content:" · archive";color:#7e7663;font:500 9px Inter,system-ui,sans-serif;text-transform:uppercase;letter-spacing:.12em;margin-left:8px;vertical-align:middle}
+.archive-warning{display:flex;flex-direction:column;gap:4px;margin:0 0 16px;padding:13px 15px;border-left:2px solid var(--gold);background:#15140f;color:#a8aaa2}
+.archive-warning strong{color:#d6c58f;font-size:10px;letter-spacing:.11em;text-transform:uppercase}
+.archive-warning span{font-size:12px;line-height:1.65}
+@media(max-width:620px){.era-notice{padding:14px;gap:11px}.era-icon{flex-basis:34px;width:34px;height:34px}.archive-warning{padding:12px}}
