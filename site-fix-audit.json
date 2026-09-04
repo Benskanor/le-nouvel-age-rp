@@ -1,0 +1,154 @@
+{
+  "requested_route_checks": {
+    "/origines/": {
+      "header_fallback": true,
+      "layout_script": true,
+      "csp_removed": true,
+      "brand_home_link": true
+    },
+    "/royaumes/": {
+      "header_fallback": true,
+      "layout_script": true,
+      "csp_removed": true,
+      "brand_home_link": true
+    },
+    "/royaumes/asharun/": {
+      "header_fallback": true,
+      "layout_script": true,
+      "csp_removed": true,
+      "brand_home_link": true
+    },
+    "/royaumes/falkheim/": {
+      "header_fallback": true,
+      "layout_script": true,
+      "csp_removed": true,
+      "brand_home_link": true
+    },
+    "/royaumes/shintai/": {
+      "header_fallback": true,
+      "layout_script": true,
+      "csp_removed": true,
+      "brand_home_link": true
+    },
+    "/royaumes/vanloria/": {
+      "header_fallback": true,
+      "layout_script": true,
+      "csp_removed": true,
+      "brand_home_link": true
+    },
+    "/royaumes/nerethis/": {
+      "header_fallback": true,
+      "layout_script": true,
+      "csp_removed": true,
+      "brand_home_link": true
+    },
+    "/royaumes/erythros/": {
+      "header_fallback": true,
+      "layout_script": true,
+      "csp_removed": true,
+      "brand_home_link": true
+    },
+    "/territoire/": {
+      "header_fallback": true,
+      "layout_script": true,
+      "csp_removed": true,
+      "brand_home_link": true
+    },
+    "/bestiaire/": {
+      "header_fallback": true,
+      "layout_script": true,
+      "csp_removed": true,
+      "brand_home_link": true
+    },
+    "/activites/": {
+      "header_fallback": true,
+      "layout_script": true,
+      "csp_removed": true,
+      "brand_home_link": true
+    },
+    "/creer-son-personnage/": {
+      "header_fallback": true,
+      "layout_script": true,
+      "csp_removed": true,
+      "brand_home_link": true
+    },
+    "/metiers/": {
+      "header_fallback": true,
+      "layout_script": true,
+      "csp_removed": true,
+      "brand_home_link": true
+    },
+    "/mods/": {
+      "header_fallback": true,
+      "layout_script": true,
+      "csp_removed": true,
+      "brand_home_link": true
+    }
+  },
+  "all_requested_headers_present": true,
+  "all_requested_csp_removed": true,
+  "origins_all_asset_refs_exist": true,
+  "origins_asset_refs": [
+    [
+      "../assets/css/b6a9a1192f32d8debd7454ea.css",
+      true
+    ],
+    [
+      "../assets/css/3171eaee8401ae6d7c5e766b.css",
+      true
+    ],
+    [
+      "../assets/images/origines/cataclysme.webp",
+      true
+    ],
+    [
+      "../assets/images/origines/cataclysme.webp",
+      true
+    ],
+    [
+      "../assets/images/origines/religions-aldor.webp",
+      true
+    ],
+    [
+      "../assets/images/origines/demi-dieux-valmyr.webp",
+      true
+    ],
+    [
+      "../assets/images/origines/factions-gardiens.webp",
+      true
+    ],
+    [
+      "../assets/js/layout.js",
+      true
+    ]
+  ],
+  "falkheim_wiki_assets_count": 11,
+  "falkheim_wiki_assets": [
+    "icon_fal_farineorge_01.webp",
+    "icon_fal_gruaujarl_01.webp",
+    "icon_fal_houblon_01.webp",
+    "icon_fal_houblonseche_01.webp",
+    "icon_fal_levureplaquebiere_01.webp",
+    "icon_fal_maltorge_01.webp",
+    "icon_fal_orge_01.webp",
+    "icon_fal_plaquebiere_01.webp",
+    "icon_fal_plaquebiereskald_01.webp",
+    "icon_fal_poissonfjord_01.webp",
+    "icon_fal_ragoutfjord_01.webp"
+  ],
+  "falkheim_entries_updated_unique": [
+    "Farine d’orge",
+    "Gruau du Jarl",
+    "Houblon",
+    "Houblon séché",
+    "Levure de Plaquebière",
+    "Malt d’orge",
+    "Orge",
+    "Plaquebière",
+    "Plaquebière du Skald",
+    "Poisson fumé des Fjords",
+    "Ragoût des Fjords"
+  ],
+  "falkheim_entries_updated_count": 15,
+  "missing_wiki_image_paths": []
+}

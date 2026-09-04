@@ -36,7 +36,8 @@
         ],
         "button": "Ouvrir les chroniques →",
         "href": "asharun/",
-        "image": "assets/images/royaumes/asharun-hero.png"
+        "image": "assets/images/royaumes/asharun-hero.png",
+        "flag": "assets/images/royaumes/drapeaux/asharun.webp"
       },
       {
         "key": "falkheim",
@@ -50,7 +51,8 @@
         ],
         "button": "Ouvrir les chroniques →",
         "href": "falkheim/",
-        "image": "assets/images/royaumes/falkheim-hero.png"
+        "image": "assets/images/royaumes/falkheim-hero.png",
+        "flag": "assets/images/royaumes/drapeaux/falkheim.webp"
       },
       {
         "key": "shintai",
@@ -64,7 +66,8 @@
         ],
         "button": "Ouvrir les chroniques →",
         "href": "shintai/",
-        "image": "assets/images/royaumes/shintai-hero.png"
+        "image": "assets/images/royaumes/shintai-hero.png",
+        "flag": "assets/images/royaumes/drapeaux/shintai.webp"
       },
       {
         "key": "vanloria",
@@ -78,7 +81,8 @@
         ],
         "button": "Ouvrir les chroniques →",
         "href": "vanloria/",
-        "image": "assets/images/royaumes/vanloria-hero.png"
+        "image": "assets/images/royaumes/vanloria-hero.png",
+        "flag": "assets/images/royaumes/drapeaux/vanloria.webp"
       },
       {
         "key": "nerethis",
@@ -92,7 +96,8 @@
         ],
         "button": "Ouvrir les chroniques →",
         "href": "nerethis/",
-        "image": "assets/images/royaumes/nerethis-hero.png"
+        "image": "assets/images/royaumes/nerethis-hero.png",
+        "flag": "assets/images/royaumes/drapeaux/nerethis.webp"
       },
       {
         "key": "erythros",
@@ -106,7 +111,8 @@
         ],
         "button": "Ouvrir les chroniques →",
         "href": "erythros/",
-        "image": "assets/images/royaumes/erythros-hero.png"
+        "image": "assets/images/royaumes/erythros-hero.png",
+        "flag": "assets/images/royaumes/drapeaux/erythros.webp"
       }
     ]
   },
@@ -162,7 +168,8 @@
         "eyebrow": "",
         "title": "Asharun a perdu ses dunes.\nPas sa mémoire.",
         "description": "Le début d’un nouvel âge Asharun a perdu ses dunes. Pas sa mémoire. Sur une plage inconnue, les survivants ont trouvé une mer calme, des forêts et des montagnes absentes de leurs cartes. Derrière eux demeure le souvenir d’une civilisation disparue. Devant eux s’ouvre une terre où la Souveraineté devra apprendre à renaître autrement. Explorer les autres royaumes Revenir aux Origines"
-      }
+      },
+      "flag": "assets/images/royaumes/drapeaux/asharun.webp"
     },
     "falkheim": {
       "name": "Falkheim",
@@ -215,7 +222,8 @@
         "eyebrow": "",
         "title": "Les fjords ont disparu. Le serment demeure.",
         "description": "Le début d’un nouvel âge Les fjords ont disparu. Le serment demeure. Le Nouveau Monde n’avait ni Konungard, ni drakkar, ni tertre ancestral. Mais les survivants pouvaient encore former un cercle, transmettre une saga et lever ensemble le même bouclier. Tant que la Horde se souvenait d’elle-même, Falkheim n’était pas morte. Explorer les autres royaumes Créer son personnage"
-      }
+      },
+      "flag": "assets/images/royaumes/drapeaux/falkheim.webp"
     },
     "shintai": {
       "name": "Shintai",
@@ -268,7 +276,8 @@
         "eyebrow": "",
         "title": "Akashima a disparu. La voie demeure.",
         "description": "Le début d’un nouvel âge Akashima a disparu. La voie demeure. Sur un rivage sans sanctuaire ni carte, les survivants portaient encore le respect, l’harmonie et la bravoure. Leur ancien monde avait cessé d’exister ; leur devoir était désormais de donner un sens au suivant. Explorer les autres royaumes Créer son personnage"
-      }
+      },
+      "flag": "assets/images/royaumes/drapeaux/shintai.webp"
     },
     "vanloria": {
       "name": "Vanloria",
@@ -321,7 +330,8 @@
         "eyebrow": "",
         "title": "Vanloria a perdu ses terres.\nPas son héritage.",
         "description": "Le début d’un nouvel âge Vanloria a perdu ses terres. Pas son héritage. Sur une plage inconnue, les survivants ont retrouvé une mer calme et un horizon absent de toutes leurs cartes. À eux désormais de décider si la Couronne renaîtra à l’identique ou si l’honneur, la loyauté et le sacrifice prendront une forme nouvelle. Explorer les autres royaumes Revenir aux Origines"
-      }
+      },
+      "flag": "assets/images/royaumes/drapeaux/vanloria.webp"
     },
     "nerethis": {
       "name": "Nerethis",
@@ -374,7 +384,8 @@
         "eyebrow": "",
         "title": "Nerethis a perdu ses îles. Pas sa liberté.",
         "description": "Le début d’un nouvel âge Nerethis a perdu ses îles. Pas sa liberté. Sur des plages inconnues, les survivants n’avaient plus de flotte, plus de Conseil et plus de trésor. Il leur restait pourtant l’essentiel : la fraternité, la ruse et la conviction qu’aucune mer ne demeure sans route pour ceux qui osent la prendre. Explorer les autres royaumes Créer son personnage"
-      }
+      },
+      "flag": "assets/images/royaumes/drapeaux/nerethis.webp"
     },
     "erythros": {
       "name": "Erythros",
@@ -427,7 +438,8 @@
         "eyebrow": "",
         "title": "Erythros a perdu ses cités.\nPas son idéal.",
         "description": "Le début d’un nouvel âge Erythros a perdu ses cités. Pas son idéal. Sur une plage inconnue, les survivants ont retrouvé une mer paisible et un horizon sans carte. Les temples de marbre ont disparu, mais le devoir, la justice et la discipline demeurent. La République ne renaîtra pas par ses monuments : elle renaîtra par ceux qui choisiront encore de servir le bien commun. Explorer les autres royaumes Revenir aux Origines"
-      }
+      },
+      "flag": "assets/images/royaumes/drapeaux/erythros.webp"
     }
   }
 }

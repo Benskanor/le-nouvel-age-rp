@@ -5,7 +5,7 @@
     "economySource": "GUIDE_MAITRE_ECONOMIE_LNA_V4_01-09-2026.md",
     "economySourceDate": "01/09/2026",
     "description": "Documentation synchronisée sur le dernier Guide maître d’économie V4.",
-    "notice": "Les données économiques de cette version remplacent les valeurs approximatives de la première V1 du Wiki."
+    "notice": "Wiki consacré à la V4 publiée. Les images officielles disponibles dans le dossier fourni sont utilisées pour les ressources et consommables."
   },
   "economy": {
     "kingdomProducts": 53,
@@ -122,28 +122,32 @@
         "name": "Farine d’orge",
         "station": "Mortier LNA",
         "recipe": "10× Orge",
-        "yield": 5
+        "yield": 5,
+        "image": "assets/images/wiki/icon_fal_farineorge_01.webp"
       },
       {
         "realm": "Falkheim",
         "name": "Malt d’orge",
         "station": "Tonneau LNA",
         "recipe": "6× Orge + 2× Savoroot + 1× Eau",
-        "yield": 3
+        "yield": 3,
+        "image": "assets/images/wiki/icon_fal_maltorge_01.webp"
       },
       {
         "realm": "Falkheim",
         "name": "Houblon séché",
         "station": "Mortier LNA",
         "recipe": "5× Houblon",
-        "yield": 3
+        "yield": 3,
+        "image": "assets/images/wiki/icon_fal_houblonseche_01.webp"
       },
       {
         "realm": "Falkheim",
         "name": "Levure de Plaquebière",
         "station": "Tonneau LNA",
         "recipe": "3× Plaquebière + 1× Mélasse + 1× Eau",
-        "yield": 2
+        "yield": 2,
+        "image": "assets/images/wiki/icon_fal_levureplaquebiere_01.webp"
       },
       {
         "realm": "Shintai",
@@ -265,7 +269,8 @@
         "version": "V4",
         "station": "Marmite Asharun",
         "trade": "Base locale autorisée",
-        "description": "Consommable final de Asharun dans le catalogue V4."
+        "description": "Consommable final de Asharun dans le catalogue V4.",
+        "image": "assets/images/wiki/icon_ash_naan_01.webp"
       },
       {
         "name": "Brochettes épicées",
@@ -273,7 +278,8 @@
         "version": "V4",
         "station": "Marmite Asharun",
         "trade": "Dépendance extérieure / composant commun requise",
-        "description": "Consommable final de Asharun dans le catalogue V4."
+        "description": "Consommable final de Asharun dans le catalogue V4.",
+        "image": "assets/images/wiki/icon_ash_brochetteepicee_01.webp"
       },
       {
         "name": "Melon épicé",
@@ -281,7 +287,8 @@
         "version": "V4",
         "station": "Marmite Asharun",
         "trade": "Dépendance extérieure / composant commun requise",
-        "description": "Consommable final de Asharun dans le catalogue V4."
+        "description": "Consommable final de Asharun dans le catalogue V4.",
+        "image": "assets/images/wiki/icon_ash_melonepice_01.webp"
       },
       {
         "name": "Ration du caravanier",
@@ -289,7 +296,8 @@
         "version": "V4",
         "station": "Marmite Asharun",
         "trade": "Dépendance extérieure / composant commun requise",
-        "description": "Consommable final de Asharun dans le catalogue V4."
+        "description": "Consommable final de Asharun dans le catalogue V4.",
+        "image": "assets/images/wiki/icon_ash_rationcaravanier_01.webp"
       },
       {
         "name": "Kebab au naan",
@@ -297,7 +305,8 @@
         "version": "V4",
         "station": "Marmite Asharun",
         "trade": "Dépendance extérieure / composant commun requise",
-        "description": "Consommable final de Asharun dans le catalogue V4."
+        "description": "Consommable final de Asharun dans le catalogue V4.",
+        "image": "assets/images/wiki/icon_ash_kebabnaan_01.webp"
       },
       {
         "name": "Soupe des dunes",
@@ -305,7 +314,8 @@
         "version": "V4",
         "station": "Marmite Asharun",
         "trade": "Dépendance extérieure / composant commun requise",
-        "description": "Consommable final de Asharun dans le catalogue V4."
+        "description": "Consommable final de Asharun dans le catalogue V4.",
+        "image": "assets/images/wiki/icon_ash_soupedesdunes_01.webp"
       },
       {
         "name": "Infusion du veilleur",
@@ -313,7 +323,8 @@
         "version": "V4",
         "station": "Marmite Asharun",
         "trade": "Dépendance extérieure / composant commun requise",
-        "description": "Consommable final de Asharun dans le catalogue V4."
+        "description": "Consommable final de Asharun dans le catalogue V4.",
+        "image": "assets/images/wiki/icon_ash_infusionveilleur_01.webp"
       },
       {
         "name": "Baume de grenade",
@@ -321,7 +332,8 @@
         "version": "V4",
         "station": "Marmite Asharun",
         "trade": "Dépendance extérieure / composant commun requise",
-        "description": "Consommable final de Asharun dans le catalogue V4."
+        "description": "Consommable final de Asharun dans le catalogue V4.",
+        "image": "assets/images/wiki/icon_ash_baumegrenade_01.webp"
       },
       {
         "name": "Tonique écarlate",
@@ -329,7 +341,8 @@
         "version": "V4",
         "station": "Marmite Asharun",
         "trade": "Dépendance extérieure / composant commun requise",
-        "description": "Consommable final de Asharun dans le catalogue V4."
+        "description": "Consommable final de Asharun dans le catalogue V4.",
+        "image": "assets/images/wiki/icon_ash_toniquecarmin_01.webp"
       },
       {
         "name": "Gruau du Jarl",
@@ -337,7 +350,8 @@
         "version": "V4",
         "station": "Marmite Falkheim",
         "trade": "Base locale autorisée",
-        "description": "Consommable final de Falkheim dans le catalogue V4."
+        "description": "Consommable final de Falkheim dans le catalogue V4.",
+        "image": "assets/images/wiki/icon_fal_gruaujarl_01.webp"
       },
       {
         "name": "Poisson fumé des Fjords",
@@ -345,7 +359,8 @@
         "version": "V4",
         "station": "Marmite Falkheim",
         "trade": "Dépendance extérieure / composant commun requise",
-        "description": "Consommable final de Falkheim dans le catalogue V4."
+        "description": "Consommable final de Falkheim dans le catalogue V4.",
+        "image": "assets/images/wiki/icon_fal_poissonfjord_01.webp"
       },
       {
         "name": "Ragoût des Fjords",
@@ -353,7 +368,8 @@
         "version": "V4",
         "station": "Marmite Falkheim",
         "trade": "Dépendance extérieure / composant commun requise",
-        "description": "Consommable final de Falkheim dans le catalogue V4."
+        "description": "Consommable final de Falkheim dans le catalogue V4.",
+        "image": "assets/images/wiki/icon_fal_ragoutfjord_01.webp"
       },
       {
         "name": "Plaquebière du Skald",
@@ -361,7 +377,8 @@
         "version": "V4",
         "station": "Marmite Falkheim",
         "trade": "Dépendance extérieure / composant commun requise",
-        "description": "Consommable final de Falkheim dans le catalogue V4."
+        "description": "Consommable final de Falkheim dans le catalogue V4.",
+        "image": "assets/images/wiki/icon_fal_plaquebiereskald_01.webp"
       },
       {
         "name": "Bol de riz au poisson",
@@ -369,7 +386,8 @@
         "version": "V4",
         "station": "Marmite Shintai",
         "trade": "Base locale autorisée",
-        "description": "Consommable final de Shintai dans le catalogue V4."
+        "description": "Consommable final de Shintai dans le catalogue V4.",
+        "image": "assets/images/wiki/icon_shi_bolrizpoisson_01.webp"
       },
       {
         "name": "Bouillon de soja",
@@ -377,7 +395,8 @@
         "version": "V4",
         "station": "Marmite Shintai",
         "trade": "Dépendance extérieure / composant commun requise",
-        "description": "Consommable final de Shintai dans le catalogue V4."
+        "description": "Consommable final de Shintai dans le catalogue V4.",
+        "image": "assets/images/wiki/icon_shi_bouillonsoja_01.webp"
       },
       {
         "name": "Thé shiso-menthe",
@@ -385,7 +404,8 @@
         "version": "V4",
         "station": "Marmite Shintai",
         "trade": "Dépendance extérieure / composant commun requise",
-        "description": "Consommable final de Shintai dans le catalogue V4."
+        "description": "Consommable final de Shintai dans le catalogue V4.",
+        "image": "assets/images/wiki/icon_shi_theshisomenthe_01.webp"
       },
       {
         "name": "Nigiri abyssal",
@@ -393,7 +413,8 @@
         "version": "V4",
         "station": "Marmite Shintai",
         "trade": "Dépendance extérieure / composant commun requise",
-        "description": "Consommable final de Shintai dans le catalogue V4."
+        "description": "Consommable final de Shintai dans le catalogue V4.",
+        "image": "assets/images/wiki/icon_shi_nigiriabyssal_01.webp"
       },
       {
         "name": "Biscuit de marche",
@@ -401,7 +422,8 @@
         "version": "V4",
         "station": "Marmite Vanloria",
         "trade": "Base locale autorisée",
-        "description": "Consommable final de Vanloria dans le catalogue V4."
+        "description": "Consommable final de Vanloria dans le catalogue V4.",
+        "image": "assets/images/wiki/icon_van_biscuitmarche_01.webp"
       },
       {
         "name": "Lait d’avoine miellé",
@@ -409,7 +431,8 @@
         "version": "V4",
         "station": "Marmite Vanloria",
         "trade": "Dépendance extérieure / composant commun requise",
-        "description": "Consommable final de Vanloria dans le catalogue V4."
+        "description": "Consommable final de Vanloria dans le catalogue V4.",
+        "image": "assets/images/wiki/icon_van_laitavoinemiel_01.webp"
       },
       {
         "name": "Tourte du Bastion",
@@ -417,7 +440,8 @@
         "version": "V4",
         "station": "Marmite Vanloria",
         "trade": "Dépendance extérieure / composant commun requise",
-        "description": "Consommable final de Vanloria dans le catalogue V4."
+        "description": "Consommable final de Vanloria dans le catalogue V4.",
+        "image": "assets/images/wiki/icon_van_tourtebastion_01.webp"
       },
       {
         "name": "Infusion du Lys bleu",
@@ -425,7 +449,8 @@
         "version": "V4",
         "station": "Marmite Vanloria",
         "trade": "Dépendance extérieure / composant commun requise",
-        "description": "Consommable final de Vanloria dans le catalogue V4."
+        "description": "Consommable final de Vanloria dans le catalogue V4.",
+        "image": "assets/images/wiki/icon_van_infusionlysbleu_01.webp"
       },
       {
         "name": "Brochettes du Boucanier",
@@ -433,7 +458,8 @@
         "version": "V4",
         "station": "Marmite Nerethis",
         "trade": "Base locale autorisée",
-        "description": "Consommable final de Nerethis dans le catalogue V4."
+        "description": "Consommable final de Nerethis dans le catalogue V4.",
+        "image": "assets/images/wiki/icon_ner_brochettesboucanier_01.webp"
       },
       {
         "name": "Poisson laqué du Corsaire",
@@ -441,7 +467,8 @@
         "version": "V4",
         "station": "Marmite Nerethis",
         "trade": "Dépendance extérieure / composant commun requise",
-        "description": "Consommable final de Nerethis dans le catalogue V4."
+        "description": "Consommable final de Nerethis dans le catalogue V4.",
+        "image": "assets/images/wiki/icon_ner_poissonlaquecorsaire_01.webp"
       },
       {
         "name": "Crème brûlée du Cap",
@@ -449,7 +476,8 @@
         "version": "V4",
         "station": "Marmite Nerethis",
         "trade": "Dépendance extérieure / composant commun requise",
-        "description": "Consommable final de Nerethis dans le catalogue V4."
+        "description": "Consommable final de Nerethis dans le catalogue V4.",
+        "image": "assets/images/wiki/icon_ner_cremebruleecap_01.webp"
       },
       {
         "name": "Rhum des Mers",
@@ -457,7 +485,8 @@
         "version": "V4",
         "station": "Marmite Nerethis",
         "trade": "Dépendance extérieure / composant commun requise",
-        "description": "Consommable final de Nerethis dans le catalogue V4."
+        "description": "Consommable final de Nerethis dans le catalogue V4.",
+        "image": "assets/images/wiki/icon_ner_rhummer_01.webp"
       },
       {
         "name": "Agneau aux figues d’Erythros",
@@ -465,7 +494,8 @@
         "version": "V4",
         "station": "Marmite Erythros",
         "trade": "Base locale autorisée",
-        "description": "Consommable final de Erythros dans le catalogue V4."
+        "description": "Consommable final de Erythros dans le catalogue V4.",
+        "image": "assets/images/wiki/icon_ery_agneaufigues_01.webp"
       },
       {
         "name": "Poisson des Cyclades",
@@ -473,7 +503,8 @@
         "version": "V4",
         "station": "Marmite Erythros",
         "trade": "Dépendance extérieure / composant commun requise",
-        "description": "Consommable final de Erythros dans le catalogue V4."
+        "description": "Consommable final de Erythros dans le catalogue V4.",
+        "image": "assets/images/wiki/icon_ery_poissoncyclades_01.webp"
       },
       {
         "name": "Pain aux figues de l’Agora",
@@ -481,7 +512,8 @@
         "version": "V4",
         "station": "Marmite Erythros",
         "trade": "Dépendance extérieure / composant commun requise",
-        "description": "Consommable final de Erythros dans le catalogue V4."
+        "description": "Consommable final de Erythros dans le catalogue V4.",
+        "image": "assets/images/wiki/icon_ery_painfigues_01.webp"
       },
       {
         "name": "Vin épicé du Symposium",
@@ -489,7 +521,8 @@
         "version": "V4",
         "station": "Marmite Erythros",
         "trade": "Dépendance extérieure / composant commun requise",
-        "description": "Consommable final de Erythros dans le catalogue V4."
+        "description": "Consommable final de Erythros dans le catalogue V4.",
+        "image": "assets/images/wiki/icon_ery_vinsymposium_01.webp"
       }
     ],
     "vanillaReworked": [
@@ -669,7 +702,6 @@
     {
       "slug": "melon",
       "name": "Melon",
-      "icon": "🌾",
       "category": "Agriculture",
       "realm": "Asharun",
       "version": "V4",
@@ -680,12 +712,12 @@
       "station": "—",
       "recipe": "—",
       "yield": "—",
-      "technical": {}
+      "technical": {},
+      "image": "assets/images/wiki/icon_ash_melon_01.webp"
     },
     {
       "slug": "pasteque",
       "name": "Pastèque",
-      "icon": "🌾",
       "category": "Agriculture",
       "realm": "Asharun",
       "version": "V4",
@@ -696,12 +728,12 @@
       "station": "—",
       "recipe": "—",
       "yield": "—",
-      "technical": {}
+      "technical": {},
+      "image": "assets/images/wiki/icon_ash_pasteque_01.webp"
     },
     {
       "slug": "menthe",
       "name": "Menthe",
-      "icon": "🌾",
       "category": "Agriculture",
       "realm": "Asharun",
       "version": "V4",
@@ -712,12 +744,12 @@
       "station": "—",
       "recipe": "—",
       "yield": "—",
-      "technical": {}
+      "technical": {},
+      "image": "assets/images/wiki/icon_ash_menthe_01.webp"
     },
     {
       "slug": "grenade",
       "name": "Grenade",
-      "icon": "🌾",
       "category": "Agriculture",
       "realm": "Asharun",
       "version": "V4",
@@ -728,7 +760,8 @@
       "station": "—",
       "recipe": "—",
       "yield": "—",
-      "technical": {}
+      "technical": {},
+      "image": "assets/images/wiki/icon_ash_grenade_01_transparent.webp"
     },
     {
       "slug": "longrass",
@@ -744,12 +777,13 @@
       "station": "—",
       "recipe": "—",
       "yield": "—",
-      "technical": {}
+      "technical": {},
+      "image": "assets/images/royaumes/drapeaux/asharun.webp",
+      "imageFallback": "realm-flag"
     },
     {
       "slug": "epice-sauvage",
       "name": "Épice sauvage",
-      "icon": "🌿",
       "category": "Récolte",
       "realm": "Asharun",
       "version": "V4",
@@ -760,7 +794,8 @@
       "station": "—",
       "recipe": "—",
       "yield": "—",
-      "technical": {}
+      "technical": {},
+      "image": "assets/images/wiki/icon_ash_epicesauvage_01.webp"
     },
     {
       "slug": "orge",
@@ -776,7 +811,8 @@
       "station": "—",
       "recipe": "—",
       "yield": "—",
-      "technical": {}
+      "technical": {},
+      "image": "assets/images/wiki/icon_fal_orge_01.webp"
     },
     {
       "slug": "houblon",
@@ -792,7 +828,8 @@
       "station": "—",
       "recipe": "—",
       "yield": "—",
-      "technical": {}
+      "technical": {},
+      "image": "assets/images/wiki/icon_fal_houblon_01.webp"
     },
     {
       "slug": "plaquebiere",
@@ -808,7 +845,8 @@
       "station": "—",
       "recipe": "—",
       "yield": "—",
-      "technical": {}
+      "technical": {},
+      "image": "assets/images/wiki/icon_fal_plaquebiere_01.webp"
     },
     {
       "slug": "savoroot",
@@ -824,12 +862,13 @@
       "station": "—",
       "recipe": "—",
       "yield": "—",
-      "technical": {}
+      "technical": {},
+      "image": "assets/images/royaumes/drapeaux/falkheim.webp",
+      "imageFallback": "realm-flag"
     },
     {
       "slug": "riz",
       "name": "Riz",
-      "icon": "🌾",
       "category": "Agriculture",
       "realm": "Shintai",
       "version": "V4",
@@ -840,12 +879,12 @@
       "station": "—",
       "recipe": "—",
       "yield": "—",
-      "technical": {}
+      "technical": {},
+      "image": "assets/images/wiki/icon_shi_riz_01.webp"
     },
     {
       "slug": "shiso",
       "name": "Shiso",
-      "icon": "🌾",
       "category": "Agriculture",
       "realm": "Shintai",
       "version": "V4",
@@ -856,12 +895,12 @@
       "station": "—",
       "recipe": "—",
       "yield": "—",
-      "technical": {}
+      "technical": {},
+      "image": "assets/images/wiki/icon_shi_shiso_01.webp"
     },
     {
       "slug": "soja",
       "name": "Soja",
-      "icon": "🌾",
       "category": "Agriculture",
       "realm": "Shintai",
       "version": "V4",
@@ -872,12 +911,12 @@
       "station": "—",
       "recipe": "—",
       "yield": "—",
-      "technical": {}
+      "technical": {},
+      "image": "assets/images/wiki/icon_shi_soja_01.webp"
     },
     {
       "slug": "lin",
       "name": "Lin",
-      "icon": "🌾",
       "category": "Agriculture",
       "realm": "Vanloria",
       "version": "V4",
@@ -888,12 +927,12 @@
       "station": "—",
       "recipe": "—",
       "yield": "—",
-      "technical": {}
+      "technical": {},
+      "image": "assets/images/wiki/icon_van_lin_01.webp"
     },
     {
       "slug": "avoine",
       "name": "Avoine",
-      "icon": "🌾",
       "category": "Agriculture",
       "realm": "Vanloria",
       "version": "V4",
@@ -904,12 +943,12 @@
       "station": "—",
       "recipe": "—",
       "yield": "—",
-      "technical": {}
+      "technical": {},
+      "image": "assets/images/wiki/icon_van_avoine_01.webp"
     },
     {
       "slug": "lavande",
       "name": "Lavande",
-      "icon": "🌾",
       "category": "Agriculture",
       "realm": "Vanloria",
       "version": "V4",
@@ -920,7 +959,8 @@
       "station": "—",
       "recipe": "—",
       "yield": "—",
-      "technical": {}
+      "technical": {},
+      "image": "assets/images/wiki/icon_van_lavande_01.webp"
     },
     {
       "slug": "rockarrot",
@@ -936,12 +976,13 @@
       "station": "—",
       "recipe": "—",
       "yield": "—",
-      "technical": {}
+      "technical": {},
+      "image": "assets/images/royaumes/drapeaux/vanloria.webp",
+      "imageFallback": "realm-flag"
     },
     {
       "slug": "canne-a-sucre",
       "name": "Canne à sucre",
-      "icon": "🌾",
       "category": "Agriculture",
       "realm": "Nerethis",
       "version": "V4",
@@ -952,12 +993,12 @@
       "station": "—",
       "recipe": "—",
       "yield": "—",
-      "technical": {}
+      "technical": {},
+      "image": "assets/images/wiki/icon_ner_cannesucre_01.webp"
     },
     {
       "slug": "gingembre",
       "name": "Gingembre",
-      "icon": "🌾",
       "category": "Agriculture",
       "realm": "Nerethis",
       "version": "V4",
@@ -968,12 +1009,12 @@
       "station": "—",
       "recipe": "—",
       "yield": "—",
-      "technical": {}
+      "technical": {},
+      "image": "assets/images/wiki/icon_ner_gingembre_01.webp"
     },
     {
       "slug": "vanille",
       "name": "Vanille",
-      "icon": "🌾",
       "category": "Agriculture",
       "realm": "Nerethis",
       "version": "V4",
@@ -984,7 +1025,8 @@
       "station": "—",
       "recipe": "—",
       "yield": "—",
-      "technical": {}
+      "technical": {},
+      "image": "assets/images/wiki/icon_ner_vanille_01.webp"
     },
     {
       "slug": "citronal",
@@ -1000,7 +1042,9 @@
       "station": "—",
       "recipe": "—",
       "yield": "—",
-      "technical": {}
+      "technical": {},
+      "image": "assets/images/royaumes/drapeaux/nerethis.webp",
+      "imageFallback": "realm-flag"
     },
     {
       "slug": "raisin",
@@ -1016,7 +1060,9 @@
       "station": "—",
       "recipe": "—",
       "yield": "—",
-      "technical": {}
+      "technical": {},
+      "image": "assets/images/royaumes/drapeaux/erythros.webp",
+      "imageFallback": "realm-flag"
     },
     {
       "slug": "olive",
@@ -1032,7 +1078,9 @@
       "station": "—",
       "recipe": "—",
       "yield": "—",
-      "technical": {}
+      "technical": {},
+      "image": "assets/images/royaumes/drapeaux/erythros.webp",
+      "imageFallback": "realm-flag"
     },
     {
       "slug": "figue",
@@ -1048,12 +1096,13 @@
       "station": "—",
       "recipe": "—",
       "yield": "—",
-      "technical": {}
+      "technical": {},
+      "image": "assets/images/royaumes/drapeaux/erythros.webp",
+      "imageFallback": "realm-flag"
     },
     {
       "slug": "farine-dasharun",
       "name": "Farine d’Asharun",
-      "icon": "⚗️",
       "category": "Transformation",
       "realm": "Asharun",
       "version": "V4",
@@ -1067,12 +1116,12 @@
       "station": "Mortier LNA",
       "recipe": "10× Longrass",
       "yield": "5",
-      "technical": {}
+      "technical": {},
+      "image": "assets/images/wiki/icon_ash_farine_01_vert.webp"
     },
     {
       "slug": "epice-raffinee",
       "name": "Épice raffinée",
-      "icon": "⚗️",
       "category": "Transformation",
       "realm": "Asharun",
       "version": "V4",
@@ -1086,12 +1135,12 @@
       "station": "Mortier LNA",
       "recipe": "5× Épice sauvage + 1× Sel marin",
       "yield": "2",
-      "technical": {}
+      "technical": {},
+      "image": "assets/images/wiki/icon_ash_epicesraffinees_01.webp"
     },
     {
       "slug": "menthe-sechee",
       "name": "Menthe séchée",
-      "icon": "⚗️",
       "category": "Transformation",
       "realm": "Asharun",
       "version": "V4",
@@ -1105,12 +1154,12 @@
       "station": "Mortier LNA",
       "recipe": "5× Menthe",
       "yield": "3",
-      "technical": {}
+      "technical": {},
+      "image": "assets/images/wiki/icon_ash_menthesechee_01.webp"
     },
     {
       "slug": "sirop-de-grenade",
       "name": "Sirop de grenade",
-      "icon": "⚗️",
       "category": "Transformation",
       "realm": "Asharun",
       "version": "V4",
@@ -1124,7 +1173,8 @@
       "station": "Marmite Asharun",
       "recipe": "5× Grenade + 1× Citronal + 1× Eau",
       "yield": "2",
-      "technical": {}
+      "technical": {},
+      "image": "assets/images/wiki/icon_ash_siropgrenade_01.webp"
     },
     {
       "slug": "farine-dorge",
@@ -1143,7 +1193,8 @@
       "station": "Mortier LNA",
       "recipe": "10× Orge",
       "yield": "5",
-      "technical": {}
+      "technical": {},
+      "image": "assets/images/wiki/icon_fal_farineorge_01.webp"
     },
     {
       "slug": "malt-dorge",
@@ -1162,7 +1213,8 @@
       "station": "Tonneau LNA",
       "recipe": "6× Orge + 2× Savoroot + 1× Eau",
       "yield": "3",
-      "technical": {}
+      "technical": {},
+      "image": "assets/images/wiki/icon_fal_maltorge_01.webp"
     },
     {
       "slug": "houblon-seche",
@@ -1181,7 +1233,8 @@
       "station": "Mortier LNA",
       "recipe": "5× Houblon",
       "yield": "3",
-      "technical": {}
+      "technical": {},
+      "image": "assets/images/wiki/icon_fal_houblonseche_01.webp"
     },
     {
       "slug": "levure-de-plaquebiere",
@@ -1200,12 +1253,12 @@
       "station": "Tonneau LNA",
       "recipe": "3× Plaquebière + 1× Mélasse + 1× Eau",
       "yield": "2",
-      "technical": {}
+      "technical": {},
+      "image": "assets/images/wiki/icon_fal_levureplaquebiere_01.webp"
     },
     {
       "slug": "farine-de-riz",
       "name": "Farine de riz",
-      "icon": "⚗️",
       "category": "Transformation",
       "realm": "Shintai",
       "version": "V4",
@@ -1219,12 +1272,12 @@
       "station": "Mortier LNA",
       "recipe": "10× Riz",
       "yield": "5",
-      "technical": {}
+      "technical": {},
+      "image": "assets/images/wiki/icon_shi_rizdecortique_01.webp"
     },
     {
       "slug": "sauce-soja",
       "name": "Sauce soja",
-      "icon": "⚗️",
       "category": "Transformation",
       "realm": "Shintai",
       "version": "V4",
@@ -1238,12 +1291,12 @@
       "station": "Tonneau LNA",
       "recipe": "6× Soja + 1× Sel marin + 1× Citronal + 1× Eau",
       "yield": "3",
-      "technical": {}
+      "technical": {},
+      "image": "assets/images/wiki/icon_shi_saucesoja_01.webp"
     },
     {
       "slug": "shiso-seche",
       "name": "Shiso séché",
-      "icon": "⚗️",
       "category": "Transformation",
       "realm": "Shintai",
       "version": "V4",
@@ -1257,12 +1310,12 @@
       "station": "Mortier LNA",
       "recipe": "5× Shiso",
       "yield": "3",
-      "technical": {}
+      "technical": {},
+      "image": "assets/images/wiki/icon_shi_shisoseche_01.webp"
     },
     {
       "slug": "pate-de-soja",
       "name": "Pâte de soja",
-      "icon": "⚗️",
       "category": "Transformation",
       "realm": "Shintai",
       "version": "V4",
@@ -1276,12 +1329,12 @@
       "station": "Mortier LNA",
       "recipe": "6× Soja + 1× Rockarrot + 1× Eau",
       "yield": "3",
-      "technical": {}
+      "technical": {},
+      "image": "assets/images/wiki/icon_shi_patesoja_01.webp"
     },
     {
       "slug": "fil-de-lin",
       "name": "Fil de lin",
-      "icon": "⚗️",
       "category": "Transformation",
       "realm": "Vanloria",
       "version": "V4",
@@ -1295,12 +1348,12 @@
       "station": "Atelier LNA",
       "recipe": "5× Lin",
       "yield": "3",
-      "technical": {}
+      "technical": {},
+      "image": "assets/images/wiki/icon_van_fillin_01.webp"
     },
     {
       "slug": "toile-de-lin",
       "name": "Toile de lin",
-      "icon": "⚗️",
       "category": "Transformation",
       "realm": "Vanloria",
       "version": "V4",
@@ -1314,12 +1367,12 @@
       "station": "Atelier LNA",
       "recipe": "4× Fil de lin",
       "yield": "1",
-      "technical": {}
+      "technical": {},
+      "image": "assets/images/wiki/icon_van_toilelin_01.webp"
     },
     {
       "slug": "flocons-davoine",
       "name": "Flocons d’avoine",
-      "icon": "⚗️",
       "category": "Transformation",
       "realm": "Vanloria",
       "version": "V4",
@@ -1333,12 +1386,12 @@
       "station": "Mortier LNA",
       "recipe": "10× Avoine",
       "yield": "5",
-      "technical": {}
+      "technical": {},
+      "image": "assets/images/wiki/icon_van_floconsavoine_01.webp"
     },
     {
       "slug": "essence-de-lavande",
       "name": "Essence de lavande",
-      "icon": "⚗️",
       "category": "Transformation",
       "realm": "Vanloria",
       "version": "V4",
@@ -1352,12 +1405,12 @@
       "station": "Mortier LNA",
       "recipe": "6× Lavande + 1× Citronal + 1× Eau",
       "yield": "2",
-      "technical": {}
+      "technical": {},
+      "image": "assets/images/wiki/icon_van_essencelavande_01.webp"
     },
     {
       "slug": "sucre-brut",
       "name": "Sucre brut",
-      "icon": "⚗️",
       "category": "Transformation",
       "realm": "Nerethis",
       "version": "V4",
@@ -1371,12 +1424,12 @@
       "station": "Mortier LNA",
       "recipe": "10× Canne à sucre",
       "yield": "5",
-      "technical": {}
+      "technical": {},
+      "image": "assets/images/wiki/icon_ner_sucrebrut_01.webp"
     },
     {
       "slug": "melasse",
       "name": "Mélasse",
-      "icon": "⚗️",
       "category": "Transformation",
       "realm": "Nerethis",
       "version": "V4",
@@ -1390,12 +1443,12 @@
       "station": "Marmite Nerethis",
       "recipe": "5× Sucre brut + 1× Citronal + 1× Eau",
       "yield": "3",
-      "technical": {}
+      "technical": {},
+      "image": "assets/images/wiki/icon_ner_melasse_01.webp"
     },
     {
       "slug": "gingembre-seche",
       "name": "Gingembre séché",
-      "icon": "⚗️",
       "category": "Transformation",
       "realm": "Nerethis",
       "version": "V4",
@@ -1409,12 +1462,12 @@
       "station": "Mortier LNA",
       "recipe": "5× Gingembre",
       "yield": "3",
-      "technical": {}
+      "technical": {},
+      "image": "assets/images/wiki/icon_ner_gingembreseche_01.webp"
     },
     {
       "slug": "extrait-de-vanille",
       "name": "Extrait de vanille",
-      "icon": "⚗️",
       "category": "Transformation",
       "realm": "Nerethis",
       "version": "V4",
@@ -1428,12 +1481,12 @@
       "station": "Tonneau LNA",
       "recipe": "5× Vanille + 1× Sucre brut + 1× Eau",
       "yield": "2",
-      "technical": {}
+      "technical": {},
+      "image": "assets/images/wiki/icon_ner_extraitvanille_01.webp"
     },
     {
       "slug": "huile-dolive",
       "name": "Huile d’olive",
-      "icon": "⚗️",
       "category": "Transformation",
       "realm": "Erythros",
       "version": "V4",
@@ -1447,7 +1500,8 @@
       "station": "Mortier LNA",
       "recipe": "10× Olive",
       "yield": "5",
-      "technical": {}
+      "technical": {},
+      "image": "assets/images/wiki/icon_ery_huileolive_01.webp"
     },
     {
       "slug": "mout-de-raisin",
@@ -1466,7 +1520,9 @@
       "station": "Tonneau LNA",
       "recipe": "10× Raisin",
       "yield": "5",
-      "technical": {}
+      "technical": {},
+      "image": "assets/images/royaumes/drapeaux/erythros.webp",
+      "imageFallback": "realm-flag"
     },
     {
       "slug": "figues-sechees",
@@ -1485,7 +1541,9 @@
       "station": "Mortier LNA",
       "recipe": "5× Figue",
       "yield": "3",
-      "technical": {}
+      "technical": {},
+      "image": "assets/images/royaumes/drapeaux/erythros.webp",
+      "imageFallback": "realm-flag"
     },
     {
       "slug": "vinaigre-de-raisin",
@@ -1504,12 +1562,13 @@
       "station": "Tonneau LNA",
       "recipe": "4× Moût de raisin + 1× Citronal + 1× Eau",
       "yield": "2",
-      "technical": {}
+      "technical": {},
+      "image": "assets/images/royaumes/drapeaux/erythros.webp",
+      "imageFallback": "realm-flag"
     },
     {
       "slug": "viande-retravaillee",
       "name": "Viande retravaillée",
-      "icon": "🥩",
       "category": "Viande",
       "realm": "Commun",
       "version": "V4",
@@ -1524,12 +1583,12 @@
       "recipe": "5 viandes crues",
       "yield": "4",
       "craftTime": "5 s",
-      "technical": {}
+      "technical": {},
+      "image": "assets/images/wiki/icon_lna_viandecruretravaille.webp"
     },
     {
       "slug": "viande-retravaillee-cuite",
       "name": "Viande retravaillée cuite",
-      "icon": "🥩",
       "category": "Viande",
       "realm": "Commun",
       "version": "V4",
@@ -1544,12 +1603,12 @@
       "recipe": "1 viande retravaillée",
       "yield": "1",
       "craftTime": "20 s",
-      "technical": {}
+      "technical": {},
+      "image": "assets/images/wiki/icon_lna_viandecuiteretravaille.webp"
     },
     {
       "slug": "viande-superieure-retravaillee",
       "name": "Viande supérieure retravaillée",
-      "icon": "🥩",
       "category": "Viande",
       "realm": "Commun",
       "version": "V4",
@@ -1564,12 +1623,12 @@
       "recipe": "3 viandes supérieures crues",
       "yield": "2",
       "craftTime": "6 s",
-      "technical": {}
+      "technical": {},
+      "image": "assets/images/wiki/icon_lna_viandesupcruretravaille.webp"
     },
     {
       "slug": "viande-superieure-retravaillee-cuite",
       "name": "Viande supérieure retravaillée cuite",
-      "icon": "🥩",
       "category": "Viande",
       "realm": "Commun",
       "version": "V4",
@@ -1584,12 +1643,12 @@
       "recipe": "1 viande supérieure retravaillée",
       "yield": "1",
       "craftTime": "25 s",
-      "technical": {}
+      "technical": {},
+      "image": "assets/images/wiki/icon_lna_viandesupcuiteretravaille.webp"
     },
     {
       "slug": "mouton-retravaille",
       "name": "Mouton retravaillé",
-      "icon": "🥩",
       "category": "Viande",
       "realm": "Commun",
       "version": "V4",
@@ -1604,12 +1663,12 @@
       "recipe": "3 moutons crus",
       "yield": "2",
       "craftTime": "6 s",
-      "technical": {}
+      "technical": {},
+      "image": "assets/images/wiki/icon_lna_moutoncru.webp"
     },
     {
       "slug": "mouton-retravaille-cuit",
       "name": "Mouton retravaillé cuit",
-      "icon": "🥩",
       "category": "Viande",
       "realm": "Commun",
       "version": "V4",
@@ -1624,12 +1683,12 @@
       "recipe": "1 mouton retravaillé",
       "yield": "1",
       "craftTime": "25 s",
-      "technical": {}
+      "technical": {},
+      "image": "assets/images/wiki/icon_lna_moutonretravaille.webp"
     },
     {
       "slug": "viande-hachee",
       "name": "Viande hachée",
-      "icon": "🥩",
       "category": "Viande",
       "realm": "Commun",
       "version": "V4",
@@ -1644,12 +1703,12 @@
       "recipe": "3 viandes retravaillées",
       "yield": "3",
       "craftTime": "5 s",
-      "technical": {}
+      "technical": {},
+      "image": "assets/images/wiki/icon_lna_viandehache.webp"
     },
     {
       "slug": "graisse-animale",
       "name": "Graisse animale",
-      "icon": "🥩",
       "category": "Viande",
       "realm": "Commun",
       "version": "V4",
@@ -1664,12 +1723,12 @@
       "recipe": "6 viandes crues",
       "yield": "2",
       "craftTime": "8 s",
-      "technical": {}
+      "technical": {},
+      "image": "assets/images/wiki/icon_lna_graisseanimal.webp"
     },
     {
       "slug": "moelle-animale",
       "name": "Moelle animale",
-      "icon": "🥩",
       "category": "Viande",
       "realm": "Commun",
       "version": "V4",
@@ -1684,12 +1743,12 @@
       "recipe": "2 viandes supérieures + 4 kératines",
       "yield": "2",
       "craftTime": "10 s",
-      "technical": {}
+      "technical": {},
+      "image": "assets/images/wiki/icon_lna_moelleanimal.webp"
     },
     {
       "slug": "viande-salee",
       "name": "Viande salée",
-      "icon": "🥩",
       "category": "Viande",
       "realm": "Commun",
       "version": "V4",
@@ -1704,12 +1763,12 @@
       "recipe": "3 viandes retravaillées + 1 sel marin",
       "yield": "3",
       "craftTime": "15 s",
-      "technical": {}
+      "technical": {},
+      "image": "assets/images/wiki/icon_lna_viandesallee.webp"
     },
     {
       "slug": "poudre-de-coquille",
       "name": "Poudre de coquille",
-      "icon": "🥩",
       "category": "Viande",
       "realm": "Commun",
       "version": "V4",
@@ -1724,12 +1783,12 @@
       "recipe": "1 œuf non fécondé",
       "yield": "3",
       "craftTime": "5 s",
-      "technical": {}
+      "technical": {},
+      "image": "assets/images/wiki/icon_lna_poudrecoquille.webp"
     },
     {
       "slug": "poudre-dos",
       "name": "Poudre d’os",
-      "icon": "🥩",
       "category": "Viande",
       "realm": "Commun",
       "version": "V4",
@@ -1744,12 +1803,12 @@
       "recipe": "10 chitines ou kératines",
       "yield": "5",
       "craftTime": "8 s",
-      "technical": {}
+      "technical": {},
+      "image": "assets/images/wiki/icon_lna_poudreos.webp"
     },
     {
       "slug": "filet-de-poisson-blanc",
       "name": "Filet de poisson blanc",
-      "icon": "🎣",
       "category": "Pêche",
       "realm": "Commun",
       "version": "V4",
@@ -1769,12 +1828,12 @@
       "lootWeight": 1.0,
       "technical": {
         "blueprint": "PrimalItemConsumable_LNA_FiletPoissonBlanc_01"
-      }
+      },
+      "image": "assets/images/wiki/icon_lna_filetpoissonblanc_01.webp"
     },
     {
       "slug": "filet-de-poisson-gras",
       "name": "Filet de poisson gras",
-      "icon": "🎣",
       "category": "Pêche",
       "realm": "Commun",
       "version": "V4",
@@ -1794,12 +1853,12 @@
       "lootWeight": 0.4,
       "technical": {
         "blueprint": "PrimalItemConsumable_LNA_FiletPoissonGras_01"
-      }
+      },
+      "image": "assets/images/wiki/icon_lna_filetpoissongras_01.webp"
     },
     {
       "slug": "ufs-de-poisson",
       "name": "Œufs de poisson",
-      "icon": "🎣",
       "category": "Pêche",
       "realm": "Commun",
       "version": "V4",
@@ -1819,12 +1878,12 @@
       "lootWeight": 0.12,
       "technical": {
         "blueprint": "PrimalItemConsumable_LNA_OeufsPoisson_01"
-      }
+      },
+      "image": "assets/images/wiki/icon_lna_oeufspoisson_01.webp"
     },
     {
       "slug": "chair-abyssale",
       "name": "Chair abyssale",
-      "icon": "🎣",
       "category": "Pêche",
       "realm": "Commun",
       "version": "V4",
@@ -1844,12 +1903,12 @@
       "lootWeight": 0.035,
       "technical": {
         "blueprint": "PrimalItemConsumable_LNA_ChairAbyssale_01"
-      }
+      },
+      "image": "assets/images/wiki/icon_lna_chairabyssale_01.webp"
     },
     {
       "slug": "aretes-de-poisson",
       "name": "Arêtes de poisson",
-      "icon": "🎣",
       "category": "Pêche",
       "realm": "Commun",
       "version": "V4",
@@ -1869,12 +1928,12 @@
       "lootWeight": 0.75,
       "technical": {
         "blueprint": "PrimalItemResource_LNA_AretesPoisson_01"
-      }
+      },
+      "image": "assets/images/wiki/icon_lna_aretespoisson_01.webp"
     },
     {
       "slug": "ecailles-nacrees",
       "name": "Écailles nacrées",
-      "icon": "🎣",
       "category": "Pêche",
       "realm": "Commun",
       "version": "V4",
@@ -1894,12 +1953,12 @@
       "lootWeight": 0.18,
       "technical": {
         "blueprint": "PrimalItemResource_LNA_EcaillesNacrees_01"
-      }
+      },
+      "image": "assets/images/wiki/icon_lna_ecaillesnacrees_01.webp"
     },
     {
       "slug": "poche-dencre",
       "name": "Poche d’encre",
-      "icon": "🎣",
       "category": "Pêche",
       "realm": "Commun",
       "version": "V4",
@@ -1919,12 +1978,12 @@
       "lootWeight": 0.06,
       "technical": {
         "blueprint": "PrimalItemResource_LNA_PocheEncre_01"
-      }
+      },
+      "image": "assets/images/wiki/icon_lna_pocheencre_01.webp"
     },
     {
       "slug": "glande-saline",
       "name": "Glande saline",
-      "icon": "🎣",
       "category": "Pêche",
       "realm": "Commun",
       "version": "V4",
@@ -1944,12 +2003,12 @@
       "lootWeight": 0.25,
       "technical": {
         "blueprint": "PrimalItemResource_LNA_GlandeSaline_01"
-      }
+      },
+      "image": "assets/images/wiki/icon_lna_glandesaline_01.webp"
     },
     {
       "slug": "perle-organique",
       "name": "Perle organique",
-      "icon": "🎣",
       "category": "Pêche",
       "realm": "Commun",
       "version": "V4",
@@ -1969,12 +2028,12 @@
       "lootWeight": 0.01,
       "technical": {
         "blueprint": "PrimalItemResource_LNA_PerleOrganique_01"
-      }
+      },
+      "image": "assets/images/wiki/icon_lna_perleorganique_01.webp"
     },
     {
       "slug": "huile-de-poisson",
       "name": "Huile de poisson",
-      "icon": "🐟",
       "category": "Pêche",
       "realm": "Commun",
       "version": "V4",
@@ -1992,12 +2051,12 @@
       "craftTime": "15 s",
       "technical": {
         "blueprint": "PrimalItemResource_LNA_HuilePoisson_01"
-      }
+      },
+      "image": "assets/images/wiki/icon_lna_huilepoisson_01.webp"
     },
     {
       "slug": "gelatine-de-poisson",
       "name": "Gélatine de poisson",
-      "icon": "🐟",
       "category": "Pêche",
       "realm": "Commun",
       "version": "V4",
@@ -2015,12 +2074,12 @@
       "craftTime": "20 s",
       "technical": {
         "blueprint": "PrimalItemResource_LNA_GelatinePoisson_01"
-      }
+      },
+      "image": "assets/images/wiki/icon_lna_gelatinepoisson_01.webp"
     },
     {
       "slug": "sel-marin",
       "name": "Sel marin",
-      "icon": "🐟",
       "category": "Pêche",
       "realm": "Commun",
       "version": "V4",
@@ -2038,12 +2097,12 @@
       "craftTime": "10 s",
       "technical": {
         "blueprint": "PrimalItemResource_LNA_SelMarin_01"
-      }
+      },
+      "image": "assets/images/wiki/icon_lna_selmarin_01.webp"
     },
     {
       "slug": "extrait-medicinal",
       "name": "Extrait médicinal",
-      "icon": "🧪",
       "category": "Alchimie",
       "realm": "Commun",
       "version": "V4",
@@ -2057,12 +2116,12 @@
       "station": "Mortier et Pilon LNA",
       "recipe": "4× Narcotique + 2× Menthe séchée + 1× Sirop de grenade + 1× Citronal",
       "yield": "1",
-      "technical": {}
+      "technical": {},
+      "image": "assets/images/wiki/icon_alc_extraitmedicinal_01.webp"
     },
     {
       "slug": "extrait-stimulant",
       "name": "Extrait stimulant",
-      "icon": "🧪",
       "category": "Alchimie",
       "realm": "Commun",
       "version": "V4",
@@ -2076,12 +2135,12 @@
       "station": "Mortier et Pilon LNA",
       "recipe": "4× Stimulant + 2× Gingembre séché + 1× Menthe séchée + 1× Citronal",
       "yield": "1",
-      "technical": {}
+      "technical": {},
+      "image": "assets/images/wiki/icon_alc_extraitstimulant_01.webp"
     },
     {
       "slug": "base-antiseptique",
       "name": "Base antiseptique",
-      "icon": "🧪",
       "category": "Alchimie",
       "realm": "Commun",
       "version": "V4",
@@ -2095,12 +2154,12 @@
       "station": "Mortier et Pilon LNA",
       "recipe": "4× Narcotique + 1× Essence de lavande + 1× Sel marin + 1× Citronal",
       "yield": "1",
-      "technical": {}
+      "technical": {},
+      "image": "assets/images/wiki/icon_alc_baseantiseptique_01.webp"
     },
     {
       "slug": "concentre-narcotique",
       "name": "Concentré narcotique",
-      "icon": "🧪",
       "category": "Alchimie",
       "realm": "Commun",
       "version": "V4",
@@ -2114,12 +2173,12 @@
       "station": "Mortier et Pilon LNA",
       "recipe": "15× Narcotique + 1× Pâte de soja + 1× Gélatine de poisson + 1× Menthe séchée",
       "yield": "1",
-      "technical": {}
+      "technical": {},
+      "image": "assets/images/wiki/icon_alc_concentrenarcotique_01.webp"
     },
     {
       "slug": "catalyseur-des-six-royaumes",
       "name": "Catalyseur des Six Royaumes",
-      "icon": "🧪",
       "category": "Alchimie",
       "realm": "Commun",
       "version": "V4",
@@ -2133,66 +2192,11 @@
       "station": "Mortier et Pilon LNA",
       "recipe": "1× Menthe séchée + 1× Malt d’orge + 1× Pâte de soja + 1× Essence de lavande + 1× Mélasse + 1× Huile d’olive + 1× Huile de poisson + 5× Flacons renforcés",
       "yield": "5",
-      "technical": {}
+      "technical": {},
+      "image": "assets/images/wiki/icon_lna_catalyseur6royaumes_01.webp"
     }
   ],
   "versions": [
-    {
-      "id": "v5",
-      "name": "V5",
-      "status": "En développement",
-      "summary": "Systèmes et contenus prévus après l’économie V4.",
-      "features": [
-        {
-          "name": "Système de crochetage",
-          "type": "Gameplay",
-          "status": "En développement",
-          "description": "Mini-jeu d’ouverture de structures verrouillées."
-        },
-        {
-          "name": "Gobelin jouable",
-          "type": "Personnage",
-          "status": "Prévu",
-          "description": "Personnage gobelin destiné aux usages RP/admin."
-        },
-        {
-          "name": "Bannière dorsale peignable",
-          "type": "Cosmétique",
-          "status": "Prévu",
-          "description": "Bannière portée dans le dos et personnalisable."
-        },
-        {
-          "name": "Laisse de dino médiévale",
-          "type": "Gameplay",
-          "status": "Prévu",
-          "description": "Présentation médiévale de la laisse pour créatures."
-        },
-        {
-          "name": "Chapeau Valebois",
-          "type": "Cosmétique",
-          "status": "Prévu",
-          "description": "Cosmétique vestimentaire."
-        },
-        {
-          "name": "Casque d’os",
-          "type": "Cosmétique",
-          "status": "Prévu",
-          "description": "Cosmétique inspiré des os."
-        },
-        {
-          "name": "Arbalète d’os",
-          "type": "Cosmétique",
-          "status": "Prévu",
-          "description": "Variante cosmétique d’arbalète."
-        },
-        {
-          "name": "Refonte des cartes aux trésors",
-          "type": "Exploration",
-          "status": "Prioritaire",
-          "description": "Refonte du système de cartes aux trésors."
-        }
-      ]
-    },
     {
       "id": "v4",
       "name": "V4 — Économie",

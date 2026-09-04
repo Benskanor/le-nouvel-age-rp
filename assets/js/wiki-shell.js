@@ -11,13 +11,14 @@
     ["Métiers", "metiers/"],
     ["Personnages", "personnages/"],
     ["Wiki", "wiki/"],
+    ["Nouveautés", "wiki/nouveautes/"],
     ["Règlement", "reglement/"]
   ];
 
   const header = document.querySelector("#wiki-site-header");
   if (header) {
     const nav = links.map(([label, href]) => {
-      const active = label === "Wiki" ? " active" : "";
+      const active = (label === "Wiki" && here.includes("/wiki/") && !here.includes("/nouveautes/")) || (label === "Nouveautés" && here.includes("/wiki/nouveautes/")) ? " active" : "";
       return `<a class="${active.trim()}" href="${new URL(href, root)}">${label}</a>`;
     }).join("");
 

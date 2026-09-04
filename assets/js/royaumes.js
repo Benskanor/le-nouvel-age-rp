@@ -73,8 +73,10 @@
       }
       setText(card.querySelector("b"), c.button);
       if (c.href) card.href = c.href;
-      const img = card.querySelector("img");
+      const img = card.querySelector(":scope > img");
       if (img && c.image) img.src = new URL(c.image, siteRoot).href;
+      const flag = card.querySelector(".realm-flag-badge img");
+      if (flag && c.flag) flag.src = new URL(c.flag, siteRoot).href;
     }
 
     const callout = document.querySelector(".realms-callout");

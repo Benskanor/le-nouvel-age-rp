@@ -1,0 +1,33 @@
+/* LNA — drapeaux, couleurs de factions et accès Wiki */
+:root{--asharun:#63a86f;--falkheim:#9570c5;--shintai:#c75e5a;--vanloria:#5c82c6;--nerethis:#d0ad52;--erythros:#65b5c8}
+
+/* Drapeaux de royaumes sur l'accueil */
+.kingdom-mark.flag-mark{width:54px;height:54px;border:1px solid color-mix(in srgb,var(--accent,#d0ad67) 65%,transparent);border-radius:2px;overflow:hidden;background:#090806;box-shadow:0 8px 18px #0006;padding:0}
+.kingdom-mark.flag-mark img{width:100%;height:100%;object-fit:cover;object-position:center 44%;display:block}
+.kingdom-card.asharun{--accent:var(--asharun)!important}.kingdom-card.falkeim{--accent:var(--falkheim)!important}.kingdom-card.shintai{--accent:var(--shintai)!important}.kingdom-card.vanloria{--accent:var(--vanloria)!important}.kingdom-card.nerethis{--accent:var(--nerethis)!important}.kingdom-card.erythros{--accent:var(--erythros)!important}
+
+/* Drapeaux dans les traditions spirituelles */
+.realm-flag-icon{width:48px!important;height:48px!important;min-width:48px;border:1px solid #d0ad6744!important;border-radius:2px!important;overflow:hidden!important;background:#080705!important;padding:0!important;display:grid!important;place-items:center!important}
+.realm-flag-icon img{width:100%;height:100%;object-fit:cover;object-position:center 44%;display:block}
+.religion-preview-card.asharun{--religion-accent:var(--asharun)}.religion-preview-card.falkheim{--religion-accent:var(--falkheim)}.religion-preview-card.shintai{--religion-accent:var(--shintai)}.religion-preview-card.vanloria{--religion-accent:var(--vanloria)}.religion-preview-card.nerethis{--religion-accent:var(--nerethis)}.religion-preview-card.erythros{--religion-accent:var(--erythros)}
+.religion-preview-card{border-color:color-mix(in srgb,var(--religion-accent,#d0ad67) 45%,#ffffff14)!important;box-shadow:inset 0 0 0 1px color-mix(in srgb,var(--religion-accent,#d0ad67) 9%,transparent)}
+
+/* Accès Wiki / nouveautés sur le portail */
+.wiki-home-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:12px}
+.wiki-home-grid>a{min-height:220px;border:1px solid #d0ad6745;background:radial-gradient(circle at 85% 10%,#d0ad6718,transparent 30%),linear-gradient(145deg,#151109,#0a0906);padding:26px;display:flex;flex-direction:column;transition:transform .2s,border-color .2s}
+.wiki-home-grid>a:hover{transform:translateY(-3px);border-color:#d0ad6790}.wiki-home-grid small{color:#d0ad67;letter-spacing:.14em;text-transform:uppercase;font-size:9px;font-weight:800}.wiki-home-grid h3{font-size:30px;margin:34px 0 10px}.wiki-home-grid p{color:#aaa89f;font-size:13px;line-height:1.7;max-width:540px}.wiki-home-grid b{margin-top:auto;color:#f0d79e;font-size:11px}
+
+/* Drapeaux visibles dans le catalogue /royaumes */
+.realm-card{--realm-accent:#d0ad67}.realm-card.asharun{--realm-accent:var(--asharun)}.realm-card.falkeim{--realm-accent:var(--falkheim)}.realm-card.shintai{--realm-accent:var(--shintai)}.realm-card.vanloria{--realm-accent:var(--vanloria)}.realm-card.nerethis{--realm-accent:var(--nerethis)}.realm-card.erythros{--realm-accent:var(--erythros)}
+.realm-card{border-color:color-mix(in srgb,var(--realm-accent) 38%,#ffffff12)!important}.realm-card:hover{border-color:var(--realm-accent)!important}
+.realm-flag-badge{position:absolute;z-index:4;top:18px;right:18px;width:68px;height:68px;overflow:hidden;border:1px solid color-mix(in srgb,var(--realm-accent) 80%,transparent);background:#080705;box-shadow:0 10px 24px #0008}
+.realm-flag-badge img{width:100%!important;height:100%!important;object-fit:cover!important;object-position:center 44%!important;position:static!important;filter:none!important;opacity:1!important}
+
+/* Couleur correcte de faction dans la conclusion de chaque page royaume */
+.vanloria-ending{--realm-accent:var(--vanloria);border-top:2px solid var(--realm-accent)!important;box-shadow:inset 0 14px 45px color-mix(in srgb,var(--realm-accent) 9%,transparent)}
+.vanloria-ending.asharun-ending{--realm-accent:var(--asharun)}.vanloria-ending.falkheim-ending{--realm-accent:var(--falkheim)}.vanloria-ending.shintai-ending{--realm-accent:var(--shintai)}.vanloria-ending.nerethis-ending{--realm-accent:var(--nerethis)}.vanloria-ending.erythros-ending{--realm-accent:var(--erythros)}
+.vanloria-ending [class*="eyebrow"],.vanloria-ending>span,.vanloria-ending small{color:var(--realm-accent)!important}.vanloria-ending .button:first-of-type,.vanloria-ending a:first-of-type{border-color:var(--realm-accent)!important}
+
+@media(max-width:760px){.wiki-home-grid{grid-template-columns:1fr}.realm-flag-badge{width:54px;height:54px;top:12px;right:12px}.kingdom-mark.flag-mark{width:48px;height:48px}.realm-flag-icon{width:42px!important;height:42px!important;min-width:42px}}
+.kingdom-card summary{grid-template-columns:58px 1fr 24px!important}
+@media(max-width:760px){.kingdom-card summary{grid-template-columns:50px 1fr 20px!important}}
