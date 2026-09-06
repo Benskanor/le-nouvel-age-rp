@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-04",
+  "updated": "2026-09-06",
   "statusLegend": {
     "vivant": "Vivant",
     "disparu": "Porté disparu",
@@ -15,16 +15,16 @@
       "id": "benar-sahir",
       "name": "Benar Sahir",
       "realm": "Asharun",
-      "status": "vivant",
-      "role": "Émir d’Asharun",
+      "status": "mort",
+      "role": "Ancien Émir d’Asharun",
       "leader": true,
       "age": "30",
       "religion": "L’Esprit des Dunes",
       "job": "Bâtisseur · Soldat",
-      "summary": "Émir d’Asharun et bâtisseur de formation, Benar Sahir dirige la reconstruction du royaume depuis Nahrazan. Patient mais méfiant, il privilégie la stabilité, la défense des siens et la pérennité d’un peuple qui a survécu au Cataclysme.",
+      "summary": "Ancien Émir d’Asharun, Benar Sahir est désormais recensé comme mort dans le Nouveau Monde. Son rôle dans la reconstruction de Nahrazan et dans l’histoire récente d’Asharun demeure consigné dans le registre.",
       "notable": [
-        "Dirigeant d’Asharun",
-        "Siège à Nahrazan, capitale entre les eaux et la mer de sable"
+        "Ancien dirigeant d’Asharun",
+        "A participé à la reconstruction de Nahrazan"
       ],
       "relations": [
         {
@@ -494,14 +494,15 @@
       "id": "toph-beifong",
       "name": "Toph Beifong",
       "realm": "Shintai",
-      "status": "vivant",
+      "status": "disparu",
       "role": "",
       "leader": false,
       "age": "",
       "religion": "",
       "job": "",
-      "summary": "Toph Beifong est actuellement recensé parmi les membres vivants de Shintai. Sa fiche RP complète n’a pas encore été transmise aux archives du site.",
+      "summary": "Toph Beifong est actuellement porté disparu. Sa fiche RP complète n’a pas encore été transmise aux archives du site.",
       "notable": [
+        "Porté disparu",
         "Fiche publique à compléter"
       ],
       "relations": [],
@@ -513,14 +514,15 @@
       "id": "zhao-tianlong",
       "name": "Zhao Tianlong",
       "realm": "Shintai",
-      "status": "vivant",
+      "status": "disparu",
       "role": "",
       "leader": false,
       "age": "",
       "religion": "",
       "job": "",
-      "summary": "Zhao Tianlong est actuellement recensé parmi les membres vivants de Shintai. Sa fiche RP complète n’a pas encore été transmise aux archives du site.",
+      "summary": "Zhao Tianlong est actuellement porté disparu. Sa fiche RP complète n’a pas encore été transmise aux archives du site.",
       "notable": [
+        "Porté disparu",
         "Fiche publique à compléter"
       ],
       "relations": [],
@@ -595,7 +597,7 @@
       "age": "27",
       "religion": "Le Père de Lumière",
       "job": "Forgeron · Soldat",
-      "summary": "Forgeron et soldat de Vanloria, Archibald LeBeau s’est construit autour de l’honneur, de la discipline et du devoir. Il est aujourd’hui porté disparu.",
+      "summary": "Forgeron et soldat de Vanloria, Archibald LeBeau s’est construit autour de l’honneur, de la discipline et du devoir. Il est actuellement porté disparu.",
       "notable": [],
       "relations": [
         {
@@ -1012,14 +1014,15 @@
       "id": "madacrock-brun",
       "name": "Madacrock Brun",
       "realm": "Nerethis",
-      "status": "vivant",
+      "status": "disparu",
       "role": "",
       "leader": false,
       "age": "35",
       "religion": "",
       "job": "Alchimiste · Mercenaire",
-      "summary": "Alchimiste rusé et mercenaire lorsque la situation l’exige, Madacrock Brun travaille avec les remèdes, les poisons et les substances du Nouveau Monde. Il reste proche des réseaux de survivants liés aux équipages de Nerethis.",
+      "summary": "Alchimiste rusé et mercenaire lorsque la situation l’exige, Madacrock Brun est désormais porté disparu. Ses travaux sur les remèdes, poisons et substances du Nouveau Monde restent connus des réseaux de survivants liés à Nerethis.",
       "notable": [
+        "Porté disparu",
         "Certaines informations personnelles le concernant restent volontairement confidentielles"
       ],
       "relations": [

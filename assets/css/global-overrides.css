@@ -1,53 +1,287 @@
+/*
+  Le Nouvel Âge RP — Thème global V4
+  Direction visuelle : fantasy noir / or, lisible, homogène.
+  Cette feuille est chargée EN DERNIER sur toutes les pages.
+*/
 
-/* Global readability and consistency overrides */
 :root{
-  --lna-border: rgba(214,176,94,.22);
-  --lna-border-strong: rgba(214,176,94,.34);
-  --lna-panel: linear-gradient(180deg, rgba(18,18,16,.96), rgba(10,10,9,.98));
-  --lna-panel-soft: linear-gradient(180deg, rgba(23,18,13,.82), rgba(11,11,10,.94));
-  --lna-shadow: 0 18px 40px rgba(0,0,0,.24);
+  --night:#070604!important;
+  --panel:#0f0c08!important;
+  --panel2:#171108!important;
+  --ink:#f4eee2!important;
+  --muted:#b8b0a3!important;
+  --gold:#d6ad59!important;
+  --gold-soft:#f2d690!important;
+  --line:rgba(214,173,89,.24)!important;
+  --faith-bg:#070604!important;
+  --faith-panel:#100d09!important;
+  --faith-line:rgba(214,173,89,.22)!important;
+  --faith-ink:#f4eee2!important;
+  --faith-muted:#b8b0a3!important;
+  --faith-gold:#d6ad59!important;
+  --rule-bg:#070604!important;
+  --rule-surface:#100d09!important;
+  --rule-paper:#181208!important;
+  --paper:#181208!important;
+  --cream:#f4eee2!important;
+  --o-gold:#d6ad59!important;
+  --o-blue:#d6ad59!important;
+  --blue:#d6ad59!important;
+  --silver:#e7dfd1!important;
+  --v-blue:#d6ad59!important;
+  --v-light:#f2d690!important;
+  --v-line:rgba(214,173,89,.24)!important;
+  --v-silver:#e8dfd1!important;
+  --lna-bg:#070604;
+  --lna-panel:#100d09;
+  --lna-panel-soft:#151008;
+  --lna-panel-raised:#1a1309;
+  --lna-ink:#f4eee2;
+  --lna-muted:#b8b0a3;
+  --lna-gold:#d6ad59;
+  --lna-gold-soft:#f2d690;
+  --lna-border:rgba(214,173,89,.24);
+  --lna-border-strong:rgba(214,173,89,.48);
+  --lna-shadow:0 18px 48px rgba(0,0,0,.30);
+  --asharun:#63a86f;
+  --falkheim:#9570c5;
+  --shintai:#c75e5a;
+  --vanloria:#5c82c6;
+  --nerethis:#d0ad52;
+  --erythros:#65b5c8;
 }
-html{font-size:17px}
-body{line-height:1.72;-webkit-font-smoothing:antialiased;text-rendering:optimizeLegibility}
-p,li,dd{font-size:1em;line-height:inherit}
-small,.overline,.section-number,.breadcrumbs,.resource-version,.wiki-infobox dt,.site-footer small,#lna-site-footer small{letter-spacing:.08em}
-#lna-site-header .brand strong,#wiki-site-header .brand strong,.activities-header .brand strong,.bestiary-header .brand strong,.character-header .brand strong,.demigods-header .brand strong,.factions-header .brand strong,.jobs-header .brand strong,.mods-header .brand strong,.origins-header .brand strong,.rules-header .brand strong,.territory-header .brand strong,.realms-header .brand strong{font-size:1.08rem!important}
-#lna-site-header .brand small,#wiki-site-header .brand small,.activities-header .brand small,.bestiary-header .brand small,.character-header .brand small,.demigods-header .brand small,.factions-header .brand small,.jobs-header .brand small,.mods-header .brand small,.origins-header .brand small,.rules-header .brand small,.territory-header .brand small,.realms-header .brand small{font-size:.65rem!important}
-.top-nav a,.activities-header nav a,.bestiary-header nav a,.character-header nav a,.demigods-header nav a,.factions-header nav a,.jobs-header nav a,.mods-header nav a,.origins-header nav a,.rules-header nav a,.territory-header nav a,.realms-header nav a{font-size:.82rem!important;line-height:1.35!important}
-.mobile-menu nav a,.mobile-menu summary{font-size:.82rem!important}
-.section-title>p,.section-head>p,.section-head p,.realms-intro>p,.realms-callout p,.wiki-note,.resource-copy em,.wiki-hero .lead,.resource-main .resource-lead,.article-section p,.article-section li,.realm-economy-block>p,.feature-card p{font-size:1rem!important;line-height:1.8!important}
-.section-title h2,.section-head h2,.article-section h2,.realm-economy-head h3{line-height:1.08}
-.button,.header-cta{font-size:.84rem!important}
-.side-nav,.side-nav a,.side-nav p{font-size:.92rem!important}
-.quick-grid a p,.profession-grid article p,.player-tools-grid a p,.wiki-home-grid a p,.kingdom-hub-link p,.principle p,.religion-preview-cta p,.demigod-preview-cta p,.faction-preview-cta p,.player-tools-grid a p{font-size:1rem!important;line-height:1.8!important}
-.quick-grid a h3,.player-tools-grid a h3,.wiki-home-grid a h3,.religion-preview-card h3,.demigod-preview-card h3,.faction-preview-card h3{font-size:1.7rem!important;line-height:1.12}
-.quick-grid a small,.player-tools-grid a small,.wiki-home-grid a small,.profession-grid article small,.religion-preview-card small,.demigod-preview-card small,.faction-preview-card small,.realm-card small,.realms-callout small{font-size:.72rem!important}
-/* Harmonized panels and cards */
-.wiki-section,.wiki-resource-card,.wiki-category-card,.feature-card,.resource-main,.wiki-infobox,.consumable-chip,.related-grid a,.realm-economy-block,.wiki-note,.quick-grid a,.player-tools-grid a,.wiki-home-grid a,.profession-grid article,.principle,.kingdom-hub-link,.religion-preview-card,.religion-preview-cta,.demigod-preview-card,.demigod-preview-cta,.faction-preview-card,.faction-preview-cta,.character-tool,.mods-tool,.official-tool,.activities-tool,.character-registry-tool{
-  border-color:var(--lna-border)!important;
+
+*{box-sizing:border-box}
+html{font-size:18px;scroll-padding-top:82px}
+body{
+  margin:0!important;
+  color:var(--lna-ink)!important;
+  background:
+    radial-gradient(circle at 75% 3%,rgba(214,173,89,.09),transparent 24rem),
+    radial-gradient(circle at 12% 38%,rgba(120,72,18,.06),transparent 28rem),
+    linear-gradient(180deg,#080604 0%,#050504 48%,#080604 100%)!important;
+  background-attachment:fixed!important;
+  font-family:Inter,ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif!important;
+  line-height:1.75!important;
+  -webkit-font-smoothing:antialiased;
+  text-rendering:optimizeLegibility;
+}
+body:before{
+  content:"";
+  position:fixed;
+  inset:0;
+  pointer-events:none;
+  z-index:-1;
+  opacity:.20;
+  background-image:
+    linear-gradient(90deg,transparent 49.8%,rgba(214,173,89,.035) 50%,transparent 50.2%),
+    linear-gradient(transparent 49.8%,rgba(214,173,89,.025) 50%,transparent 50.2%);
+  background-size:92px 92px;
+  -webkit-mask-image:linear-gradient(#000,transparent 76%);
+  mask-image:linear-gradient(#000,transparent 76%);
+}
+
+/* Tous les anciens fonds vert/noir sont neutralisés ici. */
+:is(.realms-page,.vanloria-page,.territory-page,.bestiary-page,.activities-page,.character-page,.jobs-page,.origins-page,.story-page,.religions-page,.demigods-page,.factions-page,.mods-page,.official-page,.rules-page,.people-page),
+.people-page main{
+  background:transparent!important;
+  color:var(--lna-ink)!important;
+}
+
+/* Couleurs de faction : seulement comme accent, jamais comme fond principal. */
+.asharun-page{--realm-accent:var(--asharun);--v-blue:var(--asharun);--v-light:#a9dbb2}
+.falkheim-page{--realm-accent:var(--falkheim);--v-blue:var(--falkheim);--v-light:#c7afe5}
+.shintai-page{--realm-accent:var(--shintai);--v-blue:var(--shintai);--v-light:#e7a5a1}
+.vanloria-page:not(.asharun-page):not(.falkheim-page):not(.shintai-page):not(.nerethis-page):not(.erythros-page){--realm-accent:var(--vanloria);--v-blue:var(--vanloria);--v-light:#a9c4ef}
+.nerethis-page{--realm-accent:var(--nerethis);--v-blue:var(--nerethis);--v-light:#f2d66c}
+.erythros-page{--realm-accent:var(--erythros);--v-blue:var(--erythros);--v-light:#a7e0eb}
+
+/* ---------- Typographie ---------- */
+h1,h2,h3,h4{color:var(--lna-ink);text-wrap:balance}
+h1,h2,h3{font-family:Georgia,"Times New Roman",serif!important;font-weight:500!important}
+p,li,dd,blockquote{font-size:1rem;line-height:1.8}
+:is(.section-title>p,.section-head>p,.section-head p,.realms-intro>p,.realms-callout p,.wiki-note,.wiki-hero .lead,.resource-main .resource-lead,.article-section p,.article-section li,.realm-economy-block>p,.feature-card p,.card-summary,.modal-section p,.history-original,.people-intro,.people-heading>p,.mods-summary>p,.mods-section-title>p,.jobs-principle>p,.story-intro>p,.archive-intro>p,.topic-intro>p,.rules-intro>p){font-size:1rem!important;line-height:1.82!important;color:var(--lna-muted)!important}
+:is(.overline,.people-overline,.section-number,.breadcrumbs,.resource-version,.wiki-infobox dt,.site-footer small,#lna-site-footer small,.realm-card small,.people-toolbar label>span,.leader-role,.modal-kicker,.sheet-source,.current-era,.modal-era-label){font-size:.68rem!important;letter-spacing:.10em!important}
+:is(.resource-copy small,.feature-card small,.wiki-category-card small,.wiki-stats span,.technical-grid span,.realm-economy-head span,.economy-columns h4,.consumable-chip small,.related-grid small,.directory-count,.rules-badge,.jobs-badge){font-size:.72rem!important}
+:is(.resource-copy strong,.wiki-category-card strong,.feature-card h3,.related-grid strong,.consumable-chip strong){font-size:1.35rem!important;line-height:1.18!important}
+:is(.quick-grid a h3,.player-tools-grid a h3,.wiki-home-grid a h3,.religion-preview-card h3,.demigod-preview-card h3,.faction-preview-card h3){font-size:1.65rem!important;line-height:1.12!important}
+:is(.quick-grid a p,.player-tools-grid a p,.wiki-home-grid a p,.profession-grid article p,.kingdom-hub-link p,.principle p,.religion-preview-cta p,.demigod-preview-cta p,.faction-preview-cta p){font-size:1rem!important;line-height:1.82!important}
+
+/* ---------- En-têtes : même langage visuel sur tout le site ---------- */
+:is(.site-header,.realms-header,.vanloria-header,.territory-header,.bestiary-header,.activities-header,.character-header,.jobs-header,.origins-header,.story-header,.religions-header,.demigods-header,.factions-header,.mods-header,.official-header,.rules-header){
+  min-height:72px!important;
+  height:auto!important;
+  padding:10px clamp(18px,4vw,64px)!important;
+  background:rgba(7,6,4,.94)!important;
+  border-bottom:1px solid var(--lna-border)!important;
+  box-shadow:0 10px 28px rgba(0,0,0,.18)!important;
+  backdrop-filter:blur(18px)!important;
+  -webkit-backdrop-filter:blur(18px)!important;
+}
+:is(.top-nav,.realms-header nav,.vanloria-header nav,.territory-header nav,.bestiary-header nav,.activities-header nav,.character-header nav,.jobs-header nav,.origins-header nav,.story-header nav,.religions-header nav,.demigods-header nav,.factions-header nav,.mods-header nav,.official-header nav,.rules-header nav){gap:20px!important;color:#d4cfc5!important}
+:is(.top-nav a,.realms-header nav a,.vanloria-header nav a,.territory-header nav a,.bestiary-header nav a,.activities-header nav a,.character-header nav a,.jobs-header nav a,.origins-header nav a,.story-header nav a,.religions-header nav a,.demigods-header nav a,.factions-header nav a,.mods-header nav a,.official-header nav a,.rules-header nav a){font-size:.82rem!important;line-height:1.35!important;color:#d4cfc5!important}
+:is(.top-nav a,.realms-header nav a,.vanloria-header nav a,.territory-header nav a,.bestiary-header nav a,.activities-header nav a,.character-header nav a,.jobs-header nav a,.origins-header nav a,.story-header nav a,.religions-header nav a,.demigods-header nav a,.factions-header nav a,.mods-header nav a,.official-header nav a,.rules-header nav a):hover{color:var(--lna-gold-soft)!important}
+:is(.brand-seal,.realms-brand>span:first-child,.vanloria-brand>span:first-child,.origins-brand>span:first-child,.mods-brand>span:first-child,.demigods-brand>span:first-child,.factions-brand>span:first-child,.rules-brand>span:first-child,.realms-footer>div>span){border-color:var(--lna-gold)!important;color:var(--lna-gold-soft)!important;background:#0a0805!important}
+:is(.brand strong,.realms-brand strong,.vanloria-brand strong,.mods-brand strong){font-size:1.05rem!important;color:var(--lna-ink)!important}
+:is(.brand small,.realms-brand small,.vanloria-brand small){font-size:.62rem!important;color:#aaa296!important}
+
+/* ---------- Héros ---------- */
+:is(.portal-hero,.realms-hero,.vanloria-hero,.territory-hero,.bestiary-hero,.activities-hero,.character-hero,.jobs-hero,.origins-hero,.story-hero,.religions-hero,.demigods-hero,.factions-hero,.mods-hero,.official-hero,.rules-hero,.people-hero,.wiki-hero){
+  background-color:#080604!important;
+  border-bottom:1px solid var(--lna-border)!important;
+}
+:is(.hero-shade,.realm-card-shade,.vanloria-hero-shade,.story-hero-shade,.factions-hero-shade){background:linear-gradient(90deg,rgba(7,6,4,.96) 3%,rgba(7,6,4,.70) 48%,rgba(7,6,4,.15) 84%),linear-gradient(180deg,rgba(0,0,0,.10),rgba(7,6,4,.94) 100%)!important}
+.realms-hero>span,.mods-hero>span{background:linear-gradient(90deg,rgba(7,6,4,.98) 4%,rgba(7,6,4,.68) 48%,transparent 82%),linear-gradient(180deg,transparent 42%,#070604 99%)!important}
+.people-hero{min-height:440px!important;background:radial-gradient(circle at 78% 8%,rgba(214,173,89,.12),transparent 28rem),linear-gradient(180deg,#090704,#050504)!important}
+.people-hero:before{background-image:linear-gradient(90deg,rgba(214,173,89,.055) 1px,transparent 1px),linear-gradient(rgba(214,173,89,.04) 1px,transparent 1px)!important}
+
+/* ---------- Espacements cohérents ---------- */
+:is(.content-section,.world-section,.wiki-section,.realms-intro,.territory-section,.resources-section,.creatures-section,.activity-section,.character-section,.jobs-principle,.jobs-content,.origins-intro,.story-intro,.archive-intro,.religions-section-heading,.boss-section-heading,.faction-section-heading,.mods-library,.mods-principles,.rules-chapter,.realm-section){scroll-margin-top:90px}
+:is(.content-section,.world-section){padding-top:72px!important;padding-bottom:72px!important}
+:is(.wiki-section,.realm-economy-block){padding-top:58px!important;padding-bottom:58px!important}
+:is(.realms-intro,.territory-section,.character-layout,.jobs-principle,.origins-intro,.story-intro,.archive-intro,.mods-summary,.rules-intro){padding-top:64px!important;padding-bottom:48px!important}
+:is(.section-title,.section-head,.vanloria-section-heading,.religions-section-heading,.boss-section-heading,.faction-section-heading,.mods-section-title,.character-section-head){margin-bottom:30px!important;padding-bottom:18px!important;border-bottom:1px solid var(--lna-border)!important}
+
+/* ---------- Cartes / panneaux : un seul langage visuel ---------- */
+:is(.quick-grid>a,.player-tools-grid>a,.wiki-home-grid>a,.profession-grid>article,.principle,.kingdom-hub-link,.religion-preview-card,.religion-preview-cta,.demigod-preview-card,.demigod-preview-cta,.faction-preview-card,.faction-preview-cta,.realm-card,.institution-grid>*,.justice-card,.structure-panel,.vanloria-entry,.resource-card,.creature-rule,.creature-card,.tier-overview-grid>*,.activity-index-card,.coming-panel,.event-grid>*,.dungeon-rules,.character-copy,.character-rules,.example-grid>*,.profession-card,.jobs-index>a,.origins-card,.story-index>a,.story-chapter,.belief-card,.faith-sheet,.calendar-grid>a,.festival-grid>*,.ritual-grid>*,.legend-card,.boss-sheet,.faction-sheet,.category-grid>a,.mods-category-grid>article,.official-copy,.rules-topic,.rules-final,.rules-sidebar-cta,.character-card,.era-notice,.rp-note,.character-modal,.info,.relation-row,.chronicle-box,.wiki-category-card,.feature-card,.wiki-resource-card,.wiki-infobox,.tech-details,.related-grid>a,.consumable-chip,.vanilla-row,.economy-row,.wiki-note){
+  background:linear-gradient(180deg,rgba(21,16,9,.97),rgba(10,8,5,.98))!important;
+  border:1px solid var(--lna-border)!important;
   box-shadow:var(--lna-shadow)!important;
 }
-.wiki-section,.resource-main,.wiki-infobox,.consumable-chip,.realm-economy-block,.wiki-note,.quick-grid a,.player-tools-grid a,.wiki-home-grid a,.profession-grid article,.principle,.kingdom-hub-link,.religion-preview-cta,.demigod-preview-cta,.faction-preview-cta{background:var(--lna-panel)!important}
-.wiki-resource-card,.wiki-category-card,.feature-card,.related-grid a,.religion-preview-card,.demigod-preview-card,.faction-preview-card{background:var(--lna-panel-soft)!important}
-.wiki-resource-card,.wiki-category-card,.feature-card,.resource-main,.wiki-infobox,.consumable-chip,.related-grid a,.realm-economy-block,.wiki-note,.quick-grid a,.player-tools-grid a,.wiki-home-grid a,.profession-grid article,.principle,.kingdom-hub-link,.religion-preview-card,.religion-preview-cta,.demigod-preview-card,.demigod-preview-cta,.faction-preview-card,.faction-preview-cta{border-width:1px!important;border-style:solid!important}
-.resource-grid,.feature-grid,.category-grid,.related-grid,.player-tools-grid,.quick-grid,.wiki-home-grid{gap:14px!important}
-.wiki-resource-card,.wiki-category-card,.feature-card,.consumable-chip,.related-grid a,.player-tools-grid a,.wiki-home-grid a,.quick-grid a{padding:18px!important}
-.resource-icon,.mini-item,.consumable-image{background:radial-gradient(circle at 50% 38%, rgba(214,176,94,.10), rgba(0,0,0,0) 70%)!important;border:1px solid var(--lna-border)!important}
-.resource-icon{width:78px!important;height:78px!important;padding:8px!important}
-.resource-icon.has-image img,.mini-item.has-image img,.consumable-image.has-image img,.related-grid a>img,.infobox-icon.has-image img{display:block;max-width:100%!important;max-height:100%!important;width:auto!important;height:auto!important;object-fit:contain!important;object-position:center center!important;margin:auto}
-.infobox-title{font-size:1.55rem!important}
-.infobox-icon{height:260px!important;padding:18px!important;background:linear-gradient(180deg, rgba(22,16,12,.5), rgba(7,7,6,.1))}
-.wiki-infobox dl div{grid-template-columns:132px 1fr!important;gap:12px!important}
-.wiki-infobox dd{font-size:.96rem!important;line-height:1.58!important}
-.wiki-infobox dt{font-size:.7rem!important}
-.article-section h3,.wiki-category-card strong,.feature-card h3,.resource-copy strong,.related-grid strong{font-size:1.45rem!important;line-height:1.14!important}
-.resource-copy em,.feature-card p,.wiki-category-card p,.related-grid p,.consumable-chip p{font-size:1rem!important}
-/* homepage specific */
-.player-tools-grid{grid-template-columns:repeat(auto-fit,minmax(240px,1fr))!important}
-.character-registry-tool{position:relative;overflow:hidden}
-.character-registry-tool::after{content:"📜";position:absolute;right:18px;top:18px;font-size:1.1rem;opacity:.8}
-/* kingdoms footer links */
-.realms-callout>div a{font-size:.86rem!important;min-width:160px!important;justify-content:center}
+:is(.quick-grid>a,.player-tools-grid>a,.wiki-home-grid>a,.realm-card,.religion-preview-card,.demigod-preview-card,.faction-preview-card,.activity-index-card,.jobs-index>a,.origins-card,.story-index>a,.belief-card,.legend-card,.wiki-resource-card,.wiki-category-card,.related-grid>a){transition:transform .2s ease,border-color .2s ease,background .2s ease!important}
+:is(.quick-grid>a,.player-tools-grid>a,.wiki-home-grid>a,.realm-card,.religion-preview-card,.demigod-preview-card,.faction-preview-card,.activity-index-card,.jobs-index>a,.origins-card,.story-index>a,.belief-card,.legend-card,.wiki-resource-card,.wiki-category-card,.related-grid>a):hover{transform:translateY(-2px)!important;border-color:var(--lna-border-strong)!important;background:linear-gradient(180deg,#1b1409,#0d0a06)!important}
+
+/* Les cartes de royaumes gardent leur couleur comme accent. */
+.realm-card{--realm-accent:var(--lna-gold);border-color:color-mix(in srgb,var(--realm-accent) 42%,transparent)!important}
+.realm-card.asharun{--realm-accent:var(--asharun)!important}.realm-card.falkeim{--realm-accent:var(--falkheim)!important}.realm-card.shintai{--realm-accent:var(--shintai)!important}.realm-card.vanloria{--realm-accent:var(--vanloria)!important}.realm-card.nerethis{--realm-accent:var(--nerethis)!important}.realm-card.erythros{--realm-accent:var(--erythros)!important}
+.realm-card:hover{border-color:var(--realm-accent)!important}
+
+/* ---------- Boutons ---------- */
+:is(.button,.details-btn,.header-cta,.realms-return,.vanloria-return,.territory-return,.bestiary-return,.activities-return,.jobs-back,.origins-return,.story-return,.religions-return,.demigods-return,.factions-return,.mods-return,.official-return,.rules-return){
+  min-height:46px!important;
+  padding:11px 18px!important;
+  border:1px solid var(--lna-border-strong)!important;
+  background:#0e0b07!important;
+  color:var(--lna-gold-soft)!important;
+  font-size:.82rem!important;
+  font-weight:700!important;
+  line-height:1.25!important;
+  text-decoration:none!important;
+  display:inline-flex;
+  align-items:center;
+  justify-content:center;
+  gap:8px;
+}
+.button.primary,.header-cta,.details-btn:hover{background:var(--lna-gold)!important;color:#171108!important;border-color:var(--lna-gold)!important}
+:is(.button,.details-btn,.header-cta,.realms-return,.vanloria-return,.territory-return,.bestiary-return,.activities-return,.jobs-back,.origins-return,.story-return,.religions-return,.demigods-return,.factions-return,.mods-return,.official-return,.rules-return):hover{border-color:var(--lna-gold)!important;color:var(--lna-gold-soft)!important;filter:brightness(1.06)}
+.button.primary:hover,.header-cta:hover{background:var(--lna-gold-soft)!important;color:#171108!important}
+
+/* ---------- Formulaires / tableaux ---------- */
+:is(input,select,textarea,.people-toolbar input,.people-toolbar select,.wiki-search,.wiki-toolbar input,.wiki-toolbar select,.control-block input,.control-block select){
+  min-height:46px!important;
+  border:1px solid var(--lna-border)!important;
+  background:#0d0a07!important;
+  color:var(--lna-ink)!important;
+  font-size:.92rem!important;
+  padding:10px 13px!important;
+}
+:is(input,select,textarea):focus{outline:none!important;border-color:var(--lna-gold)!important;box-shadow:0 0 0 2px rgba(214,173,89,.09)!important}
+table{width:100%;border-collapse:collapse;background:var(--lna-panel)!important;border:1px solid var(--lna-border)!important;color:var(--lna-ink)!important}
+th,td{padding:14px 16px!important;border-bottom:1px solid var(--lna-border)!important;text-align:left;font-size:.92rem!important;line-height:1.55!important}
+th{background:#181108!important;color:var(--lna-gold-soft)!important;font-weight:700!important}tbody tr:nth-child(even){background:rgba(214,173,89,.025)!important}
+
+/* ---------- Wiki ---------- */
+.wiki-shell{width:min(1320px,calc(100% - 48px))!important}
+.resource-grid{gap:14px!important}.feature-grid,.category-grid{gap:14px!important}
+.wiki-resource-card{grid-template-columns:82px minmax(0,1fr) auto!important;gap:18px!important;padding:18px!important;min-height:112px!important}
+.resource-icon{width:82px!important;height:82px!important;padding:8px!important;background:radial-gradient(circle,rgba(214,173,89,.09),transparent 68%)!important;border:1px solid var(--lna-border)!important;overflow:hidden!important}
+.resource-icon.has-image img,.mini-item.has-image img,.consumable-image.has-image img,.related-grid a>img,.infobox-icon.has-image img{display:block!important;max-width:100%!important;max-height:100%!important;width:auto!important;height:auto!important;object-fit:contain!important;object-position:center!important;margin:auto!important}
+.resource-copy em{font-size:.93rem!important;color:var(--lna-muted)!important;white-space:normal!important;display:-webkit-box!important;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden!important}
+.resource-version{padding:6px 9px!important;border:1px solid var(--lna-border)!important;color:var(--lna-gold-soft)!important}
+.wiki-infobox{overflow:hidden!important;top:92px!important}.infobox-title{font-size:1.45rem!important;padding:16px!important;background:#181108!important;color:var(--lna-gold-soft)!important;border-bottom:1px solid var(--lna-border)!important}.infobox-icon{height:250px!important;padding:18px!important;background:radial-gradient(circle at 50% 40%,rgba(214,173,89,.10),transparent 64%),#090705!important;border-bottom:1px solid var(--lna-border)!important}.wiki-infobox dl{padding:10px 16px 16px!important}.wiki-infobox dl div{grid-template-columns:126px minmax(0,1fr)!important;gap:14px!important;padding:12px 0!important;border-bottom:1px solid rgba(214,173,89,.10)!important}.wiki-infobox dd{font-size:.90rem!important;line-height:1.55!important}.technical-grid code{font-size:.82rem!important}.related-grid a{padding:14px!important;min-height:78px!important}
+.consumable-chip{min-height:124px!important;padding:16px!important}.consumable-image{width:86px!important;height:86px!important;flex:0 0 86px!important;padding:6px!important}.economy-row{padding:14px!important}.economy-row b{font-size:1.05rem!important}.economy-row small{font-size:.82rem!important;color:var(--lna-muted)!important}.realm-economy-head{padding-left:16px!important}
+
+/* ---------- Personnages ---------- */
+.people-toolbar{background:rgba(7,6,4,.95)!important;border-bottom:1px solid var(--lna-border)!important}
+.people-stats span{background:#100d09!important;border-color:var(--lna-border)!important;color:#c8c0b4!important;font-size:.72rem!important}
+.character-card{min-height:370px!important;padding:26px!important}.character-card.is-leader{border-color:rgba(214,173,89,.72)!important}.leader-crown{background:#0b0805!important;border-color:var(--lna-gold)!important;color:var(--lna-gold-soft)!important}.card-head h3{font-size:1.55rem!important}.card-meta{font-size:.82rem!important;color:#999187!important}.job-line{font-size:.90rem!important;color:#dbc88f!important}.card-summary{font-size:.92rem!important}.public-notes{font-size:.78rem!important}.status-box{background:#0b0906!important}.status-box.status-vivant{border-color:#4e7f57!important;background:#0c130d!important}.status-box.status-disparu{border-color:#8f793a!important;background:#151208!important}.status-box.status-mort{border-color:#894a4a!important;background:#160b0b!important}.modal-close{background:#100d09!important;border-color:var(--lna-border)!important}.character-modal{background:#090705!important}.info,.relation-row,.chronicle-box,.archive-warning,.era-notice{background:#100d09!important}
+
+/* ---------- Page Royaumes : bas de page ---------- */
+.realms-callout{background:radial-gradient(circle at 50% 20%,rgba(214,173,89,.13),transparent 42%),#090705!important;border-top:1px solid var(--lna-border)!important}
+.realms-callout>div{gap:10px!important}.realms-callout>div a{min-width:160px!important;justify-content:center!important;font-size:.84rem!important;color:#fff!important}
+.realms-callout>div a:nth-child(1){background:var(--vanloria)!important;border-color:color-mix(in srgb,var(--vanloria) 80%,white)!important}
 .realms-callout>div a:nth-child(2){background:var(--asharun)!important;border-color:color-mix(in srgb,var(--asharun) 80%,white)!important}
-/* responsive */
-@media (max-width: 900px){html{font-size:16px}.top-nav a{font-size:.78rem!important}.quick-grid a h3,.player-tools-grid a h3,.wiki-home-grid a h3,.religion-preview-card h3,.demigod-preview-card h3,.faction-preview-card h3{font-size:1.45rem!important}.infobox-icon{height:220px!important}}
+.realms-callout>div a:nth-child(3){background:var(--erythros)!important;border-color:color-mix(in srgb,var(--erythros) 80%,white)!important}
+.realms-callout>div a:nth-child(4){background:var(--nerethis)!important;border-color:color-mix(in srgb,var(--nerethis) 80%,white)!important;color:#171108!important}
+.realms-callout>div a:nth-child(5){background:var(--shintai)!important;border-color:color-mix(in srgb,var(--shintai) 80%,white)!important}
+.realms-callout>div a:nth-child(6){background:var(--falkheim)!important;border-color:color-mix(in srgb,var(--falkheim) 80%,white)!important}
+
+/* ---------- Accueil ---------- */
+.portal-shell{background:transparent!important}.portal-content{min-width:0}
+.side-nav{background:rgba(8,6,4,.70)!important;border-right:1px solid var(--lna-border)!important}.side-nav a{font-size:.88rem!important;color:#bbb3a8!important}.side-nav a:hover{color:var(--lna-gold-soft)!important}.side-nav span{color:var(--lna-gold)!important}
+.quick-grid,.player-tools-grid,.wiki-home-grid{gap:14px!important}.quick-grid>a,.player-tools-grid>a,.wiki-home-grid>a{padding:24px!important}.character-registry-tool{position:relative!important;overflow:hidden!important}.character-registry-tool:after{content:"♜";position:absolute;right:22px;top:18px;color:var(--lna-gold);font:500 1.3rem Georgia,serif;opacity:.85}
+
+/* ---------- Pieds de page ---------- */
+:is(#lna-site-footer,.site-footer,.realms-footer,.vanloria-footer,.territory-footer,.bestiary-footer,.activities-footer,.character-footer,.jobs-footer,.origins-footer,.story-footer,.religions-footer,.demigods-footer,.factions-footer,.mods-footer,.rules-footer){background:#060504!important;border-top:1px solid var(--lna-border)!important;color:#aaa296!important;min-height:96px!important}
+:is(#lna-site-footer,.site-footer,.realms-footer,.vanloria-footer,.territory-footer,.bestiary-footer,.activities-footer,.character-footer,.jobs-footer,.origins-footer,.story-footer,.religions-footer,.demigods-footer,.factions-footer,.mods-footer,.rules-footer) a{color:var(--lna-gold-soft)!important;font-size:.80rem!important}
+
+/* ---------- Responsive ---------- */
+@media(max-width:1040px){
+  html{font-size:17px}
+  .wiki-resource-card{grid-template-columns:72px minmax(0,1fr)!important}.resource-icon{width:72px!important;height:72px!important}
+}
+@media(max-width:760px){
+  html{font-size:16px}
+  :is(.site-header,.realms-header,.vanloria-header,.territory-header,.bestiary-header,.activities-header,.character-header,.jobs-header,.origins-header,.story-header,.religions-header,.demigods-header,.factions-header,.mods-header,.official-header,.rules-header){padding:9px 16px!important}
+  .wiki-shell{width:min(100% - 30px,1320px)!important}.wiki-resource-card{grid-template-columns:64px minmax(0,1fr)!important;padding:14px!important}.resource-icon{width:64px!important;height:64px!important}.resource-version{display:none!important}.infobox-icon{height:210px!important}.wiki-infobox dl div{grid-template-columns:108px 1fr!important}.consumable-image{width:72px!important;height:72px!important;flex-basis:72px!important}
+  :is(.content-section,.world-section){padding-top:54px!important;padding-bottom:54px!important}
+  :is(.quick-grid a h3,.player-tools-grid a h3,.wiki-home-grid a h3,.religion-preview-card h3,.demigod-preview-card h3,.faction-preview-card h3){font-size:1.45rem!important}
+}
+
+/* ---------- Finitions de cohérence ---------- */
+small{font-size:.72rem!important;line-height:1.5!important}
+button{font-size:.84rem!important}
+:is(.hero-status,.jobs-stats,.story-hero-facts,.activities-hero-facts,.rules-stats,.hero-record,.vanloria-hero-record,.factions-hero-record,.catalogue-status,.bestiary-hero-panel){
+  border-color:var(--lna-border)!important;
+  background:rgba(12,9,6,.88)!important;
+  box-shadow:var(--lna-shadow)!important;
+}
+:is(.hero-status span,.jobs-stats span,.story-hero-facts span,.activities-hero-facts span,.rules-stats span,.hero-record>div,.vanloria-hero-record>div,.factions-hero-record>div){border-color:rgba(214,173,89,.14)!important}
+:is(.chronicle-layout>aside,.territory-sidebar,.activities-sidebar,.jobs-sidebar,.story-sidebar,.rules-sidebar,.faith-library>aside,.boss-archives>aside,.faction-archives>aside){
+  background:rgba(11,8,5,.90)!important;
+  border:1px solid var(--lna-border)!important;
+  box-shadow:var(--lna-shadow)!important;
+}
+:is(.chronicle-layout>aside a,.territory-sidebar a,.activities-sidebar a,.jobs-sidebar a,.story-sidebar a,.rules-sidebar a,.faith-library>aside a,.boss-archives>aside a,.faction-archives>aside a){font-size:.86rem!important;line-height:1.5!important}
+:is(.vanloria-entry-body,.profession-body,.creature-rule-body,.boss-body,.faction-body,.topic-content){color:var(--lna-muted)!important}
+:is(.vanloria-entry-body p,.profession-body p,.creature-rule-body p,.boss-body p,.faction-body p,.topic-content p){font-size:1rem!important;line-height:1.82!important}
+:is(.vanloria-entry summary,.profession-card>summary,.creature-rule>summary,.boss-sheet>summary,.faction-sheet>summary,.rules-topic>summary,.faith-sheet>summary){padding:18px 20px!important;min-height:74px!important}
+:is(.vanloria-entry summary strong,.profession-card>summary strong,.creature-rule>summary strong,.boss-sheet>summary strong,.faction-sheet>summary strong,.rules-topic>summary strong,.faith-sheet>summary strong){font-size:1.08rem!important}
+:is(.mods-category-grid article,.category-grid>a,.belief-card,.legend-card,.origin-card,.origins-card){padding:20px!important}
+:is(.mods-category-grid article h3,.category-grid>a h3,.belief-card h3,.legend-card h3,.origins-card h3){font-size:1.35rem!important;line-height:1.16!important}
+:is(.mods-category-grid article p,.category-grid>a p,.belief-card p,.legend-card p,.origins-card p){font-size:.96rem!important;line-height:1.75!important;color:var(--lna-muted)!important}
+:is(.mods-name-list span,.content-chips span,.rules-legend span,.boss-summary-facts b,.faction-summary-copy b){font-size:.74rem!important;line-height:1.4!important}
+:is(.permission,.rule-row,.vanilla-row){min-height:54px!important}
+:is(.permission strong,.rule-row strong,.vanilla-row strong){font-size:.94rem!important}
+:is(.permission small,.rule-row small,.vanilla-row span){font-size:.78rem!important}
+
+/* ---------- Dernières normalisations de lecture ---------- */
+figcaption{font-size:.72rem!important;line-height:1.5!important;color:#bdb4a8!important}
+code{font-size:.84rem!important;line-height:1.5!important;color:#ead79f!important}
+[class*="card"] p,[class*="panel"] p,[class*="rule"] p,[class*="note"] p,[class*="summary"] p{font-size:.94rem!important;line-height:1.75!important}
+[class*="card"] small,[class*="panel"] small,[class*="rule"] small,[class*="summary"] small,[class*="profile"] span,[class*="sidebar"] span,[class*="warning"] strong,[class*="alert"] small{font-size:.72rem!important;line-height:1.45!important}
+:is(.activity-index-card em,.activity-index-card b,.boss-summary-copy>em,.boss-summary-copy>small,.boss-summary-facts b,.faction-summary-copy>em,.faction-summary-copy>small,.faction-summary-facts b,.faith-summary-copy>em,.faith-summary-copy>small,.jobs-index small,.profession-title small,.profession-title em,.realm-card li,.realm-card b,.kingdom-heading small,.kingdom-heading em,.kingdom-body small,.kingdom-body li,.permission small,.permission strong,.rule-row small,.resource-card small,.resource-card figcaption,.resource-rule span,.rp-rule>span,.activity-warning strong,.boss-eyebrow,.faction-eyebrow,.religions-page .eyebrow,.chapter-note,.discord-reference span,.current-era,.relation-count){font-size:.74rem!important;line-height:1.45!important}
+:is(.activity-index-card p,.boss-profile strong,.faction-profile strong,.belief-card li,.category-grid p,.creature-card>p,.creature-summary p,.profession-sections p,.event-grid p,.quest-steps p,.bounty-copy li p,.dungeon-brief p,.dungeon-objectives p,.resource-card p,.resource-rule p,.rp-rule p,.rules-final p,.character-final p,.story-final p,.territory-final p,.activities-final p,.bestiary-final p,.jobs-final p,.religions-end p,.demigods-end p,.factions-end p,.mods-cta p,.official-community p){font-size:.92rem!important;line-height:1.72!important}
+
+/* Sections finales / appels à l'action */
+:is(.join-section,.territory-final,.bestiary-final,.activities-final,.character-final,.jobs-final,.story-final,.religions-end,.demigods-end,.factions-end,.mods-cta,.rules-final,.official-community,.profession-cta,.dark-pact){
+  background:radial-gradient(circle at 50% 0,rgba(214,173,89,.10),transparent 42%),#090705!important;
+  border-top:1px solid var(--lna-border)!important;
+  border-bottom:1px solid var(--lna-border)!important;
+  color:var(--lna-ink)!important;
+}
+:is(.warning,.activity-warning,.character-warning,.boss-alert,.topic-note,.chapter-note,.story-rumor-note,.rp-rule,.resource-rule,.discord-reference){
+  background:#151008!important;
+  border-color:var(--lna-border-strong)!important;
+  color:var(--lna-muted)!important;
+}
