@@ -74,12 +74,18 @@
 
     const technicalRows = [
       ['PrimalItem / classe', tech.primalItem || tech.blueprint],
-      ['Engram / déblocage', tech.engram],
+      ['EngramEntry', tech.engramClass || tech.engram],
+      ['Rôle de l’Engram', tech.engramRole],
+      ['Source vanilla', item.sourceVanilla || tech.sourceVanilla],
+      ['Intégration / remap', tech.integration],
       ['Buff Blueprint', tech.buffBlueprint],
+      ['Nom du buff', item.buffName],
+      ['Réglages du buff', item.buffSettings],
+      ['Cumul', item.stacking],
       ['Commande GFI', tech.gfi],
       ['Pondération pêche', item.lootWeight],
-      ['Niveau réf. historique', item.levelRef],
-      ['EP réf. historique', item.epRef]
+      ['Niveau réf.', item.levelRef],
+      ['EP réf.', item.epRef]
     ];
     $('#technicalGrid').innerHTML = technicalRows.map(([label,value]) => `<div><span>${esc(label)}</span><code>${text(value)}</code></div>`).join('');
 
@@ -95,15 +101,14 @@
       <div class="infobox-title">${esc(item.name)}</div>
       <div class="infobox-icon ${item.image ? 'has-image' : ''}">${icon}</div>
       <dl>${infoboxRows.map(([k,v]) => `<div><dt>${esc(k)}</dt><dd>${text(v)}</dd></div>`).join('')}</dl>
-      ${(has(item.levelRef) || has(item.epRef)) ? `<div class="infobox-note"><strong>Repère historique</strong><p>Niveau ${has(item.levelRef)?esc(item.levelRef):'—'} · ${has(item.epRef)?esc(item.epRef):'—'} EP. Ces valeurs ne signifient pas qu’un EngramEntry individuel est actif en V4.</p></div>` : ''}`;
+      ${(has(item.levelRef) || has(item.epRef)) ? `<div class="infobox-note"><strong>Progression</strong><p>Niveau ${has(item.levelRef)?esc(item.levelRef):'—'} · ${has(item.epRef)?esc(item.epRef):'—'} EP. Le guide les conserve comme repères d’équilibrage ; leur utilisation effective dépend de la configuration serveur.</p></div>` : ''}`;
 
-    const nameWords = new Set(String(item.name).toLowerCase().split(/\s+/).filter(w=>w.length>4));
-    const related = db.resources.filter(x => {
-      if (x.slug === item.slug) return false;
-      if (x.category === item.category || x.realm === item.realm) return true;
-      const hay = `${x.recipe || ''} ${x.description || ''}`.toLowerCase();
-      return [...nameWords].some(w => hay.includes(w));
-    }).slice(0,6);
+    const direct = [...(item.ingredientSlugs || []), ...(item.usedInSlugs || [])];
+    const directSet = new Set(direct);
+    const related = [
+      ...direct.map(slug => db.resources.find(x => x.slug === slug)).filter(Boolean),
+      ...db.resources.filter(x => x.slug !== item.slug && !directSet.has(x.slug) && (x.realm === item.realm || x.category === item.category))
+    ].filter((x,i,arr) => x && arr.findIndex(y => y.slug === x.slug) === i).slice(0,6);
     $('#relatedResources').innerHTML = related.length ? related.map(x => `
       <a href="${articleUrl(x.slug)}">
         ${x.image ? `<img src="${imgUrl(x.image)}" alt="">` : `<span class="related-fallback">${esc(x.icon || initials(x.name))}</span>`}
