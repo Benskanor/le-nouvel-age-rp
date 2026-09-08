@@ -285,3 +285,9 @@ code{font-size:.84rem!important;line-height:1.5!important;color:#ead79f!importan
   border-color:var(--lna-border-strong)!important;
   color:var(--lna-muted)!important;
 }
+
+/* V4.2 — professions de l’accueil */
+.profession-grid .job-mark{font-family:"Segoe UI Emoji","Apple Color Emoji","Noto Color Emoji",sans-serif!important;font-size:1.45rem!important;line-height:1!important;color:inherit!important;border-color:rgba(214,176,94,.42)!important;background:radial-gradient(circle at 50% 35%,rgba(214,176,94,.13),rgba(0,0,0,.08))!important;width:48px!important;height:48px!important}
+.profession-grid article{grid-template-columns:54px 1fr!important;gap:18px!important}
+.profession-grid h3{font-size:1.48rem!important;line-height:1.15!important}
+.profession-grid strong{font-size:.92rem!important;line-height:1.5!important}
