@@ -3,51 +3,61 @@
 <head>
 <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
 <title>Wiki officiel | Le Nouvel Âge RP</title>
-<meta name="description" content="Wiki officiel du mod Le Nouvel Âge RP : nouveautés, ressources, agriculture et systèmes de gameplay.">
+<meta name="description" content="Encyclopédie officielle du mod Le Nouvel Âge RP : ressources, recettes, agriculture, viande, pêche, alchimie et consommables V4.">
 <link rel="stylesheet" href="../assets/css/wiki.css">
-
-<link rel="stylesheet" href="/assets/css/global-overrides.css"/>
+<link rel="stylesheet" href="/assets/css/global-overrides.css">
 </head>
-<body data-wiki-page="home">
+<body class="wiki-portal-page" data-wiki-page="home">
 <div id="wiki-site-header"></div>
 <main>
-<section class="wiki-hero">
+<section class="wiki-hero wiki-portal-hero">
   <div class="wiki-hero-inner">
-    <p class="overline">Documentation officielle du mod</p>
-    <h1>Le Wiki du<br>Nouvel Âge.</h1>
-    <p class="lead">Wiki synchronisé sur le dernier Guide maître d’économie V4 : cultures territoriales, transformations, viande, pêche, alchimie, consommables et nouveautés du mod.</p>
-    <div class="wiki-actions">
-      <a class="button primary" href="economie/">Économie V4</a><a class="button ghost" href="ressources/">Ressources</a><a class="button ghost" href="consommables/">Consommables</a><a class="button ghost" href="nouveautes/">Nouveautés</a>
-    </div>
-    <div class="wiki-stats">
-      <div><strong data-count="products">—</strong><span>produits royaume</span></div>
-      <div><strong data-count="resources">—</strong><span>fiches ressources</span></div>
-      <div><strong data-count="categories">—</strong><span>catégories</span></div>
-    </div>
-    <div class="wiki-search-wrap">
-      <input id="wikiSearch" class="wiki-search" type="search" placeholder="Rechercher une ressource : orge, chair abyssale, shiso…">
-      <div id="searchResults" class="wiki-search-results" hidden></div>
-    </div>
+    <p class="overline">Encyclopédie officielle du mod</p>
+    <h1>Wiki du<br>Nouvel Âge</h1>
+    <p class="lead">Un véritable répertoire de jeu : chaque ressource ou consommable possède désormais sa fiche avec obtention, fabrication, valeurs, effets, commerce et données techniques documentées.</p>
+    <div class="wiki-actions"><a class="button primary" href="ressources/">Parcourir les fiches</a><a class="button ghost" href="economie/">Économie V4</a><a class="button ghost" href="consommables/">Consommables</a><a class="button ghost" href="nouveautes/">Nouveautés</a></div>
+    <div class="wiki-search-wrap"><input id="wikiSearch" class="wiki-search" type="search" placeholder="Rechercher : Soupe des dunes, orge, chair abyssale…"><div id="searchResults" class="wiki-search-results" hidden></div></div>
   </div>
 </section>
 
-<div class="wiki-shell">
-  <section class="wiki-section">
-    <div class="section-head"><div><p class="overline">Répertoire</p><h2>Catégories</h2></div><p>Le Wiki est organisé par activité afin de retrouver rapidement l'origine d'une ressource et son rôle dans l'économie du mod.</p></div>
-    <div id="wikiCategories" class="category-grid wiki-loading">Chargement…</div>
-  </section>
+<div class="wiki-shell wiki-portal-shell">
+  <div class="wiki-portal-layout">
+    <aside class="wiki-portal-nav">
+      <div class="portal-box-title">Navigation</div>
+      <a href="ressources/">Toutes les fiches</a><a href="economie/">Économie V4</a><a href="consommables/">Consommables</a><a href="nouveautes/">Nouveautés</a>
+      <div class="portal-box-title second">Repères</div>
+      <a href="#categories">Catégories</a><a href="#etat-v4">État de la V4</a><a href="#fiches">Fiches en vedette</a>
+    </aside>
 
-  <section class="wiki-section">
-    <div class="section-head"><div><p class="overline">Référence actuelle</p><h2>Économie V4 — état maître</h2></div><p>Les informations ci-dessous proviennent du dernier Guide maître d’économie, et non de l’ancienne liste approximative du Wiki.</p></div>
-    <div id="latestFeatures" class="feature-grid wiki-loading">Chargement…</div>
-    <div class="wiki-actions"><a class="button primary" href="economie/">Ouvrir le Guide économie V4 →</a></div>
-  </section>
+    <div class="wiki-portal-content">
+      <section class="portal-welcome">
+        <div><p class="overline">Bienvenue</p><h2>Le Wiki du serveur et du mod</h2><p>Cette documentation est pensée comme une encyclopédie ARK : une page par objet, des données synthétiques dans l’encadré de droite et des sections détaillées dans l’article. Le contenu reste adapté à l’univers noir et doré du Nouvel Âge.</p></div>
+        <div class="wiki-stats portal-stats"><div><strong data-count="products">—</strong><span>produits royaume</span></div><div><strong data-count="resources">—</strong><span>fiches</span></div><div><strong data-count="categories">—</strong><span>catégories</span></div></div>
+      </section>
 
-  <section class="wiki-section">
-    <div class="section-head"><div><p class="overline">Catalogue synchronisé</p><h2>Ressources économiques</h2></div><p>Les fiches sont maintenant générées à partir de l’architecture V4 : agriculture, 24 transformations, 12 produits de viande, 12 éléments de pêche et bases alchimiques.</p></div>
-    <div id="featuredResources" class="resource-grid wiki-loading">Chargement…</div>
-    <div class="wiki-actions"><a class="button primary" href="ressources/">Voir toutes les ressources</a></div>
-  </section>
+      <section id="categories" class="wiki-section portal-section">
+        <div class="section-head"><div><p class="overline">Répertoire</p><h2>Catégories</h2></div><p>Agriculture, transformations, viande, pêche, alchimie et désormais les 29 consommables finaux des royaumes.</p></div>
+        <div id="wikiCategories" class="category-grid wiki-loading">Chargement…</div>
+      </section>
+
+      <section id="etat-v4" class="wiki-section portal-section">
+        <div class="section-head"><div><p class="overline">État actuel</p><h2>Économie V4</h2></div><p>La documentation distingue les informations de gameplay, les repères historiques d’équilibrage et les champs techniques réellement renseignés.</p></div>
+        <div id="latestFeatures" class="feature-grid wiki-loading">Chargement…</div>
+      </section>
+
+      <section id="fiches" class="wiki-section portal-section">
+        <div class="section-head"><div><p class="overline">À consulter</p><h2>Fiches en vedette</h2></div><p>Des fiches au format encyclopédique, avec recette détaillée, usages, péremption et informations techniques.</p></div>
+        <div id="featuredResources" class="resource-grid wiki-loading">Chargement…</div>
+        <div class="wiki-actions"><a class="button primary" href="ressources/">Voir les 102 fiches →</a></div>
+      </section>
+    </div>
+
+    <aside class="wiki-portal-status">
+      <div class="portal-box-title">État V4</div>
+      <dl><div><dt>Mise à jour</dt><dd>8 sept. 2026</dd></div><div><dt>Produits royaumes</dt><dd>53</dd></div><div><dt>Transformations</dt><dd>24</dd></div><div><dt>Consommables</dt><dd>29</dd></div><div><dt>Structures craft</dt><dd>10</dd></div></dl>
+      <p>Les informations non documentées restent volontairement signalées au lieu d’être estimées.</p>
+    </aside>
+  </div>
 </div>
 </main>
 <div id="wiki-site-footer"></div>

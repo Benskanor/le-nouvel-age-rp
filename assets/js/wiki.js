@@ -18,7 +18,7 @@
     const feats=document.querySelector('#latestFeatures');
     if(feats&&v4) feats.innerHTML=v4.features.map(f=>`<article class="feature-card"><div><span class="status-chip ${statusClass(f.status)}">${esc(f.status)}</span><small>${esc(f.type)}</small></div><h3>${esc(f.name)}</h3><p>${esc(f.description)}</p></article>`).join('');
     const featured=document.querySelector('#featuredResources');
-    if(featured) featured.innerHTML=db.resources.filter(r=>r.image).slice(0,10).map(resourceCard).join('');
+    if(featured){const picks=[...db.resources.filter(r=>r.category==='Consommable'&&r.image),...db.resources.filter(r=>r.category!=='Consommable'&&r.image)].slice(0,10);featured.innerHTML=picks.map(resourceCard).join('');}
     const q=document.querySelector('#wikiSearch'),res=document.querySelector('#searchResults');
     if(q&&res) q.addEventListener('input',()=>{const s=q.value.trim().toLowerCase();if(!s){res.hidden=true;res.innerHTML='';return}const rows=db.resources.filter(r=>[r.name,r.realm,r.category,r.description,r.recipe].join(' ').toLowerCase().includes(s)).slice(0,12);res.hidden=false;res.innerHTML=rows.length?rows.map(resourceCard).join(''):'<div class="wiki-empty">Aucun résultat.</div>';});
   }
@@ -48,7 +48,7 @@
 
   function consumables(db){
     const e=db.economy,realms=['Asharun','Falkheim','Shintai','Vanloria','Nerethis','Erythros'];
-    document.querySelector('#kingdomConsumables').innerHTML=realms.map(realm=>`<section class="realm-economy-block realm-${realm.toLowerCase()}"><div class="realm-economy-head"><h3>${esc(realm)}</h3><span>${e.consumables.filter(x=>x.realm===realm).length} recettes</span></div><div class="consumable-chip-grid">${e.consumables.filter(x=>x.realm===realm).map(x=>`<div class="consumable-chip">${visual(x,'consumable-image')}<div><strong>${esc(x.name)}</strong><small>${esc(x.trade)}</small></div></div>`).join('')}</div></section>`).join('');
+    document.querySelector('#kingdomConsumables').innerHTML=realms.map(realm=>`<section class="realm-economy-block realm-${realm.toLowerCase()}"><div class="realm-economy-head"><h3>${esc(realm)}</h3><span>${e.consumables.filter(x=>x.realm===realm).length} recettes</span></div><div class="consumable-chip-grid">${e.consumables.filter(x=>x.realm===realm).map(x=>{const r=db.resources.find(r=>r.name===x.name);return `<a class="consumable-chip" ${r?`href="${href(r.slug)}"`:''}>${visual(r||x,'consumable-image')}<div><strong>${esc(x.name)}</strong><small>${esc(x.trade)}</small>${r?'<em>Ouvrir la fiche →</em>':''}</div></a>`}).join('')}</div></section>`).join('');
     document.querySelector('#vanillaConsumables').innerHTML=e.vanillaReworked.map(x=>`<div class="vanilla-row"><span>${esc(x.source)}</span><b>→</b><strong>${esc(x.name)}</strong></div>`).join('');
   }
 

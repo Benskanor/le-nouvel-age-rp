@@ -17,11 +17,12 @@
     <div class="people-hero-inner">
       <p class="people-overline">Chroniques du Nouveau Monde</p>
       <h1>Les visages du<br><em>Nouvel Âge.</em></h1>
-      <p class="people-intro">Le registre présente la situation actuelle des personnages dans le Nouveau Monde, tout en conservant leur fiche RP d’origine comme archive de leur passé.</p>
+      <p class="people-intro">Le registre met en avant les personnages actuellement actifs dans le Nouveau Monde. Les morts et portés disparus restent consultables dans des archives repliées, tandis que leur fiche RP d’origine conserve leur passé.</p>
       <div class="people-stats" aria-label="État du registre">
         <span><strong id="total">—</strong> personnages</span>
         <span><strong id="aliveCount">—</strong> vivants</span>
         <span><strong id="missingCount">—</strong> portés disparus</span>
+        <span><strong id="deadCount">—</strong> morts</span>
       </div>
     </div>
   </section>
@@ -33,7 +34,7 @@
         <p class="people-overline">Registre des royaumes</p>
         <h2>Personnages connus</h2>
       </div>
-      <p>Les cartes présentent la situation actuelle dans le Nouveau Monde : royaume, métier, rôle et statut. Les dirigeants restent intégrés à leur royaume et sont distingués uniquement par leur encadré couronné.</p>
+      <p>Les cartes principales sont réservées aux personnages vivants et actifs. Les morts et portés disparus sont conservés plus bas dans une liste d’archives discrète afin qu’ils restent documentés sans être mis en avant.</p>
     </div>
 
     <div class="era-notice">
@@ -51,6 +52,13 @@
     </div>
 
     <div id="directory" class="people-directory"></div>
+
+    <details id="peopleArchives" class="people-archives">
+      <summary><span><b>Archives du registre</b><small id="archiveSummaryText">Morts et portés disparus</small></span><strong id="archiveCount">0</strong></summary>
+      <div class="archives-intro">Ces personnages restent dans les archives du monde, mais ne sont plus présentés comme des personnages actifs. Leur fiche complète et leur histoire restent consultables.</div>
+      <div id="archivesDirectory" class="archives-directory"></div>
+    </details>
+
     <div class="rp-note"><strong>Archives RP :</strong> les histoires détaillées reprennent les fiches transmises par les joueurs comme point de départ de leur personnage. Elles ne doivent pas être interprétées comme leur situation actuelle dans le Nouveau Monde. Les relations explicitement secrètes ne sont pas publiées afin d’éviter le métagaming.</div>
   </section>
 </main>

@@ -1,16 +1,90 @@
-<!doctype html><html lang="fr"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
-<title>Ressource | Wiki Le Nouvel Âge</title><link rel="stylesheet" href="../../../assets/css/wiki.css">
-<link rel="stylesheet" href="/assets/css/global-overrides.css"/>
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Fiche Wiki | Le Nouvel Âge RP</title>
+<meta name="description" content="Fiche détaillée du Wiki officiel Le Nouvel Âge RP.">
+<link rel="stylesheet" href="../../../assets/css/wiki.css">
+<link rel="stylesheet" href="/assets/css/global-overrides.css">
 </head>
-<body data-resource-slug="extrait-stimulant"><div id="wiki-site-header"></div><main><div class="wiki-shell">
-<article class="resource-article"><div class="resource-main">
-<div class="breadcrumbs"><a href="../../">Wiki</a><span>›</span><a href="../">Ressources</a><span>›</span><span id="resourceCategoryLabel">Ressource</span></div>
-<p class="overline">Fiche économie V4</p><h1 id="resourceTitle">Chargement…</h1><p id="resourceLead" class="resource-lead"></p>
-<section class="article-section"><h2>Obtention</h2><p id="obtentionText"></p></section>
-<section class="article-section"><h2>Recette / fonctionnement</h2><p id="recipeText"></p><p id="craftTime"></p></section>
-<section class="article-section"><h2>Utilisations</h2><ul id="usesList"></ul></section>
-<section class="article-section"><h2>Données techniques</h2><details class="tech-details"><summary>Afficher les informations</summary><div id="technicalGrid" class="technical-grid"></div></details></section>
-<section class="article-section"><h2>Fiches liées</h2><div id="relatedResources" class="related-grid"></div></section>
-</div><aside id="resourceInfobox" class="wiki-infobox"></aside></article>
-</div></main><div id="wiki-site-footer"></div>
-<script src="../../../assets/js/wiki-shell.js" defer></script><script src="../../../assets/js/wiki-resource.js" defer></script></body></html>
+<body class="wiki-article-page" data-resource-slug="extrait-stimulant">
+<div id="wiki-site-header"></div>
+<main class="wiki-article-main">
+<div class="wiki-shell wiki-article-shell">
+  <nav class="article-breadcrumbs breadcrumbs" aria-label="Fil d’Ariane"><a href="../../">Wiki</a><span>›</span><a href="../">Ressources</a><span>›</span><span id="resourceCategoryLabel">Fiche</span></nav>
+  <div class="wiki-article-layout">
+    <aside class="wiki-article-toc" aria-label="Sommaire">
+      <div class="toc-title">Sommaire</div>
+      <a href="#generalites">1. Généralités</a>
+      <a href="#fabrication">2. Fabrication</a>
+      <a href="#valeurs">3. Valeurs & effets</a>
+      <a href="#peremption">4. Péremption</a>
+      <a href="#commerce">5. Commerce & usages</a>
+      <a href="#technique">6. Données techniques</a>
+      <a href="#voir-aussi">7. Voir aussi</a>
+    </aside>
+
+    <article class="wiki-article-content">
+      <header class="article-title-block">
+        <p class="overline">Encyclopédie du Nouvel Âge · V4</p>
+        <h1 id="resourceTitle">Chargement…</h1>
+        <div id="resourceBadges" class="article-badges"></div>
+        <p id="resourceLead" class="resource-lead"></p>
+      </header>
+
+      <section id="generalites" class="article-section fandom-section">
+        <h2>Généralités</h2>
+        <p id="generalText"></p>
+        <div id="usesSummary" class="article-callout"></div>
+      </section>
+
+      <section id="fabrication" class="article-section fandom-section">
+        <h2>Fabrication</h2>
+        <div class="craft-summary-grid">
+          <div><span>Station</span><strong id="craftStation">—</strong></div>
+          <div><span>Rendement</span><strong id="craftYield">—</strong></div>
+          <div><span>Temps</span><strong id="craftTime">—</strong></div>
+        </div>
+        <h3>Composants</h3>
+        <div id="recipeComponents" class="recipe-components"></div>
+        <p id="obtentionText" class="article-muted"></p>
+      </section>
+
+      <section id="valeurs" class="article-section fandom-section">
+        <h2>Valeurs & effets</h2>
+        <div id="statsGrid" class="stats-grid"></div>
+        <div id="effectPanel" class="effect-panel"></div>
+      </section>
+
+      <section id="peremption" class="article-section fandom-section">
+        <h2>Péremption</h2>
+        <p>Le tableau ci-dessous reprend uniquement les valeurs documentées pour cet objet. Aucun multiplicateur de contenant n’est ajouté sans donnée validée.</p>
+        <div class="wiki-table-wrap"><table class="wiki-data-table"><thead><tr><th>Contexte</th><th>Durée documentée</th></tr></thead><tbody id="spoilRows"></tbody></table></div>
+      </section>
+
+      <section id="commerce" class="article-section fandom-section">
+        <h2>Commerce & usages</h2>
+        <div id="tradePanel" class="trade-panel"></div>
+        <ul id="usesList" class="article-list"></ul>
+      </section>
+
+      <section id="technique" class="article-section fandom-section">
+        <h2>Données techniques</h2>
+        <p class="article-muted">Les champs absents de la documentation de référence restent indiqués comme non documentés : aucune classe, commande ou valeur n’est inventée.</p>
+        <div id="technicalGrid" class="technical-grid expanded"></div>
+      </section>
+
+      <section id="voir-aussi" class="article-section fandom-section">
+        <h2>Voir aussi</h2>
+        <div id="relatedResources" class="related-grid"></div>
+      </section>
+    </article>
+
+    <aside id="resourceInfobox" class="wiki-infobox article-infobox"></aside>
+  </div>
+</div>
+</main>
+<div id="wiki-site-footer"></div>
+<script src="../../../assets/js/wiki-shell.js" defer></script>
+<script src="../../../assets/js/wiki-resource.js" defer></script>
+</body></html>

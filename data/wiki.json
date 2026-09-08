@@ -1,8 +1,8 @@
 {
   "meta": {
     "title": "Wiki officiel — Le Nouvel Âge RP",
-    "updated": "2026-09-04",
-    "description": "Documentation synchronisée sur le dernier Guide maître d’économie V4.",
+    "updated": "2026-09-08",
+    "description": "Documentation V4 enrichie : 102 fiches couvrant agriculture, transformations, viande, pêche, alchimie et les 29 consommables de royaume.",
     "notice": "Wiki consacré à la V4 publiée. Les images officielles disponibles dans le dossier fourni sont utilisées pour les ressources et consommables."
   },
   "economy": {
@@ -262,261 +262,725 @@
         "realm": "Asharun",
         "version": "V4",
         "station": "Marmite Asharun",
-        "trade": "Base locale autorisée",
-        "description": "Consommable final de Asharun dans le catalogue V4.",
-        "image": "assets/images/wiki/icon_ash_naan_01.webp"
+        "trade": "Aucune dépendance étrangère.",
+        "description": "Pain plat traditionnel d’Asharun, simple à transporter et conçu comme base de nombreux repas du désert.",
+        "image": "assets/images/wiki/icon_ash_naan_01.webp",
+        "status": "Documentation V4",
+        "obtention": "Fabriqué dans la Marmite Asharun.",
+        "recipe": "2× Farine d’Asharun + 1× Sel marin + 1× Eau",
+        "yield": "2",
+        "craftTime": "15 s",
+        "spoil": "4 h",
+        "levelRef": 15,
+        "epRef": 2,
+        "stats": {
+          "food": 20,
+          "water": 0,
+          "health": 0,
+          "stamina": 0
+        },
+        "effect": "Aucun",
+        "buffDuration": null
       },
       {
         "name": "Brochettes épicées",
         "realm": "Asharun",
         "version": "V4",
         "station": "Marmite Asharun",
-        "trade": "Dépendance extérieure / composant commun requise",
-        "description": "Consommable final de Asharun dans le catalogue V4.",
-        "image": "assets/images/wiki/icon_ash_brochetteepicee_01.webp"
+        "trade": "Erythros + filière viande + Brochettes en bois du Menuisier. Le Citronal est traité comme ingrédient vanilla commun et non comme ressource de royaume.",
+        "description": "Brochettes de viande grillée relevées par les épices et la menthe d’Asharun.",
+        "image": "assets/images/wiki/icon_ash_brochetteepicee_01.webp",
+        "status": "Documentation V4",
+        "obtention": "Fabriqué dans la Marmite Asharun.",
+        "recipe": "2× Brochette en bois + 4× Viande retravaillée cuite + 1× Épice raffinée + 1× Sirop de grenade + 1× Vinaigre de raisin + 1× Citronal",
+        "yield": "2",
+        "craftTime": "20 s",
+        "spoil": "4 h",
+        "levelRef": 20,
+        "epRef": 3,
+        "stats": {
+          "food": 35,
+          "water": 0,
+          "health": 5,
+          "stamina": 0
+        },
+        "effect": "Aucun",
+        "buffDuration": null
       },
       {
         "name": "Melon épicé",
         "realm": "Asharun",
         "version": "V4",
         "station": "Marmite Asharun",
-        "trade": "Dépendance extérieure / composant commun requise",
-        "description": "Consommable final de Asharun dans le catalogue V4.",
-        "image": "assets/images/wiki/icon_ash_melonepice_01.webp"
+        "trade": "Nerethis. Débouchés locaux : Épice raffinée, Menthe séchée et Sirop de grenade.",
+        "description": "Melon frais assaisonné aux épices sauvages et à la menthe, pensé pour les fortes chaleurs.",
+        "image": "assets/images/wiki/icon_ash_melonepice_01.webp",
+        "status": "Documentation V4",
+        "obtention": "Fabriqué dans la Marmite Asharun.",
+        "recipe": "1× Melon + 1× Épice raffinée + 1× Menthe séchée + 1× Sirop de grenade + 1× Sucre brut",
+        "yield": "1",
+        "craftTime": "15 s",
+        "spoil": "4 h",
+        "levelRef": 20,
+        "epRef": 2,
+        "stats": {
+          "food": 15,
+          "water": 35,
+          "health": 0,
+          "stamina": 0
+        },
+        "effect": "Aucun",
+        "buffDuration": null
       },
       {
         "name": "Ration du caravanier",
         "realm": "Asharun",
         "version": "V4",
         "station": "Marmite Asharun",
-        "trade": "Dépendance extérieure / composant commun requise",
-        "description": "Consommable final de Asharun dans le catalogue V4.",
-        "image": "assets/images/wiki/icon_ash_rationcaravanier_01.webp"
+        "trade": "Vanloria + Erythros + filière viande salée.",
+        "description": "Ration compacte et durable préparée pour les caravanes qui traversent plusieurs royaumes.",
+        "image": "assets/images/wiki/icon_ash_rationcaravanier_01.webp",
+        "status": "Documentation V4",
+        "obtention": "Fabriqué dans la Marmite Asharun.",
+        "recipe": "1× Toile de lin + 2× Naan d’Asharun + 3× Viande salée + 2× Figues séchées + 1× Sirop de grenade",
+        "yield": "2",
+        "craftTime": "45 s",
+        "spoil": "8 h",
+        "levelRef": 35,
+        "epRef": 5,
+        "stats": {
+          "food": 60,
+          "water": -5,
+          "health": 0,
+          "stamina": 0
+        },
+        "effect": "Conservation ×2.",
+        "buffDuration": null
       },
       {
         "name": "Kebab au naan",
         "realm": "Asharun",
         "version": "V4",
         "station": "Marmite Asharun",
-        "trade": "Dépendance extérieure / composant commun requise",
-        "description": "Consommable final de Asharun dans le catalogue V4.",
-        "image": "assets/images/wiki/icon_ash_kebabnaan_01.webp"
+        "trade": "Shintai + Erythros + filière mouton.",
+        "description": "Repas complet de mouton rôti servi dans un naan et relevé par les saveurs d’Asharun et de Shintai.",
+        "image": "assets/images/wiki/icon_ash_kebabnaan_01.webp",
+        "status": "Documentation V4",
+        "obtention": "Fabriqué dans la Marmite Asharun.",
+        "recipe": "1× Naan d’Asharun + 3× Mouton retravaillé cuit + 1× Sauce soja + 1× Vinaigre de raisin + 1× Épice raffinée",
+        "yield": "1",
+        "craftTime": "40 s",
+        "spoil": "4 h",
+        "levelRef": 38,
+        "epRef": 5,
+        "stats": {
+          "food": 75,
+          "water": 0,
+          "health": 15,
+          "stamina": 0
+        },
+        "effect": "Aucun",
+        "buffDuration": null
       },
       {
         "name": "Soupe des dunes",
         "realm": "Asharun",
         "version": "V4",
         "station": "Marmite Asharun",
-        "trade": "Dépendance extérieure / composant commun requise",
-        "description": "Consommable final de Asharun dans le catalogue V4.",
-        "image": "assets/images/wiki/icon_ash_soupedesdunes_01.webp"
+        "trade": "Falkheim + Nerethis + filière viande. Longrass et Savoroot restent des ingrédients vanilla communs, sans attribution de royaume dans le Wiki.",
+        "description": "Soupe hydratante du désert qui aide les voyageurs à supporter la chaleur et les longues traversées chargées.",
+        "image": "assets/images/wiki/icon_ash_soupedesdunes_01.webp",
+        "status": "Documentation V4",
+        "obtention": "Fabriqué dans la Marmite Asharun.",
+        "recipe": "1× Bol + 25× Sève de cactus + 1× Melon + 2× Longrass + 1× Savoroot + 1× Menthe séchée + 1× Mélasse + 1× Moelle animale + 1× Sel marin + 1× Eau",
+        "yield": "1",
+        "craftTime": "35 s",
+        "spoil": "4 h",
+        "levelRef": 35,
+        "epRef": 5,
+        "stats": {
+          "food": 25,
+          "water": 35,
+          "health": 0,
+          "stamina": 0
+        },
+        "effect": "Isolation chaleur +120 ; consommation d’eau −35 % ; poids maximum +15 %.",
+        "buffDuration": "900 s"
       },
       {
         "name": "Infusion du veilleur",
         "realm": "Asharun",
         "version": "V4",
         "station": "Marmite Asharun",
-        "trade": "Dépendance extérieure / composant commun requise",
-        "description": "Consommable final de Asharun dans le catalogue V4.",
-        "image": "assets/images/wiki/icon_ash_infusionveilleur_01.webp"
+        "trade": "Nerethis. Le Citronal est un ingrédient vanilla commun.",
+        "description": "Infusion de menthe et de gingembre destinée aux longues gardes, aux patrouilles et aux voyages nocturnes.",
+        "image": "assets/images/wiki/icon_ash_infusionveilleur_01.webp",
+        "status": "Documentation V4",
+        "obtention": "Fabriqué dans la Marmite Asharun.",
+        "recipe": "1× Chope + 2× Menthe séchée + 1× Gingembre séché + 1× Citronal + 1× Sirop de grenade + 1× Miel + 1× Eau",
+        "yield": "2",
+        "craftTime": "30 s",
+        "spoil": "4 h",
+        "levelRef": 32,
+        "epRef": 4,
+        "stats": {
+          "food": 0,
+          "water": 25,
+          "health": 0,
+          "stamina": 0
+        },
+        "effect": "Régénération d’endurance +2/s ; torpeur −0,25/s.",
+        "buffDuration": "600 s"
       },
       {
         "name": "Baume de grenade",
         "realm": "Asharun",
         "version": "V4",
         "station": "Marmite Asharun",
-        "trade": "Dépendance extérieure / composant commun requise",
-        "description": "Consommable final de Asharun dans le catalogue V4.",
-        "image": "assets/images/wiki/icon_ash_baumegrenade_01.webp"
+        "trade": "Erythros + Vanloria + Alchimiste + pêche.",
+        "description": "Préparation alchimique d’Asharun appliquée pour refermer progressivement les blessures sans provoquer un soin instantané excessif.",
+        "image": "assets/images/wiki/icon_ash_baumegrenade_01.webp",
+        "status": "Documentation V4",
+        "obtention": "Fabriqué dans la Marmite Asharun.",
+        "recipe": "1× Sirop de grenade + 1× Huile d’olive + 1× Essence de lavande + 1× Base antiseptique + 1× Gélatine de poisson",
+        "yield": "1",
+        "craftTime": "60 s",
+        "spoil": "4 h",
+        "levelRef": 55,
+        "epRef": 8,
+        "stats": {
+          "food": 0,
+          "water": 0,
+          "health": 0,
+          "stamina": 0
+        },
+        "effect": "Santé +6/s pendant 10 s, soit 60 PV restaurés au total.",
+        "buffDuration": "10 s"
       },
       {
         "name": "Tonique écarlate",
         "realm": "Asharun",
         "version": "V4",
         "station": "Marmite Asharun",
-        "trade": "Dépendance extérieure / composant commun requise",
-        "description": "Consommable final de Asharun dans le catalogue V4.",
-        "image": "assets/images/wiki/icon_ash_toniquecarmin_01.webp"
+        "trade": "Nerethis + Vanloria + Alchimiste ; catalyseur de faune : Cerveau d’Allosaure.",
+        "description": "Tonique alchimique rouge sombre conçu pour soutenir l’endurance et résister aux effets de fatigue et de torpeur.",
+        "image": "assets/images/wiki/icon_ash_toniquecarmin_01.webp",
+        "status": "Documentation V4",
+        "obtention": "Fabriqué dans la Marmite Asharun.",
+        "recipe": "1× Flacon + 1× Sirop de grenade + 1× Extrait stimulant + 1× Gingembre séché + 1× Essence de lavande + 1× Cerveau d’Allosaure",
+        "yield": "1",
+        "craftTime": "60 s",
+        "spoil": "4 h",
+        "levelRef": 60,
+        "epRef": 8,
+        "stats": {
+          "food": 0,
+          "water": 0,
+          "health": 0,
+          "stamina": 40
+        },
+        "effect": "Isolation chaleur +80 ; isolation froid +80 ; santé +1/s ; endurance +1,5/s ; torpeur −0,20/s.",
+        "buffDuration": "300 s"
       },
       {
         "name": "Gruau du Jarl",
         "realm": "Falkheim",
         "version": "V4",
         "station": "Marmite Falkheim",
-        "trade": "Base locale autorisée",
-        "description": "Consommable final de Falkheim dans le catalogue V4.",
-        "image": "assets/images/wiki/icon_fal_gruaujarl_01.webp"
+        "trade": "Aucune dépendance étrangère. Le Savoroot est traité comme ingrédient vanilla commun.",
+        "description": "Gruau épais d’orge, de lait et de miel servi comme repas quotidien nourrissant dans les terres froides de Falkheim.",
+        "image": "assets/images/wiki/icon_fal_gruaujarl_01.webp",
+        "status": "Documentation V4",
+        "obtention": "Fabriqué dans la Marmite Falkheim.",
+        "recipe": "3× Farine d’orge + 1× Savoroot + 1× Lait de bison + 1× Miel + 1× Eau",
+        "yield": "2",
+        "craftTime": "20 s",
+        "spoil": "4 h",
+        "levelRef": 18,
+        "epRef": 2,
+        "stats": {
+          "food": 35,
+          "water": 10,
+          "health": 0,
+          "stamina": 0
+        },
+        "effect": "Aucun",
+        "buffDuration": null
       },
       {
         "name": "Poisson fumé des Fjords",
         "realm": "Falkheim",
         "version": "V4",
         "station": "Marmite Falkheim",
-        "trade": "Dépendance extérieure / composant commun requise",
-        "description": "Consommable final de Falkheim dans le catalogue V4.",
-        "image": "assets/images/wiki/icon_fal_poissonfjord_01.webp"
+        "trade": "Shintai + pêche. Le Citronal est traité comme ingrédient vanilla commun.",
+        "description": "Filets de poisson salés puis fumés, faciles à stocker pour les équipages et les expéditions du nord.",
+        "image": "assets/images/wiki/icon_fal_poissonfjord_01.webp",
+        "status": "Documentation V4",
+        "obtention": "Fabriqué dans la Marmite Falkheim.",
+        "recipe": "4× Filet de poisson gras + 1× Huile de poisson + 1× Sel marin + 1× Houblon séché + 1× Shiso séché + 1× Citronal",
+        "yield": "2",
+        "craftTime": "25 s",
+        "spoil": "8 h",
+        "levelRef": 22,
+        "epRef": 3,
+        "stats": {
+          "food": 35,
+          "water": 0,
+          "health": 0,
+          "stamina": 0
+        },
+        "effect": "Conservation ×2.",
+        "buffDuration": null
       },
       {
         "name": "Ragoût des Fjords",
         "realm": "Falkheim",
         "version": "V4",
         "station": "Marmite Falkheim",
-        "trade": "Dépendance extérieure / composant commun requise",
-        "description": "Consommable final de Falkheim dans le catalogue V4.",
-        "image": "assets/images/wiki/icon_fal_ragoutfjord_01.webp"
+        "trade": "Erythros + Asharun + filière viande. Savoroot et Rockarrot sont traités comme ingrédients vanilla communs.",
+        "description": "Ragoût riche en viande et céréales préparé pour soutenir les habitants lors des périodes de froid intense.",
+        "image": "assets/images/wiki/icon_fal_ragoutfjord_01.webp",
+        "status": "Documentation V4",
+        "obtention": "Fabriqué dans la Marmite Falkheim.",
+        "recipe": "1× Bol + 4× Viande retravaillée cuite + 1× Moelle animale + 2× Farine d’orge + 2× Savoroot + 1× Rockarrot + 1× Huile d’olive + 1× Épice raffinée + 1× Eau",
+        "yield": "1",
+        "craftTime": "45 s",
+        "spoil": "4 h",
+        "levelRef": 38,
+        "epRef": 5,
+        "stats": {
+          "food": 70,
+          "water": 0,
+          "health": 15,
+          "stamina": 0
+        },
+        "effect": "Isolation froid +100 ; consommation de nourriture −30 % ; santé +0,5/s.",
+        "buffDuration": "900 s"
       },
       {
         "name": "Plaquebière du Skald",
         "realm": "Falkheim",
         "version": "V4",
         "station": "Marmite Falkheim",
-        "trade": "Dépendance extérieure / composant commun requise",
-        "description": "Consommable final de Falkheim dans le catalogue V4.",
-        "image": "assets/images/wiki/icon_fal_plaquebiereskald_01.webp"
+        "trade": "Nerethis. Débouchés locaux : Malt d’orge, Houblon séché et Levure de Plaquebière.",
+        "description": "Boisson fermentée emblématique de Falkheim, servie aux veillées et avant les longues sorties dans le froid.",
+        "image": "assets/images/wiki/icon_fal_plaquebiereskald_01.webp",
+        "status": "Documentation V4",
+        "obtention": "Fabriqué dans la Marmite Falkheim.",
+        "recipe": "1× Chope + 2× Malt d’orge + 1× Houblon séché + 1× Levure de Plaquebière + 1× Mélasse + 1× Miel + 1× Eau",
+        "yield": "1",
+        "craftTime": "60 s",
+        "spoil": "4 h",
+        "levelRef": 42,
+        "epRef": 6,
+        "stats": {
+          "food": 0,
+          "water": 20,
+          "health": 0,
+          "stamina": 0
+        },
+        "effect": "Isolation froid +70 ; endurance +1,25/s ; consommation d’eau +10 %.",
+        "buffDuration": "600 s"
       },
       {
         "name": "Bol de riz au poisson",
         "realm": "Shintai",
         "version": "V4",
         "station": "Marmite Shintai",
-        "trade": "Base locale autorisée",
-        "description": "Consommable final de Shintai dans le catalogue V4.",
-        "image": "assets/images/wiki/icon_shi_bolrizpoisson_01.webp"
+        "trade": "Aucune dépendance de royaume étrangère ; dépend de la pêche.",
+        "description": "Bol de riz chaud accompagné de poisson et de shiso, repas simple et équilibré de Shintai.",
+        "image": "assets/images/wiki/icon_shi_bolrizpoisson_01.webp",
+        "status": "Documentation V4",
+        "obtention": "Fabriqué dans la Marmite Shintai.",
+        "recipe": "1× Bol + 5× Riz + 3× Filet de poisson blanc + 1× Sauce soja + 1× Shiso séché + 1× Sel marin",
+        "yield": "1",
+        "craftTime": "20 s",
+        "spoil": "4 h",
+        "levelRef": 20,
+        "epRef": 3,
+        "stats": {
+          "food": 55,
+          "water": 0,
+          "health": 10,
+          "stamina": 0
+        },
+        "effect": "Aucun",
+        "buffDuration": null
       },
       {
         "name": "Bouillon de soja",
         "realm": "Shintai",
         "version": "V4",
         "station": "Marmite Shintai",
-        "trade": "Dépendance extérieure / composant commun requise",
-        "description": "Consommable final de Shintai dans le catalogue V4.",
-        "image": "assets/images/wiki/icon_shi_bouillonsoja_01.webp"
+        "trade": "Nerethis + pêche. Le Rockarrot est traité comme ingrédient vanilla commun.",
+        "description": "Bouillon léger de soja et de shiso, apprécié pour se nourrir et se réhydrater sans préparation complexe.",
+        "image": "assets/images/wiki/icon_shi_bouillonsoja_01.webp",
+        "status": "Documentation V4",
+        "obtention": "Fabriqué dans la Marmite Shintai.",
+        "recipe": "1× Bol + 2× Pâte de soja + 1× Sauce soja + 1× Shiso séché + 1× Rockarrot + 1× Gingembre séché + 1× Gélatine de poisson + 1× Eau",
+        "yield": "1",
+        "craftTime": "25 s",
+        "spoil": "4 h",
+        "levelRef": 22,
+        "epRef": 3,
+        "stats": {
+          "food": 35,
+          "water": 20,
+          "health": 0,
+          "stamina": 0
+        },
+        "effect": "Aucun",
+        "buffDuration": null
       },
       {
         "name": "Thé shiso-menthe",
         "realm": "Shintai",
         "version": "V4",
         "station": "Marmite Shintai",
-        "trade": "Dépendance extérieure / composant commun requise",
-        "description": "Consommable final de Shintai dans le catalogue V4.",
-        "image": "assets/images/wiki/icon_shi_theshisomenthe_01.webp"
+        "trade": "Asharun. Le Citronal est traité comme ingrédient vanilla commun.",
+        "description": "Infusion mêlant le shiso de Shintai à la menthe d’Asharun pour soutenir concentration et endurance.",
+        "image": "assets/images/wiki/icon_shi_theshisomenthe_01.webp",
+        "status": "Documentation V4",
+        "obtention": "Fabriqué dans la Marmite Shintai.",
+        "recipe": "1× Chope + 2× Shiso séché + 1× Menthe séchée + 1× Sirop de grenade + 1× Citronal + 1× Miel + 1× Eau",
+        "yield": "2",
+        "craftTime": "30 s",
+        "spoil": "4 h",
+        "levelRef": 32,
+        "epRef": 4,
+        "stats": {
+          "food": 0,
+          "water": 25,
+          "health": 0,
+          "stamina": 0
+        },
+        "effect": "Endurance +1,5/s ; torpeur −0,30/s ; consommation d’eau −15 %.",
+        "buffDuration": "600 s"
       },
       {
         "name": "Nigiri abyssal",
         "realm": "Shintai",
         "version": "V4",
         "station": "Marmite Shintai",
-        "trade": "Dépendance extérieure / composant commun requise",
-        "description": "Consommable final de Shintai dans le catalogue V4.",
-        "image": "assets/images/wiki/icon_shi_nigiriabyssal_01.webp"
+        "trade": "Erythros + Nerethis + pêche. La rareté vient de la Chair abyssale ; aucun trophée marin n’est requis.",
+        "description": "Préparation marine prestigieuse destinée aux plongeurs et aux expéditions dangereuses dans les profondeurs.",
+        "image": "assets/images/wiki/icon_shi_nigiriabyssal_01.webp",
+        "status": "Documentation V4",
+        "obtention": "Fabriqué dans la Marmite Shintai.",
+        "recipe": "1× Assiette + 5× Riz + 2× Chair abyssale + 1× Sauce soja + 1× Shiso séché + 1× Vinaigre de raisin + 1× Gingembre séché + 1× Citronal + 1× Sel marin",
+        "yield": "2",
+        "craftTime": "60 s",
+        "spoil": "4 h",
+        "levelRef": 58,
+        "epRef": 8,
+        "stats": {
+          "food": 50,
+          "water": 0,
+          "health": 10,
+          "stamina": 0
+        },
+        "effect": "Consommation d’oxygène sous l’eau −60 % ; endurance +0,5/s.",
+        "buffDuration": "900 s"
       },
       {
         "name": "Biscuit de marche",
         "realm": "Vanloria",
         "version": "V4",
         "station": "Marmite Vanloria",
-        "trade": "Base locale autorisée",
-        "description": "Consommable final de Vanloria dans le catalogue V4.",
-        "image": "assets/images/wiki/icon_van_biscuitmarche_01.webp"
+        "trade": "Aucune dépendance de royaume étrangère. Le Rockarrot est traité comme ingrédient vanilla commun.",
+        "description": "Biscuit sec à l’avoine, au miel et au lait pensé pour les patrouilles, pèlerinages et campagnes de Vanloria.",
+        "image": "assets/images/wiki/icon_van_biscuitmarche_01.webp",
+        "status": "Documentation V4",
+        "obtention": "Fabriqué dans la Marmite Vanloria.",
+        "recipe": "4× Flocons d’avoine + 1× Rockarrot + 1× Graisse animale + 1× Miel + 1× Lait de bison",
+        "yield": "2",
+        "craftTime": "20 s",
+        "spoil": "8 h",
+        "levelRef": 18,
+        "epRef": 2,
+        "stats": {
+          "food": 30,
+          "water": 0,
+          "health": 0,
+          "stamina": 0
+        },
+        "effect": "Conservation longue.",
+        "buffDuration": null
       },
       {
         "name": "Lait d’avoine miellé",
         "realm": "Vanloria",
         "version": "V4",
         "station": "Marmite Vanloria",
-        "trade": "Dépendance extérieure / composant commun requise",
-        "description": "Consommable final de Vanloria dans le catalogue V4.",
-        "image": "assets/images/wiki/icon_van_laitavoinemiel_01.webp"
+        "trade": "Nerethis. Débouché local : Flocons d’avoine.",
+        "description": "Boisson douce d’avoine, de lait et de miel servie dans les foyers et auberges de Vanloria.",
+        "image": "assets/images/wiki/icon_van_laitavoinemiel_01.webp",
+        "status": "Documentation V4",
+        "obtention": "Fabriqué dans la Marmite Vanloria.",
+        "recipe": "1× Chope + 3× Flocons d’avoine + 1× Lait de bison + 1× Miel + 1× Extrait de vanille + 1× Sucre brut + 1× Eau",
+        "yield": "1",
+        "craftTime": "20 s",
+        "spoil": "4 h",
+        "levelRef": 20,
+        "epRef": 2,
+        "stats": {
+          "food": 15,
+          "water": 30,
+          "health": 0,
+          "stamina": 0
+        },
+        "effect": "Aucun",
+        "buffDuration": null
       },
       {
         "name": "Tourte du Bastion",
         "realm": "Vanloria",
         "version": "V4",
         "station": "Marmite Vanloria",
-        "trade": "Dépendance extérieure / composant commun requise",
-        "description": "Consommable final de Vanloria dans le catalogue V4.",
-        "image": "assets/images/wiki/icon_van_tourtebastion_01.webp"
+        "trade": "Falkheim + Erythros + filière viande. Le Rockarrot est traité comme ingrédient vanilla commun.",
+        "description": "Tourte riche en viande et céréales conçue pour fournir un repas complet aux défenseurs des bastions.",
+        "image": "assets/images/wiki/icon_van_tourtebastion_01.webp",
+        "status": "Documentation V4",
+        "obtention": "Fabriqué dans la Marmite Vanloria.",
+        "recipe": "1× Assiette + 3× Viande hachée + 1× Graisse animale + 2× Flocons d’avoine + 2× Farine d’orge + 2× Figues séchées + 1× Rockarrot + 1× Œuf",
+        "yield": "1",
+        "craftTime": "50 s",
+        "spoil": "4 h",
+        "levelRef": 40,
+        "epRef": 6,
+        "stats": {
+          "food": 80,
+          "water": 0,
+          "health": 20,
+          "stamina": 0
+        },
+        "effect": "Aucun",
+        "buffDuration": null
       },
       {
         "name": "Infusion du Lys bleu",
         "realm": "Vanloria",
         "version": "V4",
         "station": "Marmite Vanloria",
-        "trade": "Dépendance extérieure / composant commun requise",
-        "description": "Consommable final de Vanloria dans le catalogue V4.",
-        "image": "assets/images/wiki/icon_van_infusionlysbleu_01.webp"
+        "trade": "Asharun + Nerethis. Le Citronal est traité comme ingrédient vanilla commun.",
+        "description": "Infusion aromatique de lavande et d’herbes étrangères utilisée pour mieux supporter les variations brutales de température.",
+        "image": "assets/images/wiki/icon_van_infusionlysbleu_01.webp",
+        "status": "Documentation V4",
+        "obtention": "Fabriqué dans la Marmite Vanloria.",
+        "recipe": "1× Chope + 2× Essence de lavande + 1× Menthe séchée + 1× Sirop de grenade + 1× Extrait de vanille + 1× Citronal + 1× Eau",
+        "yield": "2",
+        "craftTime": "40 s",
+        "spoil": "4 h",
+        "levelRef": 44,
+        "epRef": 6,
+        "stats": {
+          "food": 0,
+          "water": 25,
+          "health": 0,
+          "stamina": 0
+        },
+        "effect": "Isolation chaleur +60 ; isolation froid +60 ; santé +0,75/s ; torpeur −0,20/s.",
+        "buffDuration": "600 s"
       },
       {
         "name": "Brochettes du Boucanier",
         "realm": "Nerethis",
         "version": "V4",
         "station": "Marmite Nerethis",
-        "trade": "Base locale autorisée",
-        "description": "Consommable final de Nerethis dans le catalogue V4.",
-        "image": "assets/images/wiki/icon_ner_brochettesboucanier_01.webp"
+        "trade": "Filière viande + Brochettes en bois du Menuisier. Le Citronal est traité comme ingrédient vanilla commun.",
+        "description": "Brochettes sucrées-salées au gingembre et à la mélasse, préparées sur les quais et ponts de Nerethis.",
+        "image": "assets/images/wiki/icon_ner_brochettesboucanier_01.webp",
+        "status": "Documentation V4",
+        "obtention": "Fabriqué dans la Marmite Nerethis.",
+        "recipe": "2× Brochette en bois + 4× Viande retravaillée cuite + 1× Graisse animale + 1× Mélasse + 1× Gingembre séché + 1× Citronal + 1× Sel marin",
+        "yield": "2",
+        "craftTime": "20 s",
+        "spoil": "4 h",
+        "levelRef": 20,
+        "epRef": 3,
+        "stats": {
+          "food": 40,
+          "water": 0,
+          "health": 5,
+          "stamina": 0
+        },
+        "effect": "Aucun",
+        "buffDuration": null
       },
       {
         "name": "Poisson laqué du Corsaire",
         "realm": "Nerethis",
         "version": "V4",
         "station": "Marmite Nerethis",
-        "trade": "Dépendance extérieure / composant commun requise",
-        "description": "Consommable final de Nerethis dans le catalogue V4.",
-        "image": "assets/images/wiki/icon_ner_poissonlaquecorsaire_01.webp"
+        "trade": "Erythros + Shintai + pêche. Le Citronal est traité comme ingrédient vanilla commun.",
+        "description": "Poisson nappé d’un glaçage de mélasse et de gingembre, acidulé au vinaigre de raisin d’Erythros.",
+        "image": "assets/images/wiki/icon_ner_poissonlaquecorsaire_01.webp",
+        "status": "Documentation V4",
+        "obtention": "Fabriqué dans la Marmite Nerethis.",
+        "recipe": "1× Assiette + 4× Filet de poisson gras + 1× Mélasse + 1× Gingembre séché + 1× Citronal + 1× Sauce soja + 1× Vinaigre de raisin",
+        "yield": "1",
+        "craftTime": "25 s",
+        "spoil": "4 h",
+        "levelRef": 32,
+        "epRef": 4,
+        "stats": {
+          "food": 55,
+          "water": 0,
+          "health": 10,
+          "stamina": 0
+        },
+        "effect": "Aucun",
+        "buffDuration": null
       },
       {
         "name": "Crème brûlée du Cap",
         "realm": "Nerethis",
         "version": "V4",
         "station": "Marmite Nerethis",
-        "trade": "Dépendance extérieure / composant commun requise",
-        "description": "Consommable final de Nerethis dans le catalogue V4.",
-        "image": "assets/images/wiki/icon_ner_cremebruleecap_01.webp"
+        "trade": "Shintai. Le Citronal est traité comme ingrédient vanilla commun.",
+        "description": "Dessert riche au lait, aux œufs, au sucre et à la vanille, lié aux échanges culinaires entre Nerethis et Shintai.",
+        "image": "assets/images/wiki/icon_ner_cremebruleecap_01.webp",
+        "status": "Documentation V4",
+        "obtention": "Fabriqué dans la Marmite Nerethis.",
+        "recipe": "1× Bol + 2× Lait de bison + 2× Œuf + 2× Sucre brut + 1× Extrait de vanille + 1× Citronal + 1× Farine de riz",
+        "yield": "2",
+        "craftTime": "40 s",
+        "spoil": "4 h",
+        "levelRef": 38,
+        "epRef": 5,
+        "stats": {
+          "food": 45,
+          "water": 0,
+          "health": 10,
+          "stamina": 0
+        },
+        "effect": "Aucun",
+        "buffDuration": null
       },
       {
         "name": "Rhum des Mers",
         "realm": "Nerethis",
         "version": "V4",
         "station": "Marmite Nerethis",
-        "trade": "Dépendance extérieure / composant commun requise",
-        "description": "Consommable final de Nerethis dans le catalogue V4.",
-        "image": "assets/images/wiki/icon_ner_rhummer_01.webp"
+        "trade": "Falkheim + Erythros + Asharun. Le Citronal est traité comme ingrédient vanilla commun.",
+        "description": "Alcool corsé des équipages de Nerethis, fabriqué à partir de produits venus de plusieurs routes commerciales.",
+        "image": "assets/images/wiki/icon_ner_rhummer_01.webp",
+        "status": "Documentation V4",
+        "obtention": "Fabriqué dans la Marmite Nerethis.",
+        "recipe": "1× Chope + 3× Mélasse + 2× Malt d’orge + 1× Moût de raisin + 1× Épice raffinée + 1× Extrait de vanille + 1× Citronal + 1× Eau",
+        "yield": "1",
+        "craftTime": "60 s",
+        "spoil": "4 h",
+        "levelRef": 44,
+        "epRef": 6,
+        "stats": {
+          "food": 0,
+          "water": 15,
+          "health": 0,
+          "stamina": 0
+        },
+        "effect": "Isolation froid +80 ; endurance +1/s ; consommation d’eau +20 %.",
+        "buffDuration": "600 s"
       },
       {
         "name": "Agneau aux figues d’Erythros",
         "realm": "Erythros",
         "version": "V4",
         "station": "Marmite Erythros",
-        "trade": "Base locale autorisée",
-        "description": "Consommable final de Erythros dans le catalogue V4.",
-        "image": "assets/images/wiki/icon_ery_agneaufigues_01.webp"
+        "trade": "Filière mouton/viande ; débouchés locaux : Figues séchées, Huile d’olive et Moût de raisin.",
+        "description": "Agneau rôti aux figues, à l’huile d’olive et au miel, plat généreux des tables d’Erythros.",
+        "image": "assets/images/wiki/icon_ery_agneaufigues_01.webp",
+        "status": "Documentation V4",
+        "obtention": "Fabriqué dans la Marmite Erythros.",
+        "recipe": "4× Mouton retravaillé cuit + 1× Graisse animale + 2× Figues séchées + 1× Huile d’olive + 1× Moût de raisin",
+        "yield": "1",
+        "craftTime": "35 s",
+        "spoil": "4 h",
+        "levelRef": 24,
+        "epRef": 3,
+        "stats": {
+          "food": 75,
+          "water": 0,
+          "health": 15,
+          "stamina": 0
+        },
+        "effect": "Aucun",
+        "buffDuration": null
       },
       {
         "name": "Poisson des Cyclades",
         "realm": "Erythros",
         "version": "V4",
         "station": "Marmite Erythros",
-        "trade": "Dépendance extérieure / composant commun requise",
-        "description": "Consommable final de Erythros dans le catalogue V4.",
-        "image": "assets/images/wiki/icon_ery_poissoncyclades_01.webp"
+        "trade": "Asharun + pêche. Le Citronal est traité comme ingrédient vanilla commun.",
+        "description": "Poisson cuisiné à l’huile d’olive, au vinaigre et aux olives selon les traditions côtières d’Erythros.",
+        "image": "assets/images/wiki/icon_ery_poissoncyclades_01.webp",
+        "status": "Documentation V4",
+        "obtention": "Fabriqué dans la Marmite Erythros.",
+        "recipe": "4× Filet de poisson blanc + 1× Huile d’olive + 1× Vinaigre de raisin + 1× Olive + 1× Citronal + 1× Épice raffinée + 1× Sel marin",
+        "yield": "1",
+        "craftTime": "25 s",
+        "spoil": "4 h",
+        "levelRef": 22,
+        "epRef": 3,
+        "stats": {
+          "food": 55,
+          "water": 0,
+          "health": 10,
+          "stamina": 0
+        },
+        "effect": "Aucun",
+        "buffDuration": null
       },
       {
         "name": "Pain aux figues de l’Agora",
         "realm": "Erythros",
         "version": "V4",
         "station": "Marmite Erythros",
-        "trade": "Dépendance extérieure / composant commun requise",
-        "description": "Consommable final de Erythros dans le catalogue V4.",
-        "image": "assets/images/wiki/icon_ery_painfigues_01.webp"
+        "trade": "Asharun + Falkheim + Vanloria.",
+        "description": "Pain nourrissant aux céréales et aux figues conçu pour se conserver pendant les marchés et les déplacements.",
+        "image": "assets/images/wiki/icon_ery_painfigues_01.webp",
+        "status": "Documentation V4",
+        "obtention": "Fabriqué dans la Marmite Erythros.",
+        "recipe": "2× Farine d’Asharun + 1× Levure de Plaquebière + 2× Flocons d’avoine + 2× Figues séchées + 1× Miel + 1× Eau",
+        "yield": "2",
+        "craftTime": "35 s",
+        "spoil": "8 h",
+        "levelRef": 36,
+        "epRef": 5,
+        "stats": {
+          "food": 45,
+          "water": 0,
+          "health": 0,
+          "stamina": 0
+        },
+        "effect": "Conservation longue.",
+        "buffDuration": null
       },
       {
         "name": "Vin épicé du Symposium",
         "realm": "Erythros",
         "version": "V4",
         "station": "Marmite Erythros",
-        "trade": "Dépendance extérieure / composant commun requise",
-        "description": "Consommable final de Erythros dans le catalogue V4.",
-        "image": "assets/images/wiki/icon_ery_vinsymposium_01.webp"
+        "trade": "Nerethis + Asharun ; catalyseurs : Serre d’Argentavis et Voile de Spinosaure.",
+        "description": "Vin cérémoniel et épicé préparé pour les symposiums, dont la fabrication mobilise plusieurs routes commerciales et des catalyseurs de chasse.",
+        "image": "assets/images/wiki/icon_ery_vinsymposium_01.webp",
+        "status": "Documentation V4",
+        "obtention": "Fabriqué dans la Marmite Erythros.",
+        "recipe": "1× Chope + 4× Moût de raisin + 1× Gingembre séché + 1× Extrait de vanille + 1× Citronal + 1× Épice raffinée + 1× Miel + 1× Eau + 1× Serre d’Argentavis + 1× Voile de Spinosaure",
+        "yield": "1",
+        "craftTime": "75 s",
+        "spoil": "4 h",
+        "levelRef": 55,
+        "epRef": 7,
+        "stats": {
+          "food": 0,
+          "water": 20,
+          "health": 0,
+          "stamina": 0
+        },
+        "effect": "Isolation chaleur +60 ; isolation froid +60 ; consommation de nourriture −25 % ; endurance +0,75/s.",
+        "buffDuration": "900 s"
       }
     ],
     "vanillaReworked": [
@@ -690,6 +1154,11 @@
       "name": "Alchimie",
       "icon": "🧪",
       "description": "Bases alchimiques et Catalyseur des Six Royaumes."
+    },
+    {
+      "name": "Consommable",
+      "icon": "🍲",
+      "description": "Les 29 recettes finales des six royaumes, avec fabrication, valeurs et effets."
     }
   ],
   "resources": [
@@ -2123,6 +2592,1050 @@
       "yield": "5",
       "technical": {},
       "image": "assets/images/wiki/icon_lna_catalyseur6royaumes_01.webp"
+    },
+    {
+      "slug": "naan-dasharun",
+      "name": "Naan d’Asharun",
+      "category": "Consommable",
+      "realm": "Asharun",
+      "version": "V4",
+      "status": "Documentation V4",
+      "description": "Pain plat traditionnel d’Asharun, simple à transporter et conçu comme base de nombreux repas du désert.",
+      "obtention": "Fabriqué dans la Marmite Asharun.",
+      "uses": [
+        "Consommation par le survivant",
+        "Économie et commerce du royaume"
+      ],
+      "station": "Marmite Asharun",
+      "recipe": "2× Farine d’Asharun + 1× Sel marin + 1× Eau",
+      "yield": "2",
+      "craftTime": "15 s",
+      "spoil": "4 h",
+      "levelRef": 15,
+      "epRef": 2,
+      "stats": {
+        "food": 20,
+        "water": 0,
+        "health": 0,
+        "stamina": 0
+      },
+      "effect": "Aucun",
+      "buffDuration": null,
+      "trade": "Aucune dépendance étrangère.",
+      "technical": {
+        "primalItem": "PrimalItemConsumable_ASH_Naan_01",
+        "engram": "Aucun EngramEntry individuel en V4",
+        "buffBlueprint": null
+      },
+      "image": "assets/images/wiki/icon_ash_naan_01.webp"
+    },
+    {
+      "slug": "brochettes-epicees",
+      "name": "Brochettes épicées",
+      "category": "Consommable",
+      "realm": "Asharun",
+      "version": "V4",
+      "status": "Documentation V4",
+      "description": "Brochettes de viande grillée relevées par les épices et la menthe d’Asharun.",
+      "obtention": "Fabriqué dans la Marmite Asharun.",
+      "uses": [
+        "Consommation par le survivant",
+        "Économie et commerce du royaume"
+      ],
+      "station": "Marmite Asharun",
+      "recipe": "2× Brochette en bois + 4× Viande retravaillée cuite + 1× Épice raffinée + 1× Sirop de grenade + 1× Vinaigre de raisin + 1× Citronal",
+      "yield": "2",
+      "craftTime": "20 s",
+      "spoil": "4 h",
+      "levelRef": 20,
+      "epRef": 3,
+      "stats": {
+        "food": 35,
+        "water": 0,
+        "health": 5,
+        "stamina": 0
+      },
+      "effect": "Aucun",
+      "buffDuration": null,
+      "trade": "Erythros + filière viande + Brochettes en bois du Menuisier. Le Citronal est traité comme ingrédient vanilla commun et non comme ressource de royaume.",
+      "technical": {
+        "primalItem": "PrimalItemConsumable_ASH_BrochettesEpicees_01",
+        "engram": "Aucun EngramEntry individuel en V4",
+        "buffBlueprint": null
+      },
+      "image": "assets/images/wiki/icon_ash_brochetteepicee_01.webp"
+    },
+    {
+      "slug": "melon-epice",
+      "name": "Melon épicé",
+      "category": "Consommable",
+      "realm": "Asharun",
+      "version": "V4",
+      "status": "Documentation V4",
+      "description": "Melon frais assaisonné aux épices sauvages et à la menthe, pensé pour les fortes chaleurs.",
+      "obtention": "Fabriqué dans la Marmite Asharun.",
+      "uses": [
+        "Consommation par le survivant",
+        "Économie et commerce du royaume"
+      ],
+      "station": "Marmite Asharun",
+      "recipe": "1× Melon + 1× Épice raffinée + 1× Menthe séchée + 1× Sirop de grenade + 1× Sucre brut",
+      "yield": "1",
+      "craftTime": "15 s",
+      "spoil": "4 h",
+      "levelRef": 20,
+      "epRef": 2,
+      "stats": {
+        "food": 15,
+        "water": 35,
+        "health": 0,
+        "stamina": 0
+      },
+      "effect": "Aucun",
+      "buffDuration": null,
+      "trade": "Nerethis. Débouchés locaux : Épice raffinée, Menthe séchée et Sirop de grenade.",
+      "technical": {
+        "primalItem": "PrimalItemConsumable_ASH_MelonEpice_01",
+        "engram": "Aucun EngramEntry individuel en V4",
+        "buffBlueprint": null
+      },
+      "image": "assets/images/wiki/icon_ash_melonepice_01.webp"
+    },
+    {
+      "slug": "ration-du-caravanier",
+      "name": "Ration du caravanier",
+      "category": "Consommable",
+      "realm": "Asharun",
+      "version": "V4",
+      "status": "Documentation V4",
+      "description": "Ration compacte et durable préparée pour les caravanes qui traversent plusieurs royaumes.",
+      "obtention": "Fabriqué dans la Marmite Asharun.",
+      "uses": [
+        "Consommation par le survivant",
+        "Économie et commerce du royaume"
+      ],
+      "station": "Marmite Asharun",
+      "recipe": "1× Toile de lin + 2× Naan d’Asharun + 3× Viande salée + 2× Figues séchées + 1× Sirop de grenade",
+      "yield": "2",
+      "craftTime": "45 s",
+      "spoil": "8 h",
+      "levelRef": 35,
+      "epRef": 5,
+      "stats": {
+        "food": 60,
+        "water": -5,
+        "health": 0,
+        "stamina": 0
+      },
+      "effect": "Conservation ×2.",
+      "buffDuration": null,
+      "trade": "Vanloria + Erythros + filière viande salée.",
+      "technical": {
+        "primalItem": "PrimalItemConsumable_ASH_RationCaravanier_01",
+        "engram": "Aucun EngramEntry individuel en V4",
+        "buffBlueprint": null
+      },
+      "image": "assets/images/wiki/icon_ash_rationcaravanier_01.webp"
+    },
+    {
+      "slug": "kebab-au-naan",
+      "name": "Kebab au naan",
+      "category": "Consommable",
+      "realm": "Asharun",
+      "version": "V4",
+      "status": "Documentation V4",
+      "description": "Repas complet de mouton rôti servi dans un naan et relevé par les saveurs d’Asharun et de Shintai.",
+      "obtention": "Fabriqué dans la Marmite Asharun.",
+      "uses": [
+        "Consommation par le survivant",
+        "Économie et commerce du royaume"
+      ],
+      "station": "Marmite Asharun",
+      "recipe": "1× Naan d’Asharun + 3× Mouton retravaillé cuit + 1× Sauce soja + 1× Vinaigre de raisin + 1× Épice raffinée",
+      "yield": "1",
+      "craftTime": "40 s",
+      "spoil": "4 h",
+      "levelRef": 38,
+      "epRef": 5,
+      "stats": {
+        "food": 75,
+        "water": 0,
+        "health": 15,
+        "stamina": 0
+      },
+      "effect": "Aucun",
+      "buffDuration": null,
+      "trade": "Shintai + Erythros + filière mouton.",
+      "technical": {
+        "primalItem": "PrimalItemConsumable_ASH_KebabNaan_01",
+        "engram": "Aucun EngramEntry individuel en V4",
+        "buffBlueprint": null
+      },
+      "image": "assets/images/wiki/icon_ash_kebabnaan_01.webp"
+    },
+    {
+      "slug": "soupe-des-dunes",
+      "name": "Soupe des dunes",
+      "category": "Consommable",
+      "realm": "Asharun",
+      "version": "V4",
+      "status": "Documentation V4",
+      "description": "Soupe hydratante du désert qui aide les voyageurs à supporter la chaleur et les longues traversées chargées.",
+      "obtention": "Fabriqué dans la Marmite Asharun.",
+      "uses": [
+        "Consommation par le survivant",
+        "Économie et commerce du royaume"
+      ],
+      "station": "Marmite Asharun",
+      "recipe": "1× Bol + 25× Sève de cactus + 1× Melon + 2× Longrass + 1× Savoroot + 1× Menthe séchée + 1× Mélasse + 1× Moelle animale + 1× Sel marin + 1× Eau",
+      "yield": "1",
+      "craftTime": "35 s",
+      "spoil": "4 h",
+      "levelRef": 35,
+      "epRef": 5,
+      "stats": {
+        "food": 25,
+        "water": 35,
+        "health": 0,
+        "stamina": 0
+      },
+      "effect": "Isolation chaleur +120 ; consommation d’eau −35 % ; poids maximum +15 %.",
+      "buffDuration": "900 s",
+      "trade": "Falkheim + Nerethis + filière viande. Longrass et Savoroot restent des ingrédients vanilla communs, sans attribution de royaume dans le Wiki.",
+      "technical": {
+        "primalItem": "PrimalItemConsumable_ASH_SoupeDesDunes_01",
+        "engram": "Aucun EngramEntry individuel en V4",
+        "buffBlueprint": "Buff_ASH_SoupeDesDunes_01"
+      },
+      "image": "assets/images/wiki/icon_ash_soupedesdunes_01.webp"
+    },
+    {
+      "slug": "infusion-du-veilleur",
+      "name": "Infusion du veilleur",
+      "category": "Consommable",
+      "realm": "Asharun",
+      "version": "V4",
+      "status": "Documentation V4",
+      "description": "Infusion de menthe et de gingembre destinée aux longues gardes, aux patrouilles et aux voyages nocturnes.",
+      "obtention": "Fabriqué dans la Marmite Asharun.",
+      "uses": [
+        "Consommation par le survivant",
+        "Économie et commerce du royaume"
+      ],
+      "station": "Marmite Asharun",
+      "recipe": "1× Chope + 2× Menthe séchée + 1× Gingembre séché + 1× Citronal + 1× Sirop de grenade + 1× Miel + 1× Eau",
+      "yield": "2",
+      "craftTime": "30 s",
+      "spoil": "4 h",
+      "levelRef": 32,
+      "epRef": 4,
+      "stats": {
+        "food": 0,
+        "water": 25,
+        "health": 0,
+        "stamina": 0
+      },
+      "effect": "Régénération d’endurance +2/s ; torpeur −0,25/s.",
+      "buffDuration": "600 s",
+      "trade": "Nerethis. Le Citronal est un ingrédient vanilla commun.",
+      "technical": {
+        "primalItem": "PrimalItemConsumable_ASH_InfusionVeilleur_01",
+        "engram": "Aucun EngramEntry individuel en V4",
+        "buffBlueprint": "Buff_ASH_InfusionVeilleur_01"
+      },
+      "image": "assets/images/wiki/icon_ash_infusionveilleur_01.webp"
+    },
+    {
+      "slug": "baume-de-grenade",
+      "name": "Baume de grenade",
+      "category": "Consommable",
+      "realm": "Asharun",
+      "version": "V4",
+      "status": "Documentation V4",
+      "description": "Préparation alchimique d’Asharun appliquée pour refermer progressivement les blessures sans provoquer un soin instantané excessif.",
+      "obtention": "Fabriqué dans la Marmite Asharun.",
+      "uses": [
+        "Consommation par le survivant",
+        "Économie et commerce du royaume"
+      ],
+      "station": "Marmite Asharun",
+      "recipe": "1× Sirop de grenade + 1× Huile d’olive + 1× Essence de lavande + 1× Base antiseptique + 1× Gélatine de poisson",
+      "yield": "1",
+      "craftTime": "60 s",
+      "spoil": "4 h",
+      "levelRef": 55,
+      "epRef": 8,
+      "stats": {
+        "food": 0,
+        "water": 0,
+        "health": 0,
+        "stamina": 0
+      },
+      "effect": "Santé +6/s pendant 10 s, soit 60 PV restaurés au total.",
+      "buffDuration": "10 s",
+      "trade": "Erythros + Vanloria + Alchimiste + pêche.",
+      "technical": {
+        "primalItem": "PrimalItemConsumable_ASH_BaumeGrenade_01",
+        "engram": "Aucun EngramEntry individuel en V4",
+        "buffBlueprint": "Buff_ASH_BaumeGrenade_01"
+      },
+      "image": "assets/images/wiki/icon_ash_baumegrenade_01.webp"
+    },
+    {
+      "slug": "tonique-ecarlate",
+      "name": "Tonique écarlate",
+      "category": "Consommable",
+      "realm": "Asharun",
+      "version": "V4",
+      "status": "Documentation V4",
+      "description": "Tonique alchimique rouge sombre conçu pour soutenir l’endurance et résister aux effets de fatigue et de torpeur.",
+      "obtention": "Fabriqué dans la Marmite Asharun.",
+      "uses": [
+        "Consommation par le survivant",
+        "Économie et commerce du royaume"
+      ],
+      "station": "Marmite Asharun",
+      "recipe": "1× Flacon + 1× Sirop de grenade + 1× Extrait stimulant + 1× Gingembre séché + 1× Essence de lavande + 1× Cerveau d’Allosaure",
+      "yield": "1",
+      "craftTime": "60 s",
+      "spoil": "4 h",
+      "levelRef": 60,
+      "epRef": 8,
+      "stats": {
+        "food": 0,
+        "water": 0,
+        "health": 0,
+        "stamina": 40
+      },
+      "effect": "Isolation chaleur +80 ; isolation froid +80 ; santé +1/s ; endurance +1,5/s ; torpeur −0,20/s.",
+      "buffDuration": "300 s",
+      "trade": "Nerethis + Vanloria + Alchimiste ; catalyseur de faune : Cerveau d’Allosaure.",
+      "technical": {
+        "primalItem": "PrimalItemConsumable_ASH_ToniqueEcarlate_01",
+        "engram": "Aucun EngramEntry individuel en V4",
+        "buffBlueprint": "Buff_ASH_ToniqueEcarlate_01"
+      },
+      "image": "assets/images/wiki/icon_ash_toniquecarmin_01.webp"
+    },
+    {
+      "slug": "gruau-du-jarl",
+      "name": "Gruau du Jarl",
+      "category": "Consommable",
+      "realm": "Falkheim",
+      "version": "V4",
+      "status": "Documentation V4",
+      "description": "Gruau épais d’orge, de lait et de miel servi comme repas quotidien nourrissant dans les terres froides de Falkheim.",
+      "obtention": "Fabriqué dans la Marmite Falkheim.",
+      "uses": [
+        "Consommation par le survivant",
+        "Économie et commerce du royaume"
+      ],
+      "station": "Marmite Falkheim",
+      "recipe": "3× Farine d’orge + 1× Savoroot + 1× Lait de bison + 1× Miel + 1× Eau",
+      "yield": "2",
+      "craftTime": "20 s",
+      "spoil": "4 h",
+      "levelRef": 18,
+      "epRef": 2,
+      "stats": {
+        "food": 35,
+        "water": 10,
+        "health": 0,
+        "stamina": 0
+      },
+      "effect": "Aucun",
+      "buffDuration": null,
+      "trade": "Aucune dépendance étrangère. Le Savoroot est traité comme ingrédient vanilla commun.",
+      "technical": {
+        "primalItem": "PrimalItemConsumable_FAL_GruauJarl_01",
+        "engram": "Aucun EngramEntry individuel en V4",
+        "buffBlueprint": null
+      },
+      "image": "assets/images/wiki/icon_fal_gruaujarl_01.webp"
+    },
+    {
+      "slug": "poisson-fume-des-fjords",
+      "name": "Poisson fumé des Fjords",
+      "category": "Consommable",
+      "realm": "Falkheim",
+      "version": "V4",
+      "status": "Documentation V4",
+      "description": "Filets de poisson salés puis fumés, faciles à stocker pour les équipages et les expéditions du nord.",
+      "obtention": "Fabriqué dans la Marmite Falkheim.",
+      "uses": [
+        "Consommation par le survivant",
+        "Économie et commerce du royaume"
+      ],
+      "station": "Marmite Falkheim",
+      "recipe": "4× Filet de poisson gras + 1× Huile de poisson + 1× Sel marin + 1× Houblon séché + 1× Shiso séché + 1× Citronal",
+      "yield": "2",
+      "craftTime": "25 s",
+      "spoil": "8 h",
+      "levelRef": 22,
+      "epRef": 3,
+      "stats": {
+        "food": 35,
+        "water": 0,
+        "health": 0,
+        "stamina": 0
+      },
+      "effect": "Conservation ×2.",
+      "buffDuration": null,
+      "trade": "Shintai + pêche. Le Citronal est traité comme ingrédient vanilla commun.",
+      "technical": {
+        "primalItem": "PrimalItemConsumable_FAL_PoissonFumeFjords_01",
+        "engram": "Aucun EngramEntry individuel en V4",
+        "buffBlueprint": null
+      },
+      "image": "assets/images/wiki/icon_fal_poissonfjord_01.webp"
+    },
+    {
+      "slug": "ragout-des-fjords",
+      "name": "Ragoût des Fjords",
+      "category": "Consommable",
+      "realm": "Falkheim",
+      "version": "V4",
+      "status": "Documentation V4",
+      "description": "Ragoût riche en viande et céréales préparé pour soutenir les habitants lors des périodes de froid intense.",
+      "obtention": "Fabriqué dans la Marmite Falkheim.",
+      "uses": [
+        "Consommation par le survivant",
+        "Économie et commerce du royaume"
+      ],
+      "station": "Marmite Falkheim",
+      "recipe": "1× Bol + 4× Viande retravaillée cuite + 1× Moelle animale + 2× Farine d’orge + 2× Savoroot + 1× Rockarrot + 1× Huile d’olive + 1× Épice raffinée + 1× Eau",
+      "yield": "1",
+      "craftTime": "45 s",
+      "spoil": "4 h",
+      "levelRef": 38,
+      "epRef": 5,
+      "stats": {
+        "food": 70,
+        "water": 0,
+        "health": 15,
+        "stamina": 0
+      },
+      "effect": "Isolation froid +100 ; consommation de nourriture −30 % ; santé +0,5/s.",
+      "buffDuration": "900 s",
+      "trade": "Erythros + Asharun + filière viande. Savoroot et Rockarrot sont traités comme ingrédients vanilla communs.",
+      "technical": {
+        "primalItem": "PrimalItemConsumable_FAL_RagoutFjords_01",
+        "engram": "Aucun EngramEntry individuel en V4",
+        "buffBlueprint": "Buff_FAL_RagoutFjords_01"
+      },
+      "image": "assets/images/wiki/icon_fal_ragoutfjord_01.webp"
+    },
+    {
+      "slug": "plaquebiere-du-skald",
+      "name": "Plaquebière du Skald",
+      "category": "Consommable",
+      "realm": "Falkheim",
+      "version": "V4",
+      "status": "Documentation V4",
+      "description": "Boisson fermentée emblématique de Falkheim, servie aux veillées et avant les longues sorties dans le froid.",
+      "obtention": "Fabriqué dans la Marmite Falkheim.",
+      "uses": [
+        "Consommation par le survivant",
+        "Économie et commerce du royaume"
+      ],
+      "station": "Marmite Falkheim",
+      "recipe": "1× Chope + 2× Malt d’orge + 1× Houblon séché + 1× Levure de Plaquebière + 1× Mélasse + 1× Miel + 1× Eau",
+      "yield": "1",
+      "craftTime": "60 s",
+      "spoil": "4 h",
+      "levelRef": 42,
+      "epRef": 6,
+      "stats": {
+        "food": 0,
+        "water": 20,
+        "health": 0,
+        "stamina": 0
+      },
+      "effect": "Isolation froid +70 ; endurance +1,25/s ; consommation d’eau +10 %.",
+      "buffDuration": "600 s",
+      "trade": "Nerethis. Débouchés locaux : Malt d’orge, Houblon séché et Levure de Plaquebière.",
+      "technical": {
+        "primalItem": "PrimalItemConsumable_FAL_PlaquebiereSkald_01",
+        "engram": "Aucun EngramEntry individuel en V4",
+        "buffBlueprint": "Buff_FAL_PlaquebiereSkald_01"
+      },
+      "image": "assets/images/wiki/icon_fal_plaquebiereskald_01.webp"
+    },
+    {
+      "slug": "bol-de-riz-au-poisson",
+      "name": "Bol de riz au poisson",
+      "category": "Consommable",
+      "realm": "Shintai",
+      "version": "V4",
+      "status": "Documentation V4",
+      "description": "Bol de riz chaud accompagné de poisson et de shiso, repas simple et équilibré de Shintai.",
+      "obtention": "Fabriqué dans la Marmite Shintai.",
+      "uses": [
+        "Consommation par le survivant",
+        "Économie et commerce du royaume"
+      ],
+      "station": "Marmite Shintai",
+      "recipe": "1× Bol + 5× Riz + 3× Filet de poisson blanc + 1× Sauce soja + 1× Shiso séché + 1× Sel marin",
+      "yield": "1",
+      "craftTime": "20 s",
+      "spoil": "4 h",
+      "levelRef": 20,
+      "epRef": 3,
+      "stats": {
+        "food": 55,
+        "water": 0,
+        "health": 10,
+        "stamina": 0
+      },
+      "effect": "Aucun",
+      "buffDuration": null,
+      "trade": "Aucune dépendance de royaume étrangère ; dépend de la pêche.",
+      "technical": {
+        "primalItem": "PrimalItemConsumable_SHI_BolRizPoisson_01",
+        "engram": "Aucun EngramEntry individuel en V4",
+        "buffBlueprint": null
+      },
+      "image": "assets/images/wiki/icon_shi_bolrizpoisson_01.webp"
+    },
+    {
+      "slug": "bouillon-de-soja",
+      "name": "Bouillon de soja",
+      "category": "Consommable",
+      "realm": "Shintai",
+      "version": "V4",
+      "status": "Documentation V4",
+      "description": "Bouillon léger de soja et de shiso, apprécié pour se nourrir et se réhydrater sans préparation complexe.",
+      "obtention": "Fabriqué dans la Marmite Shintai.",
+      "uses": [
+        "Consommation par le survivant",
+        "Économie et commerce du royaume"
+      ],
+      "station": "Marmite Shintai",
+      "recipe": "1× Bol + 2× Pâte de soja + 1× Sauce soja + 1× Shiso séché + 1× Rockarrot + 1× Gingembre séché + 1× Gélatine de poisson + 1× Eau",
+      "yield": "1",
+      "craftTime": "25 s",
+      "spoil": "4 h",
+      "levelRef": 22,
+      "epRef": 3,
+      "stats": {
+        "food": 35,
+        "water": 20,
+        "health": 0,
+        "stamina": 0
+      },
+      "effect": "Aucun",
+      "buffDuration": null,
+      "trade": "Nerethis + pêche. Le Rockarrot est traité comme ingrédient vanilla commun.",
+      "technical": {
+        "primalItem": "PrimalItemConsumable_SHI_BouillonSoja_01",
+        "engram": "Aucun EngramEntry individuel en V4",
+        "buffBlueprint": null
+      },
+      "image": "assets/images/wiki/icon_shi_bouillonsoja_01.webp"
+    },
+    {
+      "slug": "the-shiso-menthe",
+      "name": "Thé shiso-menthe",
+      "category": "Consommable",
+      "realm": "Shintai",
+      "version": "V4",
+      "status": "Documentation V4",
+      "description": "Infusion mêlant le shiso de Shintai à la menthe d’Asharun pour soutenir concentration et endurance.",
+      "obtention": "Fabriqué dans la Marmite Shintai.",
+      "uses": [
+        "Consommation par le survivant",
+        "Économie et commerce du royaume"
+      ],
+      "station": "Marmite Shintai",
+      "recipe": "1× Chope + 2× Shiso séché + 1× Menthe séchée + 1× Sirop de grenade + 1× Citronal + 1× Miel + 1× Eau",
+      "yield": "2",
+      "craftTime": "30 s",
+      "spoil": "4 h",
+      "levelRef": 32,
+      "epRef": 4,
+      "stats": {
+        "food": 0,
+        "water": 25,
+        "health": 0,
+        "stamina": 0
+      },
+      "effect": "Endurance +1,5/s ; torpeur −0,30/s ; consommation d’eau −15 %.",
+      "buffDuration": "600 s",
+      "trade": "Asharun. Le Citronal est traité comme ingrédient vanilla commun.",
+      "technical": {
+        "primalItem": "PrimalItemConsumable_SHI_TheShisoMenthe_01",
+        "engram": "Aucun EngramEntry individuel en V4",
+        "buffBlueprint": "Buff_SHI_TheShisoMenthe_01"
+      },
+      "image": "assets/images/wiki/icon_shi_theshisomenthe_01.webp"
+    },
+    {
+      "slug": "nigiri-abyssal",
+      "name": "Nigiri abyssal",
+      "category": "Consommable",
+      "realm": "Shintai",
+      "version": "V4",
+      "status": "Documentation V4",
+      "description": "Préparation marine prestigieuse destinée aux plongeurs et aux expéditions dangereuses dans les profondeurs.",
+      "obtention": "Fabriqué dans la Marmite Shintai.",
+      "uses": [
+        "Consommation par le survivant",
+        "Économie et commerce du royaume"
+      ],
+      "station": "Marmite Shintai",
+      "recipe": "1× Assiette + 5× Riz + 2× Chair abyssale + 1× Sauce soja + 1× Shiso séché + 1× Vinaigre de raisin + 1× Gingembre séché + 1× Citronal + 1× Sel marin",
+      "yield": "2",
+      "craftTime": "60 s",
+      "spoil": "4 h",
+      "levelRef": 58,
+      "epRef": 8,
+      "stats": {
+        "food": 50,
+        "water": 0,
+        "health": 10,
+        "stamina": 0
+      },
+      "effect": "Consommation d’oxygène sous l’eau −60 % ; endurance +0,5/s.",
+      "buffDuration": "900 s",
+      "trade": "Erythros + Nerethis + pêche. La rareté vient de la Chair abyssale ; aucun trophée marin n’est requis.",
+      "technical": {
+        "primalItem": "PrimalItemConsumable_SHI_NigiriAbyssal_01",
+        "engram": "Aucun EngramEntry individuel en V4",
+        "buffBlueprint": "Buff_SHI_NigiriAbyssal_01"
+      },
+      "image": "assets/images/wiki/icon_shi_nigiriabyssal_01.webp"
+    },
+    {
+      "slug": "biscuit-de-marche",
+      "name": "Biscuit de marche",
+      "category": "Consommable",
+      "realm": "Vanloria",
+      "version": "V4",
+      "status": "Documentation V4",
+      "description": "Biscuit sec à l’avoine, au miel et au lait pensé pour les patrouilles, pèlerinages et campagnes de Vanloria.",
+      "obtention": "Fabriqué dans la Marmite Vanloria.",
+      "uses": [
+        "Consommation par le survivant",
+        "Économie et commerce du royaume"
+      ],
+      "station": "Marmite Vanloria",
+      "recipe": "4× Flocons d’avoine + 1× Rockarrot + 1× Graisse animale + 1× Miel + 1× Lait de bison",
+      "yield": "2",
+      "craftTime": "20 s",
+      "spoil": "8 h",
+      "levelRef": 18,
+      "epRef": 2,
+      "stats": {
+        "food": 30,
+        "water": 0,
+        "health": 0,
+        "stamina": 0
+      },
+      "effect": "Conservation longue.",
+      "buffDuration": null,
+      "trade": "Aucune dépendance de royaume étrangère. Le Rockarrot est traité comme ingrédient vanilla commun.",
+      "technical": {
+        "primalItem": "PrimalItemConsumable_VAN_BiscuitMarche_01",
+        "engram": "Aucun EngramEntry individuel en V4",
+        "buffBlueprint": null
+      },
+      "image": "assets/images/wiki/icon_van_biscuitmarche_01.webp"
+    },
+    {
+      "slug": "lait-davoine-mielle",
+      "name": "Lait d’avoine miellé",
+      "category": "Consommable",
+      "realm": "Vanloria",
+      "version": "V4",
+      "status": "Documentation V4",
+      "description": "Boisson douce d’avoine, de lait et de miel servie dans les foyers et auberges de Vanloria.",
+      "obtention": "Fabriqué dans la Marmite Vanloria.",
+      "uses": [
+        "Consommation par le survivant",
+        "Économie et commerce du royaume"
+      ],
+      "station": "Marmite Vanloria",
+      "recipe": "1× Chope + 3× Flocons d’avoine + 1× Lait de bison + 1× Miel + 1× Extrait de vanille + 1× Sucre brut + 1× Eau",
+      "yield": "1",
+      "craftTime": "20 s",
+      "spoil": "4 h",
+      "levelRef": 20,
+      "epRef": 2,
+      "stats": {
+        "food": 15,
+        "water": 30,
+        "health": 0,
+        "stamina": 0
+      },
+      "effect": "Aucun",
+      "buffDuration": null,
+      "trade": "Nerethis. Débouché local : Flocons d’avoine.",
+      "technical": {
+        "primalItem": "PrimalItemConsumable_VAN_LaitAvoineMielle_01",
+        "engram": "Aucun EngramEntry individuel en V4",
+        "buffBlueprint": null
+      },
+      "image": "assets/images/wiki/icon_van_laitavoinemiel_01.webp"
+    },
+    {
+      "slug": "tourte-du-bastion",
+      "name": "Tourte du Bastion",
+      "category": "Consommable",
+      "realm": "Vanloria",
+      "version": "V4",
+      "status": "Documentation V4",
+      "description": "Tourte riche en viande et céréales conçue pour fournir un repas complet aux défenseurs des bastions.",
+      "obtention": "Fabriqué dans la Marmite Vanloria.",
+      "uses": [
+        "Consommation par le survivant",
+        "Économie et commerce du royaume"
+      ],
+      "station": "Marmite Vanloria",
+      "recipe": "1× Assiette + 3× Viande hachée + 1× Graisse animale + 2× Flocons d’avoine + 2× Farine d’orge + 2× Figues séchées + 1× Rockarrot + 1× Œuf",
+      "yield": "1",
+      "craftTime": "50 s",
+      "spoil": "4 h",
+      "levelRef": 40,
+      "epRef": 6,
+      "stats": {
+        "food": 80,
+        "water": 0,
+        "health": 20,
+        "stamina": 0
+      },
+      "effect": "Aucun",
+      "buffDuration": null,
+      "trade": "Falkheim + Erythros + filière viande. Le Rockarrot est traité comme ingrédient vanilla commun.",
+      "technical": {
+        "primalItem": "PrimalItemConsumable_VAN_TourteBastion_01",
+        "engram": "Aucun EngramEntry individuel en V4",
+        "buffBlueprint": null
+      },
+      "image": "assets/images/wiki/icon_van_tourtebastion_01.webp"
+    },
+    {
+      "slug": "infusion-du-lys-bleu",
+      "name": "Infusion du Lys bleu",
+      "category": "Consommable",
+      "realm": "Vanloria",
+      "version": "V4",
+      "status": "Documentation V4",
+      "description": "Infusion aromatique de lavande et d’herbes étrangères utilisée pour mieux supporter les variations brutales de température.",
+      "obtention": "Fabriqué dans la Marmite Vanloria.",
+      "uses": [
+        "Consommation par le survivant",
+        "Économie et commerce du royaume"
+      ],
+      "station": "Marmite Vanloria",
+      "recipe": "1× Chope + 2× Essence de lavande + 1× Menthe séchée + 1× Sirop de grenade + 1× Extrait de vanille + 1× Citronal + 1× Eau",
+      "yield": "2",
+      "craftTime": "40 s",
+      "spoil": "4 h",
+      "levelRef": 44,
+      "epRef": 6,
+      "stats": {
+        "food": 0,
+        "water": 25,
+        "health": 0,
+        "stamina": 0
+      },
+      "effect": "Isolation chaleur +60 ; isolation froid +60 ; santé +0,75/s ; torpeur −0,20/s.",
+      "buffDuration": "600 s",
+      "trade": "Asharun + Nerethis. Le Citronal est traité comme ingrédient vanilla commun.",
+      "technical": {
+        "primalItem": "PrimalItemConsumable_VAN_InfusionLysBleu_01",
+        "engram": "Aucun EngramEntry individuel en V4",
+        "buffBlueprint": "Buff_VAN_InfusionLysBleu_01"
+      },
+      "image": "assets/images/wiki/icon_van_infusionlysbleu_01.webp"
+    },
+    {
+      "slug": "brochettes-du-boucanier",
+      "name": "Brochettes du Boucanier",
+      "category": "Consommable",
+      "realm": "Nerethis",
+      "version": "V4",
+      "status": "Documentation V4",
+      "description": "Brochettes sucrées-salées au gingembre et à la mélasse, préparées sur les quais et ponts de Nerethis.",
+      "obtention": "Fabriqué dans la Marmite Nerethis.",
+      "uses": [
+        "Consommation par le survivant",
+        "Économie et commerce du royaume"
+      ],
+      "station": "Marmite Nerethis",
+      "recipe": "2× Brochette en bois + 4× Viande retravaillée cuite + 1× Graisse animale + 1× Mélasse + 1× Gingembre séché + 1× Citronal + 1× Sel marin",
+      "yield": "2",
+      "craftTime": "20 s",
+      "spoil": "4 h",
+      "levelRef": 20,
+      "epRef": 3,
+      "stats": {
+        "food": 40,
+        "water": 0,
+        "health": 5,
+        "stamina": 0
+      },
+      "effect": "Aucun",
+      "buffDuration": null,
+      "trade": "Filière viande + Brochettes en bois du Menuisier. Le Citronal est traité comme ingrédient vanilla commun.",
+      "technical": {
+        "primalItem": "PrimalItemConsumable_NER_BrochettesBoucanier_01",
+        "engram": "Aucun EngramEntry individuel en V4",
+        "buffBlueprint": null
+      },
+      "image": "assets/images/wiki/icon_ner_brochettesboucanier_01.webp"
+    },
+    {
+      "slug": "poisson-laque-du-corsaire",
+      "name": "Poisson laqué du Corsaire",
+      "category": "Consommable",
+      "realm": "Nerethis",
+      "version": "V4",
+      "status": "Documentation V4",
+      "description": "Poisson nappé d’un glaçage de mélasse et de gingembre, acidulé au vinaigre de raisin d’Erythros.",
+      "obtention": "Fabriqué dans la Marmite Nerethis.",
+      "uses": [
+        "Consommation par le survivant",
+        "Économie et commerce du royaume"
+      ],
+      "station": "Marmite Nerethis",
+      "recipe": "1× Assiette + 4× Filet de poisson gras + 1× Mélasse + 1× Gingembre séché + 1× Citronal + 1× Sauce soja + 1× Vinaigre de raisin",
+      "yield": "1",
+      "craftTime": "25 s",
+      "spoil": "4 h",
+      "levelRef": 32,
+      "epRef": 4,
+      "stats": {
+        "food": 55,
+        "water": 0,
+        "health": 10,
+        "stamina": 0
+      },
+      "effect": "Aucun",
+      "buffDuration": null,
+      "trade": "Erythros + Shintai + pêche. Le Citronal est traité comme ingrédient vanilla commun.",
+      "technical": {
+        "primalItem": "PrimalItemConsumable_NER_PoissonLaqueCorsaire_01",
+        "engram": "Aucun EngramEntry individuel en V4",
+        "buffBlueprint": null
+      },
+      "image": "assets/images/wiki/icon_ner_poissonlaquecorsaire_01.webp"
+    },
+    {
+      "slug": "creme-brulee-du-cap",
+      "name": "Crème brûlée du Cap",
+      "category": "Consommable",
+      "realm": "Nerethis",
+      "version": "V4",
+      "status": "Documentation V4",
+      "description": "Dessert riche au lait, aux œufs, au sucre et à la vanille, lié aux échanges culinaires entre Nerethis et Shintai.",
+      "obtention": "Fabriqué dans la Marmite Nerethis.",
+      "uses": [
+        "Consommation par le survivant",
+        "Économie et commerce du royaume"
+      ],
+      "station": "Marmite Nerethis",
+      "recipe": "1× Bol + 2× Lait de bison + 2× Œuf + 2× Sucre brut + 1× Extrait de vanille + 1× Citronal + 1× Farine de riz",
+      "yield": "2",
+      "craftTime": "40 s",
+      "spoil": "4 h",
+      "levelRef": 38,
+      "epRef": 5,
+      "stats": {
+        "food": 45,
+        "water": 0,
+        "health": 10,
+        "stamina": 0
+      },
+      "effect": "Aucun",
+      "buffDuration": null,
+      "trade": "Shintai. Le Citronal est traité comme ingrédient vanilla commun.",
+      "technical": {
+        "primalItem": "PrimalItemConsumable_NER_CremeBruleeCap_01",
+        "engram": "Aucun EngramEntry individuel en V4",
+        "buffBlueprint": null
+      },
+      "image": "assets/images/wiki/icon_ner_cremebruleecap_01.webp"
+    },
+    {
+      "slug": "rhum-des-mers",
+      "name": "Rhum des Mers",
+      "category": "Consommable",
+      "realm": "Nerethis",
+      "version": "V4",
+      "status": "Documentation V4",
+      "description": "Alcool corsé des équipages de Nerethis, fabriqué à partir de produits venus de plusieurs routes commerciales.",
+      "obtention": "Fabriqué dans la Marmite Nerethis.",
+      "uses": [
+        "Consommation par le survivant",
+        "Économie et commerce du royaume"
+      ],
+      "station": "Marmite Nerethis",
+      "recipe": "1× Chope + 3× Mélasse + 2× Malt d’orge + 1× Moût de raisin + 1× Épice raffinée + 1× Extrait de vanille + 1× Citronal + 1× Eau",
+      "yield": "1",
+      "craftTime": "60 s",
+      "spoil": "4 h",
+      "levelRef": 44,
+      "epRef": 6,
+      "stats": {
+        "food": 0,
+        "water": 15,
+        "health": 0,
+        "stamina": 0
+      },
+      "effect": "Isolation froid +80 ; endurance +1/s ; consommation d’eau +20 %.",
+      "buffDuration": "600 s",
+      "trade": "Falkheim + Erythros + Asharun. Le Citronal est traité comme ingrédient vanilla commun.",
+      "technical": {
+        "primalItem": "PrimalItemConsumable_NER_RhumMers_01",
+        "engram": "Aucun EngramEntry individuel en V4",
+        "buffBlueprint": "Buff_NER_RhumMers_01"
+      },
+      "image": "assets/images/wiki/icon_ner_rhummer_01.webp"
+    },
+    {
+      "slug": "agneau-aux-figues-derythros",
+      "name": "Agneau aux figues d’Erythros",
+      "category": "Consommable",
+      "realm": "Erythros",
+      "version": "V4",
+      "status": "Documentation V4",
+      "description": "Agneau rôti aux figues, à l’huile d’olive et au miel, plat généreux des tables d’Erythros.",
+      "obtention": "Fabriqué dans la Marmite Erythros.",
+      "uses": [
+        "Consommation par le survivant",
+        "Économie et commerce du royaume"
+      ],
+      "station": "Marmite Erythros",
+      "recipe": "4× Mouton retravaillé cuit + 1× Graisse animale + 2× Figues séchées + 1× Huile d’olive + 1× Moût de raisin",
+      "yield": "1",
+      "craftTime": "35 s",
+      "spoil": "4 h",
+      "levelRef": 24,
+      "epRef": 3,
+      "stats": {
+        "food": 75,
+        "water": 0,
+        "health": 15,
+        "stamina": 0
+      },
+      "effect": "Aucun",
+      "buffDuration": null,
+      "trade": "Filière mouton/viande ; débouchés locaux : Figues séchées, Huile d’olive et Moût de raisin.",
+      "technical": {
+        "primalItem": "PrimalItemConsumable_ERY_AgneauFigues_01",
+        "engram": "Aucun EngramEntry individuel en V4",
+        "buffBlueprint": null
+      },
+      "image": "assets/images/wiki/icon_ery_agneaufigues_01.webp"
+    },
+    {
+      "slug": "poisson-des-cyclades",
+      "name": "Poisson des Cyclades",
+      "category": "Consommable",
+      "realm": "Erythros",
+      "version": "V4",
+      "status": "Documentation V4",
+      "description": "Poisson cuisiné à l’huile d’olive, au vinaigre et aux olives selon les traditions côtières d’Erythros.",
+      "obtention": "Fabriqué dans la Marmite Erythros.",
+      "uses": [
+        "Consommation par le survivant",
+        "Économie et commerce du royaume"
+      ],
+      "station": "Marmite Erythros",
+      "recipe": "4× Filet de poisson blanc + 1× Huile d’olive + 1× Vinaigre de raisin + 1× Olive + 1× Citronal + 1× Épice raffinée + 1× Sel marin",
+      "yield": "1",
+      "craftTime": "25 s",
+      "spoil": "4 h",
+      "levelRef": 22,
+      "epRef": 3,
+      "stats": {
+        "food": 55,
+        "water": 0,
+        "health": 10,
+        "stamina": 0
+      },
+      "effect": "Aucun",
+      "buffDuration": null,
+      "trade": "Asharun + pêche. Le Citronal est traité comme ingrédient vanilla commun.",
+      "technical": {
+        "primalItem": "PrimalItemConsumable_ERY_PoissonCyclades_01",
+        "engram": "Aucun EngramEntry individuel en V4",
+        "buffBlueprint": null
+      },
+      "image": "assets/images/wiki/icon_ery_poissoncyclades_01.webp"
+    },
+    {
+      "slug": "pain-aux-figues-de-lagora",
+      "name": "Pain aux figues de l’Agora",
+      "category": "Consommable",
+      "realm": "Erythros",
+      "version": "V4",
+      "status": "Documentation V4",
+      "description": "Pain nourrissant aux céréales et aux figues conçu pour se conserver pendant les marchés et les déplacements.",
+      "obtention": "Fabriqué dans la Marmite Erythros.",
+      "uses": [
+        "Consommation par le survivant",
+        "Économie et commerce du royaume"
+      ],
+      "station": "Marmite Erythros",
+      "recipe": "2× Farine d’Asharun + 1× Levure de Plaquebière + 2× Flocons d’avoine + 2× Figues séchées + 1× Miel + 1× Eau",
+      "yield": "2",
+      "craftTime": "35 s",
+      "spoil": "8 h",
+      "levelRef": 36,
+      "epRef": 5,
+      "stats": {
+        "food": 45,
+        "water": 0,
+        "health": 0,
+        "stamina": 0
+      },
+      "effect": "Conservation longue.",
+      "buffDuration": null,
+      "trade": "Asharun + Falkheim + Vanloria.",
+      "technical": {
+        "primalItem": "PrimalItemConsumable_ERY_PainFiguesAgora_01",
+        "engram": "Aucun EngramEntry individuel en V4",
+        "buffBlueprint": null
+      },
+      "image": "assets/images/wiki/icon_ery_painfigues_01.webp"
+    },
+    {
+      "slug": "vin-epice-du-symposium",
+      "name": "Vin épicé du Symposium",
+      "category": "Consommable",
+      "realm": "Erythros",
+      "version": "V4",
+      "status": "Documentation V4",
+      "description": "Vin cérémoniel et épicé préparé pour les symposiums, dont la fabrication mobilise plusieurs routes commerciales et des catalyseurs de chasse.",
+      "obtention": "Fabriqué dans la Marmite Erythros.",
+      "uses": [
+        "Consommation par le survivant",
+        "Économie et commerce du royaume"
+      ],
+      "station": "Marmite Erythros",
+      "recipe": "1× Chope + 4× Moût de raisin + 1× Gingembre séché + 1× Extrait de vanille + 1× Citronal + 1× Épice raffinée + 1× Miel + 1× Eau + 1× Serre d’Argentavis + 1× Voile de Spinosaure",
+      "yield": "1",
+      "craftTime": "75 s",
+      "spoil": "4 h",
+      "levelRef": 55,
+      "epRef": 7,
+      "stats": {
+        "food": 0,
+        "water": 20,
+        "health": 0,
+        "stamina": 0
+      },
+      "effect": "Isolation chaleur +60 ; isolation froid +60 ; consommation de nourriture −25 % ; endurance +0,75/s.",
+      "buffDuration": "900 s",
+      "trade": "Nerethis + Asharun ; catalyseurs : Serre d’Argentavis et Voile de Spinosaure.",
+      "technical": {
+        "primalItem": "PrimalItemConsumable_ERY_VinEpiceSymposium_01",
+        "engram": "Aucun EngramEntry individuel en V4",
+        "buffBlueprint": "Buff_ERY_VinEpiceSymposium_01"
+      },
+      "image": "assets/images/wiki/icon_ery_vinsymposium_01.webp"
     }
   ],
   "versions": [
@@ -2148,7 +3661,7 @@
           "name": "Agriculture territorialisée",
           "type": "Agriculture",
           "status": "Référence V4",
-          "description": "Cultures exclusives et quatre légumes vanilla attribués à un royaume."
+          "description": "Cultures propres aux six royaumes ; les cultures vanilla communes restent présentées uniquement lorsqu’elles interviennent dans une recette."
         },
         {
           "name": "Filière viande",

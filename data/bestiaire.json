@@ -1,0 +1,1049 @@
+{
+  "updated": "2026-09-08",
+  "realmLegend": {
+    "Shintai": {
+      "heart": "❤️",
+      "color": "#c95f5b"
+    },
+    "Asharun": {
+      "heart": "💚",
+      "color": "#68a677"
+    },
+    "Vanloria": {
+      "heart": "💙",
+      "color": "#6d9bd0"
+    },
+    "Nerethis": {
+      "heart": "💛",
+      "color": "#d5aa52"
+    },
+    "Falkheim": {
+      "heart": "💜",
+      "color": "#9473bd"
+    },
+    "Erythros": {
+      "heart": "🩵",
+      "color": "#7bbbd6"
+    }
+  },
+  "tiers": [
+    {
+      "tier": 1,
+      "label": "Fondations",
+      "status": "À compléter",
+      "count": 0
+    },
+    {
+      "tier": 2,
+      "label": "Faune établie",
+      "status": "Disponible",
+      "count": 51
+    },
+    {
+      "tier": 3,
+      "label": "Faune avancée",
+      "status": "Disponible",
+      "count": 45
+    },
+    {
+      "tier": 4,
+      "label": "Faune majeure",
+      "status": "Disponible",
+      "count": 27
+    },
+    {
+      "tier": 5,
+      "label": "Créatures d’exception",
+      "status": "Disponible",
+      "count": 12
+    },
+    {
+      "tier": 6,
+      "label": "Sommet du bestiaire",
+      "status": "Ouvert",
+      "count": 5,
+      "teaser": "Falkheim : prochaine créature à venir 💜"
+    }
+  ],
+  "creatures": [
+    {
+      "name": "Purlovia",
+      "tier": 2,
+      "realms": []
+    },
+    {
+      "name": "Gigantoptecus",
+      "tier": 2,
+      "realms": []
+    },
+    {
+      "name": "Carnotaure",
+      "tier": 2,
+      "realms": []
+    },
+    {
+      "name": "Anglerfish",
+      "tier": 2,
+      "realms": []
+    },
+    {
+      "name": "Ankylosaure",
+      "tier": 2,
+      "realms": []
+    },
+    {
+      "name": "Arthropleura",
+      "tier": 2,
+      "realms": []
+    },
+    {
+      "name": "Castoroide",
+      "tier": 2,
+      "realms": []
+    },
+    {
+      "name": "Daeodon",
+      "tier": 2,
+      "realms": []
+    },
+    {
+      "name": "Loup Sinistre",
+      "tier": 2,
+      "realms": []
+    },
+    {
+      "name": "Doedicurus",
+      "tier": 2,
+      "realms": []
+    },
+    {
+      "name": "Ichthyosaurus",
+      "tier": 2,
+      "realms": []
+    },
+    {
+      "name": "Electrophorus",
+      "tier": 2,
+      "realms": [],
+      "note": "Non apprivoisable"
+    },
+    {
+      "name": "Ecuus",
+      "tier": 2,
+      "realms": []
+    },
+    {
+      "name": "Gallimimus",
+      "tier": 2,
+      "realms": []
+    },
+    {
+      "name": "Iguanodon",
+      "tier": 2,
+      "realms": [
+        "Vanloria",
+        "Erythros",
+        "Asharun",
+        "Shintai"
+      ]
+    },
+    {
+      "name": "Kaprosuchus",
+      "tier": 2,
+      "realms": []
+    },
+    {
+      "name": "Kentrosaurus",
+      "tier": 2,
+      "realms": []
+    },
+    {
+      "name": "Manta",
+      "tier": 2,
+      "realms": []
+    },
+    {
+      "name": "Megalania",
+      "tier": 2,
+      "realms": [
+        "Erythros",
+        "Vanloria",
+        "Nerethis",
+        "Falkheim"
+      ]
+    },
+    {
+      "name": "Pashy",
+      "tier": 2,
+      "realms": []
+    },
+    {
+      "name": "Pachyrhinosaurus",
+      "tier": 2,
+      "realms": [
+        "Erythros",
+        "Vanloria",
+        "Nerethis",
+        "Shintai"
+      ]
+    },
+    {
+      "name": "Parasaur",
+      "tier": 2,
+      "realms": []
+    },
+    {
+      "name": "Pelagornis",
+      "tier": 2,
+      "realms": []
+    },
+    {
+      "name": "Phiomia",
+      "tier": 2,
+      "realms": []
+    },
+    {
+      "name": "Pteranodon",
+      "tier": 2,
+      "realms": []
+    },
+    {
+      "name": "Raptor",
+      "tier": 2,
+      "realms": []
+    },
+    {
+      "name": "Deinonychus",
+      "tier": 2,
+      "realms": [
+        "Shintai"
+      ]
+    },
+    {
+      "name": "Smilodon",
+      "tier": 2,
+      "realms": []
+    },
+    {
+      "name": "Pulmonoscorpius",
+      "tier": 2,
+      "realms": []
+    },
+    {
+      "name": "Ovis",
+      "tier": 2,
+      "realms": []
+    },
+    {
+      "name": "Araneo",
+      "tier": 2,
+      "realms": []
+    },
+    {
+      "name": "Megaloceros",
+      "tier": 2,
+      "realms": []
+    },
+    {
+      "name": "Terror Bird",
+      "tier": 2,
+      "realms": []
+    },
+    {
+      "name": "Beelzebufo",
+      "tier": 2,
+      "realms": [
+        "Vanloria",
+        "Asharun",
+        "Shintai",
+        "Erythros"
+      ]
+    },
+    {
+      "name": "Triceratops",
+      "tier": 2,
+      "realms": []
+    },
+    {
+      "name": "Carbonemys",
+      "tier": 2,
+      "realms": []
+    },
+    {
+      "name": "Morellatops",
+      "tier": 2,
+      "realms": [
+        "Erythros",
+        "Asharun",
+        "Nerethis"
+      ]
+    },
+    {
+      "name": "Mantis",
+      "tier": 2,
+      "realms": [
+        "Vanloria",
+        "Asharun"
+      ]
+    },
+    {
+      "name": "Lymantria",
+      "tier": 2,
+      "realms": [
+        "Erythros",
+        "Asharun",
+        "Nerethis"
+      ]
+    },
+    {
+      "name": "Lézard Épineux",
+      "tier": 2,
+      "realms": [
+        "Erythros",
+        "Asharun",
+        "Nerethis"
+      ]
+    },
+    {
+      "name": "Materpiscis",
+      "tier": 2,
+      "realms": [
+        "Erythros",
+        "Asharun",
+        "Nerethis",
+        "Shintai"
+      ]
+    },
+    {
+      "name": "Potoceratops",
+      "tier": 2,
+      "realms": [
+        "Vanloria",
+        "Erythros",
+        "Nerethis",
+        "Shintai"
+      ]
+    },
+    {
+      "name": "Saurichthys",
+      "tier": 2,
+      "realms": [
+        "Nerethis"
+      ]
+    },
+    {
+      "name": "Nasutocetatops",
+      "tier": 2,
+      "realms": [
+        "Vanloria",
+        "Nerethis",
+        "Shintai",
+        "Falkheim"
+      ]
+    },
+    {
+      "name": "Postosuchus",
+      "tier": 2,
+      "realms": []
+    },
+    {
+      "name": "Pyroraptor",
+      "tier": 2,
+      "realms": []
+    },
+    {
+      "name": "Tsintaosaurus",
+      "tier": 2,
+      "realms": [
+        "Vanloria",
+        "Nerethis",
+        "Shintai"
+      ]
+    },
+    {
+      "name": "Axelrodichthys",
+      "tier": 2,
+      "realms": [
+        "Nerethis"
+      ]
+    },
+    {
+      "name": "Dolichorhynchops",
+      "tier": 2,
+      "realms": [
+        "Erythros",
+        "Nerethis",
+        "Shintai"
+      ]
+    },
+    {
+      "name": "Acrophoca",
+      "tier": 2,
+      "realms": [
+        "Shintai",
+        "Vanloria",
+        "Falkheim"
+      ]
+    },
+    {
+      "name": "Gandakasia",
+      "tier": 2,
+      "realms": []
+    },
+    {
+      "name": "Rat des Profondeurs",
+      "tier": 3,
+      "realms": [
+        "Falkheim"
+      ]
+    },
+    {
+      "name": "Archélon",
+      "tier": 3,
+      "realms": [
+        "Nerethis"
+      ]
+    },
+    {
+      "name": "Bison",
+      "tier": 3,
+      "realms": []
+    },
+    {
+      "name": "Cératosaure",
+      "tier": 3,
+      "realms": []
+    },
+    {
+      "name": "Petit Golems de Pierre",
+      "tier": 3,
+      "realms": [
+        "Nerethis",
+        "Asharun"
+      ]
+    },
+    {
+      "name": "Fasolasuchus",
+      "tier": 3,
+      "realms": [
+        "Asharun"
+      ]
+    },
+    {
+      "name": "Maeguana",
+      "tier": 3,
+      "realms": [
+        "Erythros"
+      ]
+    },
+    {
+      "name": "Gigantoraptor",
+      "tier": 3,
+      "realms": [
+        "Vanloria",
+        "Erythros",
+        "Shintai",
+        "Falkheim"
+      ]
+    },
+    {
+      "name": "Mégaraptor",
+      "tier": 3,
+      "realms": [
+        "Vanloria"
+      ]
+    },
+    {
+      "name": "Xiphactinus",
+      "tier": 3,
+      "realms": [
+        "Nerethis"
+      ]
+    },
+    {
+      "name": "Megalodon",
+      "tier": 3,
+      "realms": []
+    },
+    {
+      "name": "Gâcha",
+      "tier": 3,
+      "realms": [
+        "Shintai"
+      ]
+    },
+    {
+      "name": "Gaz Bag",
+      "tier": 3,
+      "realms": [
+        "Nerethis",
+        "Asharun"
+      ]
+    },
+    {
+      "name": "Allosaure",
+      "tier": 3,
+      "realms": []
+    },
+    {
+      "name": "Argentavis",
+      "tier": 3,
+      "realms": []
+    },
+    {
+      "name": "Chalicotherium",
+      "tier": 3,
+      "realms": [
+        "Falkheim"
+      ]
+    },
+    {
+      "name": "Baryonyx",
+      "tier": 3,
+      "realms": [
+        "Vanloria",
+        "Asharun",
+        "Shintai"
+      ]
+    },
+    {
+      "name": "Basilosaurus",
+      "tier": 3,
+      "realms": []
+    },
+    {
+      "name": "Ours Sinistre",
+      "tier": 3,
+      "realms": []
+    },
+    {
+      "name": "Lyopleurodon",
+      "tier": 3,
+      "realms": []
+    },
+    {
+      "name": "Mégalosaure",
+      "tier": 3,
+      "realms": [
+        "Vanloria",
+        "Shintai"
+      ]
+    },
+    {
+      "name": "Mégathérium",
+      "tier": 3,
+      "realms": []
+    },
+    {
+      "name": "Procoptodon",
+      "tier": 3,
+      "realms": [
+        "Vanloria",
+        "Erythros",
+        "Asharun",
+        "Nerethis"
+      ]
+    },
+    {
+      "name": "Sarcosuchus",
+      "tier": 3,
+      "realms": [
+        "Erythros",
+        "Asharun",
+        "Nerethis",
+        "Shintai"
+      ]
+    },
+    {
+      "name": "Stégosaure",
+      "tier": 3,
+      "realms": []
+    },
+    {
+      "name": "Tapejara",
+      "tier": 3,
+      "realms": [
+        "Vanloria",
+        "Erythros",
+        "Asharun",
+        "Shintai"
+      ]
+    },
+    {
+      "name": "Therizinosaur",
+      "tier": 3,
+      "realms": [
+        "Vanloria",
+        "Shintai"
+      ]
+    },
+    {
+      "name": "Thylacoleo",
+      "tier": 3,
+      "realms": [
+        "Erythros",
+        "Nerethis",
+        "Falkheim"
+      ]
+    },
+    {
+      "name": "Minautor",
+      "tier": 3,
+      "realms": [
+        "Erythros"
+      ]
+    },
+    {
+      "name": "Sea Horse",
+      "tier": 3,
+      "realms": [
+        "Vanloria"
+      ]
+    },
+    {
+      "name": "Acrophyseter",
+      "tier": 3,
+      "realms": []
+    },
+    {
+      "name": "Ambulocetus",
+      "tier": 3,
+      "realms": [
+        "Vanloria",
+        "Falkheim"
+      ]
+    },
+    {
+      "name": "Henodus",
+      "tier": 3,
+      "realms": [
+        "Erythros",
+        "Asharun",
+        "Nerethis",
+        "Shintai"
+      ]
+    },
+    {
+      "name": "Sphyrna",
+      "tier": 3,
+      "realms": []
+    },
+    {
+      "name": "Dearc",
+      "tier": 3,
+      "realms": [
+        "Nerethis"
+      ]
+    },
+    {
+      "name": "Siamosaurus",
+      "tier": 3,
+      "realms": [
+        "Nerethis",
+        "Shintai"
+      ]
+    },
+    {
+      "name": "Koolasuchus",
+      "tier": 3,
+      "realms": [
+        "Vanloria",
+        "Shintai"
+      ]
+    },
+    {
+      "name": "Pinacosaurus",
+      "tier": 3,
+      "realms": [
+        "Erythros",
+        "Nerethis",
+        "Shintai",
+        "Falkheim"
+      ]
+    },
+    {
+      "name": "Prionosuchus",
+      "tier": 3,
+      "realms": [
+        "Nerethis",
+        "Shintai"
+      ]
+    },
+    {
+      "name": "Saltasaurus",
+      "tier": 3,
+      "realms": [
+        "Shintai",
+        "Falkheim"
+      ]
+    },
+    {
+      "name": "Eotriceratops",
+      "tier": 3,
+      "realms": [
+        "Erythros",
+        "Asharun"
+      ]
+    },
+    {
+      "name": "Gomphotherium",
+      "tier": 3,
+      "realms": [
+        "Asharun"
+      ]
+    },
+    {
+      "name": "Haast Eagle",
+      "tier": 3,
+      "realms": [
+        "Erythros",
+        "Asharun",
+        "Nerethis"
+      ]
+    },
+    {
+      "name": "BloodStalker",
+      "tier": 3,
+      "realms": [
+        "Shintai"
+      ]
+    },
+    {
+      "name": "Concavenator",
+      "tier": 3,
+      "realms": [
+        "Asharun"
+      ]
+    },
+    {
+      "name": "Karkainos",
+      "tier": 4,
+      "realms": [
+        "Nerethis"
+      ]
+    },
+    {
+      "name": "Rockdrake",
+      "tier": 4,
+      "realms": [
+        "Shintai"
+      ]
+    },
+    {
+      "name": "Crylophosaure",
+      "tier": 4,
+      "realms": [
+        "Falkheim"
+      ]
+    },
+    {
+      "name": "Déinosuchus",
+      "tier": 4,
+      "realms": [
+        "Erythros",
+        "Asharun",
+        "Nerethis",
+        "Shintai"
+      ]
+    },
+    {
+      "name": "Déinothérium",
+      "tier": 4,
+      "realms": [
+        "Erythros",
+        "Asharun",
+        "Nerethis",
+        "Shintai"
+      ]
+    },
+    {
+      "name": "Grantortugar",
+      "tier": 4,
+      "realms": [
+        "Nerethis",
+        "Asharun"
+      ]
+    },
+    {
+      "name": "Harfang des Neiges",
+      "tier": 4,
+      "realms": [
+        "Falkheim"
+      ]
+    },
+    {
+      "name": "Diplodocus",
+      "tier": 4,
+      "realms": []
+    },
+    {
+      "name": "Dunkleosteus",
+      "tier": 4,
+      "realms": []
+    },
+    {
+      "name": "Griffon",
+      "tier": 4,
+      "realms": [
+        "Vanloria"
+      ]
+    },
+    {
+      "name": "Mammouth",
+      "tier": 4,
+      "realms": [
+        "Vanloria",
+        "Erythros",
+        "Shintai",
+        "Falkheim"
+      ]
+    },
+    {
+      "name": "Plesiosaur",
+      "tier": 4,
+      "realms": []
+    },
+    {
+      "name": "Paraceratherium",
+      "tier": 4,
+      "realms": []
+    },
+    {
+      "name": "Quetzal",
+      "tier": 4,
+      "realms": [
+        "Vanloria"
+      ]
+    },
+    {
+      "name": "T-Rex",
+      "tier": 4,
+      "realms": [
+        "Vanloria",
+        "Erythros",
+        "Falkheim"
+      ]
+    },
+    {
+      "name": "Spinosaure",
+      "tier": 4,
+      "realms": [
+        "Asharun",
+        "Nerethis",
+        "Shintai"
+      ]
+    },
+    {
+      "name": "Rhinocéros Laineux",
+      "tier": 4,
+      "realms": [
+        "Vanloria",
+        "Erythros",
+        "Falkheim"
+      ]
+    },
+    {
+      "name": "Yutyrannus",
+      "tier": 4,
+      "realms": []
+    },
+    {
+      "name": "Barsboldia",
+      "tier": 4,
+      "realms": [
+        "Erythros",
+        "Asharun",
+        "Nerethis"
+      ],
+      "note": "Selle canon : Nerethis uniquement"
+    },
+    {
+      "name": "Neovenator",
+      "tier": 4,
+      "realms": [
+        "Vanloria",
+        "Erythros",
+        "Nerethis",
+        "Shintai"
+      ]
+    },
+    {
+      "name": "Yangchuanosaurus",
+      "tier": 4,
+      "realms": [
+        "Vanloria",
+        "Nerethis",
+        "Shintai"
+      ]
+    },
+    {
+      "name": "Hainosaurus",
+      "tier": 4,
+      "realms": [
+        "Nerethis",
+        "Shintai"
+      ]
+    },
+    {
+      "name": "Lythronax",
+      "tier": 4,
+      "realms": [
+        "Vanloria",
+        "Falkheim"
+      ]
+    },
+    {
+      "name": "Purussaurus",
+      "tier": 4,
+      "realms": [
+        "Shintai"
+      ]
+    },
+    {
+      "name": "Ferox",
+      "tier": 4,
+      "realms": [
+        "Falkheim"
+      ]
+    },
+    {
+      "name": "Inotrancevia",
+      "tier": 4,
+      "realms": [
+        "Falkheim"
+      ]
+    },
+    {
+      "name": "Petit Golems de Pierre",
+      "tier": 4,
+      "realms": [
+        "Asharun"
+      ],
+      "note": "Version modifiée"
+    },
+    {
+      "name": "Acrocanthosaure",
+      "tier": 5,
+      "realms": [
+        "Vanloria",
+        "Falkheim"
+      ]
+    },
+    {
+      "name": "Golems de Pierre",
+      "tier": 5,
+      "realms": [
+        "Nerethis",
+        "Asharun"
+      ]
+    },
+    {
+      "name": "Golems de Craie",
+      "tier": 5,
+      "realms": [
+        "Erythros",
+        "Shintai"
+      ]
+    },
+    {
+      "name": "Golems de Glace",
+      "tier": 5,
+      "realms": [
+        "Erythros",
+        "Falkheim"
+      ]
+    },
+    {
+      "name": "Mosasaurus",
+      "tier": 5,
+      "realms": [],
+      "note": "Plateforme : Nerethis uniquement"
+    },
+    {
+      "name": "Brontosaure",
+      "tier": 5,
+      "realms": []
+    },
+    {
+      "name": "Paleoctopus",
+      "tier": 5,
+      "realms": [
+        "Nerethis"
+      ]
+    },
+    {
+      "name": "Cyclope",
+      "tier": 5,
+      "realms": [
+        "Vanloria"
+      ]
+    },
+    {
+      "name": "Dzungariotherum",
+      "tier": 5,
+      "realms": [
+        "Erythros",
+        "Asharun",
+        "Nerethis",
+        "Shintai"
+      ],
+      "note": "Selle blindée et plateformes : Asharun uniquement"
+    },
+    {
+      "name": "MegaChelon",
+      "tier": 5,
+      "realms": [
+        "Nerethis"
+      ]
+    },
+    {
+      "name": "Rhyniognatha",
+      "tier": 5,
+      "realms": [
+        "Asharun"
+      ]
+    },
+    {
+      "name": "Basilic",
+      "tier": 5,
+      "realms": [
+        "Shintai"
+      ]
+    },
+    {
+      "name": "Gigano",
+      "tier": 6,
+      "realms": [
+        "Vanloria"
+      ]
+    },
+    {
+      "name": "Edmontosaurus",
+      "tier": 6,
+      "realms": [
+        "Shintai"
+      ]
+    },
+    {
+      "name": "Carchadontosaurus",
+      "tier": 6,
+      "realms": [
+        "Vanloria"
+      ]
+    },
+    {
+      "name": "Titanosaure",
+      "tier": 6,
+      "realms": [
+        "Asharun"
+      ]
+    },
+    {
+      "name": "Wak Spino",
+      "tier": 6,
+      "realms": [
+        "Nerethis"
+      ]
+    }
+  ]
+}

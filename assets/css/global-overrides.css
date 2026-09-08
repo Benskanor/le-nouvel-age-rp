@@ -291,3 +291,9 @@ code{font-size:.84rem!important;line-height:1.5!important;color:#ead79f!importan
 .profession-grid article{grid-template-columns:54px 1fr!important;gap:18px!important}
 .profession-grid h3{font-size:1.48rem!important;line-height:1.15!important}
 .profession-grid strong{font-size:.92rem!important;line-height:1.5!important}
+
+/* V4.3 — registre : fond noir garanti, y compris après les anciens styles SingleFile */
+html:has(body.people-page),body.people-page,body.people-page main{background:#070604!important;background-color:#070604!important}
+body.people-page main{background-image:radial-gradient(circle at 78% 6%,rgba(214,173,89,.08),transparent 27rem),linear-gradient(180deg,#070604 0%,#0c0906 54%,#070604 100%)!important}
+body.people-page .people-archives{background:#0b0907!important;border-color:rgba(214,173,89,.24)!important;box-shadow:none!important}
+body.people-page .archive-row{background:#0e0c09!important;box-shadow:none!important}
