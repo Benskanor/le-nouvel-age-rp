@@ -6,7 +6,7 @@
   const href=slug=>new URL(`wiki/ressources/${slug}/`,root).href;
   const imgUrl=p=>p?new URL(p,root).href:'';
   const initials=name=>String(name||'?').split(/\s+/).filter(Boolean).slice(0,2).map(x=>x[0]).join('').toUpperCase();
-  const visual=(item,cls='resource-icon')=>item.image?`<span class="${cls} has-image"><img src="${imgUrl(item.image)}" alt="${esc(item.name)}" loading="lazy"></span>`:`<span class="${cls} fallback">${esc(item.icon||initials(item.name))}</span>`;
+  const visual=(item,cls='resource-icon')=>item&&item.image?`<span class="${cls} has-image"><img src="${imgUrl(item.image)}" alt="${esc(item.name)}" loading="lazy" referrerpolicy="no-referrer"></span>`:`<span class="${cls} fallback">${esc((item&&item.icon)||initials(item&&item.name))}</span>`;
   const statusClass=s=>String(s||'').toLowerCase().includes('prioritaire')?'priority':'available';
   const resourceCard=r=>`<a class="wiki-resource-card" href="${href(r.slug)}">${visual(r)}<span class="resource-copy"><small>${esc(r.category)} · ${esc(r.realm)}</small><strong>${esc(r.name)}</strong><em>${esc(r.description)}</em></span><span class="resource-version">${esc(r.version)}</span></a>`;
 
@@ -17,6 +17,10 @@
     const v4=db.versions.find(v=>String(v.id).toLowerCase()==='v4')||db.versions[0];
     const feats=document.querySelector('#latestFeatures');
     if(feats&&v4) feats.innerHTML=v4.features.map(f=>`<article class="feature-card"><div><span class="status-chip ${statusClass(f.status)}">${esc(f.status)}</span><small>${esc(f.type)}</small></div><h3>${esc(f.name)}</h3><p>${esc(f.description)}</p></article>`).join('');
+    const stationPreview=document.querySelector('#wikiStationPreview');
+    if(stationPreview&&db.stations){stationPreview.innerHTML=db.stations.map(s=>`<a class="portal-station-card" href="${new URL(`wiki/stations/#${s.id}`,root)}"><span class="portal-station-icon">${s.flag?`<img src="${imgUrl(s.flag)}" alt="${esc(s.realm)}">`:esc(s.icon)}</span><span><small>${esc(s.subtitle)}</small><strong>${esc(s.name)}</strong><em>${esc(s.base)}</em></span></a>`).join('');}
+    const transformed=document.querySelector('#transformedProducts');
+    if(transformed){const rows=db.resources.filter(r=>r.category==='Transformation'&&r.image);transformed.innerHTML=rows.map(resourceCard).join('');}
     const featured=document.querySelector('#featuredResources');
     if(featured){const picks=[...db.resources.filter(r=>r.category==='Consommable'&&r.image),...db.resources.filter(r=>r.category!=='Consommable'&&r.image)].slice(0,10);featured.innerHTML=picks.map(resourceCard).join('');}
     const q=document.querySelector('#wikiSearch'),res=document.querySelector('#searchResults');
@@ -59,7 +63,7 @@
   function consumables(db){
     const e=db.economy,realms=['Asharun','Falkheim','Shintai','Vanloria','Nerethis','Erythros'];
     document.querySelector('#kingdomConsumables').innerHTML=realms.map(realm=>`<section class="realm-economy-block realm-${realm.toLowerCase()}"><div class="realm-economy-head"><h3>${esc(realm)}</h3><span>${e.consumables.filter(x=>x.realm===realm).length} recettes</span></div><div class="consumable-chip-grid">${e.consumables.filter(x=>x.realm===realm).map(x=>{const r=db.resources.find(r=>r.name===x.name);return `<a class="consumable-chip" ${r?`href="${href(r.slug)}"`:''}>${visual(r||x,'consumable-image')}<div><strong>${esc(x.name)}</strong><small>${esc(x.trade)}</small>${r?'<em>Ouvrir la fiche →</em>':''}</div></a>`}).join('')}</div></section>`).join('');
-    document.querySelector('#vanillaConsumables').innerHTML=e.vanillaReworked.map(x=>`<div class="vanilla-row"><span>${esc(x.source)}</span><b>→</b><strong>${esc(x.name)}</strong></div>`).join('');
+    document.querySelector('#vanillaConsumables').innerHTML=e.vanillaReworked.map(x=>{const r=db.resources.find(r=>r.name===x.name);return `<a class="vanilla-row vanilla-row-visual" ${r?`href="${href(r.slug)}"`:''}>${visual(r||x,'vanilla-icon')}<span class="vanilla-source">${esc(x.source)}</span><b>→</b><strong>${esc(x.name)}</strong></a>`}).join('');
   }
 
   fetch(dataUrl).then(r=>r.json()).then(db=>{const page=document.body.dataset.wikiPage;if(page==='home')home(db);if(page==='resources')resources(db);if(page==='news')news(db);if(page==='economy')economy(db);if(page==='consumables')consumables(db);if(page==='stations')stationsPage(db)}).catch(e=>console.error(e));

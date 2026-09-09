@@ -89,168 +89,192 @@
         "realm": "Asharun",
         "station": "Mortier et Pilon LNA",
         "recipe": "10× Longrass",
-        "yield": 5
+        "yield": 5,
+        "image": "assets/images/wiki/icon_ash_farine_01_vert.webp"
       },
       {
         "name": "Épice raffinée",
         "realm": "Asharun",
         "station": "Mortier et Pilon LNA",
         "recipe": "5× Épice sauvage + 1× Sel marin",
-        "yield": 2
+        "yield": 2,
+        "image": "assets/images/wiki/icon_ash_epicesraffinees_01.webp"
       },
       {
         "name": "Menthe séchée",
         "realm": "Asharun",
         "station": "Mortier et Pilon LNA",
         "recipe": "5× Menthe",
-        "yield": 3
+        "yield": 3,
+        "image": "assets/images/wiki/icon_ash_menthesechee_01.webp"
       },
       {
         "name": "Sirop de grenade",
         "realm": "Asharun",
         "station": "Marmite Asharun",
         "recipe": "5× Grenade + 1× Citronal + 1× Eau",
-        "yield": 2
+        "yield": 2,
+        "image": "assets/images/wiki/icon_ash_siropgrenade_01.webp"
       },
       {
         "name": "Farine d’orge",
         "realm": "Falkheim",
         "station": "Mortier et Pilon LNA",
         "recipe": "10× Orge",
-        "yield": 5
+        "yield": 5,
+        "image": "assets/images/wiki/icon_fal_farineorge_01.webp"
       },
       {
         "name": "Malt d’orge",
         "realm": "Falkheim",
         "station": "Tonneau LNA",
         "recipe": "6× Orge + 2× Savoroot + 1× Eau",
-        "yield": 3
+        "yield": 3,
+        "image": "assets/images/wiki/icon_fal_maltorge_01.webp"
       },
       {
         "name": "Houblon séché",
         "realm": "Falkheim",
         "station": "Mortier et Pilon LNA",
         "recipe": "5× Houblon",
-        "yield": 3
+        "yield": 3,
+        "image": "assets/images/wiki/icon_fal_houblonseche_01.webp"
       },
       {
         "name": "Levure de Plaquebière",
         "realm": "Falkheim",
         "station": "Tonneau LNA",
         "recipe": "3× Plaquebierre + 1× Mélasse + 1× Eau",
-        "yield": 2
+        "yield": 2,
+        "image": "assets/images/wiki/icon_fal_levureplaquebiere_01.webp"
       },
       {
         "name": "Farine de riz",
         "realm": "Shintai",
         "station": "Mortier et Pilon LNA",
         "recipe": "10× Riz",
-        "yield": 5
+        "yield": 5,
+        "image": "assets/images/wiki/icon_shi_rizdecortique_01.webp"
       },
       {
         "name": "Sauce soja",
         "realm": "Shintai",
         "station": "Tonneau LNA",
         "recipe": "6× Soja + 1× Sel marin + 1× Citronal + 1× Eau",
-        "yield": 3
+        "yield": 3,
+        "image": "assets/images/wiki/icon_shi_saucesoja_01.webp"
       },
       {
         "name": "Shiso séché",
         "realm": "Shintai",
         "station": "Mortier et Pilon LNA",
         "recipe": "5× Shiso",
-        "yield": 3
+        "yield": 3,
+        "image": "assets/images/wiki/icon_shi_shisoseche_01.webp"
       },
       {
         "name": "Pâte de soja",
         "realm": "Shintai",
         "station": "Mortier et Pilon LNA",
         "recipe": "6× Soja + 1× Rockarrot + 1× Eau",
-        "yield": 3
+        "yield": 3,
+        "image": "assets/images/wiki/icon_shi_patesoja_01.webp"
       },
       {
         "name": "Fil de lin",
         "realm": "Vanloria",
         "station": "Atelier LNA",
         "recipe": "5× Lin",
-        "yield": 3
+        "yield": 3,
+        "image": "assets/images/wiki/icon_van_fillin_01.webp"
       },
       {
         "name": "Toile de lin",
         "realm": "Vanloria",
         "station": "Atelier LNA",
         "recipe": "4× Fil de lin",
-        "yield": 1
+        "yield": 1,
+        "image": "assets/images/wiki/icon_van_toilelin_01.webp"
       },
       {
         "name": "Flocons d’avoine",
         "realm": "Vanloria",
         "station": "Mortier et Pilon LNA",
         "recipe": "10× Avoine",
-        "yield": 5
+        "yield": 5,
+        "image": "assets/images/wiki/icon_van_floconsavoine_01.webp"
       },
       {
         "name": "Essence de lavande",
         "realm": "Vanloria",
         "station": "Mortier et Pilon LNA",
         "recipe": "6× Lavande + 1× Citronal + 1× Eau",
-        "yield": 2
+        "yield": 2,
+        "image": "assets/images/wiki/icon_van_essencelavande_01.webp"
       },
       {
         "name": "Sucre brut",
         "realm": "Nerethis",
         "station": "Mortier et Pilon LNA",
         "recipe": "10× Canne à sucre",
-        "yield": 5
+        "yield": 5,
+        "image": "assets/images/wiki/icon_ner_sucrebrut_01.webp"
       },
       {
         "name": "Mélasse",
         "realm": "Nerethis",
         "station": "Marmite Nerethis",
         "recipe": "5× Sucre brut + 1× Citronal + 1× Eau",
-        "yield": 3
+        "yield": 3,
+        "image": "assets/images/wiki/icon_ner_melasse_01.webp"
       },
       {
         "name": "Gingembre séché",
         "realm": "Nerethis",
         "station": "Mortier et Pilon LNA",
         "recipe": "5× Gingembre",
-        "yield": 3
+        "yield": 3,
+        "image": "assets/images/wiki/icon_ner_gingembreseche_01.webp"
       },
       {
         "name": "Extrait de vanille",
         "realm": "Nerethis",
         "station": "Tonneau LNA",
         "recipe": "5× Vanille + 1× Sucre brut + 1× Eau",
-        "yield": 2
+        "yield": 2,
+        "image": "assets/images/wiki/icon_ner_extraitvanille_01.webp"
       },
       {
         "name": "Huile d’olive",
         "realm": "Erythros",
         "station": "Mortier et Pilon LNA",
         "recipe": "10× Olive",
-        "yield": 5
+        "yield": 5,
+        "image": "assets/images/wiki/icon_ery_huileolive_01.webp"
       },
       {
         "name": "Moût de raisin",
         "realm": "Erythros",
         "station": "Tonneau LNA",
         "recipe": "10× Raisin",
-        "yield": 5
+        "yield": 5,
+        "image": "assets/images/wiki/icon_ery_moutderaisin_01.webp"
       },
       {
         "name": "Figues séchées",
         "realm": "Erythros",
         "station": "Mortier et Pilon LNA",
         "recipe": "5× Figue",
-        "yield": 3
+        "yield": 3,
+        "image": "assets/images/wiki/icon_ery_figuessechees_01.webp"
       },
       {
         "name": "Vinaigre de raisin",
         "realm": "Erythros",
         "station": "Tonneau LNA",
         "recipe": "4× Moût de raisin + 1× Citronal + 1× Eau",
-        "yield": 2
+        "yield": 2,
+        "image": "assets/images/wiki/icon_ery_vinaigrederaisin_01.webp"
       }
     ],
     "consumables": [
@@ -4433,7 +4457,10 @@
         "sucre-brut",
         "vinaigre-de-raisin"
       ],
-      "usedInSlugs": []
+      "usedInSlugs": [],
+      "image": "https://ark.wiki.gg/wiki/Special:Redirect/file/Calien_Soup.png",
+      "imageSource": "Icône ARK de référence — Studio Wildcard / ARK Official Community Wiki",
+      "imageReference": "https://ark.wiki.gg/wiki/File:Calien_Soup.png"
     },
     {
       "name": "Curry des Neiges",
@@ -4462,7 +4489,10 @@
         "epice-raffinee",
         "huile-dolive"
       ],
-      "usedInSlugs": []
+      "usedInSlugs": [],
+      "image": "https://ark.wiki.gg/wiki/Special:Redirect/file/Fria_Curry.png",
+      "imageSource": "Icône ARK de référence — Studio Wildcard / ARK Official Community Wiki",
+      "imageReference": "https://ark.wiki.gg/wiki/File:Fria_Curry.png"
     },
     {
       "name": "Bouillon du Plongeur",
@@ -4493,7 +4523,10 @@
         "huile-dolive",
         "vinaigre-de-raisin"
       ],
-      "usedInSlugs": []
+      "usedInSlugs": [],
+      "image": "https://ark.wiki.gg/wiki/Special:Redirect/file/Lazarus_Chowder.png",
+      "imageSource": "Icône ARK de référence — Studio Wildcard / ARK Official Community Wiki",
+      "imageReference": "https://ark.wiki.gg/wiki/File:Lazarus_Chowder.png"
     },
     {
       "name": "Ragoût d’Endurance",
@@ -4524,7 +4557,10 @@
         "epice-raffinee",
         "huile-dolive"
       ],
-      "usedInSlugs": []
+      "usedInSlugs": [],
+      "image": "https://ark.wiki.gg/wiki/Special:Redirect/file/Enduro_Stew.png",
+      "imageSource": "Icône ARK de référence — Studio Wildcard / ARK Official Community Wiki",
+      "imageReference": "https://ark.wiki.gg/wiki/File:Enduro_Stew.png"
     },
     {
       "name": "Chili du Stratège",
@@ -4555,7 +4591,10 @@
         "gingembre-seche",
         "epice-raffinee"
       ],
-      "usedInSlugs": []
+      "usedInSlugs": [],
+      "image": "https://ark.wiki.gg/wiki/Special:Redirect/file/Focal_Chili.png",
+      "imageSource": "Icône ARK de référence — Studio Wildcard / ARK Official Community Wiki",
+      "imageReference": "https://ark.wiki.gg/wiki/File:Focal_Chili.png"
     },
     {
       "name": "Bouillon du Mirage",
@@ -4586,7 +4625,10 @@
         "vinaigre-de-raisin",
         "base-antiseptique"
       ],
-      "usedInSlugs": []
+      "usedInSlugs": [],
+      "image": "https://ark.wiki.gg/wiki/Special:Redirect/file/Cactus_Broth.png",
+      "imageSource": "Icône ARK de référence — Studio Wildcard / ARK Official Community Wiki",
+      "imageReference": "https://ark.wiki.gg/wiki/File:Cactus_Broth.png"
     },
     {
       "name": "Tartare de Guerre",
@@ -4617,7 +4659,10 @@
         "gingembre-seche",
         "extrait-stimulant"
       ],
-      "usedInSlugs": []
+      "usedInSlugs": [],
+      "image": "https://ark.wiki.gg/wiki/Special:Redirect/file/Battle_Tartare.png",
+      "imageSource": "Icône ARK de référence — Studio Wildcard / ARK Official Community Wiki",
+      "imageReference": "https://ark.wiki.gg/wiki/File:Battle_Tartare.png"
     },
     {
       "name": "Steak des Ombres",
@@ -4647,7 +4692,10 @@
         "essence-de-lavande",
         "extrait-stimulant"
       ],
-      "usedInSlugs": []
+      "usedInSlugs": [],
+      "image": "https://ark.wiki.gg/wiki/Special:Redirect/file/Shadow_Steak_Saute.png",
+      "imageSource": "Icône ARK de référence — Studio Wildcard / ARK Official Community Wiki",
+      "imageReference": "https://ark.wiki.gg/wiki/File:Shadow_Steak_Saute.png"
     },
     {
       "name": "Gâteau du Jardin",
@@ -4679,7 +4727,10 @@
         "huile-dolive",
         "levure-de-plaquebiere"
       ],
-      "usedInSlugs": []
+      "usedInSlugs": [],
+      "image": "https://ark.wiki.gg/wiki/Special:Redirect/file/Sweet_Vegetable_Cake.png",
+      "imageSource": "Icône ARK de référence — Studio Wildcard / ARK Official Community Wiki",
+      "imageReference": "https://ark.wiki.gg/wiki/File:Sweet_Vegetable_Cake.png"
     },
     {
       "name": "Bouillon de Sagesse",
@@ -4709,7 +4760,10 @@
         "sirop-de-grenade",
         "extrait-medicinal"
       ],
-      "usedInSlugs": []
+      "usedInSlugs": [],
+      "image": "https://ark.wiki.gg/wiki/Special:Redirect/file/Broth_of_Enlightenment.png",
+      "imageSource": "Icône ARK de référence — Studio Wildcard / ARK Official Community Wiki",
+      "imageReference": "https://ark.wiki.gg/wiki/File:Broth_of_Enlightenment.png"
     },
     {
       "name": "Sushi aux algues",
@@ -4745,7 +4799,10 @@
         "vinaigre-de-raisin",
         "sel-marin"
       ],
-      "usedInSlugs": []
+      "usedInSlugs": [],
+      "image": "https://ark.wiki.gg/wiki/Special:Redirect/file/Algae_Sushi.png",
+      "imageSource": "Icône ARK de référence — Studio Wildcard / ARK Official Community Wiki",
+      "imageReference": "https://ark.wiki.gg/wiki/File:Algae_Sushi.png"
     },
     {
       "name": "Friandise d’Hélicoprion",
@@ -4782,7 +4839,10 @@
         "sauce-soja",
         "sel-marin"
       ],
-      "usedInSlugs": []
+      "usedInSlugs": [],
+      "image": "https://ark.wiki.gg/wiki/Special:Redirect/file/Mod_Additions_Ascended_Little_Ratfish_Treats!.png",
+      "imageSource": "Icône ARK de référence — Studio Wildcard / ARK Official Community Wiki",
+      "imageReference": "https://ark.wiki.gg/wiki/File:Mod_Additions_Ascended_Little_Ratfish_Treats!.png"
     },
     {
       "name": "Élixir médicinal",
@@ -4812,7 +4872,10 @@
         "gelatine-de-poisson",
         "citronal"
       ],
-      "usedInSlugs": []
+      "usedInSlugs": [],
+      "image": "https://ark.wiki.gg/wiki/Special:Redirect/file/Medical_Brew.png",
+      "imageSource": "Icône ARK de référence — Studio Wildcard / ARK Official Community Wiki",
+      "imageReference": "https://ark.wiki.gg/wiki/File:Medical_Brew.png"
     },
     {
       "name": "Élixir d’endurance",
@@ -4842,7 +4905,10 @@
         "menthe-sechee",
         "citronal"
       ],
-      "usedInSlugs": []
+      "usedInSlugs": [],
+      "image": "https://ark.wiki.gg/wiki/Special:Redirect/file/Energy_Brew.png",
+      "imageSource": "Icône ARK de référence — Studio Wildcard / ARK Official Community Wiki",
+      "imageReference": "https://ark.wiki.gg/wiki/File:Energy_Brew.png"
     },
     {
       "name": "Antidote mineur",
@@ -4872,7 +4938,10 @@
         "essence-de-lavande",
         "pate-de-soja"
       ],
-      "usedInSlugs": []
+      "usedInSlugs": [],
+      "image": "https://ark.wiki.gg/wiki/Special:Redirect/file/Lesser_Antidote.png",
+      "imageSource": "Icône ARK de référence — Studio Wildcard / ARK Official Community Wiki",
+      "imageReference": "https://ark.wiki.gg/wiki/File:Lesser_Antidote.png"
     },
     {
       "name": "Décoction fongique",
@@ -4902,7 +4971,10 @@
         "menthe-sechee",
         "huile-de-poisson"
       ],
-      "usedInSlugs": []
+      "usedInSlugs": [],
+      "image": "https://ark.wiki.gg/wiki/Special:Redirect/file/Mushroom_Brew.png",
+      "imageSource": "Icône ARK de référence — Studio Wildcard / ARK Official Community Wiki",
+      "imageReference": "https://ark.wiki.gg/wiki/File:Mushroom_Brew.png"
     },
     {
       "name": "Tonique d’Oubli",
@@ -4933,7 +5005,10 @@
         "the-shiso-menthe",
         "infusion-du-lys-bleu"
       ],
-      "usedInSlugs": []
+      "usedInSlugs": [],
+      "image": "https://ark.wiki.gg/wiki/Special:Redirect/file/Mindwipe_Tonic.png",
+      "imageSource": "Icône ARK de référence — Studio Wildcard / ARK Official Community Wiki",
+      "imageReference": "https://ark.wiki.gg/wiki/File:Mindwipe_Tonic.png"
     },
     {
       "name": "Savon artisanal",
@@ -4963,7 +5038,10 @@
         "base-antiseptique",
         "sel-marin"
       ],
-      "usedInSlugs": []
+      "usedInSlugs": [],
+      "image": "https://ark.wiki.gg/wiki/Special:Redirect/file/Soap.png",
+      "imageSource": "Icône ARK de référence — Studio Wildcard / ARK Official Community Wiki",
+      "imageReference": "https://ark.wiki.gg/wiki/File:Soap.png"
     },
     {
       "name": "Bière brassée",
@@ -4992,7 +5070,10 @@
         "melasse",
         "mout-de-raisin"
       ],
-      "usedInSlugs": []
+      "usedInSlugs": [],
+      "image": "https://ark.wiki.gg/wiki/Special:Redirect/file/Beer_Jar.png",
+      "imageSource": "Icône ARK de référence — Studio Wildcard / ARK Official Community Wiki",
+      "imageReference": "https://ark.wiki.gg/wiki/File:Beer_Jar.png"
     },
     {
       "name": "Huile raffinée",
@@ -5019,7 +5100,10 @@
         "huile-de-poisson",
         "olive"
       ],
-      "usedInSlugs": []
+      "usedInSlugs": [],
+      "image": "https://ark.wiki.gg/wiki/Special:Redirect/file/Oil.png",
+      "imageSource": "Icône ARK de référence — Studio Wildcard / ARK Official Community Wiki",
+      "imageReference": "https://ark.wiki.gg/wiki/File:Oil.png"
     },
     {
       "name": "Croquette basique",
@@ -5046,7 +5130,10 @@
         "farine-de-riz",
         "flocons-davoine"
       ],
-      "usedInSlugs": []
+      "usedInSlugs": [],
+      "image": "https://ark.wiki.gg/wiki/Special:Redirect/file/Basic_Kibble.png",
+      "imageSource": "Icône ARK de référence — Studio Wildcard / ARK Official Community Wiki",
+      "imageReference": "https://ark.wiki.gg/wiki/File:Basic_Kibble.png"
     },
     {
       "name": "Croquette simple",
@@ -5075,7 +5162,10 @@
         "menthe-sechee",
         "sucre-brut"
       ],
-      "usedInSlugs": []
+      "usedInSlugs": [],
+      "image": "https://ark.wiki.gg/wiki/Special:Redirect/file/Simple_Kibble.png",
+      "imageSource": "Icône ARK de référence — Studio Wildcard / ARK Official Community Wiki",
+      "imageReference": "https://ark.wiki.gg/wiki/File:Simple_Kibble.png"
     },
     {
       "name": "Croquette standard",
@@ -5103,7 +5193,10 @@
         "figues-sechees",
         "sel-marin"
       ],
-      "usedInSlugs": []
+      "usedInSlugs": [],
+      "image": "https://ark.wiki.gg/wiki/Special:Redirect/file/Regular_Kibble.png",
+      "imageSource": "Icône ARK de référence — Studio Wildcard / ARK Official Community Wiki",
+      "imageReference": "https://ark.wiki.gg/wiki/File:Regular_Kibble.png"
     },
     {
       "name": "Croquette supérieure",
@@ -5132,7 +5225,10 @@
         "epice-raffinee",
         "malt-dorge"
       ],
-      "usedInSlugs": []
+      "usedInSlugs": [],
+      "image": "https://ark.wiki.gg/wiki/Special:Redirect/file/Superior_Kibble.png",
+      "imageSource": "Icône ARK de référence — Studio Wildcard / ARK Official Community Wiki",
+      "imageReference": "https://ark.wiki.gg/wiki/File:Superior_Kibble.png"
     },
     {
       "name": "Croquette exceptionnelle",
@@ -5161,7 +5257,10 @@
         "essence-de-lavande",
         "huile-de-poisson"
       ],
-      "usedInSlugs": []
+      "usedInSlugs": [],
+      "image": "https://ark.wiki.gg/wiki/Special:Redirect/file/Exceptional_Kibble.png",
+      "imageSource": "Icône ARK de référence — Studio Wildcard / ARK Official Community Wiki",
+      "imageReference": "https://ark.wiki.gg/wiki/File:Exceptional_Kibble.png"
     },
     {
       "name": "Croquette extraordinaire",
@@ -5192,7 +5291,10 @@
         "vinaigre-de-raisin",
         "gelatine-de-poisson"
       ],
-      "usedInSlugs": []
+      "usedInSlugs": [],
+      "image": "https://ark.wiki.gg/wiki/Special:Redirect/file/Extraordinary_Kibble.png",
+      "imageSource": "Icône ARK de référence — Studio Wildcard / ARK Official Community Wiki",
+      "imageReference": "https://ark.wiki.gg/wiki/File:Extraordinary_Kibble.png"
     }
   ],
   "versions": [

@@ -85,12 +85,13 @@
       ['Commande GFI', tech.gfi],
       ['Pondération pêche', item.lootWeight],
       ['Niveau réf.', item.levelRef],
-      ['EP réf.', item.epRef]
+      ['EP réf.', item.epRef],
+      ['Icône de référence', item.imageSource]
     ];
     $('#technicalGrid').innerHTML = technicalRows.map(([label,value]) => `<div><span>${esc(label)}</span><code>${text(value)}</code></div>`).join('');
 
     const icon = item.image
-      ? `<img src="${imgUrl(item.image)}" alt="${esc(item.name)}">`
+      ? `<img src="${imgUrl(item.image)}" alt="${esc(item.name)}" referrerpolicy="no-referrer">`
       : `<span class="infobox-fallback">${esc(item.icon || initials(item.name))}</span>`;
     const infoboxRows = [
       ['Type', item.category], ['Origine', item.realm], ['Version', item.version], ['État', item.status],
@@ -111,7 +112,7 @@
     ].filter((x,i,arr) => x && arr.findIndex(y => y.slug === x.slug) === i).slice(0,6);
     $('#relatedResources').innerHTML = related.length ? related.map(x => `
       <a href="${articleUrl(x.slug)}">
-        ${x.image ? `<img src="${imgUrl(x.image)}" alt="">` : `<span class="related-fallback">${esc(x.icon || initials(x.name))}</span>`}
+        ${x.image ? `<img src="${imgUrl(x.image)}" alt="" referrerpolicy="no-referrer">` : `<span class="related-fallback">${esc(x.icon || initials(x.name))}</span>`}
         <div><small>${esc(x.category)} · ${esc(x.realm)}</small><strong>${esc(x.name)}</strong></div>
       </a>`).join('') : '<div class="wiki-empty">Aucune fiche liée.</div>';
   }).catch(err => {

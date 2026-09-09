@@ -15,7 +15,7 @@
     <p class="overline">Encyclopédie officielle du mod</p>
     <h1>Wiki du<br>Nouvel Âge</h1>
     <p class="lead">Un véritable répertoire de jeu : chaque ressource ou consommable possède désormais sa fiche avec obtention, fabrication, valeurs, effets, commerce et données techniques documentées.</p>
-    <div class="wiki-actions"><a class="button primary" href="ressources/">Parcourir les fiches</a><a class="button ghost" href="economie/">Économie V4.1</a><a class="button ghost" href="consommables/">Consommables</a><a class="button ghost" href="nouveautes/">Nouveautés</a></div>
+    <div class="wiki-actions"><a class="button primary" href="ressources/">Parcourir les fiches</a><a class="button ghost" href="stations/">Stations de craft</a><a class="button ghost" href="economie/">Économie V4.1</a><a class="button ghost" href="consommables/">Consommables</a><a class="button ghost" href="nouveautes/">Nouveautés</a></div>
     <div class="wiki-search-wrap"><input id="wikiSearch" class="wiki-search" type="search" placeholder="Rechercher : Soupe des dunes, orge, chair abyssale…"><div id="searchResults" class="wiki-search-results" hidden></div></div>
   </div>
 </section>
@@ -24,9 +24,9 @@
   <div class="wiki-portal-layout">
     <aside class="wiki-portal-nav">
       <div class="portal-box-title">Navigation</div>
-      <a href="ressources/">Toutes les fiches</a><a href="economie/">Économie V4.1</a><a href="consommables/">Consommables</a><a href="nouveautes/">Nouveautés</a>
+      <a href="ressources/">Toutes les fiches</a><a href="stations/">Stations de craft</a><a href="economie/">Économie V4.1</a><a href="consommables/">Consommables</a><a href="nouveautes/">Nouveautés</a>
       <div class="portal-box-title second">Repères</div>
-      <a href="#categories">Catégories</a><a href="#etat-v4">État de la V4.1</a><a href="#fiches">Fiches en vedette</a>
+      <a href="#categories">Catégories</a><a href="#stations">Stations</a><a href="#transformations">Produits transformés</a><a href="#etat-v4">État de la V4.1</a><a href="#fiches">Fiches en vedette</a>
     </aside>
 
     <div class="wiki-portal-content">
@@ -38,6 +38,19 @@
       <section id="categories" class="wiki-section portal-section">
         <div class="section-head"><div><p class="overline">Répertoire</p><h2>Catégories</h2></div><p>Agriculture, transformations, viande, pêche, alchimie et désormais les 29 consommables finaux des royaumes.</p></div>
         <div id="wikiCategories" class="category-grid wiki-loading">Chargement…</div>
+      </section>
+
+
+      <section id="stations" class="wiki-section portal-section">
+        <div class="section-head"><div><p class="overline">Fabrication</p><h2>Stations de craft</h2></div><p>Accédez directement aux quatre stations communes LNA et aux six Marmites de royaume, avec la liste des crafts présents dans chaque inventaire.</p></div>
+        <div id="wikiStationPreview" class="portal-station-grid wiki-loading">Chargement…</div>
+        <div class="wiki-actions"><a class="button primary" href="stations/">Ouvrir toutes les stations →</a></div>
+      </section>
+
+      <section id="transformations" class="wiki-section portal-section">
+        <div class="section-head"><div><p class="overline">Économie</p><h2>Produits transformés</h2></div><p>Les 24 transformations de royaume sont affichées avec leurs véritables icônes LNA, leur station et leur fiche détaillée.</p></div>
+        <div id="transformedProducts" class="resource-grid transformed-product-grid wiki-loading">Chargement…</div>
+        <div class="wiki-actions"><a class="button ghost" href="ressources/?categorie=Transformation">Voir uniquement les transformations →</a></div>
       </section>
 
       <section id="etat-v4" class="wiki-section portal-section">
