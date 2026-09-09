@@ -1,7 +1,7 @@
 {
   "meta": {
     "title": "Wiki officiel — Le Nouvel Âge RP",
-    "updated": "2026-09-08",
+    "updated": "2026-09-09",
     "description": "Documentation V4.1 synchronisée : 129 fiches couvrant agriculture, transformations, viande, pêche, alchimie, consommables de royaume et remaps vanilla.",
     "notice": "Les informations affichées proviennent du Guide maître V4.1 du 8 septembre 2026. Les champs absents restent indiqués comme non documentés."
   },
@@ -5010,7 +5010,7 @@
         "sourceVanilla": "Oil",
         "integration": "PrimalItem LNA enfant du source + EngramEntry LNA enfant lorsque le source possède un Engram ; Remap Items / Remap Engrams selon le cas."
       },
-      "station": "Mortier LNA",
+      "station": "Mortier et Pilon LNA",
       "recipe": "2× Huile d’olive + 1× Huile de poisson + 2× Olive → 3× Oil vanilla/remappée",
       "slug": "huile-raffinee",
       "icon": "LNA",
@@ -5237,6 +5237,428 @@
           "type": "Problème connu",
           "status": "Ouvert",
           "description": "Certaines stations ne fabriquent qu’un seul objet malgré une quantité supérieure dans la file ; seul problème connu encore ouvert dans le guide V4.1."
+        }
+      ]
+    }
+  ],
+  "stations": [
+    {
+      "id": "atelier-lna",
+      "name": "Atelier LNA",
+      "subtitle": "Forge · Menuiserie · Textile",
+      "icon": "⚒️",
+      "base": "Smithy vanilla",
+      "description": "Station commune du Forgeron et du Menuisier. Elle centralise les composants artisanaux, contenants, textile et pièces métalliques validées pour la V4.1.",
+      "groups": [
+        {
+          "title": "Textile",
+          "items": [
+            "Fil de lin",
+            "Toile de lin"
+          ]
+        },
+        {
+          "title": "Menuiserie",
+          "items": [
+            "Bol",
+            "Assiette",
+            "Chope",
+            "Brochette en bois",
+            "Caisse / contenant bois"
+          ]
+        },
+        {
+          "title": "Forge",
+          "items": [
+            "Boîte métallique",
+            "Flacon renforcé",
+            "Moule métallique",
+            "Grille de cuisson"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "mortier-lna",
+      "name": "Mortier et Pilon LNA",
+      "subtitle": "Transformations · Alchimie",
+      "icon": "🧪",
+      "base": "Mortar and Pestle vanilla",
+      "description": "Station commune pour les farines, poudres, épices, huiles simples, sel, préparations sèches et bases alchimiques.",
+      "groups": [
+        {
+          "title": "Transformations de royaume",
+          "items": [
+            "Farine d’Asharun",
+            "Épice raffinée",
+            "Menthe séchée",
+            "Farine d’orge",
+            "Houblon séché",
+            "Farine de riz",
+            "Shiso séché",
+            "Pâte de soja",
+            "Flocons d’avoine",
+            "Essence de lavande",
+            "Sucre brut",
+            "Gingembre séché",
+            "Huile d’olive",
+            "Figues séchées"
+          ]
+        },
+        {
+          "title": "Viande & pêche",
+          "items": [
+            "Viande retravaillée",
+            "Viande supérieure retravaillée",
+            "Mouton retravaillé",
+            "Viande hachée",
+            "Moelle animale",
+            "Poudre de coquille",
+            "Poudre d’os",
+            "Huile de poisson",
+            "Sel marin"
+          ]
+        },
+        {
+          "title": "Alchimie & remèdes",
+          "items": [
+            "Extrait médicinal",
+            "Extrait stimulant",
+            "Base antiseptique",
+            "Concentré narcotique",
+            "Catalyseur des Six Royaumes",
+            "Élixir médicinal",
+            "Élixir d’endurance",
+            "Antidote mineur",
+            "Décoction fongique",
+            "Tonique d’Oubli",
+            "Savon artisanal"
+          ]
+        },
+        {
+          "title": "Raffinage",
+          "items": [
+            "Huile raffinée"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "tonneau-lna",
+      "name": "Tonneau LNA",
+      "subtitle": "Fermentation · Macération",
+      "icon": "🍺",
+      "base": "Beer Barrel vanilla",
+      "description": "Station commune dédiée aux fermentations, sauces, moûts, vinaigres, levures, macérations et à la viande salée.",
+      "groups": [
+        {
+          "title": "Fermentations & sauces",
+          "items": [
+            "Malt d’orge",
+            "Levure de Plaquebière",
+            "Sauce soja",
+            "Extrait de vanille",
+            "Moût de raisin",
+            "Vinaigre de raisin"
+          ]
+        },
+        {
+          "title": "Autres préparations",
+          "items": [
+            "Viande salée",
+            "Bière brassée"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "feu-camp-lna",
+      "name": "Feu de camp LNA",
+      "subtitle": "Cuisson · Chaleur",
+      "icon": "🔥",
+      "base": "Campfire vanilla",
+      "description": "Station commune pour les cuissons simples de viande et les transformations nécessitant la chaleur.",
+      "groups": [
+        {
+          "title": "Cuissons et transformations",
+          "items": [
+            "Viande retravaillée cuite",
+            "Viande supérieure retravaillée cuite",
+            "Mouton retravaillé cuit",
+            "Graisse animale",
+            "Gélatine de poisson"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "marmite-asharun",
+      "name": "Marmite Asharun",
+      "subtitle": "Cuisine de Asharun",
+      "icon": "🟢",
+      "base": "Cooking Pot vanilla",
+      "realm": "Asharun",
+      "flag": "assets/images/royaumes/drapeaux/asharun.webp",
+      "description": "Marmite dédiée aux recettes finales de Asharun. Elle contient aussi les recettes communes retravaillées accessibles dans les six Marmites.",
+      "groups": [
+        {
+          "title": "Spécialités de Asharun",
+          "items": [
+            "Sirop de grenade",
+            "Naan d’Asharun",
+            "Brochettes épicées",
+            "Melon épicé",
+            "Ration du caravanier",
+            "Kebab au naan",
+            "Soupe des dunes",
+            "Infusion du veilleur",
+            "Baume de grenade",
+            "Tonique écarlate"
+          ]
+        },
+        {
+          "title": "Recettes communes aux six Marmites",
+          "items": [
+            "Soupe du Désert",
+            "Curry des Neiges",
+            "Bouillon du Plongeur",
+            "Ragoût d’Endurance",
+            "Chili du Stratège",
+            "Bouillon du Mirage",
+            "Tartare de Guerre",
+            "Steak des Ombres",
+            "Gâteau du Jardin",
+            "Bouillon de Sagesse",
+            "Sushi aux algues",
+            "Friandise d’Hélicoprion",
+            "Croquette basique",
+            "Croquette simple",
+            "Croquette standard",
+            "Croquette supérieure",
+            "Croquette exceptionnelle",
+            "Croquette extraordinaire"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "marmite-falkheim",
+      "name": "Marmite Falkheim",
+      "subtitle": "Cuisine de Falkheim",
+      "icon": "🟣",
+      "base": "Cooking Pot vanilla",
+      "realm": "Falkheim",
+      "flag": "assets/images/royaumes/drapeaux/falkheim.webp",
+      "description": "Marmite dédiée aux recettes finales de Falkheim. Elle contient aussi les recettes communes retravaillées accessibles dans les six Marmites.",
+      "groups": [
+        {
+          "title": "Spécialités de Falkheim",
+          "items": [
+            "Gruau du Jarl",
+            "Poisson fumé des Fjords",
+            "Ragoût des Fjords",
+            "Plaquebière du Skald"
+          ]
+        },
+        {
+          "title": "Recettes communes aux six Marmites",
+          "items": [
+            "Soupe du Désert",
+            "Curry des Neiges",
+            "Bouillon du Plongeur",
+            "Ragoût d’Endurance",
+            "Chili du Stratège",
+            "Bouillon du Mirage",
+            "Tartare de Guerre",
+            "Steak des Ombres",
+            "Gâteau du Jardin",
+            "Bouillon de Sagesse",
+            "Sushi aux algues",
+            "Friandise d’Hélicoprion",
+            "Croquette basique",
+            "Croquette simple",
+            "Croquette standard",
+            "Croquette supérieure",
+            "Croquette exceptionnelle",
+            "Croquette extraordinaire"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "marmite-shintai",
+      "name": "Marmite Shintai",
+      "subtitle": "Cuisine de Shintai",
+      "icon": "🔴",
+      "base": "Cooking Pot vanilla",
+      "realm": "Shintai",
+      "flag": "assets/images/royaumes/drapeaux/shintai.webp",
+      "description": "Marmite dédiée aux recettes finales de Shintai. Elle contient aussi les recettes communes retravaillées accessibles dans les six Marmites.",
+      "groups": [
+        {
+          "title": "Spécialités de Shintai",
+          "items": [
+            "Bol de riz au poisson",
+            "Bouillon de soja",
+            "Thé shiso-menthe",
+            "Nigiri abyssal"
+          ]
+        },
+        {
+          "title": "Recettes communes aux six Marmites",
+          "items": [
+            "Soupe du Désert",
+            "Curry des Neiges",
+            "Bouillon du Plongeur",
+            "Ragoût d’Endurance",
+            "Chili du Stratège",
+            "Bouillon du Mirage",
+            "Tartare de Guerre",
+            "Steak des Ombres",
+            "Gâteau du Jardin",
+            "Bouillon de Sagesse",
+            "Sushi aux algues",
+            "Friandise d’Hélicoprion",
+            "Croquette basique",
+            "Croquette simple",
+            "Croquette standard",
+            "Croquette supérieure",
+            "Croquette exceptionnelle",
+            "Croquette extraordinaire"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "marmite-vanloria",
+      "name": "Marmite Vanloria",
+      "subtitle": "Cuisine de Vanloria",
+      "icon": "🔵",
+      "base": "Cooking Pot vanilla",
+      "realm": "Vanloria",
+      "flag": "assets/images/royaumes/drapeaux/vanloria.webp",
+      "description": "Marmite dédiée aux recettes finales de Vanloria. Elle contient aussi les recettes communes retravaillées accessibles dans les six Marmites.",
+      "groups": [
+        {
+          "title": "Spécialités de Vanloria",
+          "items": [
+            "Biscuit de marche",
+            "Lait d’avoine miellé",
+            "Tourte du Bastion",
+            "Infusion du Lys bleu"
+          ]
+        },
+        {
+          "title": "Recettes communes aux six Marmites",
+          "items": [
+            "Soupe du Désert",
+            "Curry des Neiges",
+            "Bouillon du Plongeur",
+            "Ragoût d’Endurance",
+            "Chili du Stratège",
+            "Bouillon du Mirage",
+            "Tartare de Guerre",
+            "Steak des Ombres",
+            "Gâteau du Jardin",
+            "Bouillon de Sagesse",
+            "Sushi aux algues",
+            "Friandise d’Hélicoprion",
+            "Croquette basique",
+            "Croquette simple",
+            "Croquette standard",
+            "Croquette supérieure",
+            "Croquette exceptionnelle",
+            "Croquette extraordinaire"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "marmite-nerethis",
+      "name": "Marmite Nerethis",
+      "subtitle": "Cuisine de Nerethis",
+      "icon": "🟡",
+      "base": "Cooking Pot vanilla",
+      "realm": "Nerethis",
+      "flag": "assets/images/royaumes/drapeaux/nerethis.webp",
+      "description": "Marmite dédiée aux recettes finales de Nerethis. Elle contient aussi les recettes communes retravaillées accessibles dans les six Marmites.",
+      "groups": [
+        {
+          "title": "Spécialités de Nerethis",
+          "items": [
+            "Mélasse",
+            "Brochettes du Boucanier",
+            "Poisson laqué du Corsaire",
+            "Crème brûlée du Cap",
+            "Rhum des Mers"
+          ]
+        },
+        {
+          "title": "Recettes communes aux six Marmites",
+          "items": [
+            "Soupe du Désert",
+            "Curry des Neiges",
+            "Bouillon du Plongeur",
+            "Ragoût d’Endurance",
+            "Chili du Stratège",
+            "Bouillon du Mirage",
+            "Tartare de Guerre",
+            "Steak des Ombres",
+            "Gâteau du Jardin",
+            "Bouillon de Sagesse",
+            "Sushi aux algues",
+            "Friandise d’Hélicoprion",
+            "Croquette basique",
+            "Croquette simple",
+            "Croquette standard",
+            "Croquette supérieure",
+            "Croquette exceptionnelle",
+            "Croquette extraordinaire"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "marmite-erythros",
+      "name": "Marmite Erythros",
+      "subtitle": "Cuisine de Erythros",
+      "icon": "🩵",
+      "base": "Cooking Pot vanilla",
+      "realm": "Erythros",
+      "flag": "assets/images/royaumes/drapeaux/erythros.webp",
+      "description": "Marmite dédiée aux recettes finales de Erythros. Elle contient aussi les recettes communes retravaillées accessibles dans les six Marmites.",
+      "groups": [
+        {
+          "title": "Spécialités de Erythros",
+          "items": [
+            "Agneau aux figues d’Erythros",
+            "Poisson des Cyclades",
+            "Pain aux figues de l’Agora",
+            "Vin épicé du Symposium"
+          ]
+        },
+        {
+          "title": "Recettes communes aux six Marmites",
+          "items": [
+            "Soupe du Désert",
+            "Curry des Neiges",
+            "Bouillon du Plongeur",
+            "Ragoût d’Endurance",
+            "Chili du Stratège",
+            "Bouillon du Mirage",
+            "Tartare de Guerre",
+            "Steak des Ombres",
+            "Gâteau du Jardin",
+            "Bouillon de Sagesse",
+            "Sushi aux algues",
+            "Friandise d’Hélicoprion",
+            "Croquette basique",
+            "Croquette simple",
+            "Croquette standard",
+            "Croquette supérieure",
+            "Croquette exceptionnelle",
+            "Croquette extraordinaire"
+          ]
         }
       ]
     }

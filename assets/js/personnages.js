@@ -6,7 +6,28 @@ function byId(id){return DB.characters.find(c=>c.id===id)}
 function statusLabel(c){return DB.statusLegend[c.status]||c.status}
 function statusEmoji(c){return DB.statusEmoji[c.status]||'•'}
 function relationText(r){const target=r.target?byId(r.target):null;return `${target?target.name+' — ':''}${r.label}`}
-function matches(c,q){return !q||[c.name,c.role,c.job,c.religion,c.summary,...(c.notable||[])].join(' ').toLowerCase().includes(q)}
+function matches(c,q){return !q||[c.name,c.role,c.job,c.religion,c.summary,c.qualities,c.hobbies,...(c.notable||[])].join(' ').toLowerCase().includes(q)}
+
+function featuredCard(c){
+  const flag=`../assets/images/royaumes/drapeaux/${c.realm.toLowerCase()}.webp`;
+  return `<article class="featured-character realm-${esc(c.realm.toLowerCase())}">
+    <div class="featured-flag"><img src="${flag}" alt="Drapeau de ${esc(c.realm)}" loading="lazy"></div>
+    <div class="featured-copy">
+      <small>${esc(c.realm)} · ${esc(c.role||c.job||'Personnage')}</small>
+      <h3>${esc(c.name)}</h3>
+      <p>${esc(c.summary||'Présentation à compléter.')}</p>
+      <button class="details-btn featured-details" data-id="${esc(c.id)}" type="button">Lire sa fiche RP →</button>
+    </div>
+  </article>`;
+}
+function renderFeatured(){
+  const host=document.querySelector('#featuredCharacters');if(!host)return;
+  const ids=DB.featuredCharacters||[];
+  const chars=ids.map(byId).filter(c=>c&&c.status==='vivant').slice(0,3);
+  host.innerHTML=chars.map(featuredCard).join('');
+  host.querySelectorAll('.details-btn').forEach(btn=>btn.addEventListener('click',()=>openCharacter(btn.dataset.id)));
+}
+
 function activeCard(c){
   const notes=(c.notable||[]).slice(0,3).map(x=>`<span>${esc(x)}</span>`).join('');
   const relCount=(c.relations||[]).length;
@@ -88,7 +109,7 @@ function openCharacter(id){
     <div class="modal-kicker">${esc(c.realm)} · ${statusEmoji(c)} ${esc(statusLabel(c))}</div>
     <div class="modal-title-row"><div><h2>${esc(c.name)}</h2>${c.role?`<div class="modal-role">${esc(c.role)}${leaderMark}</div>`:''}</div></div>
     <div class="modal-era-label">Nouveau Monde · situation actuelle</div>
-    <div class="modal-grid"><div class="info"><span>Statut actuel</span>${statusEmoji(c)} ${esc(statusLabel(c))}</div><div class="info"><span>Royaume actuel</span>${esc(c.realm)}</div><div class="info"><span>Âge</span>${esc(c.age?c.age+' ans':'Non publié')}</div><div class="info"><span>Métier actuel</span>${esc(c.job||'Non publié')}</div><div class="info"><span>Religion</span>${esc(c.religion||'Non publiée')}</div></div>
+    <div class="modal-grid"><div class="info"><span>Statut actuel</span>${statusEmoji(c)} ${esc(statusLabel(c))}</div><div class="info"><span>Royaume actuel</span>${esc(c.realm)}</div><div class="info"><span>Âge</span>${esc(c.age?c.age+' ans':'Non publié')}</div><div class="info"><span>Métier actuel</span>${esc(c.job||'Non publié')}</div><div class="info"><span>Religion</span>${esc(c.religion||'Non publiée')}</div>${c.qualities?`<div class="info"><span>Qualités / défauts</span>${esc(c.qualities)}</div>`:''}${c.hobbies?`<div class="info"><span>Hobbies</span>${esc(c.hobbies)}</div>`:''}</div>
     <section class="modal-section current-situation"><h3>Situation actuelle dans le Nouveau Monde</h3><p>${esc(c.summary||'À compléter.')}</p></section>
     ${notes}${relations}${history}${recent}
   </article>`;
@@ -106,6 +127,7 @@ async function boot(){
   document.querySelector('#search').addEventListener('input',render);document.querySelector('#status').addEventListener('change',render);
   document.querySelector('#closeModal').addEventListener('click',()=>document.querySelector('#characterModal').close());
   document.querySelector('#characterModal').addEventListener('click',e=>{if(e.target===e.currentTarget)e.currentTarget.close()});
+  renderFeatured();
   render();
 }
 boot().catch(err=>{console.error(err);document.querySelector('#directory').innerHTML='<p class="empty">Impossible de charger le registre des personnages.</p>'});

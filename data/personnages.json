@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-06",
+  "updated": "2026-09-09",
   "statusLegend": {
     "vivant": "Vivant",
     "disparu": "Porté disparu",
@@ -114,35 +114,25 @@
       "name": "Kornulf Brautson",
       "realm": "Falkheim",
       "status": "vivant",
-      "role": "",
+      "role": "Le Loup des Moissons",
       "leader": false,
-      "age": "29",
-      "religion": "Aucune déclarée",
-      "job": "Constructeur · Mercenaire",
-      "summary": "Constructeur et combattant de Falkheim, Kornulf Brautson met son savoir-faire au service du royaume et de sa famille. Membre des Brautson, il reste un homme résilient, taciturne et obstiné, prêt à reprendre les armes lorsque les siens en ont besoin.",
+      "age": "35",
+      "religion": "Culte du Gel",
+      "job": "Bâtisseur / Charpentier · Soldat",
+      "summary": "Surnommé le Loup des Moissons, Kornulf Brautson est un bâtisseur-charpentier et soldat de Falkheim. Après avoir vu son ancien monde s'effondrer, il a choisi de repartir de zéro : protéger les siens, rebâtir Falkheim pierre après pierre et apprendre de ses échecs plutôt que rechercher les honneurs.",
       "notable": [
-        "Membre de la famille Brautson"
+        "Surnommé « Le Loup des Moissons »",
+        "Entretient un lien mystérieux avec les loups",
+        "Reconstruit Falkheim sans rechercher de titre ni d’honneur",
+        "Les « frères Brautson » l’accompagnent, mais la nature exacte de leur lien reste inconnue"
       ],
-      "relations": [
-        {
-          "target": "deji-brautson",
-          "label": "Famille Brautson",
-          "type": "family"
-        },
-        {
-          "target": "bjorn-brautson",
-          "label": "Famille Brautson",
-          "type": "family"
-        },
-        {
-          "target": "ronin-brautson",
-          "label": "Famille Brautson",
-          "type": "family"
-        }
-      ],
+      "relations": [],
       "chronicle": "",
-      "history": "Runolf, le Loup des Moissons  Autrefois, le nom de Runolf, le Loup des Moissons, faisait trembler les rivages du Nord. Guerrier d'une férocité légendaire, il mena d'innombrables batailles jusqu'au jour où les forces obscures déferlèrent sur le monde. Face à cette puissance impie, même les plus grands héros plièrent, et leur défaite précipita le Cataclysme qui ravagea les royaumes. Brisé, mais jamais vaincu dans son âme, Runolf abandonna la gloire des champs de bataille pour retourner à celle des champs de blé. Il reprit le métier de ses ancêtres, cultivant une terre isolée où le sang céda sa place à la sueur, convaincu que nourrir un peuple était parfois plus noble que conquérir un royaume.  Les loups ne l'ont pourtant jamais quitté. Ils rôdent autour de sa ferme sans jamais s'en prendre à ses récoltes ni à son bétail, comme s'ils reconnaissaient en lui l'un des leurs. Certains racontent qu'il peut traverser une forêt entière escorté par une meute silencieuse, tandis que d'autres jurent avoir vu les plus sauvages des prédateurs baisser la tête devant lui. Les anciens murmurent que ce lien surnaturel rappelle celui du légendaire lord Erold et de son terrible Fenral. Est-ce un simple hasard... ou Runolf partage-t-il un lien de sang avec Erold ? Nul ne peut l'affirmer, et le guerrier lui-même ne répond jamais à cette question.\n\n1. Sa solitude n'est qu'une illusion. Deux hommes l'accompagnent partout où le destin l'appelle. Ils se présentent uniquement sous le nom des frères Brautson, sans jamais révéler lequel est l'aîné, ni même s'ils sont réellement frères. Leur parenté demeure un mystère aussi épais que les brumes des fjords, mais leur loyauté envers Runolf est absolue. Là où marche le Loup des Moissons, les Brautson ne sont jamais bien loin.  Depuis sa ferme oubliée, Runolf a prêté un serment que ni les dieux ni les hommes ne pourront briser. Il aidera son peuple à retrouver la grandeur perdue d'avant le Cataclysme. Quiconque viendra frapper à sa porte trouvera une réponse : homme d'État cherchant un champion, veuve réclamant justice ou orphelin implorant protection. Alors, Runolf reprendra sa hache, appellera les loups à ses côtés et combattra avec la même fureur qu'autrefois, jusqu'à ce que les terres du Nord retrouvent enfin leur gloire.",
-      "sheetDate": "01/08/2026"
+      "history": "Kornulf Brautson — Le Loup des Moissons\n\nAutrefois, le nom de Kornulf Brautson, surnommé le Loup des Moissons, était connu bien au-delà des frontières de Falkheim. Bâtisseur talentueux, il avait consacré une grande partie de sa vie à ériger des fortifications, des habitations et des ouvrages capables de faire prospérer son peuple. Mais les guerres qui précédèrent le Cataclysme changèrent à jamais son existence. Face aux forces obscures, Falkheim connut la défaite, et Kornulf fut contraint d'assister à la chute de tout ce pour quoi il s'était battu. Cette défaite le marqua profondément. Il porta dès lors une part de la responsabilité de cet échec sur ses propres épaules, convaincu que certaines de ses décisions et de ses erreurs avaient contribué à mener son peuple sur cette voie.",
+      "sheetDate": "09/09/2026",
+      "qualities": "Loyal et résilient / Taciturne et obstiné",
+      "hobbies": "Découvrir ses terres, la chasse et bâtir",
+      "recentHistory": "Lorsque de nouvelles terres furent découvertes après le Cataclysme, Kornulf fit alors un choix inattendu. Il ne chercha ni les honneurs, ni un titre, ni une place parmi les dirigeants. Au contraire, il décida de recommencer à zéro. Il abandonna les responsabilités qui avaient accompagné son ancienne carrière et retourna au rang de simple soldat, acceptant de servir Falkheim sans distinction. Pour lui, recommencer n'était pas une humiliation, mais une nécessité. S'il avait échoué autrefois, alors il devait repartir depuis le commencement afin de comprendre ses erreurs, apprendre de ses échecs et ne jamais les reproduire.\n\nSon marteau de bâtisseur n'était pourtant pas resté silencieux : dans ces nouvelles terres, Kornulf vit une occasion unique de reconstruire ce que la guerre et le Cataclysme avaient détruit. Il se consacra alors à rebâtir les terres de Falkheim, pierre après pierre, avec l'ambition de leur rendre leur puissance et leur gloire d'antan.\n\nLes loups, eux, n'ont jamais véritablement quitté son histoire. Depuis sa jeunesse, Kornulf entretient avec eux un lien que nul ne parvient à expliquer. Certains racontent qu'il a autrefois sauvé un louveteau blessé et que, depuis ce jour, les meutes le reconnaissent comme l'un des leurs. D'autres prétendent que cette relation est bien plus ancienne et qu'elle serait liée au sang même des Brautson. Les loups semblent étrangement attirés par Kornulf et ne manifestent envers lui ni crainte ni hostilité. Ces histoires ont naturellement alimenté une vieille rumeur : celle qui compare Kornulf au légendaire lord Erold et à son féroce compagnon Fenral. Certains vont jusqu'à affirmer que Kornulf serait un descendant d'Erold, ou qu'un lien de sang unirait leurs familles. Kornulf n'a jamais répondu à ces accusations. Peut-être ignore-t-il lui-même la vérité. Peut-être la connaît-il et préfère-t-il simplement la garder pour lui. Quoi qu'il en soit, le mystère demeure.\n\nMalgré son désir de repartir de zéro, Kornulf n'est pas seul. Deux hommes l'accompagnent depuis longtemps et se font appeler les frères Brautson. Leur nom laisse supposer une parenté avec Kornulf, mais nul ne sait exactement quelle nature les unit. Sont-ils réellement frères ? Partagent-ils le même sang ? Ou ce nom n'est-il que le symbole d'un ancien serment ? Même ceux qui les côtoient depuis des années sont incapables de le dire. Ils demeurent les compagnons les plus proches de Kornulf, partageant avec lui les dangers des terres nouvelles et participant à son immense projet de reconstruction.\n\nAujourd'hui, Kornulf n'aspire plus à devenir un grand seigneur ou un héros couvert de gloire. Il veut mériter à nouveau sa place parmi les siens. En tant que soldat, il protège ceux qui travaillent à reconstruire Falkheim. En tant que bâtisseur, il relève ses murs, ses villages et ses fortifications. Chaque pierre qu'il pose est une manière de réparer une faute passée. Chaque ouvrage achevé est une promesse faite aux générations futures. Et chaque bataille remportée lui rappelle qu'il ne combat plus pour la gloire, mais pour que son peuple ne connaisse jamais une nouvelle fois la même défaite.\n\nKornulf est un homme loyal et résilient, mais aussi taciturne et obstiné. Il parle peu de ses erreurs et encore moins de la guerre qui a détruit son ancien monde. Il refuse pourtant d'abandonner. Car dans son esprit, l'échec n'est pas une fin : c'est la preuve qu'il faut recommencer.\n\nIl a déjà vu un royaume s'effondrer. Cette fois, il bâtira celui qui lui succédera."
     },
     {
       "id": "zarade-olle",
@@ -1141,5 +1131,10 @@
       "sheetDate": ""
     }
   ],
-  "historyContext": "Les champs de situation affichés sur les cartes décrivent le Nouveau Monde. Le champ history conserve la fiche RP d'origine du joueur comme archive de son passé et de son point de départ, avant l'évolution du personnage dans le Nouveau Monde."
+  "historyContext": "Les champs de situation affichés sur les cartes décrivent le Nouveau Monde. Le champ history conserve la fiche RP d'origine du joueur comme archive de son passé et de son point de départ, avant l'évolution du personnage dans le Nouveau Monde.",
+  "featuredCharacters": [
+    "kornulf-brautson",
+    "asakura-tsubaki",
+    "buniar-maren"
+  ]
 }

@@ -32,6 +32,16 @@
     search.addEventListener('input',render);cat.addEventListener('change',render);realm.addEventListener('change',render);render();
   }
 
+
+  function stationsPage(db){
+    const directory=document.querySelector('#stationDirectory'),details=document.querySelector('#stationDetails');if(!directory||!details)return;
+    const byName=new Map(db.resources.map(r=>[r.name,r]));
+    const stationCard=s=>`<a class="station-card" href="#${esc(s.id)}"><span class="station-symbol">${s.flag?`<img src="${imgUrl(s.flag)}" alt="Drapeau de ${esc(s.realm)}">`:esc(s.icon)}</span><span><small>${esc(s.subtitle)}</small><strong>${esc(s.name)}</strong><em>${esc(s.base)}</em></span></a>`;
+    const craftCard=name=>{const r=byName.get(name);if(r){return `<a class="station-craft-card" href="${href(r.slug)}">${visual(r,'station-craft-icon')}<span><strong>${esc(name)}</strong><small>${esc(r.recipe||r.category||'Fiche disponible')}</small></span></a>`}return `<div class="station-craft-card no-link"><span class="station-craft-icon fallback">•</span><span><strong>${esc(name)}</strong><small>Composant artisanal validé — fiche détaillée à compléter.</small></span></div>`};
+    directory.innerHTML=db.stations.map(stationCard).join('');
+    details.innerHTML=db.stations.map(s=>`<section class="wiki-section station-detail" id="${esc(s.id)}"><div class="station-detail-head"><div class="station-symbol large">${s.flag?`<img src="${imgUrl(s.flag)}" alt="Drapeau de ${esc(s.realm)}">`:esc(s.icon)}</div><div><p class="overline">${esc(s.subtitle)}</p><h2>${esc(s.name)}</h2><p>${esc(s.description)}</p><small>Base technique : ${esc(s.base)}</small></div></div>${s.groups.map(g=>`<div class="station-group"><div class="station-group-title"><h3>${esc(g.title)}</h3><span>${g.items.length} recette${g.items.length>1?'s':''}</span></div><div class="station-craft-grid">${g.items.map(craftCard).join('')}</div></div>`).join('')}</section>`).join('');
+  }
+
   function news(db){
     const host=document.querySelector('#versionTimeline');if(!host)return;
     host.innerHTML=db.versions.map(v=>`<section class="version-block"><div class="version-heading"><div><span class="overline">Mise à jour publiée</span><h2>${esc(v.name)}</h2></div><span class="status-chip ${statusClass(v.status)}">${esc(v.status)}</span></div><p class="version-summary">${esc(v.summary)}</p><div class="feature-grid">${v.features.map(f=>`<article class="feature-card"><div><span class="status-chip ${statusClass(f.status)}">${esc(f.status)}</span><small>${esc(f.type)}</small></div><h3>${esc(f.name)}</h3><p>${esc(f.description)}</p></article>`).join('')}</div></section>`).join('');
@@ -52,5 +62,5 @@
     document.querySelector('#vanillaConsumables').innerHTML=e.vanillaReworked.map(x=>`<div class="vanilla-row"><span>${esc(x.source)}</span><b>→</b><strong>${esc(x.name)}</strong></div>`).join('');
   }
 
-  fetch(dataUrl).then(r=>r.json()).then(db=>{const page=document.body.dataset.wikiPage;if(page==='home')home(db);if(page==='resources')resources(db);if(page==='news')news(db);if(page==='economy')economy(db);if(page==='consumables')consumables(db)}).catch(e=>console.error(e));
+  fetch(dataUrl).then(r=>r.json()).then(db=>{const page=document.body.dataset.wikiPage;if(page==='home')home(db);if(page==='resources')resources(db);if(page==='news')news(db);if(page==='economy')economy(db);if(page==='consumables')consumables(db);if(page==='stations')stationsPage(db)}).catch(e=>console.error(e));
 })();
