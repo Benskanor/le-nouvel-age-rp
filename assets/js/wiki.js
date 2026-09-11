@@ -14,7 +14,7 @@
     document.querySelectorAll('[data-count]').forEach(el=>{const m={resources:db.resources.length,categories:db.categories.length,products:db.economy.kingdomProducts};el.textContent=m[el.dataset.count]??'—';});
     const cats=document.querySelector('#wikiCategories');
     if(cats) cats.innerHTML=db.categories.map(c=>{const n=db.resources.filter(r=>r.category===c.name).length;return `<a class="wiki-category-card" href="${new URL(`wiki/ressources/?categorie=${encodeURIComponent(c.name)}`,root)}"><span>${esc(c.icon)}</span><div><strong>${esc(c.name)}</strong><p>${esc(c.description)}</p><small>${n} fiches</small></div></a>`}).join('');
-    const v4=db.versions.find(v=>String(v.id).toLowerCase()==='v4')||db.versions[0];
+    const v4=db.versions[0];
     const feats=document.querySelector('#latestFeatures');
     if(feats&&v4) feats.innerHTML=v4.features.map(f=>`<article class="feature-card"><div><span class="status-chip ${statusClass(f.status)}">${esc(f.status)}</span><small>${esc(f.type)}</small></div><h3>${esc(f.name)}</h3><p>${esc(f.description)}</p></article>`).join('');
     const stationPreview=document.querySelector('#wikiStationPreview');

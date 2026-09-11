@@ -297,3 +297,32 @@ html:has(body.people-page),body.people-page,body.people-page main{background:#07
 body.people-page main{background-image:radial-gradient(circle at 78% 6%,rgba(214,173,89,.08),transparent 27rem),linear-gradient(180deg,#070604 0%,#0c0906 54%,#070604 100%)!important}
 body.people-page .people-archives{background:#0b0907!important;border-color:rgba(214,173,89,.24)!important;box-shadow:none!important}
 body.people-page .archive-row{background:#0e0c09!important;box-shadow:none!important}
+
+
+/* V4.7 — En-tête unique sur tout le site */
+.lna-unified-header{position:sticky;top:0;z-index:9999;height:74px;padding:0 clamp(18px,3vw,48px);display:flex;align-items:center;justify-content:space-between;gap:24px;background:rgba(8,7,5,.96);border-bottom:1px solid rgba(210,168,83,.24);backdrop-filter:blur(16px);box-shadow:0 10px 30px rgba(0,0,0,.24)}
+.lna-unified-brand{display:flex;align-items:center;gap:11px;min-width:205px;color:#f1ede2!important;text-decoration:none!important}.lna-unified-seal{width:42px;height:42px;border:1px solid #d0ad67;border-radius:50%;display:grid;place-items:center;color:#efd397;font:600 .72rem Georgia,serif;letter-spacing:.08em;background:radial-gradient(circle,#231a0d,#0b0906)}
+.lna-unified-brand strong,.lna-unified-brand small{display:block}.lna-unified-brand strong{font:500 1.08rem/1.05 Georgia,serif;color:#f1ede2}.lna-unified-brand small{margin-top:3px;color:#b59b67;font-size:.65rem!important;letter-spacing:.11em;text-transform:uppercase;white-space:nowrap}
+.lna-unified-nav{display:flex;align-items:center;justify-content:flex-end;gap:clamp(12px,1.55vw,24px);font-size:.79rem}.lna-unified-nav a{position:relative;color:#bbb7ad!important;text-decoration:none!important;white-space:nowrap;transition:.18s}.lna-unified-nav a:hover,.lna-unified-nav a.active{color:#efd397!important}.lna-unified-nav a.active:after{content:"";position:absolute;left:0;right:0;bottom:-26px;height:1px;background:#d0ad67}
+.lna-unified-mobile{display:none;position:relative}.lna-unified-mobile summary{list-style:none;cursor:pointer;border:1px solid rgba(210,168,83,.28);padding:9px 12px;color:#efd397;font-size:.8rem}.lna-unified-mobile summary::-webkit-details-marker{display:none}.lna-unified-mobile nav{position:absolute;right:0;top:48px;width:250px;padding:10px;background:#0c0a07;border:1px solid rgba(210,168,83,.28);box-shadow:0 20px 50px rgba(0,0,0,.6);display:grid}.lna-unified-mobile nav a{padding:10px;color:#cbc5b9!important;text-decoration:none!important;font-size:.82rem}.lna-unified-mobile nav a.active{color:#efd397!important;background:rgba(208,173,103,.08)}
+@media(max-width:1180px){.lna-unified-nav{display:none}.lna-unified-mobile{display:block}.lna-unified-header{height:68px}}
+
+/* V4.7 — Créer son personnage : contraste noir / doré lisible */
+.character-page{--paper:#0b0907!important;--ink:#eee8dc!important;background:#080706!important;color:#eee8dc!important}.character-intro,.character-example,.character-template,.character-rules,.character-submit,.character-warning{background:linear-gradient(180deg,#14100b,#0b0907)!important;color:#ded8cc!important;border-color:rgba(208,173,103,.30)!important;box-shadow:0 18px 44px rgba(0,0,0,.24)!important}.character-intro h2,.character-example h2,.character-template h2,.character-rules h2,.character-submit h2{color:#f3ead6!important}.character-intro p,.character-example p,.character-rules p,.character-submit p,.character-example dd,.character-template p{color:#bdb6aa!important}.character-intro small,.character-section-head small,.character-example dt,.character-rules small{color:#d1ad67!important}.character-template pre{background:#070605!important;color:#e9e2d6!important;border:1px solid rgba(208,173,103,.28)!important;box-shadow:inset 0 0 0 1px rgba(255,255,255,.015)!important;line-height:1.75!important;font-size:.94rem!important}.character-example-grid>div,.character-rule,.character-step{border-color:rgba(208,173,103,.22)!important;background:#0e0b08!important}.character-warning{border-left:3px solid #d0ad67!important}.character-page a{color:#e6c77e}.character-page .button,.character-page button{border-color:#d0ad67!important}
+
+/* V4.7 — Recettes Wiki : ingrédients cliquables */
+.recipe-resource-link{display:flex;align-items:center;justify-content:space-between;gap:10px;color:#ecd39a!important;text-decoration:none!important;font-weight:600}.recipe-resource-link:hover{color:#fff0bd!important}.recipe-resource-link span{font-size:.75rem;opacity:.8}.recipe-component:has(.recipe-resource-link){border-color:rgba(208,173,103,.34)!important;background:rgba(208,173,103,.045)!important}
+
+/* V4.7 — Stations : cartes plus régulières */
+.station-craft-card{min-height:82px!important}.station-craft-icon{overflow:hidden!important}.station-craft-icon.has-image img{max-width:48px!important;max-height:48px!important}.station-craft-card.no-link{border-style:dashed!important}.station-craft-card.no-link .fallback{color:#8b826f!important}
+
+/* V4.7b — contraste renforcé de la fiche personnage */
+.character-page :is(.character-intro,.character-example,.character-template,.character-rules,.character-final,.character-cataclysm){background:linear-gradient(180deg,#15100b,#0a0806)!important;color:#e7dfd2!important;border-color:rgba(208,173,103,.30)!important}
+.character-page :is(.character-intro,.character-example,.character-template,.character-rules,.character-final,.character-cataclysm) :is(h1,h2,h3,strong){color:#f2eadb!important}
+.character-page :is(.character-intro,.character-example,.character-template,.character-rules,.character-final,.character-cataclysm) :is(p,li,dd){color:#c6beb1!important}
+.character-page .example-grid>div{background:#0e0b08!important;border-color:rgba(208,173,103,.24)!important;color:#e8e0d3!important}
+.character-page .example-grid dt{color:#d8b66e!important}.character-page .example-grid dd{color:#c7bfb2!important}
+.character-page .character-links a{background:#0d0a07!important;border:1px solid rgba(208,173,103,.30)!important;color:#ead29a!important}
+.character-page .character-links a:hover{background:#1a140d!important;border-color:#d0ad67!important}
+.character-page .character-copy{background:#d0ad67!important;color:#17120b!important;border-color:#d0ad67!important}.character-page .character-copy:hover{background:#efd397!important}
+.character-page .character-cataclysm{box-shadow:inset 3px 0 0 #d0ad67!important}

@@ -10,6 +10,11 @@
   const imgUrl = path => path ? new URL(path, root).href : '';
   const articleUrl = id => new URL(`wiki/ressources/${id}/`, root).href;
   const initials = name => String(name || 'LNA').split(/\s+/).filter(Boolean).slice(0,2).map(x=>x[0]).join('').toUpperCase();
+  const normalizeName = value => String(value || '').normalize('NFD').replace(/[\u0300-\u036f]/g,'').toLowerCase().replace(/[’`]/g,"'").replace(/\[[^\]]+\]/g,' ').replace(/^\s*\d+(?:[\.,]\d+)?\s*[x×]\s*/i,'').replace(/\s+/g,' ').trim().replace(/[ .:;-]+$/g,'');
+  const ingredientAlias = new Map([
+    ['bol','bol en bois'],['assiette','assiette en bois'],['chope','chope en bois'],['brochette','brochette en bois'],
+    ['caisse','caisse alimentaire'],['caisse / contenant bois','caisse alimentaire'],['flacon','flacon renforcé']
+  ]);
 
   const recipeParts = recipe => {
     if (!has(recipe)) return [];
@@ -33,6 +38,16 @@
     const item = db.resources.find(x => x.slug === slug);
     if (!item) throw new Error(`Ressource inconnue : ${slug}`);
     const tech = item.technical || {};
+    const resourceByName = new Map(db.resources.map(r => [normalizeName(r.name), r]));
+    const linkedRecipePart = part => {
+      const clean = normalizeName(String(part).replace(/\s*→.*$/,''));
+      const alias = ingredientAlias.get(clean);
+      const target = resourceByName.get(alias || clean);
+      const label = esc(part);
+      return target && target.slug !== item.slug
+        ? `<a class="recipe-resource-link" href="${articleUrl(target.slug)}">${label}<span>↗</span></a>`
+        : `<strong>${label}</strong>`;
+    };
 
     document.title = `${item.name} | Wiki Le Nouvel Âge RP`;
     $('#resourceTitle').textContent = item.name;
@@ -51,7 +66,7 @@
     $('#craftTime').innerHTML = text(item.craftTime);
     const parts = recipeParts(item.recipe);
     $('#recipeComponents').innerHTML = parts.length
-      ? parts.map((part, i) => `<div class="recipe-component"><span>${i+1}</span><strong>${esc(part)}</strong></div>`).join('')
+      ? parts.map((part, i) => `<div class="recipe-component"><span>${i+1}</span>${linkedRecipePart(part)}</div>`).join('')
       : '<div class="wiki-empty">Aucune recette documentée.</div>';
     $('#obtentionText').innerHTML = `<strong>Obtention :</strong> ${text(item.obtention)}`;
 

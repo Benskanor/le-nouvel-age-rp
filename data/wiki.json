@@ -1,14 +1,14 @@
 {
   "meta": {
     "title": "Wiki officiel — Le Nouvel Âge RP",
-    "updated": "2026-09-09",
+    "updated": "2026-09-11",
     "description": "Documentation V4.1 synchronisée : 129 fiches couvrant agriculture, transformations, viande, pêche, alchimie, consommables de royaume et remaps vanilla.",
     "notice": "Les informations affichées proviennent du Guide maître V4.1 du 8 septembre 2026. Les champs absents restent indiqués comme non documentés."
   },
   "economy": {
-    "kingdomProducts": 53,
+    "kingdomProducts": 55,
     "transformedProducts": 24,
-    "kingdomConsumables": 29,
+    "kingdomConsumables": 31,
     "craftStructures": 10,
     "commonStations": [
       {
@@ -567,6 +567,24 @@
         "craftTime": "75 s",
         "spoil": "4 h",
         "trade": "Nerethis + Asharun ; catalyseurs : Serre d’Argentavis et Voile de Spinosaure."
+      },
+      {
+        "name": "Cuisse de Dodo de Freddo",
+        "realm": "Falkheim",
+        "version": "10/09/2026",
+        "station": "Marmite Falkheim",
+        "trade": "Recette exacte à documenter.",
+        "description": "Plat de Falkheim conçu avant tout pour permettre de survivre au froid glacial des montagnes enneigées.",
+        "image": "assets/images/wiki/icon_fal_cuissedodofreddo_01.webp"
+      },
+      {
+        "name": "Côtelettes Bouns",
+        "realm": "Falkheim",
+        "version": "10/09/2026",
+        "station": "Marmite Falkheim",
+        "trade": "Recette exacte à documenter.",
+        "description": "Second plat utilitaire de Falkheim, pensé comme un consommable de combat à effet puissant mais accompagné d’un contre-coup important.",
+        "image": "assets/images/wiki/icon_fal_cotelettesbouns_01.webp"
       }
     ],
     "vanillaReworked": [
@@ -637,12 +655,6 @@
         "recipe": "10× Algues d’Archelon + 3× Riz + 2× Filet de poisson blanc + 1× Sauce soja + 1× Shiso séché + 1× Vinaigre de raisin + 1× Sel marin"
       },
       {
-        "source": "Little Ratfish Treats",
-        "name": "Friandise d’Hélicoprion",
-        "station": "6 Marmites de royaume",
-        "recipe": "4× Filet de poisson gras + 2× Œufs de poisson + 1× Chair abyssale + 2× Gélatine de poisson + 3× Miel + 2× Mélasse + 1× Sauce soja + 1× Sel marin + 3× Bile d’Ammonite"
-      },
-      {
         "source": "Medical Brew",
         "name": "Élixir médicinal",
         "station": "Mortier et Pilon LNA",
@@ -677,18 +689,6 @@
         "name": "Savon artisanal",
         "station": "Mortier et Pilon LNA",
         "recipe": "1× Graisse animale + 1× Huile d’olive + 1× Essence de lavande + 1× Base antiseptique + 1× Sel marin + 10× Sève + Eau"
-      },
-      {
-        "source": "Beer Liquid",
-        "name": "Bière brassée",
-        "station": "Tonneau LNA",
-        "recipe": "2× Malt d’orge + 1× Houblon séché + 1× Levure de Plaquebière + 1× Mélasse + 1× Moût de raisin + Eau"
-      },
-      {
-        "source": "Oil",
-        "name": "Huile raffinée",
-        "station": "Mortier LNA",
-        "recipe": "2× Huile d’olive + 1× Huile de poisson + 2× Olive → 3× Oil vanilla/remappée"
       },
       {
         "source": "Basic Kibble",
@@ -811,6 +811,11 @@
       "name": "Vanilla retravaillé",
       "icon": "📜",
       "description": "Plats, remèdes, fermentations et croquettes vanilla remappés dans l’économie LNA."
+    },
+    {
+      "name": "Artisanat",
+      "icon": "🛠️",
+      "description": "Contenants et composants produits par le Menuisier et le Forgeron dans l’Atelier LNA."
     }
   ],
   "resources": [
@@ -1273,8 +1278,7 @@
       "obtention": "Culture territoriale de Erythros.",
       "uses": [
         "Entre dans la fabrication de Huile d’olive",
-        "Entre dans la fabrication de Poisson des Cyclades",
-        "Entre dans la fabrication de Huile raffinée"
+        "Entre dans la fabrication de Poisson des Cyclades"
       ],
       "station": "—",
       "recipe": "—",
@@ -1287,8 +1291,7 @@
       "ingredientSlugs": [],
       "usedInSlugs": [
         "huile-dolive",
-        "poisson-des-cyclades",
-        "huile-raffinee"
+        "poisson-des-cyclades"
       ]
     },
     {
@@ -1529,7 +1532,6 @@
         "rhum-des-mers",
         "ragout-dendurance",
         "elixir-dendurance",
-        "biere-brassee",
         "croquette-superieure",
         "croquette-extraordinaire"
       ]
@@ -1560,8 +1562,7 @@
       ],
       "usedInSlugs": [
         "poisson-fume-des-fjords",
-        "plaquebiere-du-skald",
-        "biere-brassee"
+        "plaquebiere-du-skald"
       ]
     },
     {
@@ -1592,8 +1593,7 @@
       "usedInSlugs": [
         "plaquebiere-du-skald",
         "pain-aux-figues-de-lagora",
-        "gateau-du-jardin",
-        "biere-brassee"
+        "gateau-du-jardin"
       ]
     },
     {
@@ -1659,7 +1659,6 @@
         "chili-du-stratege",
         "tartare-de-guerre",
         "sushi-aux-algues",
-        "friandise-dhelicoprion",
         "decoction-fongique",
         "croquette-standard",
         "croquette-extraordinaire"
@@ -1921,9 +1920,7 @@
         "plaquebiere-du-skald",
         "brochettes-du-boucanier",
         "poisson-laque-du-corsaire",
-        "rhum-des-mers",
-        "friandise-dhelicoprion",
-        "biere-brassee"
+        "rhum-des-mers"
       ]
     },
     {
@@ -2032,7 +2029,6 @@
         "ragout-dendurance",
         "gateau-du-jardin",
         "savon-artisanal",
-        "huile-raffinee",
         "croquette-superieure"
       ]
     },
@@ -2064,8 +2060,7 @@
         "vinaigre-de-raisin",
         "rhum-des-mers",
         "agneau-aux-figues-derythros",
-        "vin-epice-du-symposium",
-        "biere-brassee"
+        "vin-epice-du-symposium"
       ]
     },
     {
@@ -2521,8 +2516,7 @@
       "ingredientSlugs": [],
       "usedInSlugs": [
         "poisson-fume-des-fjords",
-        "poisson-laque-du-corsaire",
-        "friandise-dhelicoprion"
+        "poisson-laque-du-corsaire"
       ]
     },
     {
@@ -2552,9 +2546,7 @@
       },
       "image": "assets/images/wiki/icon_lna_oeufspoisson_01.webp",
       "ingredientSlugs": [],
-      "usedInSlugs": [
-        "friandise-dhelicoprion"
-      ]
+      "usedInSlugs": []
     },
     {
       "slug": "chair-abyssale",
@@ -2584,8 +2576,7 @@
       "image": "assets/images/wiki/icon_lna_chairabyssale_01.webp",
       "ingredientSlugs": [],
       "usedInSlugs": [
-        "nigiri-abyssal",
-        "friandise-dhelicoprion"
+        "nigiri-abyssal"
       ]
     },
     {
@@ -2763,7 +2754,6 @@
         "catalyseur-des-six-royaumes",
         "poisson-fume-des-fjords",
         "decoction-fongique",
-        "huile-raffinee",
         "croquette-exceptionnelle"
       ]
     },
@@ -2798,7 +2788,6 @@
         "baume-de-grenade",
         "bouillon-de-soja",
         "bouillon-du-plongeur",
-        "friandise-dhelicoprion",
         "elixir-medicinal",
         "croquette-extraordinaire"
       ]
@@ -2841,7 +2830,6 @@
         "brochettes-du-boucanier",
         "poisson-des-cyclades",
         "sushi-aux-algues",
-        "friandise-dhelicoprion",
         "savon-artisanal",
         "croquette-standard"
       ]
@@ -3002,7 +2990,8 @@
         "essence-de-lavande",
         "melasse",
         "huile-dolive",
-        "huile-de-poisson"
+        "huile-de-poisson",
+        "flacon-renforce"
       ],
       "usedInSlugs": [
         "antidote-mineur"
@@ -3090,6 +3079,7 @@
       "image": "assets/images/wiki/icon_ash_brochetteepicee_01.webp",
       "iconReference": "ASH/Icon_ASH_BrochettesEpicees_01.png",
       "ingredientSlugs": [
+        "brochette-en-bois",
         "viande-retravaillee-cuite",
         "epice-raffinee",
         "sirop-de-grenade",
@@ -3275,6 +3265,7 @@
       "buffName": "Vigueur des caravanes",
       "buffDescription": "Isolation chaleur +120. Consommation d'eau -35 %. Poids maximum +15 %.",
       "ingredientSlugs": [
+        "bol-en-bois",
         "melon",
         "menthe-sechee",
         "melasse",
@@ -3325,6 +3316,7 @@
       "buffName": "Veille infatigable",
       "buffDescription": "Régénération d'endurance +2/s. Torpeur -0,25/s.",
       "ingredientSlugs": [
+        "chope-en-bois",
         "menthe-sechee",
         "gingembre-seche",
         "citronal",
@@ -3426,6 +3418,7 @@
       "buffName": "Vitalité écarlate",
       "buffDescription": "Isolation chaleur +80. Isolation froid +80. Santé +1/s. Endurance +1,5/s. Torpeur -0,20/s.",
       "ingredientSlugs": [
+        "flacon-renforce",
         "sirop-de-grenade",
         "extrait-stimulant",
         "gingembre-seche",
@@ -3562,6 +3555,7 @@
       "buffName": "Robustesse des Fjords",
       "buffDescription": "Isolation froid +100. Consommation de nourriture -30 %. Santé +0,5/s.",
       "ingredientSlugs": [
+        "bol-en-bois",
         "viande-retravaillee-cuite",
         "moelle-animale",
         "farine-dorge",
@@ -3612,6 +3606,7 @@
       "buffName": "Chaleur du Skald",
       "buffDescription": "Isolation froid +70. Régénération d'endurance +1,25/s. Consommation d'eau +10 %.",
       "ingredientSlugs": [
+        "chope-en-bois",
         "malt-dorge",
         "houblon-seche",
         "levure-de-plaquebiere",
@@ -3658,6 +3653,7 @@
       "image": "assets/images/wiki/icon_shi_bolrizpoisson_01.webp",
       "iconReference": "SHI/Icon_SHI_BolRizPoisson_01.png",
       "ingredientSlugs": [
+        "bol-en-bois",
         "riz",
         "filet-de-poisson-blanc",
         "sauce-soja",
@@ -3703,6 +3699,7 @@
       "image": "assets/images/wiki/icon_shi_bouillonsoja_01.webp",
       "iconReference": "SHI/Icon_SHI_BouillonSoja_01.png",
       "ingredientSlugs": [
+        "bol-en-bois",
         "pate-de-soja",
         "sauce-soja",
         "shiso-seche",
@@ -3755,6 +3752,7 @@
       "buffName": "Clarté de Shintai",
       "buffDescription": "Régénération d'endurance +1,5/s. Torpeur -0,30/s. Consommation d'eau -15 %.",
       "ingredientSlugs": [
+        "chope-en-bois",
         "shiso-seche",
         "menthe-sechee",
         "sirop-de-grenade",
@@ -3808,6 +3806,7 @@
       "buffName": "Souffle abyssal",
       "buffDescription": "Consommation d'oxygène sous l'eau -60 %. Régénération d'endurance +0,5/s.",
       "ingredientSlugs": [
+        "assiette-en-bois",
         "riz",
         "chair-abyssale",
         "sauce-soja",
@@ -3898,6 +3897,7 @@
       "image": "assets/images/wiki/icon_van_laitavoinemiel_01.webp",
       "iconReference": "VAN/Icon_VAN_LaitAvoineMielle_01.png",
       "ingredientSlugs": [
+        "chope-en-bois",
         "flocons-davoine",
         "extrait-de-vanille",
         "sucre-brut"
@@ -3941,6 +3941,7 @@
       "image": "assets/images/wiki/icon_van_tourtebastion_01.webp",
       "iconReference": "VAN/Icon_VAN_TourteBastion_01.png",
       "ingredientSlugs": [
+        "assiette-en-bois",
         "viande-hachee",
         "graisse-animale",
         "flocons-davoine",
@@ -3991,6 +3992,7 @@
       "buffName": "Sérénité du Lys",
       "buffDescription": "Isolation chaleur +60. Isolation froid +60. Santé +0,75/s. Torpeur -0,20/s.",
       "ingredientSlugs": [
+        "chope-en-bois",
         "essence-de-lavande",
         "menthe-sechee",
         "sirop-de-grenade",
@@ -4039,6 +4041,7 @@
       "image": "assets/images/wiki/icon_ner_brochettesboucanier_01.webp",
       "iconReference": "NER/Icon_NER_BrochettesBoucanier_01.png",
       "ingredientSlugs": [
+        "brochette-en-bois",
         "viande-retravaillee-cuite",
         "graisse-animale",
         "melasse",
@@ -4085,6 +4088,7 @@
       "image": "assets/images/wiki/icon_ner_poissonlaquecorsaire_01.webp",
       "iconReference": "NER/Icon_NER_PoissonLaqueCorsaire_01.png",
       "ingredientSlugs": [
+        "assiette-en-bois",
         "filet-de-poisson-gras",
         "melasse",
         "gingembre-seche",
@@ -4131,6 +4135,7 @@
       "image": "assets/images/wiki/icon_ner_cremebruleecap_01.webp",
       "iconReference": "NER/Icon_NER_CremeBruleeCap_01.png",
       "ingredientSlugs": [
+        "bol-en-bois",
         "sucre-brut",
         "extrait-de-vanille",
         "citronal",
@@ -4180,6 +4185,7 @@
       "buffName": "Chaleur du Corsaire",
       "buffDescription": "Isolation froid +80. Régénération d'endurance +1/s. Consommation d'eau +20 %.",
       "ingredientSlugs": [
+        "chope-en-bois",
         "melasse",
         "malt-dorge",
         "mout-de-raisin",
@@ -4367,6 +4373,7 @@
       "buffName": "Faveur du Symposium",
       "buffDescription": "Isolation chaleur +60. Isolation froid +60. Consommation de nourriture -25 %. Régénération d'endurance +0,75/s.",
       "ingredientSlugs": [
+        "chope-en-bois",
         "mout-de-raisin",
         "gingembre-seche",
         "extrait-de-vanille",
@@ -4425,7 +4432,11 @@
         "soupe-du-desert",
         "bouillon-du-plongeur",
         "chili-du-stratege",
-        "bouillon-du-mirage"
+        "bouillon-du-mirage",
+        "gateau-du-jardin",
+        "elixir-medicinal",
+        "elixir-dendurance",
+        "croquette-simple"
       ]
     },
     {
@@ -4450,6 +4461,7 @@
       "slug": "soupe-du-desert",
       "icon": "LNA",
       "ingredientSlugs": [
+        "bol-en-bois",
         "melon",
         "citronal",
         "sirop-de-grenade",
@@ -4484,6 +4496,7 @@
       "slug": "curry-des-neiges",
       "icon": "LNA",
       "ingredientSlugs": [
+        "bol-en-bois",
         "farine-dorge",
         "pate-de-soja",
         "epice-raffinee",
@@ -4516,6 +4529,7 @@
       "slug": "bouillon-du-plongeur",
       "icon": "LNA",
       "ingredientSlugs": [
+        "bol-en-bois",
         "filet-de-poisson-blanc",
         "gelatine-de-poisson",
         "citronal",
@@ -4550,6 +4564,7 @@
       "slug": "ragout-dendurance",
       "icon": "LNA",
       "ingredientSlugs": [
+        "bol-en-bois",
         "viande-retravaillee-cuite",
         "moelle-animale",
         "flocons-davoine",
@@ -4584,6 +4599,7 @@
       "slug": "chili-du-stratege",
       "icon": "LNA",
       "ingredientSlugs": [
+        "bol-en-bois",
         "viande-hachee",
         "graisse-animale",
         "citronal",
@@ -4618,6 +4634,7 @@
       "slug": "bouillon-du-mirage",
       "icon": "LNA",
       "ingredientSlugs": [
+        "bol-en-bois",
         "citronal",
         "sirop-de-grenade",
         "menthe-sechee",
@@ -4652,6 +4669,7 @@
       "slug": "tartare-de-guerre",
       "icon": "LNA",
       "ingredientSlugs": [
+        "assiette-en-bois",
         "viande-superieure-retravaillee",
         "plaquebiere-du-skald",
         "sauce-soja",
@@ -4686,6 +4704,7 @@
       "slug": "steak-des-ombres",
       "icon": "LNA",
       "ingredientSlugs": [
+        "assiette-en-bois",
         "viande-superieure-retravaillee-cuite",
         "moelle-animale",
         "the-shiso-menthe",
@@ -4754,6 +4773,7 @@
       "slug": "bouillon-de-sagesse",
       "icon": "LNA",
       "ingredientSlugs": [
+        "bol-en-bois",
         "moelle-animale",
         "bouillon-de-soja",
         "infusion-du-lys-bleu",
@@ -4803,46 +4823,6 @@
       "image": "https://ark.wiki.gg/wiki/Special:Redirect/file/Algae_Sushi.png",
       "imageSource": "Icône ARK de référence — Studio Wildcard / ARK Official Community Wiki",
       "imageReference": "https://ark.wiki.gg/wiki/File:Algae_Sushi.png"
-    },
-    {
-      "name": "Friandise d’Hélicoprion",
-      "category": "Vanilla retravaillé",
-      "realm": "Commun",
-      "version": "V4.1",
-      "status": "Remap V4.1",
-      "description": "Friandise marine spécialement préparée pour apprivoiser l’Hélicoprion.",
-      "sourceVanilla": "Little Ratfish Treats",
-      "obtention": "Fabriqué dans une station LNA selon la recette remappée.",
-      "uses": [
-        "Remplace le consommable vanilla correspondant dans l’économie LNA."
-      ],
-      "technical": {
-        "sourceVanilla": "Little Ratfish Treats",
-        "integration": "PrimalItem LNA enfant du source + EngramEntry LNA enfant lorsque le source possède un Engram ; Remap Items / Remap Engrams selon le cas.",
-        "engram": "EngramEntry LNA enfant de l’Engram source ; niveau/EP hérités sauf équilibrage ultérieur.",
-        "primalItem": "PrimalItemConsumable_LNA_LittleRatfishTreats_01",
-        "engramClass": "EngramEntry_LNA_LittleRatfishTreats_01"
-      },
-      "station": "6 Marmites de royaume",
-      "recipe": "4× Filet de poisson gras + 2× Œufs de poisson + 1× Chair abyssale + 2× Gélatine de poisson + 3× Miel + 2× Mélasse + 1× Sauce soja + 1× Sel marin + 3× Bile d’Ammonite",
-      "effect": "Effet/taming Hélicoprion d’origine",
-      "levelRef": 91,
-      "epRef": 25,
-      "slug": "friandise-dhelicoprion",
-      "icon": "LNA",
-      "ingredientSlugs": [
-        "filet-de-poisson-gras",
-        "ufs-de-poisson",
-        "chair-abyssale",
-        "gelatine-de-poisson",
-        "melasse",
-        "sauce-soja",
-        "sel-marin"
-      ],
-      "usedInSlugs": [],
-      "image": "https://ark.wiki.gg/wiki/Special:Redirect/file/Mod_Additions_Ascended_Little_Ratfish_Treats!.png",
-      "imageSource": "Icône ARK de référence — Studio Wildcard / ARK Official Community Wiki",
-      "imageReference": "https://ark.wiki.gg/wiki/File:Mod_Additions_Ascended_Little_Ratfish_Treats!.png"
     },
     {
       "name": "Élixir médicinal",
@@ -4932,6 +4912,7 @@
       "slug": "antidote-mineur",
       "icon": "LNA",
       "ingredientSlugs": [
+        "flacon-renforce",
         "base-antiseptique",
         "catalyseur-des-six-royaumes",
         "menthe-sechee",
@@ -4965,6 +4946,7 @@
       "slug": "decoction-fongique",
       "icon": "LNA",
       "ingredientSlugs": [
+        "flacon-renforce",
         "concentre-narcotique",
         "sauce-soja",
         "vinaigre-de-raisin",
@@ -4998,6 +4980,7 @@
       "slug": "tonique-doubli",
       "icon": "LNA",
       "ingredientSlugs": [
+        "flacon-renforce",
         "extrait-medicinal",
         "extrait-stimulant",
         "concentre-narcotique",
@@ -5042,68 +5025,6 @@
       "image": "https://ark.wiki.gg/wiki/Special:Redirect/file/Soap.png",
       "imageSource": "Icône ARK de référence — Studio Wildcard / ARK Official Community Wiki",
       "imageReference": "https://ark.wiki.gg/wiki/File:Soap.png"
-    },
-    {
-      "name": "Bière brassée",
-      "category": "Vanilla retravaillé",
-      "realm": "Commun",
-      "version": "V4.1",
-      "status": "Remap V4.1",
-      "description": "Liquide fermenté servant de base aux préparations de bière et aux usages nécessitant de la bière vanilla.",
-      "sourceVanilla": "Beer Liquid",
-      "obtention": "Fabriqué dans une station LNA selon la recette remappée.",
-      "uses": [
-        "Remplace le consommable vanilla correspondant dans l’économie LNA."
-      ],
-      "technical": {
-        "sourceVanilla": "Beer Liquid",
-        "integration": "PrimalItem LNA enfant du source + EngramEntry LNA enfant lorsque le source possède un Engram ; Remap Items / Remap Engrams selon le cas."
-      },
-      "station": "Tonneau LNA",
-      "recipe": "2× Malt d’orge + 1× Houblon séché + 1× Levure de Plaquebière + 1× Mélasse + 1× Moût de raisin + Eau",
-      "slug": "biere-brassee",
-      "icon": "LNA",
-      "ingredientSlugs": [
-        "malt-dorge",
-        "houblon-seche",
-        "levure-de-plaquebiere",
-        "melasse",
-        "mout-de-raisin"
-      ],
-      "usedInSlugs": [],
-      "image": "https://ark.wiki.gg/wiki/Special:Redirect/file/Beer_Jar.png",
-      "imageSource": "Icône ARK de référence — Studio Wildcard / ARK Official Community Wiki",
-      "imageReference": "https://ark.wiki.gg/wiki/File:Beer_Jar.png"
-    },
-    {
-      "name": "Huile raffinée",
-      "category": "Vanilla retravaillé",
-      "realm": "Commun",
-      "version": "V4.1",
-      "status": "Remap V4.1",
-      "description": "Huile commune raffinée à partir des nouvelles filières d’huile d’olive et de poisson.",
-      "sourceVanilla": "Oil",
-      "obtention": "Fabriqué dans une station LNA selon la recette remappée.",
-      "uses": [
-        "Remplace le consommable vanilla correspondant dans l’économie LNA."
-      ],
-      "technical": {
-        "sourceVanilla": "Oil",
-        "integration": "PrimalItem LNA enfant du source + EngramEntry LNA enfant lorsque le source possède un Engram ; Remap Items / Remap Engrams selon le cas."
-      },
-      "station": "Mortier et Pilon LNA",
-      "recipe": "2× Huile d’olive + 1× Huile de poisson + 2× Olive → 3× Oil vanilla/remappée",
-      "slug": "huile-raffinee",
-      "icon": "LNA",
-      "ingredientSlugs": [
-        "huile-dolive",
-        "huile-de-poisson",
-        "olive"
-      ],
-      "usedInSlugs": [],
-      "image": "https://ark.wiki.gg/wiki/Special:Redirect/file/Oil.png",
-      "imageSource": "Icône ARK de référence — Studio Wildcard / ARK Official Community Wiki",
-      "imageReference": "https://ark.wiki.gg/wiki/File:Oil.png"
     },
     {
       "name": "Croquette basique",
@@ -5295,9 +5216,433 @@
       "image": "https://ark.wiki.gg/wiki/Special:Redirect/file/Extraordinary_Kibble.png",
       "imageSource": "Icône ARK de référence — Studio Wildcard / ARK Official Community Wiki",
       "imageReference": "https://ark.wiki.gg/wiki/File:Extraordinary_Kibble.png"
+    },
+    {
+      "slug": "bol-en-bois",
+      "name": "Bol en bois",
+      "category": "Artisanat",
+      "realm": "Commun",
+      "version": "V4.1",
+      "status": "Référence artisanat V4.1",
+      "description": "Récipient simple façonné par un menuisier, utilisé pour servir soupes et ragoûts.",
+      "obtention": "Fabriqué par le Menuisier dans l’Atelier LNA.",
+      "uses": [
+        "Composant économique de métier",
+        "Utilisé comme ingrédient ou contenant dans des recettes LNA"
+      ],
+      "station": "Atelier LNA",
+      "recipe": "12 bois + 5 fibres",
+      "yield": 4,
+      "craftTime": "5 s",
+      "stack": 100,
+      "weight": 0.05,
+      "levelRef": 12,
+      "epRef": 1,
+      "effect": "Aucun",
+      "trade": "Production du métier Menuisier.",
+      "technical": {
+        "primalItem": "PrimalItemResource_LNA_BolBois_01",
+        "engram": "EngramEntry_LNA_BolBois_01",
+        "engramRole": "Ressource artisanale produite dans l’Atelier LNA."
+      },
+      "image": "assets/images/wiki/icon_lna_bolbois_01.webp",
+      "ingredientSlugs": [],
+      "usedInSlugs": [
+        "soupe-des-dunes",
+        "ragout-des-fjords",
+        "bol-de-riz-au-poisson",
+        "bouillon-de-soja",
+        "creme-brulee-du-cap",
+        "soupe-du-desert",
+        "curry-des-neiges",
+        "bouillon-du-plongeur",
+        "ragout-dendurance",
+        "chili-du-stratege",
+        "bouillon-du-mirage",
+        "bouillon-de-sagesse"
+      ]
+    },
+    {
+      "slug": "assiette-en-bois",
+      "name": "Assiette en bois",
+      "category": "Artisanat",
+      "realm": "Commun",
+      "version": "V4.1",
+      "status": "Référence artisanat V4.1",
+      "description": "Assiette robuste destinée aux plats préparés et aux repas de voyage.",
+      "obtention": "Fabriqué par le Menuisier dans l’Atelier LNA.",
+      "uses": [
+        "Composant économique de métier",
+        "Utilisé comme ingrédient ou contenant dans des recettes LNA"
+      ],
+      "station": "Atelier LNA",
+      "recipe": "10 bois + 4 fibres",
+      "yield": 4,
+      "craftTime": "5 s",
+      "stack": 100,
+      "weight": 0.05,
+      "levelRef": 12,
+      "epRef": 1,
+      "effect": "Aucun",
+      "trade": "Production du métier Menuisier.",
+      "technical": {
+        "primalItem": "PrimalItemResource_LNA_AssietteBois_01",
+        "engram": "EngramEntry_LNA_AssietteBois_01",
+        "engramRole": "Ressource artisanale produite dans l’Atelier LNA."
+      },
+      "image": "assets/images/wiki/icon_lna_assiettebois_01.webp",
+      "ingredientSlugs": [],
+      "usedInSlugs": [
+        "nigiri-abyssal",
+        "tourte-du-bastion",
+        "poisson-laque-du-corsaire",
+        "tartare-de-guerre",
+        "steak-des-ombres"
+      ]
+    },
+    {
+      "slug": "chope-en-bois",
+      "name": "Chope en bois",
+      "category": "Artisanat",
+      "realm": "Commun",
+      "version": "V4.1",
+      "status": "Référence artisanat V4.1",
+      "description": "Chope cerclée utilisée pour les bières, infusions et boissons artisanales.",
+      "obtention": "Fabriqué par le Menuisier dans l’Atelier LNA.",
+      "uses": [
+        "Composant économique de métier",
+        "Utilisé comme ingrédient ou contenant dans des recettes LNA"
+      ],
+      "station": "Atelier LNA",
+      "recipe": "8 bois + 4 fibres",
+      "yield": 2,
+      "craftTime": "5 s",
+      "stack": 100,
+      "weight": 0.08,
+      "levelRef": 15,
+      "epRef": 1,
+      "effect": "Aucun",
+      "trade": "Production du métier Menuisier.",
+      "technical": {
+        "primalItem": "PrimalItemResource_LNA_ChopeBois_01",
+        "engram": "EngramEntry_LNA_ChopeBois_01",
+        "engramRole": "Ressource artisanale produite dans l’Atelier LNA."
+      },
+      "image": "assets/images/wiki/icon_lna_chopebois_01.webp",
+      "ingredientSlugs": [],
+      "usedInSlugs": [
+        "infusion-du-veilleur",
+        "plaquebiere-du-skald",
+        "the-shiso-menthe",
+        "lait-davoine-mielle",
+        "infusion-du-lys-bleu",
+        "rhum-des-mers",
+        "vin-epice-du-symposium"
+      ]
+    },
+    {
+      "slug": "brochette-en-bois",
+      "name": "Brochette en bois",
+      "category": "Artisanat",
+      "realm": "Commun",
+      "version": "V4.1",
+      "status": "Référence artisanat V4.1",
+      "description": "Fine tige de bois taillée pour maintenir viandes, poissons et légumes sur le feu.",
+      "obtention": "Fabriqué par le Menuisier dans l’Atelier LNA.",
+      "uses": [
+        "Composant économique de métier",
+        "Utilisé comme ingrédient ou contenant dans des recettes LNA"
+      ],
+      "station": "Atelier LNA",
+      "recipe": "4 bois",
+      "yield": 5,
+      "craftTime": "5 s",
+      "stack": 200,
+      "weight": 0.01,
+      "levelRef": 10,
+      "epRef": 1,
+      "effect": "Aucun",
+      "trade": "Production du métier Menuisier.",
+      "technical": {
+        "primalItem": "PrimalItemResource_LNA_BrochetteBois_01",
+        "engram": "EngramEntry_LNA_BrochetteBois_01",
+        "engramRole": "Ressource artisanale produite dans l’Atelier LNA."
+      },
+      "image": "assets/images/wiki/icon_lna_brochettebois_01.webp",
+      "ingredientSlugs": [],
+      "usedInSlugs": [
+        "brochettes-epicees",
+        "brochettes-du-boucanier"
+      ]
+    },
+    {
+      "slug": "caisse-alimentaire",
+      "name": "Caisse alimentaire",
+      "category": "Artisanat",
+      "realm": "Commun",
+      "version": "V4.1",
+      "status": "Référence artisanat V4.1",
+      "description": "Petite caisse prévue pour protéger les rations pendant les longs trajets.",
+      "obtention": "Fabriqué par le Menuisier dans l’Atelier LNA.",
+      "uses": [
+        "Composant économique de métier",
+        "Utilisé comme ingrédient ou contenant dans des recettes LNA"
+      ],
+      "station": "Atelier LNA",
+      "recipe": "25 bois + 10 fibres",
+      "yield": 1,
+      "craftTime": "5 s",
+      "stack": 20,
+      "weight": 0.5,
+      "levelRef": 25,
+      "epRef": 3,
+      "effect": "Aucun",
+      "trade": "Production du métier Menuisier.",
+      "technical": {
+        "primalItem": "PrimalItemResource_LNA_CaisseAlimentaire_01",
+        "engram": "EngramEntry_LNA_CaisseAlimentaire_01",
+        "engramRole": "Ressource artisanale produite dans l’Atelier LNA."
+      },
+      "image": "assets/images/wiki/icon_lna_caissealimentaire_01.webp",
+      "ingredientSlugs": [],
+      "usedInSlugs": []
+    },
+    {
+      "slug": "boite-metallique",
+      "name": "Boîte métallique",
+      "category": "Artisanat",
+      "realm": "Commun",
+      "version": "V4.1",
+      "status": "Référence artisanat V4.1",
+      "description": "Boîte métallique étanche adaptée aux rations et préparations fragiles.",
+      "obtention": "Fabriqué par le Forgeron dans l’Atelier LNA.",
+      "uses": [
+        "Composant économique de métier",
+        "Utilisé comme ingrédient ou contenant dans des recettes LNA"
+      ],
+      "station": "Atelier LNA",
+      "recipe": "3 lingots + 2 peaux",
+      "yield": 1,
+      "craftTime": "15 s",
+      "stack": 50,
+      "weight": 0.2,
+      "levelRef": 30,
+      "epRef": 3,
+      "effect": "Aucun",
+      "trade": "Production du métier Forgeron.",
+      "technical": {
+        "primalItem": "PrimalItemResource_LNA_BoiteMetal_01",
+        "engram": "EngramEntry_LNA_BoiteMetal_01",
+        "engramRole": "Ressource artisanale produite dans l’Atelier LNA."
+      },
+      "image": "assets/images/wiki/icon_lna_boitemetal_01.webp",
+      "ingredientSlugs": [],
+      "usedInSlugs": []
+    },
+    {
+      "slug": "flacon-renforce",
+      "name": "Flacon renforcé",
+      "category": "Artisanat",
+      "realm": "Commun",
+      "version": "V4.1",
+      "status": "Référence artisanat V4.1",
+      "description": "Flacon renforcé capable de contenir des substances instables ou corrosives.",
+      "obtention": "Fabriqué par le Forgeron dans l’Atelier LNA.",
+      "uses": [
+        "Composant économique de métier",
+        "Utilisé comme ingrédient ou contenant dans des recettes LNA"
+      ],
+      "station": "Atelier LNA",
+      "recipe": "2 lingots + 2 cristaux + 1 ciment",
+      "yield": 1,
+      "craftTime": "15 s",
+      "stack": 50,
+      "weight": 0.12,
+      "levelRef": 45,
+      "epRef": 5,
+      "effect": "Aucun",
+      "trade": "Production du métier Forgeron.",
+      "technical": {
+        "primalItem": "PrimalItemResource_LNA_FlaconRenforce_01",
+        "engram": "EngramEntry_LNA_FlaconRenforce_01",
+        "engramRole": "Ressource artisanale produite dans l’Atelier LNA."
+      },
+      "image": "assets/images/wiki/icon_lna_flaconrenforce_01.webp",
+      "ingredientSlugs": [],
+      "usedInSlugs": [
+        "catalyseur-des-six-royaumes",
+        "tonique-ecarlate",
+        "antidote-mineur",
+        "decoction-fongique",
+        "tonique-doubli"
+      ]
+    },
+    {
+      "slug": "moule-metallique",
+      "name": "Moule métallique",
+      "category": "Artisanat",
+      "realm": "Commun",
+      "version": "V4.1",
+      "status": "Référence artisanat V4.1",
+      "description": "Moule réutilisable servant aux savons, pâtés et préparations pressées.",
+      "obtention": "Fabriqué par le Forgeron dans l’Atelier LNA.",
+      "uses": [
+        "Composant économique de métier",
+        "Utilisé comme ingrédient ou contenant dans des recettes LNA"
+      ],
+      "station": "Atelier LNA",
+      "recipe": "3 lingots",
+      "yield": 1,
+      "craftTime": "15 s",
+      "stack": 20,
+      "weight": 0.3,
+      "levelRef": 25,
+      "epRef": 2,
+      "effect": "Aucun",
+      "trade": "Production du métier Forgeron.",
+      "technical": {
+        "primalItem": "PrimalItemResource_LNA_MouleMetal_01",
+        "engram": "EngramEntry_LNA_MouleMetal_01",
+        "engramRole": "Ressource artisanale produite dans l’Atelier LNA."
+      },
+      "image": "assets/images/wiki/icon_lna_moulemetal_01.webp",
+      "ingredientSlugs": [],
+      "usedInSlugs": []
+    },
+    {
+      "slug": "grille-de-cuisson",
+      "name": "Grille de cuisson",
+      "category": "Artisanat",
+      "realm": "Commun",
+      "version": "V4.1",
+      "status": "Référence artisanat V4.1",
+      "description": "Grille résistante destinée à l’assemblage et aux usages de cuisson de l’artisanat LNA.",
+      "obtention": "Fabriqué par le Forgeron dans l’Atelier LNA.",
+      "uses": [
+        "Composant économique de métier",
+        "Utilisé comme ingrédient ou contenant dans des recettes LNA"
+      ],
+      "station": "Atelier LNA",
+      "recipe": "10 lingots + 5 bois",
+      "yield": 1,
+      "craftTime": "15 s",
+      "stack": 10,
+      "weight": 1.0,
+      "levelRef": 28,
+      "epRef": 4,
+      "effect": "Aucun",
+      "trade": "Production du métier Forgeron.",
+      "technical": {
+        "primalItem": "PrimalItemResource_LNA_GrilleCuisson_01",
+        "engram": "EngramEntry_LNA_GrilleCuisson_01",
+        "engramRole": "Ressource artisanale produite dans l’Atelier LNA."
+      },
+      "image": "assets/images/wiki/icon_lna_grillecuisson_01.webp",
+      "ingredientSlugs": [],
+      "usedInSlugs": []
+    },
+    {
+      "slug": "cuisse-de-dodo-de-freddo",
+      "name": "Cuisse de Dodo de Freddo",
+      "category": "Consommable",
+      "realm": "Falkheim",
+      "version": "10/09/2026",
+      "status": "Ajout 10/09/2026",
+      "description": "Plat de Falkheim conçu avant tout pour permettre de survivre au froid glacial des montagnes enneigées.",
+      "obtention": "Fabriqué dans la Marmite Falkheim.",
+      "uses": [
+        "Résistance au froid extrême",
+        "Cuisine utilitaire de Falkheim"
+      ],
+      "station": "Marmite Falkheim",
+      "recipe": null,
+      "yield": null,
+      "craftTime": null,
+      "spoil": null,
+      "effect": "Forte protection contre le froid glacial. Les valeurs exactes ne sont pas documentées dans les sources actuelles.",
+      "trade": "Recette exacte à documenter.",
+      "technical": {},
+      "image": "assets/images/wiki/icon_fal_cuissedodofreddo_01.webp",
+      "ingredientSlugs": [],
+      "usedInSlugs": []
+    },
+    {
+      "slug": "cotelettes-bouns",
+      "name": "Côtelettes Bouns",
+      "category": "Consommable",
+      "realm": "Falkheim",
+      "version": "10/09/2026",
+      "status": "Ajout 10/09/2026",
+      "description": "Second plat utilitaire de Falkheim, pensé comme un consommable de combat à effet puissant mais accompagné d’un contre-coup important.",
+      "obtention": "Fabriqué dans la Marmite Falkheim.",
+      "uses": [
+        "Consommable de combat",
+        "Cuisine utilitaire de Falkheim"
+      ],
+      "station": "Marmite Falkheim",
+      "recipe": null,
+      "yield": null,
+      "craftTime": null,
+      "spoil": null,
+      "effect": "Effet de combat fort avec contre-coup puissant. Les valeurs exactes ne sont pas documentées dans les sources actuelles.",
+      "trade": "Recette exacte à documenter.",
+      "technical": {},
+      "image": "assets/images/wiki/icon_fal_cotelettesbouns_01.webp",
+      "ingredientSlugs": [],
+      "usedInSlugs": []
     }
   ],
   "versions": [
+    {
+      "id": "maj-2026-09-10",
+      "name": "Mise à jour — 10 septembre 2026",
+      "status": "Publiée",
+      "summary": "Refonte de l’équipement et des loots, nouvelles recettes RR Medieval, système de crochetage, arrivée du Messager et deux nouveaux consommables de Falkheim.",
+      "features": [
+        {
+          "name": "Refonte des équipements",
+          "type": "Équipement",
+          "status": "Publié",
+          "description": "Durabilité très fortement augmentée. Armes, outils et armures ne sont désormais plus réparables. Les schémas sont limités à 3 fabrications, 2 pour certains outils et 1 pour les armures en métal ; cela concerne les nouveaux items, avec un système de recyclage prévu pour les anciens BP."
+        },
+        {
+          "name": "Refonte des potions RR Medieval",
+          "type": "Alchimie",
+          "status": "Publié",
+          "description": "Recettes rééquilibrées et désormais intégrées aux ressources économiques du serveur."
+        },
+        {
+          "name": "Refonte des loots",
+          "type": "Exploration",
+          "status": "Publié",
+          "description": "Cartes aux trésors et Drakelings retravaillés avec retrait des loots technologiques. Les récompenses peuvent désormais inclure des pièces de bronze, d’argent et d’or."
+        },
+        {
+          "name": "Système de crochetage",
+          "type": "Gameplay",
+          "status": "Publié",
+          "description": "Ajout du crochet et de son mini-jeu pour déverrouiller portes et structures. Le système est réservé à la guilde des voleurs."
+        },
+        {
+          "name": "Corrections engrames, recettes, stations et structures",
+          "type": "Correctifs",
+          "status": "Publié",
+          "description": "Correctifs divers, notamment pour Asharun : lot de tapis, caisse de tapis, étal en toile et correction de mauvaises assignations d’items dans les stations de craft."
+        },
+        {
+          "name": "Arrivée du Messager",
+          "type": "Discord / RP",
+          "status": "Publié",
+          "description": "Ajout du bot Discord maison dédié à l’envoi des missives RP dans le salon #missive."
+        },
+        {
+          "name": "Deux nouveaux consommables de Falkheim",
+          "type": "Cuisine",
+          "status": "Publié",
+          "description": "Cuisse de Dodo de Freddo pour survivre au froid glacial des montagnes enneigées, et Côtelettes Bouns : un plat de combat puissant avec un contre-coup important."
+        }
+      ]
+    },
     {
       "id": "v4",
       "name": "V4.1 — 8 septembre 2026",
@@ -5362,11 +5707,11 @@
         {
           "title": "Menuiserie",
           "items": [
-            "Bol",
-            "Assiette",
-            "Chope",
+            "Bol en bois",
+            "Assiette en bois",
+            "Chope en bois",
             "Brochette en bois",
-            "Caisse / contenant bois"
+            "Caisse alimentaire"
           ]
         },
         {
@@ -5436,12 +5781,6 @@
             "Tonique d’Oubli",
             "Savon artisanal"
           ]
-        },
-        {
-          "title": "Raffinage",
-          "items": [
-            "Huile raffinée"
-          ]
         }
       ]
     },
@@ -5467,8 +5806,7 @@
         {
           "title": "Autres préparations",
           "items": [
-            "Viande salée",
-            "Bière brassée"
+            "Viande salée"
           ]
         }
       ]
@@ -5532,7 +5870,6 @@
             "Gâteau du Jardin",
             "Bouillon de Sagesse",
             "Sushi aux algues",
-            "Friandise d’Hélicoprion",
             "Croquette basique",
             "Croquette simple",
             "Croquette standard",
@@ -5559,7 +5896,9 @@
             "Gruau du Jarl",
             "Poisson fumé des Fjords",
             "Ragoût des Fjords",
-            "Plaquebière du Skald"
+            "Plaquebière du Skald",
+            "Cuisse de Dodo de Freddo",
+            "Côtelettes Bouns"
           ]
         },
         {
@@ -5576,7 +5915,6 @@
             "Gâteau du Jardin",
             "Bouillon de Sagesse",
             "Sushi aux algues",
-            "Friandise d’Hélicoprion",
             "Croquette basique",
             "Croquette simple",
             "Croquette standard",
@@ -5620,7 +5958,6 @@
             "Gâteau du Jardin",
             "Bouillon de Sagesse",
             "Sushi aux algues",
-            "Friandise d’Hélicoprion",
             "Croquette basique",
             "Croquette simple",
             "Croquette standard",
@@ -5664,7 +6001,6 @@
             "Gâteau du Jardin",
             "Bouillon de Sagesse",
             "Sushi aux algues",
-            "Friandise d’Hélicoprion",
             "Croquette basique",
             "Croquette simple",
             "Croquette standard",
@@ -5709,7 +6045,6 @@
             "Gâteau du Jardin",
             "Bouillon de Sagesse",
             "Sushi aux algues",
-            "Friandise d’Hélicoprion",
             "Croquette basique",
             "Croquette simple",
             "Croquette standard",
@@ -5753,7 +6088,6 @@
             "Gâteau du Jardin",
             "Bouillon de Sagesse",
             "Sushi aux algues",
-            "Friandise d’Hélicoprion",
             "Croquette basique",
             "Croquette simple",
             "Croquette standard",
