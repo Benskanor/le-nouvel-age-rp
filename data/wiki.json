@@ -816,6 +816,11 @@
       "name": "Artisanat",
       "icon": "🛠️",
       "description": "Contenants et composants produits par le Menuisier et le Forgeron dans l’Atelier LNA."
+    },
+    {
+      "name": "Potions RR Medieval",
+      "icon": "🧪",
+      "description": "Potions du mod RR Medieval dont les recettes ont été rééquilibrées avec les ressources économiques du serveur."
     }
   ],
   "resources": [
@@ -1425,7 +1430,8 @@
         "elixir-dendurance",
         "antidote-mineur",
         "decoction-fongique",
-        "croquette-simple"
+        "croquette-simple",
+        "rr-health-potion"
       ]
     },
     {
@@ -1466,7 +1472,8 @@
         "bouillon-du-mirage",
         "bouillon-de-sagesse",
         "elixir-medicinal",
-        "croquette-exceptionnelle"
+        "croquette-exceptionnelle",
+        "rr-genderchange-potion"
       ]
     },
     {
@@ -1661,7 +1668,8 @@
         "sushi-aux-algues",
         "decoction-fongique",
         "croquette-standard",
-        "croquette-extraordinaire"
+        "croquette-extraordinaire",
+        "rr-dino-instanttame-potion"
       ]
     },
     {
@@ -1693,7 +1701,10 @@
         "bouillon-de-soja",
         "the-shiso-menthe",
         "nigiri-abyssal",
-        "sushi-aux-algues"
+        "sushi-aux-algues",
+        "rr-dino-imprint-potion",
+        "rr-hairgrow-potion",
+        "rr-health-potion"
       ]
     },
     {
@@ -1726,7 +1737,8 @@
         "curry-des-neiges",
         "bouillon-du-plongeur",
         "antidote-mineur",
-        "croquette-exceptionnelle"
+        "croquette-exceptionnelle",
+        "rr-dinofood-potion"
       ]
     },
     {
@@ -1814,7 +1826,9 @@
         "ragout-dendurance",
         "gateau-du-jardin",
         "croquette-basique",
-        "croquette-standard"
+        "croquette-standard",
+        "rr-dinofood-potion",
+        "rr-dino-imprint-potion"
       ]
     },
     {
@@ -1851,7 +1865,10 @@
         "antidote-mineur",
         "savon-artisanal",
         "croquette-exceptionnelle",
-        "croquette-extraordinaire"
+        "croquette-extraordinaire",
+        "rr-genderchange-potion",
+        "rr-hairgrow-potion",
+        "rr-health-potion"
       ]
     },
     {
@@ -1958,7 +1975,8 @@
         "chili-du-stratege",
         "tartare-de-guerre",
         "elixir-dendurance",
-        "croquette-superieure"
+        "croquette-superieure",
+        "rr-dino-instanttame-potion"
       ]
     },
     {
@@ -2029,7 +2047,8 @@
         "ragout-dendurance",
         "gateau-du-jardin",
         "savon-artisanal",
-        "croquette-superieure"
+        "croquette-superieure",
+        "rr-hairgrow-potion"
       ]
     },
     {
@@ -2154,7 +2173,9 @@
       },
       "image": "assets/images/wiki/icon_lna_viandecruretravaille.webp",
       "ingredientSlugs": [],
-      "usedInSlugs": []
+      "usedInSlugs": [
+        "rr-dinofood-potion"
+      ]
     },
     {
       "slug": "viande-retravaillee-cuite",
@@ -2209,7 +2230,8 @@
       "image": "assets/images/wiki/icon_lna_viandesupcruretravaille.webp",
       "ingredientSlugs": [],
       "usedInSlugs": [
-        "tartare-de-guerre"
+        "tartare-de-guerre",
+        "rr-dinofood-potion"
       ]
     },
     {
@@ -2576,7 +2598,9 @@
       "image": "assets/images/wiki/icon_lna_chairabyssale_01.webp",
       "ingredientSlugs": [],
       "usedInSlugs": [
-        "nigiri-abyssal"
+        "nigiri-abyssal",
+        "rr-dino-lvl-potion",
+        "rr-dino-instanttame-potion"
       ]
     },
     {
@@ -2754,7 +2778,8 @@
         "catalyseur-des-six-royaumes",
         "poisson-fume-des-fjords",
         "decoction-fongique",
-        "croquette-exceptionnelle"
+        "croquette-exceptionnelle",
+        "rr-dino-health-potion"
       ]
     },
     {
@@ -2789,7 +2814,11 @@
         "bouillon-de-soja",
         "bouillon-du-plongeur",
         "elixir-medicinal",
-        "croquette-extraordinaire"
+        "croquette-extraordinaire",
+        "rr-dinofood-potion",
+        "rr-dino-health-potion",
+        "rr-dino-imprint-potion",
+        "rr-health-potion"
       ]
     },
     {
@@ -2831,7 +2860,9 @@
         "poisson-des-cyclades",
         "sushi-aux-algues",
         "savon-artisanal",
-        "croquette-standard"
+        "croquette-standard",
+        "rr-dinofood-potion",
+        "rr-dino-instanttame-potion"
       ]
     },
     {
@@ -2994,7 +3025,15 @@
         "flacon-renforce"
       ],
       "usedInSlugs": [
-        "antidote-mineur"
+        "antidote-mineur",
+        "rr-dinofood-potion",
+        "rr-dino-health-potion",
+        "rr-dino-imprint-potion",
+        "rr-dino-lvl-potion",
+        "rr-dino-instanttame-potion",
+        "rr-genderchange-potion",
+        "rr-health-potion",
+        "rr-dino-remate-potion"
       ]
     },
     {
@@ -3374,7 +3413,10 @@
         "base-antiseptique",
         "gelatine-de-poisson"
       ],
-      "usedInSlugs": []
+      "usedInSlugs": [
+        "rr-dino-health-potion",
+        "rr-health-potion"
+      ]
     },
     {
       "slug": "tonique-ecarlate",
@@ -4988,7 +5030,10 @@
         "the-shiso-menthe",
         "infusion-du-lys-bleu"
       ],
-      "usedInSlugs": [],
+      "usedInSlugs": [
+        "rr-dino-lvl-potion",
+        "rr-genderchange-potion"
+      ],
       "image": "https://ark.wiki.gg/wiki/Special:Redirect/file/Mindwipe_Tonic.png",
       "imageSource": "Icône ARK de référence — Studio Wildcard / ARK Official Community Wiki",
       "imageReference": "https://ark.wiki.gg/wiki/File:Mindwipe_Tonic.png"
@@ -5178,7 +5223,9 @@
         "essence-de-lavande",
         "huile-de-poisson"
       ],
-      "usedInSlugs": [],
+      "usedInSlugs": [
+        "rr-dino-instanttame-potion"
+      ],
       "image": "https://ark.wiki.gg/wiki/Special:Redirect/file/Exceptional_Kibble.png",
       "imageSource": "Icône ARK de référence — Studio Wildcard / ARK Official Community Wiki",
       "imageReference": "https://ark.wiki.gg/wiki/File:Exceptional_Kibble.png"
@@ -5590,6 +5637,303 @@
       "image": "assets/images/wiki/icon_fal_cotelettesbouns_01.webp",
       "ingredientSlugs": [],
       "usedInSlugs": []
+    },
+    {
+      "slug": "rr-dinofood-potion",
+      "name": "Potion de nourriture de dinosaure",
+      "icon": "🧪",
+      "category": "Potions RR Medieval",
+      "realm": "Commun",
+      "version": "MAJ 10/09/2026",
+      "status": "Recette serveur",
+      "description": "Potion RR Medieval destinée aux créatures. D’après la capture en jeu, elle remplit la jauge de nourriture du dinosaure.",
+      "obtention": "Fabriquée dans la RR-Medieval Alchemie Smithy.",
+      "station": "RR-Medieval Alchemie Smithy",
+      "yield": 1,
+      "epRef": 6,
+      "recipe": "5× Flocons d’avoine + 5× Miel d’abeille géante + 2× Gélatine de poisson + 3× Pâte de soja + 5× Sel marin + 15× Viande retravaillée + 5× Viande supérieure retravaillée + 1× Catalyseur des Six Royaumes",
+      "effect": "Remplit la nourriture du dinosaure.",
+      "uses": [
+        "Nourrir instantanément une créature."
+      ],
+      "ingredientSlugs": [
+        "flocons-davoine",
+        "gelatine-de-poisson",
+        "pate-de-soja",
+        "sel-marin",
+        "viande-retravaillee",
+        "viande-superieure-retravaillee",
+        "catalyseur-des-six-royaumes"
+      ],
+      "technical": {
+        "sourceRR": "RR-MEDIEVAL DINOFOOD POTION",
+        "engramPoints": "6",
+        "sourceNote": "Recette relevée sur capture en jeu fournie le 11/09/2026."
+      }
+    },
+    {
+      "slug": "rr-dino-health-potion",
+      "name": "Potion de soin de dinosaure",
+      "icon": "🧪",
+      "category": "Potions RR Medieval",
+      "realm": "Commun",
+      "version": "MAJ 10/09/2026",
+      "status": "Recette serveur",
+      "description": "Potion RR Medieval pour créature. La capture en jeu indique qu’elle remet instantanément la santé du dinosaure à 100 %.",
+      "obtention": "Fabriquée dans la RR-Medieval Alchemie Smithy.",
+      "station": "RR-Medieval Alchemie Smithy",
+      "yield": 1,
+      "epRef": 6,
+      "recipe": "2× Baume de grenade au cactus + 3× Catalyseur des Six Royaumes + 5× Gélatine de poisson + 5× Huile de poisson + 1× Cerveau d’Allosaure",
+      "effect": "Remet instantanément la santé du dinosaure à 100 %.",
+      "uses": [
+        "Soin instantané d’une créature."
+      ],
+      "ingredientSlugs": [
+        "baume-de-grenade",
+        "catalyseur-des-six-royaumes",
+        "gelatine-de-poisson",
+        "huile-de-poisson"
+      ],
+      "technical": {
+        "sourceRR": "RR-MEDIEVAL DINO HEALTH POTION",
+        "engramPoints": "6",
+        "sourceNote": "Recette relevée sur capture en jeu fournie le 11/09/2026."
+      }
+    },
+    {
+      "slug": "rr-dino-imprint-potion",
+      "name": "Potion d’empreinte de dinosaure",
+      "icon": "🧪",
+      "category": "Potions RR Medieval",
+      "realm": "Commun",
+      "version": "MAJ 10/09/2026",
+      "status": "Recette serveur",
+      "description": "Potion RR Medieval pour l’élevage. La capture indique qu’elle fixe l’empreinte à 100 %, fait grandir instantanément le bébé jusqu’à l’âge adulte et remet sa santé à 100 %.",
+      "obtention": "Fabriquée dans la RR-Medieval Alchemie Smithy.",
+      "station": "RR-Medieval Alchemie Smithy",
+      "yield": 1,
+      "epRef": 6,
+      "recipe": "2× Catalyseur des Six Royaumes + 5× Flocons d’avoine + 10× Miel d’abeille géante + 5× Gélatine de poisson + 10× Fleur rare + 10× Champignon rare + 2× Shiso séché + 5× Lait de bison",
+      "effect": "Empreinte 100 % ; croissance instantanée jusqu’à l’âge adulte ; santé 100 %.",
+      "uses": [
+        "Élevage et maturation instantanée de créature."
+      ],
+      "ingredientSlugs": [
+        "catalyseur-des-six-royaumes",
+        "flocons-davoine",
+        "gelatine-de-poisson",
+        "shiso-seche"
+      ],
+      "technical": {
+        "sourceRR": "RR-MEDIEVAL DINO IMPRINT POTION",
+        "engramPoints": "6",
+        "sourceNote": "Recette relevée sur capture en jeu fournie le 11/09/2026."
+      }
+    },
+    {
+      "slug": "rr-dino-lvl-potion",
+      "name": "Potion de niveau de dinosaure",
+      "icon": "🧪",
+      "category": "Potions RR Medieval",
+      "realm": "Commun",
+      "version": "MAJ 10/09/2026",
+      "status": "Recette serveur",
+      "description": "Potion RR Medieval de progression de créature. La capture indique qu’elle réinitialise les statistiques de la créature puis la fait monter jusqu’à son maximum.",
+      "obtention": "Fabriquée dans la RR-Medieval Alchemie Smithy.",
+      "station": "RR-Medieval Alchemie Smithy",
+      "yield": 1,
+      "epRef": 6,
+      "recipe": "30× Perle noire + 4× Catalyseur des Six Royaumes + 3× Chair abyssale + 1× Tonique d’Oubli + 2× Cerveau d’Allosaure",
+      "effect": "Réinitialise les statistiques de la créature et la fait progresser jusqu’à son maximum, selon le fonctionnement du mod RR Medieval.",
+      "uses": [
+        "Réinitialisation et progression d’une créature."
+      ],
+      "ingredientSlugs": [
+        "catalyseur-des-six-royaumes",
+        "chair-abyssale",
+        "tonique-doubli"
+      ],
+      "technical": {
+        "sourceRR": "RR-MEDIEVAL DINO LVL POTION",
+        "engramPoints": "6",
+        "sourceNote": "Recette relevée sur capture en jeu fournie le 11/09/2026."
+      }
+    },
+    {
+      "slug": "rr-dino-instanttame-potion",
+      "name": "Potion d’apprivoisement instantané",
+      "icon": "🧪",
+      "category": "Potions RR Medieval",
+      "realm": "Commun",
+      "version": "MAJ 10/09/2026",
+      "status": "Recette serveur",
+      "description": "Potion RR Medieval liée à l’apprivoisement. La capture en jeu indique « Set Dino Food to 0 ».",
+      "obtention": "Fabriquée dans la RR-Medieval Alchemie Smithy.",
+      "station": "RR-Medieval Alchemie Smithy",
+      "yield": 1,
+      "epRef": 6,
+      "recipe": "3× Gingembre séché + 2× Catalyseur des Six Royaumes + 2× Chair abyssale + 2× Croquette exceptionnelle + 3× Bile d’ammonite + 50× Narcotique + 5× Champignon rare + 3× Sauce soja + 5× Sel marin",
+      "effect": "Fixe la nourriture du dinosaure à 0, d’après la description affichée par le mod.",
+      "uses": [
+        "Aide à l’apprivoisement de créatures."
+      ],
+      "ingredientSlugs": [
+        "gingembre-seche",
+        "catalyseur-des-six-royaumes",
+        "chair-abyssale",
+        "croquette-exceptionnelle",
+        "sauce-soja",
+        "sel-marin"
+      ],
+      "technical": {
+        "sourceRR": "RR-MEDIEVAL DINO INSTANTTAME POTION",
+        "engramPoints": "6",
+        "sourceNote": "Recette relevée sur capture en jeu fournie le 11/09/2026."
+      }
+    },
+    {
+      "slug": "rr-genderchange-potion",
+      "name": "Potion de changement de sexe",
+      "icon": "🧪",
+      "category": "Potions RR Medieval",
+      "realm": "Commun",
+      "version": "MAJ 10/09/2026",
+      "status": "Recette serveur",
+      "description": "Potion RR Medieval qui change le sexe d’un dinosaure. La description précise qu’elle ne peut pas être utilisée par les humains.",
+      "obtention": "Fabriquée dans la RR-Medieval Alchemie Smithy.",
+      "station": "RR-Medieval Alchemie Smithy",
+      "yield": 1,
+      "epRef": 6,
+      "recipe": "3× Essence de lavande + 1× Tonique d’Oubli + 75× Narcotique + 3× Sirop de grenade + 5× Venin de Titanoboa + 3× Catalyseur des Six Royaumes",
+      "effect": "Change le sexe du dinosaure ; inutilisable sur un humain.",
+      "uses": [
+        "Gestion de la reproduction et du sexe des créatures."
+      ],
+      "ingredientSlugs": [
+        "essence-de-lavande",
+        "tonique-doubli",
+        "sirop-de-grenade",
+        "catalyseur-des-six-royaumes"
+      ],
+      "technical": {
+        "sourceRR": "RR-MEDIEVAL GENDERCHANGE POTION",
+        "engramPoints": "6",
+        "sourceNote": "Recette relevée sur capture en jeu fournie le 11/09/2026."
+      }
+    },
+    {
+      "slug": "rr-hairgrow-potion",
+      "name": "Potion de repousse des cheveux",
+      "icon": "🧪",
+      "category": "Potions RR Medieval",
+      "realm": "Commun",
+      "version": "MAJ 10/09/2026",
+      "status": "Recette serveur",
+      "description": "Potion RR Medieval pour personnage. La capture indique qu’elle fait repousser magiquement la barbe et les cheveux.",
+      "obtention": "Fabriquée dans la RR-Medieval Alchemie Smithy.",
+      "station": "RR-Medieval Alchemie Smithy",
+      "yield": 1,
+      "epRef": 6,
+      "recipe": "25× Fibre + 1× Huile d’olive + 1× Shiso séché + 10× Tintoberry + 1× Essence de lavande",
+      "effect": "Fait repousser la barbe et les cheveux.",
+      "uses": [
+        "Repousse de la barbe et des cheveux du personnage."
+      ],
+      "ingredientSlugs": [
+        "huile-dolive",
+        "shiso-seche",
+        "essence-de-lavande"
+      ],
+      "technical": {
+        "sourceRR": "RR-MEDIEVAL HAIRGROW POTION",
+        "engramPoints": "6",
+        "sourceNote": "Recette relevée sur capture en jeu fournie le 11/09/2026."
+      }
+    },
+    {
+      "slug": "rr-health-potion",
+      "name": "Potion de soin RR Medieval",
+      "icon": "🧪",
+      "category": "Potions RR Medieval",
+      "realm": "Commun",
+      "version": "MAJ 10/09/2026",
+      "status": "Recette serveur",
+      "description": "Potion RR Medieval destinée au joueur. La capture en jeu indique qu’elle remet instantanément la santé à 100 %.",
+      "obtention": "Fabriquée dans la RR-Medieval Alchemie Smithy.",
+      "station": "RR-Medieval Alchemie Smithy",
+      "yield": 1,
+      "epRef": 6,
+      "recipe": "3× Catalyseur des Six Royaumes + 3× Essence de lavande + 3× Gélatine de poisson + 10× Sang de sangsue + 5× Menthe séchée + 5× Champignon rare + 3× Shiso séché + 3× Baume de grenade au cactus",
+      "effect": "Remet instantanément la santé du joueur à 100 %.",
+      "uses": [
+        "Soin instantané du personnage."
+      ],
+      "ingredientSlugs": [
+        "catalyseur-des-six-royaumes",
+        "essence-de-lavande",
+        "gelatine-de-poisson",
+        "menthe-sechee",
+        "shiso-seche",
+        "baume-de-grenade"
+      ],
+      "technical": {
+        "sourceRR": "RR-MEDIEVAL HEALTH POTION",
+        "engramPoints": "6",
+        "sourceNote": "Recette relevée sur capture en jeu fournie le 11/09/2026."
+      }
+    },
+    {
+      "slug": "rr-dino-remate-potion",
+      "name": "Potion de reproduction de dinosaure",
+      "icon": "🧪",
+      "category": "Potions RR Medieval",
+      "realm": "Commun",
+      "version": "MAJ 10/09/2026",
+      "status": "Recette serveur",
+      "description": "Potion RR Medieval permettant à des dinosaures de se reproduire à nouveau, selon la description affichée par le mod.",
+      "obtention": "Fabriquée dans la RR-Medieval Alchemie Smithy.",
+      "station": "RR-Medieval Alchemie Smithy",
+      "yield": 1,
+      "epRef": 6,
+      "recipe": "5× Miel d’abeille géante + 25× Narcotique + 10× Fleur rare + 5× Champignon rare + 25× Stimulant + 1× Catalyseur des Six Royaumes",
+      "effect": "Permet aux dinosaures de s’accoupler à nouveau.",
+      "uses": [
+        "Réinitialisation du délai de reproduction des créatures."
+      ],
+      "ingredientSlugs": [
+        "catalyseur-des-six-royaumes"
+      ],
+      "technical": {
+        "sourceRR": "RR-MEDIEVAL DINO REMATE POTION",
+        "engramPoints": "6",
+        "sourceNote": "Recette relevée sur capture en jeu fournie le 11/09/2026."
+      }
+    },
+    {
+      "slug": "rr-suicide-potion",
+      "name": "Potion de suicide RR Medieval",
+      "icon": "🧪",
+      "category": "Potions RR Medieval",
+      "realm": "Commun",
+      "version": "MAJ 10/09/2026",
+      "status": "Recette serveur",
+      "description": "Potion RR Medieval dont la description en jeu annonce directement la mort du personnage après utilisation.",
+      "obtention": "Fabriquée dans la RR-Medieval Alchemie Smithy.",
+      "station": "RR-Medieval Alchemie Smithy",
+      "yield": 1,
+      "epRef": 6,
+      "recipe": "10× Narcotique + 5× Viande avariée + 50× Fibre",
+      "effect": "Tue le personnage après utilisation.",
+      "uses": [
+        "Mort volontaire du personnage en jeu."
+      ],
+      "ingredientSlugs": [],
+      "technical": {
+        "sourceRR": "RR-MEDIEVAL SUICIDE POTION",
+        "engramPoints": "6",
+        "sourceNote": "Recette relevée sur capture en jeu fournie le 11/09/2026."
+      }
     }
   ],
   "versions": [
@@ -5609,7 +5953,7 @@
           "name": "Refonte des potions RR Medieval",
           "type": "Alchimie",
           "status": "Publié",
-          "description": "Recettes rééquilibrées et désormais intégrées aux ressources économiques du serveur."
+          "description": "Recettes rééquilibrées avec les ressources économiques du serveur. Les 10 potions RR Medieval actuellement relevées en jeu sont désormais documentées dans le Wiki avec leurs composants, effets et coût de 6 points d’engramme."
         },
         {
           "name": "Refonte des loots",

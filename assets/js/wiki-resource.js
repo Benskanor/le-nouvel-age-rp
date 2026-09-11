@@ -13,7 +13,7 @@
   const normalizeName = value => String(value || '').normalize('NFD').replace(/[\u0300-\u036f]/g,'').toLowerCase().replace(/[’`]/g,"'").replace(/\[[^\]]+\]/g,' ').replace(/^\s*\d+(?:[\.,]\d+)?\s*[x×]\s*/i,'').replace(/\s+/g,' ').trim().replace(/[ .:;-]+$/g,'');
   const ingredientAlias = new Map([
     ['bol','bol en bois'],['assiette','assiette en bois'],['chope','chope en bois'],['brochette','brochette en bois'],
-    ['caisse','caisse alimentaire'],['caisse / contenant bois','caisse alimentaire'],['flacon','flacon renforcé']
+    ['caisse','caisse alimentaire'],['caisse / contenant bois','caisse alimentaire'],['flacon','flacon renforcé'],['baume de grenade au cactus','baume de grenade'],['mindwipe tonic',"tonique d'oubli"],['exceptional kibble','croquette exceptionnelle']
   ]);
 
   const recipeParts = recipe => {
@@ -88,6 +88,8 @@
     $('#usesList').innerHTML = uses.length ? uses.map(v => `<li>${esc(v)}</li>`).join('') : '<li class="undocumented">Utilisations non documentées.</li>';
 
     const technicalRows = [
+      ['Nom RR Medieval', tech.sourceRR],
+      ['Source de la recette', tech.sourceNote],
       ['PrimalItem / classe', tech.primalItem || tech.blueprint],
       ['EngramEntry', tech.engramClass || tech.engram],
       ['Rôle de l’Engram', tech.engramRole],
