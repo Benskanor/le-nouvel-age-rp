@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-11",
+  "updated": "2026-09-16",
   "statusLegend": {
     "vivant": "Vivant",
     "disparu": "Porté disparu",
@@ -17,7 +17,7 @@
       "realm": "Asharun",
       "status": "mort",
       "role": "Ancien Émir d’Asharun",
-      "leader": true,
+      "leader": false,
       "age": "30",
       "religion": "L’Esprit des Dunes",
       "job": "Bâtisseur · Soldat",
@@ -61,14 +61,15 @@
       "id": "atin-saka",
       "name": "Atin Saka",
       "realm": "Asharun",
-      "status": "vivant",
+      "status": "disparu",
       "role": "",
       "leader": false,
       "age": "19",
       "religion": "L’Esprit des Dunes",
       "job": "Éleveur / Reproducteur · Récolteur / Chasseur",
-      "summary": "Jeune éleveur d’Asharun, Atin Saka observe les créatures et les dunes avec la même patience. Curieux, déterminé et profondément attaché aux traditions du royaume, il cherche encore la place qu’il occupera dans le Nouveau Monde.",
+      "summary": "Jeune éleveur d’Asharun, Atin Saka est désormais porté disparu. Son travail auprès des créatures et son attachement aux traditions du royaume restent connus de ceux qui l’ont côtoyé.",
       "notable": [
+        "Porté disparu",
         "Passionné d’élevage et d’exploration",
         "Très attaché aux Esprits des Dunes"
       ],
@@ -81,14 +82,16 @@
       "id": "halfdan",
       "name": "Halfdan",
       "realm": "Falkheim",
-      "status": "vivant",
+      "status": "disparu",
       "role": "Dirigeant de Falkheim",
       "leader": true,
       "age": "28",
       "religion": "Le Culte du Gel",
       "job": "Forgeron · Mercenaire",
-      "summary": "Dirigeant de Falkheim et figure majeure des sagas du Nord, Halfdan est revenu vivant après sa disparition. Il est parvenu à sortir des griffes de la Necronne et a repris sa place parmi les siens.",
+      "summary": "Après être revenu vivant des griffes de la Necronne et avoir repris sa place parmi les siens, Halfdan est de nouveau porté disparu. Falkheim reste sans nouvelles certaines de son dirigeant.",
       "notable": [
+        "Dirigeant de Falkheim",
+        "Porté disparu",
         "Revenu vivant après avoir échappé à la Necronne",
         "Dirigeant porté disparu",
         "Héros du Pont du Traître"
@@ -201,14 +204,16 @@
       "id": "vinolt",
       "name": "Vinolt l’ami des bêtes",
       "realm": "Falkheim",
-      "status": "vivant",
+      "status": "disparu",
       "role": "",
       "leader": false,
       "age": "22",
       "religion": "Le Culte du Gel",
       "job": "Alchimiste · Caravanier",
-      "summary": "Élevé dans les montagnes de Falkheim, Vinolt s’est construit autour du travail, des ressources et de son affection pour les créatures. Il met aujourd’hui ses connaissances et son endurance au service du royaume.",
-      "notable": [],
+      "summary": "Vinolt l’ami des bêtes est désormais porté disparu. Son affection pour les créatures et ses connaissances d’alchimiste et de caravanier restent associées à son passage au sein de Falkheim.",
+      "notable": [
+        "Porté disparu"
+      ],
       "relations": [],
       "chronicle": "",
       "history": "Vinolt l'ami de bêtes abandonné par ses parents des son plus jeune âge a grandis dans les montagnes enneigées de la contrée de falkheim, un savant fou la pris sous son aile et lui a appris l'apprivoisement et la récolte de bonne ressource pour survivre il en a fait son métier. Il s'est installé dans un village de falkheim pour offrir ses compétences au bien de son peuple Le soir du cataclysme Vinolt était dans les montagnes a observer les loups dormir le bruit les a réveiller mais au lieu d'attaquer ils sont parti en meute de peur. Vinolt a couru vers la plage et ses endormie au bord de l'eau",
@@ -329,14 +334,16 @@
       "id": "ivar-bjornsson",
       "name": "Ivar Björnsson",
       "realm": "Falkheim",
-      "status": "vivant",
+      "status": "disparu",
       "role": "",
       "leader": false,
       "age": "25",
       "religion": "Le Culte du Gel",
       "job": "Agriculteur · Mercenaire / Soldat",
-      "summary": "Guerrier froid et méthodique, Ivar Björnsson place la loyauté envers les siens au-dessus de la gloire personnelle. Il sait autant réfléchir à un affrontement que tenir une ligne lorsque le combat devient inévitable.",
-      "notable": [],
+      "summary": "Ivar Björnsson est désormais porté disparu. Guerrier méthodique et loyal envers Falkheim, sa situation actuelle demeure inconnue.",
+      "notable": [
+        "Porté disparu"
+      ],
       "relations": [],
       "chronicle": "",
       "history": "Ivar Bjornsson est un guerrier aguerri originaire du Falkheim, forgé par les batailles et les traditions de son peuple.\n\nCousin des quatre frères Halfnar, il a toujours considéré leur famille comme la sienne. Depuis son enfance, il a appris que l’honneur et la loyauté valaient plus que la richesse ou la gloire. Guerrier puissant, Ivar est également un stratège capable d’analyser ses ennemis avant de frapper. Lorsque les frères Halfnar prirent la mer, il décida sans hésiter de monter à bord de leur navire. Il leur jura de les suivre partout où leurs voyages les mèneraient. Au combat, Ivar se tient toujours aux côtés de ses cousins, prêt à protéger leurs arrières. Il ne cherche pas la gloire, mais souhaite voir les siens revenir vivants de chaque bataille. Pour lui, trahir un frère ou rompre un serment serait pire que de mourir au combat. Tant que les Halfnar vogueront vers l’inconnu, Ivar Bjornsson sera à leurs côtés, fidèle jusqu’à son dernier souffle.",
@@ -406,12 +413,12 @@
       "name": "Ryūsei Amatsu",
       "realm": "Shintai",
       "status": "disparu",
-      "role": "Shogun de Shintai",
-      "leader": true,
+      "role": "Ancien Shogun de Shintai",
+      "leader": false,
       "age": "30",
       "religion": "Kaoryn",
       "job": "Dompteur / Reproducteur",
-      "summary": "Shogun de Shintai, Ryūsei Amatsu avait délaissé la voie du sabre pour consacrer davantage de temps aux créatures et à leur reproduction. Il est porté disparu depuis peu, après la reprise du fort du Mont Dragon.",
+      "summary": "Ancien Shogun de Shintai, Ryūsei Amatsu est toujours porté disparu depuis peu après la reprise du fort du Mont Dragon. Le titre de Shogun est désormais porté par Iki Takeda.",
       "notable": [
         "Shogun de Shintai",
         "Porté disparu peu après la reprise du fort Mont Dragon"
@@ -449,14 +456,15 @@
       "name": "Iki Takeda",
       "realm": "Shintai",
       "status": "vivant",
-      "role": "Sumo",
-      "leader": false,
+      "role": "Shogun de Shintai",
+      "leader": true,
       "age": "28",
       "religion": "Aucune déclarée",
       "job": "Charpentier · Marchand",
-      "summary": "Imposant, loyal et gourmand, Iki Takeda mêle la force du sumo à l’ambition d’un marchand. Il aime les repas démesurés et ne cache pas une affection toute particulière pour la viande de brontosaure.",
+      "summary": "Imposant, loyal et gourmand, Iki Takeda est devenu Shogun de Shintai. Ancien sumo devenu charpentier et marchand, il conserve son goût pour les repas démesurés — en particulier la viande de brontosaure — tout en assumant désormais une responsabilité majeure au sein du royaume.",
       "notable": [
-        "Combattant de style sumo",
+        "Shogun de Shintai",
+        "Ancien sumo",
         "Aime particulièrement manger du brontosaure"
       ],
       "relations": [],
@@ -798,14 +806,16 @@
       "id": "vhaal-mortag",
       "name": "Vhaal Mortag",
       "realm": "Nerethis",
-      "status": "vivant",
-      "role": "Amiral de Nerethis",
-      "leader": true,
+      "status": "mort",
+      "role": "Ancien Amiral de Nerethis",
+      "leader": false,
       "age": "31",
       "religion": "Le Domaine des Flots",
       "job": "Constructeur · Soldat",
-      "summary": "Amiral de Nerethis, Vhaal Mortag est un marin endurci, bâtisseur de navires et survivant d’une longue dérive qui aurait brisé la plupart des hommes. Son autorité repose autant sur son expérience de la mer que sur sa volonté de voir l’Enclave renaître.",
+      "summary": "Ancien Amiral de Nerethis, Vhaal Mortag est mort en mer. Marin endurci et bâtisseur de navires, il demeure l’une des figures marquantes de la reconstruction maritime de l’Enclave.",
       "notable": [
+        "Mort en mer",
+        "Ancien Amiral de Nerethis",
         "Dirigeant de Nerethis"
       ],
       "relations": [
@@ -823,14 +833,16 @@
       "id": "antares-verso",
       "name": "Antares Verso",
       "realm": "Nerethis",
-      "status": "vivant",
+      "status": "disparu",
       "role": "",
       "leader": false,
       "age": "26",
       "religion": "Le Domaine des Flots",
       "job": "Alchimiste · Soldat",
-      "summary": "Savant originaire d’Erythros, Antares a choisi Nerethis avant le Cataclysme en rejoignant l’équipage de Vhaal Mortag. Curieux, pragmatique et passionné d’histoire, il mêle aujourd’hui sciences, navigation et devoir militaire.",
-      "notable": [],
+      "summary": "Antares Verso est désormais porté disparu. Savant, alchimiste et soldat de Nerethis, sa situation actuelle demeure inconnue.",
+      "notable": [
+        "Porté disparu"
+      ],
       "relations": [
         {
           "target": "vhaal-mortag",
@@ -873,14 +885,16 @@
       "id": "galdrek-sauvage",
       "name": "Galdrek La Sauvage",
       "realm": "Nerethis",
-      "status": "vivant",
+      "status": "mort",
       "role": "",
       "leader": false,
       "age": "27",
       "religion": "La Déesse des Océans Infinis",
       "job": "Dompteuse · Reproductrice",
-      "summary": "Galdrek préfère la compagnie des créatures à celle des hommes. Vaillante, indépendante et méfiante, elle s’est forgé à Nerethis une réputation de dompteuse qu’il vaut mieux ne pas provoquer en maltraitant les animaux placés sous sa protection.",
-      "notable": [],
+      "summary": "Galdrek La Sauvage est morte en mer. Dompteuse indépendante et farouche protectrice des créatures, elle laisse derrière elle une réputation forgée dans les terres de Nerethis.",
+      "notable": [
+        "Morte en mer"
+      ],
       "relations": [],
       "chronicle": ""
     },
@@ -889,13 +903,17 @@
       "name": "James White",
       "realm": "Nerethis",
       "status": "vivant",
-      "role": "Capitaine",
-      "leader": false,
+      "role": "Amiral de Nerethis",
+      "leader": true,
       "age": "32",
       "religion": "Le Domaine des Flots",
       "job": "Dompteur · Soldat",
-      "summary": "Capitaine libre et explorateur des mers, James White refuse les autorités qu’il ne juge pas dignes de respect. Le Cataclysme lui a pris sa flotte, mais pas son ambition de retrouver les siens et de rendre à Nerethis sa puissance maritime.",
-      "notable": [],
+      "summary": "À la suite de la mort en mer de Vhaal Mortag, James White est devenu Amiral de Nerethis. Capitaine libre, explorateur et homme de mer, il porte désormais la responsabilité de guider l’Enclave et de reconstruire sa puissance maritime.",
+      "notable": [
+        "Amiral de Nerethis",
+        "A succédé à Vhaal Mortag",
+        "Capitaine et explorateur des mers"
+      ],
       "relations": [
         {
           "target": "persephone-white",
@@ -928,14 +946,16 @@
       "id": "althea-thyphar",
       "name": "Althéa, Gardienne de Thyphar",
       "realm": "Nerethis",
-      "status": "vivant",
+      "status": "disparu",
       "role": "",
       "leader": false,
       "age": "24",
       "religion": "Le Domaine des Flots",
       "job": "Alchimiste · Caravanière",
-      "summary": "Autonome et caustique, Althéa a longtemps rejeté les dieux avant qu’un événement survenu pendant le Cataclysme ne bouleverse sa certitude. Elle se considère désormais liée à Thyphar et préfère prouver sa foi par ses actes.",
-      "notable": [],
+      "summary": "Althéa, Gardienne de Thyphar, est désormais portée disparue. Son lien revendiqué avec Thyphar et son activité d’alchimiste-caravanière restent connus de Nerethis.",
+      "notable": [
+        "Portée disparue"
+      ],
       "relations": [],
       "chronicle": "",
       "history": "Althéa est née dans une famille pauvre des côtes du royaume de Nerethis. Ses parents étaient des gens instables et irresponsables. Ils paissaient leur temps à poursuivre leurs propres intérêts, ou la boisson, laissant Althéa dépendre d’elle même. Très jeune, elle dut apprendre à survire et se protéger dans ce monde compliqué, ce qui a fait d’elle quelqu’un d’autonome et d’habile. Elle grandit en nourrissant une profonde méfiance envers les adultes, les autorités et envers les dieux. Les récits religieux n’étaient, selon elle, que des histoires destinées à donner de faux espoirs. Alors que vient le caclysme, Althéa courut vers la mer, persuadée qu’un bateau lui offrirait une chance de survivre. Sous ses yeux , le monde s’effondrait. Epuisée et seule, Althéa effondra à quelques mètres de l’eau. Alors qu’elle perdait connaissance et espoir, une immense vague s’éleva. Pourtant elle ne l’a submergea pas, au contraire, elle recouvra Althéa avec douceur et protection. Althéa sentis en elle une énergie nouvelle, inattendu. Quand elle se réveille, le monde autour d’elle est complétement différent. Aujourd’hui, convaincue que Thyphar l’a choisie pour une raison, Althéa veut consacrer désormais son existence à servir la déesse. Elle ne prêche pas qu’avec de grand discours, elle préfère aussi les actes aux paroles.",
@@ -1037,12 +1057,12 @@
       "name": "Kaelor Damaris",
       "realm": "Erythros",
       "status": "vivant",
-      "role": "Consul d’Erythros",
-      "leader": true,
+      "role": "Ancien Consul d’Erythros",
+      "leader": false,
       "age": "35",
       "religion": "Le Panthéon d’Azur",
       "job": "Forgeron / Armurier · Soldat",
-      "summary": "Consul d’Erythros, Kaelor Damaris est un forgeron-soldat façonné par les valeurs de Devoir, Justice et Discipline. Son expérience de l’artisanat, de l’exploration et des armes l’a conduit à devenir l’une des figures centrales de la reconstruction républicaine.",
+      "summary": "Ancien Consul d’Erythros, Kaelor Damaris reste un forgeron-soldat façonné par les valeurs de Devoir, Justice et Discipline. La fonction de Consul est désormais exercée par Benji Biskuitopoulos.",
       "notable": [
         "Dirigeant d’Erythros"
       ],
@@ -1107,13 +1127,16 @@
       "name": "Benji Biskuitopoulos",
       "realm": "Erythros",
       "status": "vivant",
-      "role": "",
-      "leader": false,
+      "role": "Consul d’Erythros",
+      "leader": true,
       "age": "25",
       "religion": "Le Panthéon d’Azur",
       "job": "Agriculteur / Tavernier · Fonctionnaire / Politicien",
-      "summary": "Benji Biskuitopoulos cherche à faire revivre l’héritage familial après avoir tout perdu pendant le Cataclysme. Sérieux malgré une maladresse persistante, il partage son temps entre la taverne, les cultures et la vie politique d’Erythros.",
-      "notable": [],
+      "summary": "Benji Biskuitopoulos est devenu Consul d’Erythros à la suite de Kaelor Damaris. Agriculteur, tavernier et homme engagé dans la vie publique, il porte désormais une part centrale de la reconstruction politique du royaume.",
+      "notable": [
+        "Consul d’Erythros",
+        "A succédé à Kaelor Damaris"
+      ],
       "relations": [],
       "chronicle": "",
       "history": "Benji Biskuitopoulos a grandi dans une famille modeste d'Erythros, travaillant depuis toujours dans la taverne familiale avec ses parents. Cependant, en même temps de son travail à la taverne, il participe au développement de son petit village en aidant les villageois, si bien qu'à l'âge de ses 20 ans, il consacra une partie de son temps à la politique de son village, malgré un poste peu important. Mais Benji était fier d'aider de tout son possible au village et y rencontra même sa futur femme, avec qui il eu une petite fille et des jours heureux. Durant le cataclysme, il perdu tout, la taverne familiale, ses parents, sa femme et même sa fille. Seul lui resta en vie par on ne sait quelle raison. Est-ce un châtiment des dieux ou une chance de répartir à zéro ? Nul ne le sait. Après le cataclysme, Benji se réveilla sur un plage, encore traumatisé des récents évènements, mais il se fit une promesse : Refaire une taverne mondialement connue en perpertuant l'héritage des Biskuitopoulos et s'impliquer dans la vie politique du village qui saura le recueillir.",
@@ -1218,6 +1241,63 @@
       "history": "Daimos est un homme qui a soif d’aventure. Son père lui racontait des histoires sur la gloire de leurs ancêtres appartenant à un peuple aujourd’hui oublié. Il grandit dans l’espoir de partir à l’aventure comme ses ancêtres et de découvrir le monde et ses cultures.\n\nPuis vint la vérité des adultes. Bien qu’autrefois son père ait été un garde réputé de la cité où il vivait, il n’était plus que l’ombre de lui-même, obligeant son fils à abandonner ses rêves pour aider au foyer. Sa seule source de joie à ce moment-là était Philomela, une jeune femme douce.\n\nÀ cette époque, Daimos travaillait pour un noble. Il s’occupait des montures et dressait les chiens de chasse.",
       "recentHistory": "Puis vint le Cataclysme. Daimos était avec Philomela à ce moment. La terre se craqua sous leurs pieds. Par la volonté des dieux ou bien la chance, tous deux survécurent, mais tout avait disparu.\n\nIls se mirent à errer à la recherche d’âmes qui vivent, jusqu’à prendre un rafiot sur lequel ils voguèrent en mer. Après un long mois avec très peu de vivres et d’eau, ils arrivèrent sur une île bien mystérieuse montrant des traces de vie humaine. Peut-être trouveront-ils quelqu’un de leur peuple.",
       "sheetDate": "11/09/2026"
+    },
+    {
+      "id": "zarah-al-pepouz",
+      "name": "Zarah Al Pepouz",
+      "realm": "Asharun",
+      "status": "vivant",
+      "role": "Dirigeante d’Asharun",
+      "leader": true,
+      "age": "30",
+      "religion": "L’Esprit des Dunes",
+      "job": "Éleveuse · Soldate",
+      "qualities": "Loyale, obstinée et stratège / Sadique, fière et méfiante",
+      "hobbies": "Torturer les traîtres et les abandonner au sable brûlant du désert",
+      "summary": "Héritière d’une lignée de caravanières troglodytes, Zarah Al Pepouz est revenue vers Asharun après avoir perdu son clan lors du Cataclysme. Farouchement loyale à son peuple, elle est devenue la nouvelle dirigeante du royaume.",
+      "notable": [
+        "Nouvelle dirigeante d’Asharun",
+        "Héritière d’une lignée de caravanières troglodytes",
+        "Connue pour sa loyauté farouche envers Asharun"
+      ],
+      "relations": [],
+      "chronicle": "",
+      "history": "Zarah Al Pepouz est l’héritière d’une longue lignée de caravanières troglodytes : des commerçantes nomades venues du désert, capables d’exercer de nombreux métiers à travers les royaumes. Sa mère, Urzaf, était la cheffe du clan, une femme sanguinaire aussi imposante que les montagnes et aussi cruelle que la mer Jaune. Redoutée de tous, elle n’avait aucun scrupule à découper ceux qui trahissaient son clan. Zarah a grandi avec l’héritage d’un peuple fier, capable de tendre la main sans jamais être dupe.",
+      "recentHistory": "Lors de la fin du monde, Zarah était partie dompter une créature dans les cavernes d’Asharun. Elle entendit un grondement, vit une lumière blanche, puis plus rien. Aucune trace de son clan. Le désert était silencieux.\n\nZarah se lança aussitôt à leur recherche et parcourut le désert pendant des mois. Elle ne trouva rien. Peu à peu, elle erra telle une ombre, jusqu’à devoir accepter l’idée qu’elle avait peut-être perdu les siens à tout jamais.\n\nUn jour, au croisement de deux marchands, ceux-ci se moquèrent d’Asharun, décrivant un royaume perdu et faible, dirigé par un simple grain de sable. Noire de rage, Zarah saisit le premier marchand d’une main et lui remplit la bouche de sable jusqu’à l’étouffer. Puis elle lança au second : « Nul ne se moque de mon peuple. Si le royaume d’Asharun est tombé dans les mains d’une chèvre, alors je partirai faire prospérer notre héritage à travers le monde, même si je dois faire couler le sang. »\n\nC’est ainsi que Zarah prit la route d’Asharun. Aujourd’hui, elle est devenue la dirigeante du royaume.",
+      "sheetDate": "16/09/2026"
+    },
+    {
+      "id": "vako-tharsis",
+      "name": "Vako Tharsis",
+      "realm": "Erythros",
+      "status": "vivant",
+      "role": "Bâtisseur d’Erythros",
+      "leader": false,
+      "age": "37",
+      "religion": "Panthéon d’Azur",
+      "job": "Bâtisseur / Charpentier · Soldat",
+      "qualities": "Loyal, respectueux et stratège / Caractériel",
+      "hobbies": "Construction, combat et exploration",
+      "summary": "Bâtisseur-charpentier et soldat d’Erythros, Vako Tharsis a grandi dans une famille aisée frappée par la guerre. Son enfance difficile l’a conduit à considérer Aristion et Auréal, deux orphelins recueillis par sa mère, comme ses véritables frères.",
+      "notable": [
+        "Bâtisseur / Charpentier",
+        "Soldat",
+        "Frère adoptif d’Aristion et d’Auréal"
+      ],
+      "relations": [
+        {
+          "label": "Aristion — frère adoptif",
+          "type": "family"
+        },
+        {
+          "label": "Auréal — frère adoptif",
+          "type": "family"
+        }
+      ],
+      "chronicle": "",
+      "history": "Vako Tharsis est issu d’une famille aisée d’Erythros. La guerre frappa durement les siens : son père, Hector Tharsis, mourut lors d’une grande bataille, laissant sa mère, Hélène Tharsis, gérer seule leur foyer. Dotée d’un grand cœur, elle recueillit des orphelins ayant subi des traumatismes semblables à ceux de sa propre famille.\n\nÀ onze ans, Vako acceptait mal cette décision. Il voyait ces enfants comme des inconnus profitant des richesses acquises par son père et ses ancêtres. Incapable d’exprimer autrement sa colère et son deuil, il les méprisait et se montrait particulièrement dur avec eux.\n\nDeux garçons furent finalement recueillis par Hélène : Aristion, âgé de sept ans, et Auréal. Vako s’en prit un jour au plus jeune dans un accès de colère. Auréal s’interposa pour défendre Aristion. Blessé dans son orgueil, Vako s’enfuit. Sa mère, qui avait assisté discrètement à la scène, le sermonna et le priva d’une partie de ses privilèges, l’obligeant à partager davantage le quotidien de ces enfants qu’il rejetait.\n\nContre toute attente, ce furent Aristion et Auréal qui firent le premier pas. Eux aussi avaient des raisons d’être en colère contre le monde, mais ils choisirent malgré tout de lui tendre la main. À partir de ce jour, les trois garçons devinrent inséparables. Ils firent les quatre cents coups ensemble, et les deux orphelins finirent par être adoptés par Hélène Tharsis. Avec le temps, Vako cessa de les considérer comme des étrangers : ils étaient devenus ses frères.",
+      "recentHistory": "",
+      "sheetDate": "16/09/2026"
     }
   ],
   "historyContext": "Les champs de situation affichés sur les cartes décrivent le Nouveau Monde. Le champ history conserve la fiche RP d'origine du joueur comme archive de son passé et de son point de départ, avant l'évolution du personnage dans le Nouveau Monde.",
